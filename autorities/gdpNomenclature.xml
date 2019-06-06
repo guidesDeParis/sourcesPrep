@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nomenclature>
+    <voies>
+        <voie>rue</voie>
+        <voie>passage</voie>
+        <voie>avenue</voie>
+        <voie>impasse</voie>
+        <voie>place</voie>
+        <voie>villa</voie>
+        <voie>cité</voie>
+        <voie>square</voie>
+        <voie>boulevard</voie>
+        <voie>cour</voie>
+        <voie>quai</voie>
+        <voie>pont</voie>
+        <voie>port</voie>
+        <voie>galerie</voie>
+        <voie>allée</voie>
+        <voie>hameau</voie>
+        <voie>ruelle</voie>
+        <voie>sentier</voie>
+        <voie>chemin</voie>
+        <voie>péristyle</voie>
+        <voie>rond-point</voie>
+        <voie>carrefour</voie>
+        <voie>cours</voie>
+        <voie>sentes</voie>
+        <voie>chaussée</voie>
+        <voie>couloir</voie>
+        <voie>parvis</voie>
+        <voie>chemin de ronde</voie>
+        <voie>petite voie diverse</voie>
+    </voies>
+    <divisions>
+        <quartiers from="1190" to="1210">
+            <!-- Avant la construction de l'enceinte de Philippe Auguste (1190-1210), 4 quartiers -->
+            <quartier>La Cité</quartier>
+            <quartier>Saint-Jacques-la-Boucherie</quartier>
+            <quartier>La Grève</quartier>
+            <quartier>La Verrerie</quartier>
+        </quartiers>
+        <quartiers>
+            <!-- Après la constructiion de l'enceinte de Philippe Auguste, 8 quartiers appelés : -->
+            <quartier>La Cité</quartier>
+            <!-- Rive droite -->
+            <quartier>Saint-Jacques-la-Boucherie</quartier>
+            <quartier>La Verrerie</quartier>
+            <quartier>La Grève</quartier>
+            <quartier>Sainte-Opportune</quartier>
+            <quartier>Saint-Germain-l'Auxerrois</quartier>
+            <!-- Rive gauche -->
+            <quartier>Place Maubert</quartier>
+            <quartier>Saint-André-des-Arcs</quartier>
+        </quartiers>
+        <quartiers>
+            <!-- Après la construction de l'enceinte de Charles V (1356-1383), 16 quartiers, à savoir les précédents augmentés sur la rive droite, des 8 quartiers suivants-->
+            <quartier>Saint-Antoine</quartier>
+            <quartier>Saint-Gervais</quartier>
+            <quartier>Sainte-Avoye</quartier>
+            <quartier>Saint-Martin</quartier>
+            <quartier>Saint-Denis</quartier>
+            <quartier>Les Halles</quartier>
+            <quartier>Saint-Eustache</quartier>
+            <quartier>Saint-Honoré</quartier>
+        </quartiers>
+        <quartiers>
+            <!-- En 1702, 20 quartiers (auxquels furent rattachés 14 faubourgs et 2 villages), à savoir -->
+            <quartier n="1">La Cité</quartier>
+            <quartier n="2">Saint-Jacques-la-Boucherie</quartier>
+            <quartier n="3">Sainte-Opportune</quartier>
+            <quartier n="4">Louvre</quartier>
+            <quartier n="5" xml:id="palaisRoyal">Palais-Royal</quartier>
+            <faubourg ref="#palaisRoyal">Faubourg Saint-Honoré</faubourg>
+            <quartier n="6" xml:id="montmartre">Montmartre</quartier>
+            <faubourg ref="#montmartre">Faubourg Montmartre</faubourg>
+            <faubourg ref="#montmartre">Faubourg Richelieu</faubourg>
+            <quartier n="7">Saint-Eustache</quartier>
+            <quartier n="8">Les Halles</quartier>
+            <quartier n="9" xml:id="saintDenis">Saint-Denis</quartier>
+            <faubourg ref="#saintDenis">Faubourg Saint-Denis</faubourg>
+            <faubourg ref="#saintDenis">Faubourg Saint-Lazare</faubourg>
+            <quartier n="10" xml:id="saintMartin">Saint-Martin</quartier>
+            <faubourg ref="#saintMartin">Faubourg Saint-Martin</faubourg>
+            <faubourg ref="#saintMartin">Faubourg Saint-Laurent</faubourg>
+            <quartier n="11">La Grève</quartier>
+            <quartier n="12">Saint-Paul</quartier>
+            <quartier n="13">Sainte-Avoye</quartier>
+            <quartier n="14" xml:id="leTemple">Le Temple</quartier>
+            <faubourg ref="#leTemple">Faubourg du Temple</faubourg>
+            <quartier n="15" xml:id="saintAntoine">Saint-Antoine</quartier>
+            <faubourg ref="#saintAntoine">Faubourg Saint-Antoine</faubourg>
+            <quartier n="16" xml:id="placeMaubert">PlaceMaubert</quartier>
+            <faubourg ref="#placeMaubert">Faubourg Saint-Victor</faubourg>
+            <quartier n="17" xml:id="saintBenoit">Saint-Benoît</quartier>
+            <faubourg ref="#saintBenoit">Faubourg Saint-Marcel</faubourg>
+            <faubourg ref="#saintBenoit">Faubourg Saint-Jacques</faubourg>
+            <quartier n="18">Saint-André-des-Arcs</quartier>
+            <quartier n="19" xml:id="luxembourg">Luxembourg</quartier>
+            <faubourg ref="#luxembourg">Faubourg Saint-Michel</faubourg>
+            <quartier n="20" xml:id="saintGermainDesPres"
+                >Saint-Germain-des-Prés</quartier>
+            <faubourg ref="#saintGermainDesPres">Faubourg Saint-Germain</faubourg>
+            <!-- On voit encore, en maints endroits, le numéro de ces quartiers gravé au-dessous du vieux nom de la rue -->
+            <village>Le Roule</village>
+            <village>Chaillot</village>
+        </quartiers>
+        <quartiers>
+            <!-- En 1789, Paris fut divisé, pour les élections aux états généraux, en 60 districts ; ceux-ci eurent presque tous pour siège un ci-devant établissement religieux. -->
+            <district n="1">Saint-Eustache</district>
+            <district n="2">Saint-Philippe-du-Roule (ou le Roule)</district>
+            <district n="3">Capucins-Saint-Honoré</district>
+            <district n="4">Saint-Honoré</district>
+            <district n="5">Saint-Jacques-la-Boucherie</district>
+            <district n="6">Saint-Laurent</district>
+            <district n="7">Capucins du Marais</district>
+            <district n="8">Cordeliers</district>
+            <district n="9">Saint-Lazare</district>
+            <district n="10">Mathurins</district>
+            <district n="11">Saint-Nicolas-des-Champs</district>
+            <district n="12">Jacobins-Saint-Honoré</district>
+            <district n="13">Filles-Dieu</district>
+            <district n="14">Petit-Saint-Antoine</district>
+            <district n="15">Petits-Pères</district>
+            <district n="16">Feuillants</district>
+            <district n="17">Saint-Gervais</district>
+            <district n="18">Saint-Merri</district>
+            <district n="19">Capucins d'Antin</district>
+            <district n="20">Carmes-Déchaussés</district>
+            <district n="21">Prémontrés</district>
+            <district n="22">Enfants-Rouges</district>
+            <district n="23">Saint-Nicolas-du-Cardonnet</district>
+            <district n="24">SAint-Germain-l'Auxerrois</district>
+            <district n="25">Pères de Nazareth</district>
+            <district n="26">Saint-Séverin</district>
+            <district n="27">Sainte-Elisabeth (ou la Trinité)</district>
+            <district n="28">Saint-Louis-la-Couture</district>
+            <district n="29">Saint-Victor</district>
+            <district n="30">Sainte-Opportune</district>
+            <district n="31">Oratoire</district>
+            <district n="32">Barnabites (ou Henri IV)</district>
+            <district n="33">Popincourt (ou Charonne)</district>
+            <district n="34">Carmélites ou le Sépulcre</district>
+            <district n="35">Saint-Roch</district>
+            <district n="36">Blancs-Manteaux</district>
+            <district n="37">Saint-Magloire</district>
+            <district n="38">Bonne-Nouvelle</district>
+            <district n="39">Saint-Martin-des-Champs</district>
+            <district n="40">Saint-Leu (ou la Jussienne)</district>
+            <district n="41">Saint-Jean-en-Grève</district>
+            <district n="42">Saint-Germain-des-Prés</district>
+            <district n="43">Récollets</district>
+            <district n="44">Saint-Joseph</district>
+            <district n="45">Sainte-Marguerite</district>
+            <district n="46">Saint-Jacques-du-Haut-Pas</district>
+            <district n="47">Sorbonne (ou Université)</district>
+            <district n="48">Saint-André-des-Arcs</district>
+            <district n="49">Petits-Augustins</district>
+            <district n="50">Val-de-Grâce</district>
+            <district n="51">Notre-Dame</district>
+            <district n="52">Saint-Jacques-de-l'Hôpital</district>
+            <district n="53">Théatins</district>
+            <district n="54">Saint-Louis-en-l'Ile</district>
+            <district n="55">Jacobins-Saint-Dominique</district>
+            <district n="56">Enfants-Trouvés-Saint-Antoine</district>
+            <district n="57">Saint-Marcel</district>
+            <district n="58">Minimes</district>
+            <district n="59">Filles-Saint-Thomas</district>
+            <district n="60">Saint-Étienne-du-Mont</district>
+        </quartiers>
+        <quartiers>
+            <!-- Cette division n'ayant pas donné satisfaction, on la remplaça en 1790, par une division en 48 sections, dont suivent les noms, avec ; entre parenthèses, celui que certaines d'entre elles portèrent en 1793. -->
+            <section n="1">Tuileries</section>
+            <section n="2">Champs-Elysées</section>
+            <section n="3">Roule (République)</section>
+            <section n="4">Place Vendôme (des Piques)</section>
+            <section n="5">Grange-Batelière (Mirabeau)</section>
+            <section n="6">Palais-Royal (Butte des Moulins)</section>
+            <section n="7">Bibliothèque</section>
+            <section n="8">Faubourg Montmartre</section>
+            <section n="9">Poissonnière (Faubourg Poissonnière)</section>
+            <section n="10">Halle-au-Blé</section>
+            <section n="11">Mauconseil (Bonconseil)</section>
+            <section n="12">Place des Victoires (Guillaume-Tell)</section>
+            <section n="13">Oratoire (Gardes-françaises)</section>
+            <section n="14">Louvre (Museum)</section>
+            <section n="15">Marché des Innocents (Halles)</section>
+            <section n="16">Postes (Contrat-social)</section>
+            <section n="17">Bonne-Nouvelle</section>
+            <section n="18">Bondy</section>
+            <section n="19">Faubourg Saint-Denis (Faubourg du Nord)</section>
+            <section n="20">Fontaine Montmorency (Molière, Brutus)</section>
+            <section n="21">Temple</section>
+            <section n="22">Lombards</section>
+            <section n="23">Ponceau (Amis de la Patrie)</section>
+            <section n="24">Gravilliers</section>
+            <section n="25">Arcis</section>
+            <section n="26">Roi-de-Sicile (Droits de l'Homme)</section>
+            <section n="27">Beaubourg (Réunion)</section>
+            <section n="28">Place-Royale (Fédérés, Indivisibilité)</section>
+            <section n="29">Quinze-Vingts</section>
+            <section n="30">Montreuil</section>
+            <section n="31">Popincourt</section>
+            <section n="32">Enfants-Rouges (L'Homme armé)</section>
+            <section n="33">Notre-Dame (Cité)</section>
+            <section n="34">de l'Ile (Fraternité)</section>
+            <section n="35">Arsenal</section>
+            <section n="36">Hôtel-de-Ville (Maison commune, Fidélité)</section>
+            <section n="37">Invalides</section>
+            <section n="38">Fontaine de Grenelle</section>
+            <section n="39">Quatre-Nations (Unité)</section>
+            <section n="40">Croix-Rouge (Bonnet-rouge, de l'Ouest)</section>
+            <section n="41">Luxembourg (Mucius-Scévola)</section>
+            <section n="42">Henri-IV (Pont-Neuf, Révolutionnaire)</section>
+            <section n="43">Théâtre-Français (Marseille, Marat)</section>
+            <section n="44">Thermes de Julien (Beaurepaire, Chalier)</section>
+            <section n="45">Jardin des Plantes (Sans-Culottes)</section>
+            <section n="46">Sainte-Geneviève (Panthéon-Français)</section>
+            <section n="47">Observatoire</section>
+            <section n="48">Gobelins (Finistère, Lazouski)</section>
+        </quartiers>
+        <quartiers>
+            <!-- En 1795, ces 48 setcions devinrent 48 quartiers qui furent groupés en 12 arrondissements. D'une façon générale, ils gardèrent le même nom de 1800 ou 1812 jusqu'en 1860, sauf quelques-uns qui changèrent en 1850 et 1860. -->
+        </quartiers>
+        <quartiers>
+            <!-- Après l'annexion à Paris, en 1860, des communes limitrophes, Paris comporta 20 arrondissements divisiés en 80 quartiers (4 par arrondissement), division qui, depuis, n'a pas changé. Ces arrondissements et ces quartiers portent les noms suivants. -->
+            <!-- Retourner voir Hillairet -->
+        </quartiers>
+        <!-- prévoir en plus des quartiers fauxbourg, villages-->
+    </divisions>
+    <prieures>avec abbayes 9</prieures>
+    <abbayes/>
+    <couvents>108</couvents>
+    <eglises>69</eglises>
+    <chapelles>39</chapelles>
+    <etablissementsHospitaliers>30</etablissementsHospitaliers>
+    <colleges>10</colleges>
+    <seminaires>12</seminaires>
+    <cimetieres>autant que de lieux de cultes plus 15 cimetieres publics</cimetieres>
+</nomenclature>

@@ -1,0 +1,2203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/gdpSchemaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<!-- 
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+   Guides de Paris, Bibliographie 
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fre" type="main">Bibliographie</title>
+                <principal>
+                    <persName ref="#MCL">
+                        <forename>Marianne</forename>
+                        <surname>Cojannot-Le Blanc</surname>
+                        <affiliation>
+                            <orgName>Histoire des Arts &amp; Représentations</orgName>
+                            <orgName type="acronym">HAR</orgName>
+                            <orgName type="alt">EA 4414</orgName>
+                            <roleName>responsable scientifique</roleName>
+                        </affiliation>
+                        <affiliation>
+                            <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
+                            <orgName type="alt">Paris 10</orgName>
+                            <roleName>Professeur d’histoire de l’art</roleName>
+                        </affiliation>
+                    </persName>
+                </principal>
+                <funder>
+                    <orgName>Labex Les Passés dans le Présent</orgName>
+                    <date from="2013" to="2018">2013-2018</date>
+                </funder>
+                <respStmt>
+                    <resp key="prg">modélisation XML-TEI</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">encodage</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">première édition électronique, <date from="2013" to="2018"
+                    >2013-2018</date></edition>
+            </editionStmt>
+            <extent><!-- TODO : taille du fichier en octet --></extent>
+            <publicationStmt>
+                <!-- responsable de la publication -->
+                <publisher> <orgName>Histoire des Arts et Représentations</orgName> <orgName
+                    type="acronym">HAR</orgName> <address>
+                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                    <addrLine>200, Avenue de la République</addrLine>
+                    <addrLine>92001 Nanterre Cedex</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>http://har.u-paris10.fr</addrLine>
+                    <addrLine>harparisouest@gmail.com</addrLine>
+                    </address> </publisher>
+                <availability status="restricted" xml:id="biblioXXXLicence">
+                    <!-- TODO : <licence> à ajouter partout -->
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+                        <p>Texte de la licence</p> <graphic
+                        url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"/> </licence>
+                    <p>Texte de la licence choisie.</p>
+                </availability>
+                <date from="2013" to="2018">2013-2018</date>
+                <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
+                <idno>ark</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="fre" type="main">Les Guides de Paris</title>
+                <title xml:lang="fre" type="sub"
+                    >Les historiens des arts et les corpus numériques</title>
+                <idno type="URI">http://www.guidesdeparis.net</idno>
+            </seriesStmt>
+            <!--<notesStmt> <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note> <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note> </notesStmt>-->
+            <!-- description de la source -->
+            <sourceDesc xml:id="gdpBibliography">
+                <p>Fichier nativement numérique</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <stdVals>
+                    <p>On utilise…</p>
+                </stdVals>
+                <!-- TODO revoir -->
+            </editorialDecl>
+            <!-- déclaration concernant la méthode d’établissement du corpus (sélection) -->
+            <refsDecl>
+                <p>Description du système de référence canonique.</p>
+                <!-- TODO revoir -->
+            </refsDecl>
+        </encodingDesc>
+        <!-- présentation du profil de fichier -->
+        <profileDesc>
+            <creation when="2013">2013</creation>
+            <langUsage>
+                <language ident="fre" usage="100">Français (langue principale du corpus)</language>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="fre" scheme="http://data.bnf.fr/liste-rameau">
+                    <term>18e siècle</term>
+                    <term>France</term>
+                </keywords>
+                <keywords xml:lang="eng" scheme="http://id.loc.gov/authorities/about.html#lcsh">
+                    <term>17th-18th centuries</term>
+                    <term>France</term>
+                </keywords>
+                <classCode scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
+                    <term>Text</term>
+                    <!-- TODO qualifier --> </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-02-04" who="#EC">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fre">
+                <div type="corpusBiblio">
+                    <head>Notices bibliographiques du corpus</head>
+                    <listBibl xml:id="antoniniBiblio">
+                        <head>Annibale Antonini, Mémorial de Paris et de ses environs à l’usage des voyageurs,…</head>
+                        <bibl xml:id="antoniniWork" type="work"> <author> <persName
+                            ref="#antoniniAnnibale"> <forename>Annibale</forename>
+                            <surname>Antonini</surname> </persName> </author> <title level="m"
+                            >Mémorial de Paris et de ses environs à l’usage des voyageurs,…</title> </bibl>
+                        <biblStruct xml:id="antoniniExpression" type="expression">
+                            <monogr>
+                                <author> <persName ref="#antoniniAnnibale">
+                                    <forename>Annibale</forename> <surname>Antonini</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Mémorial de Paris et de ses environs à l’usage des voyageurs,…</title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#antoniniWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="antonini1732Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#antoniniAnnibale">
+                                    <forename>Annibale</forename> <surname>Antonini</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Mémorial de Paris et de ses environs à l’usage des voyageurs, par M. l’abbé Antonini</title>
+                                <imprint>
+                                    <date when="1732">1732</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Saugrain</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12"/> <dim unit="pages"
+                                    quantity="180">VIII-172 p.</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31724994r/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#antoniniExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="antonini1734Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#antoniniAnnibale">
+                                    <forename>Annibale</forename> <surname>Antonini</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Mémorial de Paris et de ses environs à l’usage des voyageurs par M. l’abbé Antonini</title>
+                                <imprint>
+                                    <date when="1734">1734</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Musier</publisher>
+                                    <biblScope/>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="pages" quantity="222">VI-216 p.</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31724994r/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#antoniniExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="antonini1744Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#antoniniAnnibale">
+                                    <forename>Annibale</forename> <surname>Antonini</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Mémorial de Paris et de ses environs à l’usage des voyageurs, par M. l’abbé Antonini. Nouvelle édition…</title>
+                                <imprint>
+                                    <date when="1744">1744</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J.-N. Le Clerc</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim>
+                                    <!-- TODO voir exemplaire pour la pagination --> </extent>
+                            </monogr>
+                            <note>On trouve imprimé à la suite : « Liste historique et chronologique des peintres ». – La 1<hi rend="superscript">ère</hi> édition a paru en 1732</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30023160n/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#antoniniExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="antonini1749Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#antoniniAnnibale">
+                                    <forename>Annibale</forename> <surname>Antonini</surname>
+                                    </persName> </author>
+                                <author> <persName ref="#raynalGuillaumeThomas">
+                                    <forename>Guillaume-Thomas</forename> <surname>Raynal</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Mémorial de Paris et de ses environs [Texte imprimé]. Nouvelle édition, considérablement augmentée</title>
+                                <imprint>
+                                    <date when="1749">1749</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Bauche fils</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="2">2</dim> </extent>
+                                <!-- TODO voir exemplaire pour la pagination -->
+                            </monogr>
+                            <note>Par l’abbé A. Antonini, augmenté par l’abbé G.-T. Raynal, d’après Barbier</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb300231610/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#antoniniExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="briceBiblio">
+                        <head>Germain Brice, Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris,…</head>
+                        <bibl xml:id="briceWork" type="work"> <author> <persName ref="#briceGermain"
+                            > <forename>Germain</forename> <surname>Brice</surname> </persName>
+                            </author> <title level="m"
+                            >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B*** [Germain Brice]</title> </bibl>
+                        <biblStruct xml:id="briceExpression" type="expression">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B*** [Germain Brice]</title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#briceWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1684aManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B*** [Germain Brice]</title>
+                                <imprint>
+                                    <date when="1684">1684</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Legras</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                                <extent>2 tomes en 1 vol. ([10]-269-[19]-296-[11] p.)</extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30160616t/</idno>
+                            <idno type="exBnf">8-Lk7-6000</idno>
+                            <idno type="exBnf">8-Lk7-6000 (A)</idno>
+                            <idno type="exBnf">8-Z Le Senne-13776</idno>
+                            <idno type="gallica"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k853965d/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1684bManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B*** [Germain Brice]</title>
+                                <imprint>
+                                    <date when="1684">1684</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>V<hi rend="superscript">ve</hi> Audinet</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31871993w/</idno>
+                            <idno type="exBnfRes"
+                                >8-Lk7-6000 (E,1)[ex. relié avec "La description du château de Versailles…"]</idno>
+                            <idno type="exBnf">8-Z Le Senne-13822</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1685aManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B*** [Germain Brice]</title>
+                                <imprint>
+                                    <date when="1685">1685</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Legras</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31871996x/</idno>
+                            <idno type="exBnf">8-Z Le Senne-13777</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1685bManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B**** [Germain Brice]</title>
+                                <imprint>
+                                    <date when="1685">1685</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>V<hi rend="superscript">ve</hi> Audinet</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb34216817v/</idno>
+                            <idno type="exBnf">8-Lk7-6000 (G)</idno>
+                            <idno type="exBnf">8-Z Le Senne-10872</idno>
+                            <idno type="exBnfArs">8-H-13157</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1685cManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B**** (Germain Brice)</title>
+                                <imprint>
+                                    <date when="1685">1685</date>
+                                    <pubPlace>La Haye</pubPlace>
+                                    <publisher>Abraham Arondeus</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> <dim unit="pages" quantity="214" n="t1"
+                                    >[6]-198-[10] p.</dim> <dim unit="pages" quantity="236" n="t2"
+                                    >221-[15]</dim> </extent>
+                            </monogr>
+                            <note>La page de garde de l’exemplaire des estampes Ve-759-8 comporte la note manuscrite suivante : M. l’abbé Brice, auteur de la Description de la Ville de Paris enseigne l’histoire, la géographie, le blason etc. la langue française aux étrangers. Il demeure rue du Sépulchre</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30160618h/</idno>
+                            <idno type="exBnf">8-Lk7-6000 (B)</idno>
+                            <idno type="exBnfEst">Ve-759-8</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb403646674/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1687aManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris. 2e édition… par M. Brice</title>
+                                <imprint>
+                                    <date when="1687">1687</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J. Pohier</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb318720015/</idno>
+                            <idno type="exBnf">8-Z Le Senne-13775</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1687bManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, 2e édition augmentée de plusieurs recherches très curieuses par M. [Germain] Brice</title>
+                                <imprint>
+                                    <date when="1687">1687</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Le Gras</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31872002h/</idno>
+                            <idno type="exBnf">8-Z Le Senne-13823</idno>
+                            <idno type="exBnf">8-Lk7-6000 (D)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                            <!-- TODO S’assurer qu’il ne s’agit pas d’un doublon -->
+                        </biblStruct>
+                        <biblStruct xml:id="brice1694Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris, par M. B**** [Germain Brice]. 2e éd., augmentée de plusieurs recherches très-curieuses. Par M. Brice</title>
+                                <imprint>
+                                    <date when="1694">1694</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Le Gras</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30160619v/</idno>
+                            <idno type="exBnf">8-Lk7-6000 (C)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1697Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris. 2e édition augmentée de plusieurs recherches très curieuses, par M. [Germain] Brice</title>
+                                <imprint>
+                                    <date when="1697">1697</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>H. Charpentier</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31872003v/</idno>
+                            <idno type="exBnf">8-Lk7-6000 (F)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1698Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de la ville de Paris, ou Recherche curieuse des choses les plus singulières et les plus remarquables qui se trouvent à présent dans cette grande ville, avec les origines et les antiquités les plus autorisées dans l’histoire, à quoi l’on a joint un nouveau plan de Paris et le nom de toutes les rues, par ordre alphabétique. Par Germ. Brice,…</title>
+                                <imprint>
+                                    <date when="1698">1698</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Legras</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="tomes" quantity="2">2</dim> <dim unit="volumes"
+                                    quantity="1">1</dim> <dim unit="pages">plan</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb301606202/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6001 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6001 (2)</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13782 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13782 (2)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1701Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de la ville de Paris, ou Recherche curieuse des choses les plus singulières et les plus remarquables qui se trouvent à présent dans cette grande ville, avec les origines et les antiquités les plus autorisées dans l’histoire, à quoi l’on a joint un nouveau plan de Paris et le nom de toutes les rues, par ordre alphabétique. Par Germ. Brice,…</title>
+                                <imprint>
+                                    <date when="1701">1701</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Legras</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="2">2</dim> <dim unit="pages">plan</dim>
+                                </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30160621d/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6001 (B,1)</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13783 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13783 (2)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1706aManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de la ville de Paris, ou Recherche curieuse des choses les plus singulières et les plus remarquables qui se trouvent à présent dans cette grande ville, avec les origines et les antiquités les plus autorisées dans l’histoire, à quoi l’on a joint un nouveau plan de Paris et le nom de toutes les rues, par ordre alphabétique. Par Germ. Brice,…</title>
+                                <edition>5e édition</edition>
+                                <imprint>
+                                    <date when="1706">1706</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Legras</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="2">2</dim> <dim unit="pages">plan</dim>
+                                </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30160622r/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6001 (A,1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6001 (A,2)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1706bManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris. 2e édition augmentée de plusieurs recherches très curieuses, par M. [Germain] Brice</title>
+                                <imprint>
+                                    <date when="1706">1706</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>M. Brunet</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="2">2</dim> <dim unit="pages"
+                                    >492 p.-[9 pl.]</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31872006w/</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13784 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13784 (2)</idno>
+                            <idno type="exInha">12 RES 1184 (1)</idno>
+                            <idno type="exInha">http://www.purl.org/yoolib/inha/3517</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1713Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description de la ville de Paris et de tout ce qu’elle contient de plus remarquable, par Germain Brice, enrichie d’un nouveau plan et de figures dessinées et gravées correctement. Sixième édition, revue et augmentée par l’auteur</title>
+                                <imprint>
+                                    <date when="1713">1713</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>F. Fournier</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> <dim unit="pages"
+                                    >fig., pl., portrait, plan</dim> </extent>
+                            </monogr>
+                            <note>L’exemplaire dans Z Le Senne comporte une table manuscrite des planches.</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb301606233/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6002 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6002 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Lk7-6002 (3)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31871987z/</idno>
+                            <idno type="exBnf" n="vol1">8-LK7-6002 (C,1)</idno>
+                            <idno type="exBnf" n="vol2">8-LK7-6002 (C,2)</idno>
+                            <idno type="exBnf" n="vol3">8-LK7-6002 (C,3)</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13781 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13781 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Z Le Senne-13781 (3)</idno>
+                            <idno type="exBnf" n="vol4">8-Z Le Senne-13781 (4)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1717Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description de la ville de Paris et de tout ce qu’elle contient de plus remarquable, par Germain Brice ; enrichie d’un nouveau plan et de figures dessinées et gravées correctement. 7e édition, revue et augmentée par l’auteur</title>
+                                <imprint>
+                                    <date when="1717">1717</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>F. Fournier</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> <dim unit="pages"
+                                    >?, plan</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30160624f/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6002 (A,1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6002 (A,2)</idno>
+                            <idno type="exBnf" n="vol3">8-Lk7-6002 (A,3)</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13779 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13779 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Z Le Senne-13779 (3)</idno>
+                            <idno type="exBnfArs" n="vol1">8-H-13163 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">8-H-13163 (2)</idno>
+                            <idno type="exBnfArs" n="vol2">8-H-13163 (3)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1718Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description de la ville de Paris et de tout ce qu’elle contient de plus remarquable, par Germain Brice ; enrichie de plans et de figures dessinées et gravées correctement. 7e édition revue et augmentée</title>
+                                <imprint>
+                                    <date when="1718">1718</date>
+                                    <pubPlace>Amsterdam</pubPlace>
+                                    <publisher>M. Ch. Le Cene</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> <dim unit="pages"
+                                    >pl., plan</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31871989n/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6002 (D,1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6002 (D,2)</idno>
+                            <idno type="exBnf" n="vol3">8-Lk7-6002 (D,3)</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13760 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13760 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Z Le Senne-13760 (3)</idno>
+                            <idno type="exBnfEst">Ve-47 (D)-8</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1725Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Nouvelle description de la ville de Paris et de tout ce qu’elle contient de plus remarquable, par Germain Brice… 8<hi rend="superscript">e</hi> édition…</title>
+                                <imprint>
+                                    <date when="1725">1725</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J.-M. Gandouin</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="4">4</dim> <dim unit="pages"
+                                    >pl., plan</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31872008k/</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13780 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13780 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Z Le Senne-13780 (3)</idno>
+                            <idno type="exBnf" n="vol4">8-Z Le Senne-13780 (4)</idno>
+                            <idno type="gallica"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k6565424d</idno>
+                            <idno type="gallica"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k6570439k</idno>
+                            <idno type="gallica"
+                                >http://visualiseur.bnf.fr/ark:/12148/bpt6k6577912t</idno>
+                            <!-- TODO problème d’affichage de l’exemplaire avec l’ARK -->
+                            <idno type="gallica"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k65762568</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31872009x/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6003 (B,1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6003 (B,2)</idno>
+                            <idno type="exBnf" n="vol3">8-Lk7-6003 (B,3)</idno>
+                            <idno type="exBnf" n="vol4">8-Lk7-6003 (B,4)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb318720077/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6003 (A,1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6003 (A,2)</idno>
+                            <idno type="exBnf" n="vol3">8-Lk7-6003 (A,3)</idno>
+                            <idno type="exBnf" n="vol4">8-Lk7-6003 (A,4)</idno>
+                            <idno type="exBnfRes" n="vol1">8-Lk7-6003 (A,1,Res)</idno>
+                            <idno type="exBnfRes" n="vol2">8-Lk7-6003 (A,2,Res)</idno>
+                            <idno type="exBnfRes" n="vol3">8-Lk7-6003 (A,3,Res)</idno>
+                            <idno type="exBnfRes" n="vol4">8-Lk7-6003 (A,4,Res)</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6003 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6003 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Lk7-6003 (3)</idno>
+                            <idno type="exBnf" n="vol4">8-Lk7-6003 (4)</idno>
+                            <idno type="exBnfEst">Ve-47-8-Ve-47c-8</idno>
+                            <idno type="exBnfArs" n="vol1">8-H-13159 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">8-H-13159 (2)</idno>
+                            <idno type="exBnfArs" n="vol3">8-H-13159 (3)</idno>
+                            <idno type="exBnfArs" n="vol4">8-H-13159 (4)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1752Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <respStmt>
+                                    <resp>éditeur</resp>
+                                    <persName ref="#mariettePierreJean"
+                                        >Mariette, Pierre-Jean (1694-1774)</persName>
+                                    <persName ref="#perauGabrielLouis"
+                                        >Pérau, Gabriel-Louis (1700-1767)</persName>
+                                </respStmt>
+                                <title level="m"
+                                    >Description de la ville de Paris et de tout ce qu’elle contient de plus remarquable, par Germain Brice. Nouvelle édition [publiée avec des additions par P.-J. Mariette et l’abbé G.-L. Calabre Pérau]…</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>les Libraires associés</publisher>
+                                    <publisher>Lemercier</publisher>
+                                    <date>1752</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                    unit="volumes" quantity="4">4</dim> <dim unit="pages"
+                                    >pl., plan</dim> </extent>
+                            </monogr>
+                            <note>D’après Quérard, les additions aux trois premiers vol. sont de Mariette ; les additions au quatrième vol., de Pérau</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb310789591/</idno>
+                            <idno type="exBnf" n="vol1">8-Lk7-6002 (B,1)</idno>
+                            <idno type="exBnf" n="vol2">8-Lk7-6002 (B,2)</idno>
+                            <idno type="exBnf" n="vol3">8-Lk7-6002 (B,3)</idno>
+                            <idno type="exBnf" n="vol4">8-Lk7-6002 (B,4)</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-13778 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-13778 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Z Le Senne-13778 (3)</idno>
+                            <idno type="exBnf" n="vol4">8-Z Le Senne-13778 (4)</idno>
+                            <idno type="exBnf" n="vol1">Smith Lesouef R-2359</idno>
+                            <idno type="exBnf" n="vol2">Smith Lesouef R-2360</idno>
+                            <idno type="exBnf" n="vol3">Smith Lesouef R-2361</idno>
+                            <idno type="exBnf" n="vol4">Smith Lesouef R-2362</idno>
+                            <idno type="exBnfArs" n="vol1">8-H-13160 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">8-H-13160 (2)</idno>
+                            <idno type="exBnfArs" n="vol3">8-H-13160 (3)</idno>
+                            <idno type="exBnfArs" n="vol4">8-H-13160 (4)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="brice1971Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#briceGermain"> <forename>Germain</forename>
+                                    <surname>Brice</surname> </persName> </author>
+                                <title level="m"
+                                    >Description de la ville de Paris : et de tout ce qu’elle contient de plus remarquable / Germain Brice…</title>
+                                <imprint>
+                                    <date when="1971">1971</date>
+                                    <pubPlace>Genève</pubPlace>
+                                    <publisher>Droz</publisher>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Minard</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="30cm">30 cm</dim> <dim
+                                    unit="volumes" quantity="1">1</dim> <dim unit="pages"
+                                    quantity="773">LX-152-561 p.</dim> </extent>
+                            </monogr>
+                            <series>
+                                <title>École pratique des hautes études, 4e section. Centre de recherches d’histoire et de philologie</title>
+                                <biblScope type="issue" >Série 5, Hautes études médiévales et modernes ; 12</biblScope> </series>
+                            <note>
+                                <p>La p. de titre ancienne porte en plus : "Nouvelle édition enrichie d’un nouveau plan et de nouvelles figures dessinées et gravées correctement". - L’éd. de 1971 est précédée d’une "Notice sur Germain Brice et sa Description de Paris", d’une "Table cumulative des neuf éditions", par le général Pierre Codet, et d’un avant-propos de Michel Fleury. - Notes bibliogr. Index</p>
+                                <p>Fac-sim. de l’éd. de Paris, les Libraires associés, 1752, à raison de 4 p. de l’éd. ancienne par page de l’éd. moderne</p> </note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb35240372x/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#briceExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="duBreulBiblio">
+                        <head>Jacques Du Breul, Le Théâtre des antiquitez de Paris, …</head>
+                        <bibl xml:id="duBreulWork" type="work"> <author> <persName
+                            ref="#duBreulJacques"> <forename>Jacques</forename>
+                            <surname>du Breul</surname> </persName> </author> <title level="m"
+                            >Le théâtre des antiquitez de Paris, où est traicté de la fondation des églises et chapelles de la cité, université, ville et diocèse de Paris, comme aussi de l’institution du Parlement, fondation de l’Université et collèges… par le R. P. F. Jacques Du Breul,…</title> </bibl>
+                        <biblStruct xml:id="duBreulExpression" type="expression">
+                            <monogr>
+                                <author> <persName ref="#duBreulJacques">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Le théâtre des antiquitez de Paris, où est traicté de la fondation des églises et chapelles de la cité, université, ville et diocèse de Paris, comme aussi de l’institution du Parlement, fondation de l’Université et collèges… par le R. P. F. Jacques Du Breul,…</title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#duBreulWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="duBreul1612Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#duBreulJacques">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Le théâtre des antiquitez de Paris, où est traicté de la fondation des églises et chapelles de la cité, université, ville et diocèse de Paris, comme aussi de l’institution du Parlement, fondation de l’Université et collèges… par le R. P. F. Jacques Du Breul,…</title>
+                                <imprint>
+                                    <date when="1612">1612</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>C. de La Tour</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-4">In-4</dim> <dim
+                                    unit="pages" quantity="1310"
+                                    >1310 p. + 2 p. de privilège + </dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb320489822/</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb339905148/</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb303615807/</idno>
+                            <idno type="gallica"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k124905f/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#duBreulExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="duBreul1612bManifestation">
+                            <monogr>
+                                <author> <persName ref="#duBreulJacques" type="manifestation">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Le Théâtre des antiquitez de Paris, où est traicté de la fondation des églises et chapelles… de l’institution du parlement, fondation de l’université et collèges et autres choses remarquables… par le R.P. F. Jacques du Breul,…</title>
+                                <imprint>
+                                    <date when="1612">1612</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>P. Chevalier</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-4">In-4</dim> <dim
+                                    unit="volumes" quantity="1">1</dim> <dim unit="pages"
+                                    quantity="1326">XVI-1310 p. et la table, fig.</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb32048983d/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#duBreulExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="duBreul1618Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#duBreulJacques">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Le Théâtre des antiquitez de Paris… / par le R. P. F. Jacques Du Breul…</title>
+                                <imprint>
+                                    <date when="1618">1618</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>La Tour</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-4">In-4</dim> <dim
+                                    unit="pages" quantity="1810">1810 p. et table</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb40364645t/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#duBreulExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="duBreul1639Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#duBreulJacques">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Le Théâtre des antiquitez de Paris… par le R. P. F. Jacques Du Breul,… Augmenté en cette édition d’un supplément contenant le nombre des monastères, églises, l’agrandissement de la ville et fauxbourgs qui s’est faict depuis l’année 1610 jusques à présent. [Par D. H. I., advocat en parlement.]</title>
+                                <imprint>
+                                    <date when="1639">1639</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Société des imprimeurs</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-4">In-4</dim> <dim
+                                    unit="pages" quantity="1092">[14]-974-104 p. et la table</dim>
+                                </extent>
+                            </monogr>
+                            <note>Le "Supplément" a un titre particulier et une pagination spéciale. - Des erreurs de numérotation dans la pagination</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30361582x/</idno>
+                            <idno type="gallica"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k6457319v/</idno>
+                            <idno type="gallica"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k10401137/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#duBreulExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="duBreulSupBiblio">
+                        <head>Jacques du Breul, Supplementum antiquitatum urbis parisiacae,…</head>
+                        <biblStruct xml:id="duBreulSup1614">
+                            <monogr>
+                                <author> <persName ref="#duBreulJacques" type="manifestation">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Supplementum antiquitatum urbis parisiacae, quoad sanctorum Germani-a-Pratis et Mauri Fossatensis coenobia, auctore patre Jacobo Du Breul,…</title>
+                                <imprint>
+                                    <date when="1614">1614</date>
+                                    <pubPlace>Parisiis</pubPlace>
+                                    <publisher>ex typographia Petitpas</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-4">In-4</dim> <dim
+                                    unit="pages" quantity="208">pièces liminaires et 207 p.</dim>
+                                </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30361581k/</idno>
+                            <idno type="exBnf">4-LK7-7051</idno>
+                            <idno type="exBnf">8-Z-LE-SENNE-4779(B)</idno>
+                            <idno type="exBnfEst">VE-713-8</idno>
+                            <idno type="exBnfArs"
+                                >4-H-3689(1) Ex.1; pièce n° 1; Recueil factice</idno>
+                            <idno type="exBnfArs">4-H-3690</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#duBreulExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="duBreulMalingreBiblio">
+                        <head>Claude Malingre et Jacques du Breul, Les Antiquitez de la ville de Paris,…</head>
+                        <bibl xml:id="duBreulMalingreWork" type="work"> <author> <persName
+                            ref="#malingreClaude"> <forename>Claude</forename>
+                            <surname>Malingre</surname> </persName> </author> <author> <persName
+                            ref="#duBreulJacques"> <forename>Jacques</forename>
+                            <surname>du Breul</surname> </persName> </author> <title level="m"
+                            >Les Antiquitez de la ville de Paris. [Par Jacques Du Breul. Revu et augmenté par Claude Malingre.]</title> </bibl>
+                        <biblStruct xml:id="duBreulMalingreExpression" type="expression">
+                            <monogr>
+                                <author> <persName ref="#malingreClaude">
+                                    <forename>Claude</forename> <surname>Malingre</surname>
+                                    </persName> </author>
+                                <author> <persName ref="#duBreulJacques">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Les Antiquitez de la ville de Paris. [Par Jacques Du Breul. Revu et augmenté par Claude Malingre.]</title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#duBreulMalingreWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="duBreulMalingre1640Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#malingreClaude">
+                                    <forename>Claude</forename> <surname>Malingre</surname>
+                                    </persName> </author>
+                                <author> <persName ref="#duBreulJacques">
+                                    <forename>Jacques</forename> <surname>du Breul</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Les Antiquitez de la ville de Paris. [Par Jacques Du Breul. Revu et augmenté par Claude Malingre.]</title>
+                                <imprint>
+                                    <date when="1640">1640</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>P. Rocolet</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-fol">In-fol</dim> <dim
+                                    unit="pages" quantity="945"
+                                    >pièces liminaires, 798-147 p. et les tables</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb303615838/</idno>
+                            <idno type="exBnf">8-LK7-5993</idno>
+                            <idno type="exBnfRes">RES-LK7-5993(ALPHA)</idno>
+                            <idno type="exBnfRes">RES-LK7-5993(BETA)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb320489795/</idno>
+                            <idno type="exBnfEst">VE-711-4</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb324115752/</idno>
+                            <idno type="exBnfEst">Pet.Fol-Ve-711</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#duBreulMalingreExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="jaillotBiblio">
+                        <head>Jean-Baptiste-Michel Jaillot, Recherches critiques, historiques et topographiques sur la ville de Paris,…</head>
+                        <!-- TODO à reprendre -->
+                        <bibl xml:id="jaillotWork" type="work">
+                            <author>Jaillot, Jean-Baptiste-Michel Renou de Chauvigné dit (1710?-1780)</author>
+                            <title level="m"
+                            >Recherches critiques, historiques et topographiques sur la ville de Paris, depuis ses commencements connus jusqu’à présent ; Avec le Plan de chaque Quartier : Par le <abbr>Sr</abbr> Jaillot, Géographe Ordinaire du Roi.</title> </bibl>
+                        <biblStruct xml:id="jaillotExpression" type="expression">
+                            <monogr>
+                                <author>Jaillot, Jean-Baptiste-Michel Renou de Chauvigné dit (1710?-1780)</author>
+                                <title level="m"
+                                    >Recherches critiques, historiques et topographiques sur la ville de Paris, depuis ses commencements connus jusqu’à présent ; Avec le Plan de chaque Quartier : Par le <abbr>Sr</abbr> Jaillot, Géographe Ordinaire du Roi.</title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#jaillotWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="jaillot1772Manifestation" type="manifestation">
+                            <monogr>
+                                <author>Jaillot, Jean-Baptiste-Michel Renou de Chauvigné dit (1710?-1780)</author>
+                                <title level="m"
+                                    >Recherches critiques, historiques et topographiques sur la ville de Paris, depuis ses commencements connus jusqu’à présent ; Avec le Plan de chaque Quartier : Par le <abbr>Sr</abbr> Jaillot, Géographe Ordinaire du Roi.</title>
+                                <imprint>
+                                    <pubPlace>À Paris</pubPlace>
+                                    <publisher>Chez Aug. Mart. Lottin aîné, Imprimeur-Libraire Ordinaire de M<hi rend="superscript">gr</hi> Le Dauphin &amp; de la Ville, rue S. Jacques, au Coq</publisher>
+                                    <date when="1772">1772</date>
+                                </imprint>
+                            </monogr>
+                            <listRelation>
+                                <relation type="expression" corresp="#jaillotExpression"/>
+                            </listRelation>
+                            <!-- Traiter la tomaison -->
+                            <!-- Consulter la norme de description biblio des livres anciens -->
+                        </biblStruct>
+                        <biblStruct xml:id="jaillot1775Manifestation" type="manifestation">
+                            <monogr>
+                                <author>Jaillot, Jean-Baptiste-Michel Renou de Chauvigné dit (1710?-1780)</author>
+                                <title level="m"
+                                    >Recherches critiques, historiques et topographiques sur la ville de Paris</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Lottin</publisher>
+                                    <date when="1775">1775</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="20x30cm">20x13 cm</dim> <dim
+                                    unit="volumes" quantity="5">5</dim> <dim unit="pages"
+                                    >plans</dim> </extent>
+                            </monogr>
+                            <idno type="exINHA" n="vol1">8 I 201 (1)</idno>
+                            <idno type="exINHA" n="vol2">8 I 201 (2)</idno>
+                            <idno type="exINHA" n="vol3">8 I 201 (3)</idno>
+                            <idno type="exINHA" n="vol4">8 I 201 (4)</idno>
+                            <idno type="exINHA" n="vol5">8 I 201 (5)</idno>
+                            <idno type="exINHANum" n="vol1"
+                                >http://www.purl.org/yoolib/inha/6127/</idno>
+                            <idno type="exINHANum" n="vol2"
+                                >http://www.purl.org/yoolib/inha/6128/</idno>
+                            <idno type="exINHANum" n="vol3"
+                                >http://www.purl.org/yoolib/inha/6129/</idno>
+                            <idno type="exINHANum" n="vol4"
+                                >http://www.purl.org/yoolib/inha/11402/</idno>
+                            <idno type="exINHANum" n="vol5"
+                                >http://www.purl.org/yoolib/inha/11403/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#jaillotExpression"/>
+                            </listRelation>
+                            <!-- Traiter la tomaison -->
+                            <!-- Consulter la norme de description biblio des livres anciens -->
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="leMaireBiblio">
+                        <head>Charles Le Maire, Paris ancien et nouveau…</head>
+                        <bibl xml:id="leMaireWork" type="work"> <persName ref="#leMaireCharles">
+                            <forename>Charles</forename> <surname>Le Maire</surname> </persName>
+                            <title level="m"
+                            >Paris ancien et nouveau… où l’on voit la fondation, les accroissements… de cette ville ; avec une description nouvelle de ce qu’il y a de plus remarquable dans toutes les églises, communautés… Par M. Le Maire </title> </bibl>
+                        <biblStruct xml:id="leMaireExpression" type="expression">
+                            <monogr>
+                                <author> <persName ref="#leMaireCharles">
+                                    <forename>Charles</forename> <surname>Le Maire</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Paris ancien et nouveau… où l’on voit la fondation, les accroissements… de cette ville ; avec une description nouvelle de ce qu’il y a de plus remarquable dans toutes les églises, communautés… Par M. Le Maire </title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#leMaireWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="leMaire1685aManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#leMaireCharles">
+                                    <forename>Charles</forename> <surname>Le Maire</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Paris ancien et nouveau… où l’on voit la fondation, les accroissements… de cette ville ; avec une description nouvelle de ce qu’il y a de plus remarquable dans toutes les églises, communautés… Par M. Le Maire </title>
+                                <imprint>
+                                    <date when="1685">1685</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>T. Girard</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb307839500/</idno>
+                            <idno type="exBnf">8-Lk7-6004</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb363939583/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#leMaireExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="leMaire1685bManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#leMaireCharles">
+                                    <forename>Charles</forename> <surname>Le Maire</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Paris ancien et nouveau… où l’on voit la fondation, les accroissemens, le nombre des habitans et des maisons de cette grande ville, avec une description… par M. Le Maire…</title>
+                                <imprint>
+                                    <date when="1685">1685</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>M. Vaugon</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb323699153/</idno>
+                            <idno type="exBnf" n="vol1">8-Z Le Senne-4825 (1)</idno>
+                            <idno type="exBnf" n="vol2">8-Z Le Senne-4825 (2)</idno>
+                            <idno type="exBnf" n="vol3">8-Z Le Senne-4825 (3)</idno>
+                            <idno type="gallica" n="vol1"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k65817982</idno>
+                            <idno type="gallica" n="vol2">absent</idno>
+                            <idno type="gallica" n="vol3"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k65838699</idno>
+                            <idno type="exBnfArs" n="vol1">8-H-13161 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">8-H-13161 (2)</idno>
+                            <idno type="exBnfArs" n="vol3">8-H-13161 (3)</idno>
+                            <idno type="exBnfArs" n="vol1">8-H-13162 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">8-H-13162 (2)</idno>
+                            <idno type="exBnfArs" n="vol3">8-H-13162 (3)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb36580964f/</idno>
+                            <idno type="exBnf">8-Lk7-6004</idno>
+                            <idno type="exBnf" n="vol1">Smith Lesouef R-2518</idno>
+                            <idno type="exBnf" n="vol2">Smith Lesouef R-2519</idno>
+                            <idno type="exBnf" n="vol3">Smith Lesouef R-2520</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#leMaireExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="leMaire1698aManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#leMaireCharles">
+                                    <forename>Charles</forename> <surname>Le Maire</surname>
+                                    </persName> </author>
+                                <title level="m">Paris ancien et nouveau… par M. Le Maire…</title>
+                                <imprint>
+                                    <date when="1698">1698</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>N. Le Clerc</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> </extent>
+                            </monogr>
+                            <note>T. I-II</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30783951b/</idno>
+                            <idno type="exBnf">8-Lk7-6004 (A)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#leMaireExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="leMaire1698bManifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#leMaireCharles">
+                                    <forename>Charles</forename> <surname>Le Maire</surname>
+                                    </persName> </author>
+                                <title level="m"
+                                    >Paris ancien et nouveau… où l’on voit la fondation, les accroissements… de cette ville ; avec une description nouvelle de ce qu’il y a de plus remarquable dans toutes les églises, communautés… Par M. Le Maire</title>
+                                <imprint>
+                                    <date when="1698">1698</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>n. Le Clère</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> </extent>
+                            </monogr>
+                            <note>T. I-II</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb36393959f/</idno>
+                            <idno type="exBnf">8-Lk7-6004 (A)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#leMaireExpression"/>
+                            </listRelation>
+                            <!-- Ne s’agit-il pas d’un doublon ? -->
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="malingreBiblio">
+                        <head>Claude Malingre, Les Antiquitez de la ville de Paris,…</head>
+                        <bibl xml:id="malingreWork" type="work"> <author> <persName
+                            ref="#malingreClaude"> <forename>Claude</forename>
+                            <surname>Malingre</surname> </persName> </author>
+                            <!-- TODO vérifier que du Breul ne soit pas auteur --> <title level="m"
+                            >Les Antiquitez de la ville de Paris, contenans la recherche nouvelle des fondations et establissemens des églises… la chronologie des premiers présidens, advocats et procureurs généraux du Parlement, prévosts gardes de la prévosté… prévosts des marchands et eschevins de la diteville… le tout extraict de plusieurs titres et archives…</title> </bibl>
+                        <biblStruct xml:id="malingreExpression" type="expression">
+                            <monogr>
+                                <author> <persName ref="#malingreClaude">
+                                    <forename>Claude</forename> <surname>Malingre</surname>
+                                    </persName> </author>
+                                <!-- TODO vérifier que du Breul ne soit pas auteur -->
+                                <title level="m"
+                                    >Les Antiquitez de la ville de Paris, contenans la recherche nouvelle des fondations et establissemens des églises… la chronologie des premiers présidens, advocats et procureurs généraux du Parlement, prévosts gardes de la prévosté… prévosts des marchands et eschevins de la diteville… le tout extraict de plusieurs titres et archives…</title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#malingreWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="malingre1640Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#malingreClaude">
+                                    <forename>Claude</forename> <surname>Malingre</surname>
+                                    </persName> </author>
+                                <!-- TODO vérifier que du Breul ne soit pas auteur -->
+                                <title level="m"
+                                    >Les Antiquitez de la ville de Paris, contenans la recherche nouvelle des fondations et establissemens des églises… la chronologie des premiers présidens, advocats et procureurs généraux du Parlement, prévosts gardes de la prévosté… prévosts des marchands et eschevins de la diteville… le tout extraict de plusieurs titres et archives…</title>
+                                <imprint>
+                                    <date when="1640">1640</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>P Rocolet</publisher>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-fol">In-fol</dim> <dim
+                                    unit="pages" quantity="808">VI-802 p. et la table, fig.</dim>
+                                </extent>
+                            </monogr>
+                            <note>L’Épître est signée : "Claude Malingre". - On y a joint une table manuscrite des noms de famille</note>
+                            <note>Le livre quatrième, qui a une pagination distincte, est relié à la fin du volume</note>
+                            <note>3 autres exemplaires dans la Réserve : le 1er provenant de la bibliothèque de d’Hozier, avec table manuscrite ; le 2e également avec table manuscrite ; et le 3e, rel. mar r. aux armes de la ville de Paris</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb308667309/</idno>
+                            <idno type="exBnfRes">Res-Lk7-5993(Alpha)</idno>
+                            <idno type="exBnfRes">Res-Lk7-5993</idno>
+                            <idno type="exBnfArs">Fol-H-2035</idno>
+                            <idno type="exBnfArs">Fol-H-2036</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb32411585c/</idno>
+                            <idno type="exBnf">Fol-Z Le-Senne-204</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb36393936s/</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#malingreExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="sauvalBiblio">
+                        <head>Henri Sauval, Histoire et recherches des antiquités de la ville de Paris, …</head>
+                        <bibl xml:id="sauvalWork" type="work"> <author> <persName ref="#sauvalHenri"
+                            > <forename>Henri</forename> <surname>Sauval</surname> </persName>
+                            </author> <title level="m"
+                            >Histoire et recherches des antiquités de la ville de Paris, par Me Henri Sauval,…</title> </bibl>
+                        <biblStruct xml:id="sauvalExpression" type="expression">
+                            <monogr>
+                                <author> <persName ref="#sauvalHenri"> <forename>Henri</forename>
+                                    <surname>Sauval</surname> </persName> </author>
+                                <title level="m"
+                                    >Histoire et recherches des antiquités de la ville de Paris, par Me Henri Sauval,…</title>
+                            </monogr>
+                            <listRelation>
+                                <relation type="work" corresp="#sauvalWork"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="sauval1724Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#sauvalHenri"> <forename>Henri</forename>
+                                    <surname>Sauval</surname> </persName> </author>
+                                <title level="m"
+                                    >Histoire et recherches des antiquités de la ville de Paris, par Me Henri Sauval,…</title>
+                                <imprint>
+                                    <pubPlace>À Paris</pubPlace>
+                                    <publisher>Chés Charles Moette &amp; Jacques Chardon</publisher>
+                                    <date when="1724">1724</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-fol">In-fol</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb34108612p/</idno>
+                            <idno type="exBnf">Lk7-6483 (A)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb363947772/</idno>
+                            <idno type="exBnf">Lk7-6483</idno>
+                            <idno type="exBnfRes">Res-Lk7-6483</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb36584229z/</idno>
+                            <idno type="exBnf" n="vol1">Smith Lesouef S-2796</idno>
+                            <idno type="exBnf" n="vol2">Smith Lesouef S-2797</idno>
+                            <idno type="exBnf" n="vol3">Smith Lesouef S-2798</idno>
+                            <idno type="exBnfArs">Fol-NF-10743</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb34216826t/</idno>
+                            <idno type="exBnf">Lk7-6483</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31304483m/</idno>
+                            <idno type="gallica" n="vol1"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k1040561p/</idno>
+                            <idno type="gallica" n="vol2">en traitement 2014-02-11</idno>
+                            <idno type="gallica" n="vol3"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k1040565b/</idno>
+                            <idno type="exBnf" n="vol1">944.36 SAUV h1</idno>
+                            <idno type="exBnf" n="vol2">944.36 SAUV h2</idno>
+                            <idno type="exBnf" n="vol3">944.36 SAUV h3</idno>
+                            <idno type="exBnf" n="vol1">Fol-Lk7-6483 (1)</idno>
+                            <idno type="exBnf" n="vol2">Fol-Lk7-6483 (2)</idno>
+                            <idno type="exBnf" n="vol3">Fol-Lk7-6483 (3)</idno>
+                            <idno type="exBnfRes" n="vol1">Res Fol-Lk7-6483 (1, Res)</idno>
+                            <idno type="exBnfRes" n="vol2">Res Fol-Lk7-6483 (2, Res)</idno>
+                            <idno type="exBnfRes" n="vol3">Res Fol-Lk7-6483 (3, Res)</idno>
+                            <idno type="exBnfMs" n="vol1">Fol-Impr-627 (1)</idno>
+                            <idno type="exBnfMs" n="vol2">Fol-Impr-627 (2)</idno>
+                            <idno type="exBnfMs" n="vol3">Fol-Impr-627 (3)</idno>
+                            <idno type="exBnfArs" n="vol1">Fol-H-2037 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">Fol-H-2037 (2)</idno>
+                            <idno type="exBnfArs" n="vol3">Fol-H-2037 (3)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb31304484z/</idno>
+                            <idno type="exBnf" n="vol1">Fol-Lk7-6483 (A,1)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb32606214c/</idno>
+                            <idno type="exBnf">FOL-Z Le Senne-650</idno>
+                            <idno type="exBnf" n="vol1">FOL-Z Le Senne-650 (1)</idno>
+                            <idno type="exBnf" n="vol2">FOL-Z Le Senne-650 (2)</idno>
+                            <idno type="exBnf" n="vol3">FOL-Z Le Senne-650 (3)</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb34003297d/</idno>
+                            <idno type="exBnf" n="vol1">FB-37251</idno>
+                            <idno type="exBnf" n="vol2">FB-37252</idno>
+                            <idno type="exBnf" n="vol3">FB-37253</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#sauvalExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="sauval1733Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#sauvalHenri"> <forename>Henri</forename>
+                                    <surname>Sauval</surname> </persName> </author>
+                                <title level="m"
+                                    >Histoire et recherches des antiquités de la ville de Paris. Par M. Henry Sauval, avocat au Parlement. Tome premier [-troisième]</title>
+                                <imprint>
+                                    <pubPlace>À Paris</pubPlace>
+                                    <publisher>chez Charles Moette, rue de la Bouclerie, près le pont S. Michel, à S. Amexis. Guillaume Saugrain, au milieu du quai de Gêvres, à la Croix blanche. Pierre Gissey, rue de la Bouclerie, près le pont S. Michel, à l’Arbre de Jessé. Marc Bordelet, rue S. Jacques, vis-à-vis le Collège des Jesuites, à S. Ignace. Henry; rue S. Jacques, vis-à-vis S. Yves, à S. Louis. M. DCC. XXXIII. Avec Privilège du Roy</publisher>
+                                    <date when="1733">1733</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-fol">In-fol</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> <dim unit="pages"
+                                    quantity="745" n="vol1">[6]-11-728</dim> <dim unit="pages"
+                                    quantity="769" n="vol2">[2]-8-759</dim> <dim unit="pages"
+                                    quantity="867" n="vol3">[2]-87-682-89-[3]-4</dim> </extent>
+                            </monogr>
+                            <note>Contient à la fin du t. second un ensemble de textes dont le premier est intitulé "Amours des rois de France sous plusieurs races. Seconde race" et au t. troisième différents textes dont des "Preuves des antiquités de la ville de Paris" et les "Comptes et ordinaires de la prevoté de Paris. Depuis 1399, jusqu’en 1573"</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb393659738/</idno>
+                            <idno type="exBnfArs" n="vol1">FOL-H-2038 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">FOL-H-2038 (2)</idno>
+                            <idno type="exBnfArs" n="vol3">FOL-H-2038 (3)</idno>
+                            <idno type="exBnfArs" n="vol1">FOL-H-2039 (1)</idno>
+                            <idno type="exBnfArs" n="vol2">FOL-H-2039 (2)</idno>
+                            <idno type="exBnfArs" n="vol3">FOL-H-2039 (3)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#sauvalExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                        <biblStruct xml:id="sauval1973Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#sauvalHenri"> <forename>Henri</forename>
+                                    <surname>Sauval</surname> </persName> </author>
+                                <title level="m"
+                                    >Histoire et recherches des antiquités de la ville de Paris, par Me Henri Sauval,…</title>
+                                <imprint>
+                                    <pubPlace>À Paris</pubPlace>
+                                    <publisher>Chés Charles Moette &amp; Jacques Chardon</publisher>
+                                    <pubPlace>Genève</pubPlace>
+                                    <publisher>Minkoff</publisher>
+                                    <date>1724</date>
+                                    <date>1973</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="23cm">23 cm</dim> <dim
+                                    unit="volumes" quantity="3">3</dim> <dim unit="pages"
+                                    quantity="689" n="vol1">[6]-11-672 p.</dim> <dim unit="pages"
+                                    quantity="773" n="vol2">[91]-682 p.</dim> <dim unit="pages"
+                                    quantity="129" n="vol3">[129] p.</dim> </extent>
+                            </monogr>
+                            <note>Reprod. en fac-sim. de l’éd. de 1724.</note>
+                            <idno type="ISBN">2-8266-0109-1</idno>
+                            <idno type="ISBN" n="vol1">2-8266-0109-1</idno>
+                            <idno type="ISBN" n="vol2">2-8266-0111-3</idno>
+                            <idno type="ISBN" n="vol3">2-8266-0112-1</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb35319480j/</idno>
+                            <idno type="exBnf" n="vol1">Lk7-6483(B,1)</idno>
+                            <idno type="exBnf" n="vol2">Lk7-6483(B,2)</idno>
+                            <idno type="exBnf" n="vol3">Lk7-6483(B,3)</idno>
+                            <listRelation>
+                                <relation type="expression" corresp="#sauvalExpression"/>
+                            </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                </div>
+                <div>
+                    <head>Liste d’ouvrage en dehors du corpus</head>
+                    <listBibl>
+                        <head/>
+                        <listBibl xml:id="corrozetFleurBiblio">
+                            <head/>
+                            <biblStruct xml:id="corrozetFleur1532Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >La Fleur des antiquitez, singularitez et excellences de la plus que noble et triomphante ville et cité de Paris avec la généalogie du roy Françoys premier de ce nom (par G. Corrozet)…</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>D. Janot</publisher>
+                                        <date when="1532">1532</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                        unit="pages" quantity="66"
+                                        >sign. A-L, dont 66 ff. ch., fig.</dim> </extent>
+                                </monogr>
+                                <note>Rel. de Trautz-Bauzonnet</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb302741112/</idno>
+                                <idno type="exBnfRes">R91660</idno>
+                                <idno type="exBnfMf">Microfilm M-7896</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="corrozetFleur1533Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >La Fleur des antiquitez, singularitez et excellences de la noble et triumphante ville et cité de Paris… Adjoutées oultre la première impression plusieurs singularitez estans en ladicte ville, avec la généalogie du roy Françoys premier… [par Gilles Corrozet]</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>G. de Bossozel</publisher>
+                                        <date when="1533">1533</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8">In-8</dim>
+                                        <!-- Celui de la Res indiqué in-16 et petit in-16 --> <dim
+                                        unit="pages" quantity="48">XLVIII ff.</dim> </extent>
+                                </monogr>
+                                <note>Rel. de Trautz-Bauzonnet</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970517m/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13957</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb342168035/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970514k/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5982 (B)</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb34216805v/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5982 (D)</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="corrozetFleur1534Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >La Fleur des antiquitez, singularités et excellences de la noble et triumphante ville et cité de Paris, capitalle du royaulme de France, adioustées oultre la première impression, plusieurs singularitez estans en la dicte ville. Avec la généalogie du roy Francoys premier de ce nom [par Gilles Corrozet]</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>P. Sergent et J. Longis</publisher>
+                                        <date when="1534">1534</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                        unit="pages" quantity="67">67 ff.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb342168066/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970515x/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5982 (C)</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970518z/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13958</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="orrozetFleur1548Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        > La Fleur des sentences certaines, apophtegmes et stratagemes, tant des Anciens que des Modernes , enrichy de figures et sommaires françoys, et italiens… [par Gilles Corrozet?]</title>
+                                    <imprint>
+                                        <pubPlace>Lyon</pubPlace>
+                                        <publisher>Claude de La Ville</publisher>
+                                        <date when="1548">1548</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                        unit="pages">Sign. A-N , fig. sur bois</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb393384103/</idno>
+                                <idno type="exBnfRes">Reserve 8-Bl-33125</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="corrozetFleur1874Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >La fleur des antiquitez de la noble et triumphante ville et cité de Paris / par Gilles Corrozet (1532) ; publiée par le bibliophile Jacob [Paul Lacroix]</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>L. Wilem</publisher>
+                                        <date when="1874">1874</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                        unit="pages" quantity="188">XXI-167p.</dim> </extent>
+                                </monogr>
+                                <note>Réimpression de l’édition de : "On les vend à Paris au premier pillier de la grant salle du Palais, par Galiot du Pré, 1532"</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb302741174/</idno>
+                                <idno type="exBnf">8-Lk7-5982 (A)</idno>
+                                <idno type="exBnf">Smith Lesouef R-2800</idno>
+                                <idno type="exBnf">8-Z Le Senne-14244</idno>
+                                <idno type="exBnf">8-Z Le Senne-14243</idno>
+                                <idno type="exBnf">8-Z Le Senne-14242</idno>
+                                <idno type="gallica"
+                                    >http://gallica.bnf.fr/ark:/12148/bpt6k6487221d/</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="corrozetFleur1945Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >La Fleur des antiquitez de Paris [Texte imprimé] / Gilles Corrozet ; préf. de François Boucher,… ; ill. de Pierre Valade ; bois gravés de Gilbert Poilliot</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>Éd. de l’Ibis</publisher>
+                                        <date when="1945">1945</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8"
+                                        >Gr. in-8° (260 x 170)</dim> <dim unit="pages"
+                                        quantity="139"
+                                        >139 p., fig. et pl. en coul., couv. en coul. [D. L. 5697] -VIIIe- .7245.</dim>
+                                    </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb352510282/</idno>
+                                <idno type="exBnf">4-Lk7-5982 (F)</idno>
+                                <idno type="exBnfRes">Reserve 4-NF-23892</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb319705199/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb34216807j/</idno>
+                                <idno type="exBnf">4-Lk7-5982 (E)</idno>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl xml:id="corrozetBiblio">
+                            <head/>
+                            <biblStruct xml:id="corrozet1550Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les Antiquitez, histoires et singularitez de Paris, ville capitale du Royaume de France… (Par G. Corrozet.)</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>G. Corrozet</publisher>
+                                        <date when="1550">1550</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8"
+                                        >Gr. in-8° (260 x 170)</dim>
+                                        <!-- Indiqué parfois in-16, XVIp en liminaires --> <dim
+                                        unit="pages" quantity="404">pièces liminaires, 202 ff.</dim>
+                                    </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb319704985/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb34216808w/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb30274112d/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5983</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb363939223/</idno>
+                                <idno type="exBnf">Lk7 5983</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970502k/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13959</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="corrozet1555Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les antiquitez, et singularitez excellentes de la ville, cité &amp; université de Paris, capitale du royaume de France. Plus y ont esté adjoutées plusieurs autres singularitez, ainsi que pourrez veoir en l’autre costé de ce fueillet</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>De l’imprimerie de Nicolas Chrestien, demourant en la rue neufve nostre dame à l’Escu de France</publisher>
+                                        <date when="1555">1555</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                        unit="pages" quantity="128">64 f.</dim> </extent>
+                                </monogr>
+                                <note>D’après Barbier "Les antiquitez, histoires et singularitez de Paris, ville capitale du royaume de France" publiées à Paris chez Gilles Corrozet en 1550 furent écrites par l’imprimeur-libraire lui-même</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb39365971k/</idno>
+                                <idno type="exBnfRes">Reserve 8-H-13217</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="corrozet1561Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les antiquitez, histoires et singularitez excellentes de la ville, cité et université de Paris, capitale du royaume de France</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>E. Groulleau</publisher>
+                                        <date when="1561">1561</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                        unit="pages" quantity="282">XI-130 f.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970499h/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5983 (A)</idno>
+                                <idno type="exBnfRes">Reserve 8-H-13218</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb342168097/</idno>
+                                <!-- Même cote que Res 8-Lk7-5983 (A) mais indiqué sans date -->
+                            </biblStruct>
+                            <biblStruct xml:id="corrozetSdManifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >[Les Antiquitez, histoires et singularitez excellentes de la ville, cité et université de Paris… par feu Gilles Corrozet.]</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>V<hi rend="superscript">ve</hi> J. Bonfons</publisher>
+                                        <date>s.d.</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16</dim> <dim
+                                        unit="pages" quantity="282">XI-130 f.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb34216810f/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970500w/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5983 (B)</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb34216811s/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5983 (C)</idno>
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl xml:id="bonfonsNicolasBiblio">
+                            <biblStruct xml:id="bonfons1561Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#bonfonsNicolas">
+                                        <forename>Nicolas</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les Antiquitez, chroniques et singularitez de Paris… Avec les fondations et bastimens des lieux, les sepulchres et epitaphes des princes… Par Gilles Corrozet,… et depuis augmentees par N. B. (Nicolas Bonfons),…</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>Galiot Corrozet</publisher>
+                                        <date when="1561">1561</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                        unit="pages" quantity="416">VIII-200 ff.</dim> </extent>
+                                </monogr>
+                                <note>Le 8-Z Le Senne-13960, Rel. de Cuzin</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb36393923f/</idno>
+                                <idno type="exBnf">Lk7-5984</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb301260472/</idno>
+                                <idno type="exBnf">8-Lk7-5984 [absent]</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970503x/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13960</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="bonfons1571Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <!--<author> <persName ref="#bonfonsNicolas"> <forename>Nicolas</forename> <surname>Bonfons</surname> </persName> </author>-->
+                                    <title level="m"
+                                        >Les Antiquitez, chroniques et singularitez de Paris, ville capitale du royaume de France, avec les fondations et bastimens des lieux, les sépulchres et épitaphes des princes, princesses et autres personnes illustres, recueillies par feu Gilles Corrozet,… augmentées de nouveau… </title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>poru la V<hi rend="superscript">ve</hi> Jean Bonfons</publisher>
+                                        <date notBefore="1571">c. 1571</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16, 11 cm</dim>
+                                        <dim unit="pages" quantity="416"
+                                        >203-[5] f., sign. A-Z⁸, Aa-Cc⁸</dim> </extent>
+                                </monogr>
+                                <note>S.M. Bouchereau, «Recherches bibliographiques sur Gilles Corrozet» dans «Bulletin du bibliophile», 1948 p. 589, n° 103. _ Marque de Jean Bonfons, au titre, (Renouard, n° 64). Edition postérieure à févr. 1571, date du dernier événement cité, f. 183vo. _ Car. rom. et ital. _ Pièces limin.: épître de Gilles Corrozet, datée du 1er mai 1561 et signée de sa devise «Plus que moins»; pièce de vers «Le Blason des armes de la ville de Paris» signée de cette même devise. A la fin, table. _ Relié avec G. Corrozet, «Le Catalogue des villes et citez assises es trois Gaules…», Lyon: B. Rigaud, 1575. Rel. ancienne XVIIIe s., veau fauve, à décor doré. _ Ex-libris de E. Mareuse, gr. par Ad. Lalauze</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb35283711c/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5984 (D,1)</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb342168124/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb319705017/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5984 (C)</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970497t/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13961</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="bonfons1576aManifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#bonfonsNicolas">
+                                        <forename>Nicolas</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les Antiquitez, histoires, chroniques et singularitez de… Paris… Auteur en partie, Gilles Corrozet,… mais beaucoup plus augmentees par N. B. (Nicolas Bonfons)…</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>par N. Bonfons</publisher>
+                                        <date when="1576">1576</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-16">In-16, 11 cm</dim>
+                                        <dim unit="pages" quantity="500">XVI-234 ff.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb36393926g/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb30274113r/</idno>
+                                <idno type="exBnf">Lk7-5985</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="bonfons1576bManifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#bonfonsNicolas">
+                                        <forename>Nicolas</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Antiquitez, histoires, croniques et singularitez de… Paris… avec les fondations et bastimens des lieux, les sépulchres et épitaphes des princes, princesses et autres personnes illustres. Auteur en partie, Gilles Corrozet,… mais beaucoup plus augmentées par N. B. [Nicolas Bonfons], Parisien</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>par N. Bonfons</publisher>
+                                        <date when="1576">1576</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                        unit="pages" quantity="498">XV-234 ff.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb319705048/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13962 (A)</idno>
+                                <!-- TODO vérifier qu’il ne s’agit pas d’un doublon -->
+                            </biblStruct>
+                            <biblStruct xml:id="bonfons1577Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#bonfonsNicolas">
+                                        <forename>Nicolas</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les antiquitez, histoires, chroniques et singularitez de… Paris… Auteur en partie, Gilles Corrozet,… mais beaucoup plus augmentées par N. B. (Nicolas Bonfons)…</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>N. Bonfons</publisher>
+                                        <date when="1577">1577</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                        unit="pages" quantity="500">XVI-234 ff.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb302741143/</idno>
+                                <idno type="exBnf">8-Lk7-5985 (A)</idno>
+                                <idno type="exBnfMf">MFiche 8-Lk7-5985 (A)</idno>
+                                <idno type="gallica"
+                                    >http://gallica.bnf.fr/ark:/12148/bpt6k1120470/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970505m/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13962 (B)</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="bonfons1581Manifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#bonfonsNicolas">
+                                        <forename>Nicolas</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les antiquitez, chroniques et singularitez de Paris… avec les fondations et bastimens des lieux, les sépulchres et épitaphes des princes… Par Gilles Corrozet,… et depuis augmentées par N. B. (Nicolas Bonfons)…</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>Galiot Corrozet</publisher>
+                                        <date when="1581">1581</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                        unit="pages" quantity="688">XVI-328 ff.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb30126048d/</idno>
+                                <idno type="exBnf">8-Lk7-5984 (A)</idno>
+                                <idno type="exBnfMf">MFilm 8-Lk7-5984 (A)</idno>
+                                <idno type="gallica"
+                                    >http://gallica.bnf.fr/ark:/12148/bpt6k1249165/</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970506z/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13963</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="bonfons1586aManifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#bonfonsNicolas">
+                                        <forename>Nicolas</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#rabelJean"> <forename>Jean</forename>
+                                        <surname>Rabel</surname> </persName> </author>
+                                    <title level="m"
+                                        >Les Antiquitez, chroniques et singularitez de Paris… Avec les fondations et bastimens des lieux, les sepulchres et epitaphes des princes… Par Gilles Corrozet,… et depuis augmentees par N. B. (Nicolas Bonfons),…</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>par N. Bonfons</publisher>
+                                        <date when="1586">1586</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                        unit="tomes" quantity="2">2</dim> </extent>
+                                </monogr>
+                                <note> Le tome II porte sous-titre : "De la Sepulture des roys… representez par figures… recueillis par" Jean Rabel,… avec la date de 1588</note>
+                                <note>Titre exemplaire Z Le Senne : Les Antiquitez, croniques et singularitez de Paris… avec les fondations et bastiments des lieux, les sépulchres et épitaphes des princes, princesses et autres personnes illustres, par Gilles Corrozet,… augmentées par N. B. [Nicolas Bonfons], Parisien. - Les Antiquitez et singularitez de Paris. Livre second. De la sépulture des roys et roynes de France… représentez par figures… recueillis par Jean Rabel.</note>
+                                <note>La notice du Z Le Senne porte la date 1586-1588</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb363939254/</idno>
+                                <idno type="exBnf">Lk7-5984 (B)</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31970508n/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13965</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb30274116s/</idno>
+                                <idno type="exBnf">8-Lk7-5984 (B)</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb365769442/</idno>
+                                <idno type="exBnf">Smith Lesouef R-2673</idno>
+                                <!-- TODO vérifier que bien la même édition, indiqué in-12 au catalogue, pièces liminaires 113p. -->
+                            </biblStruct>
+                            <biblStruct xml:id="bonfons1586bManifestation" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#corrozetGilles">
+                                        <forename>Gilles</forename> <surname>Corrozet</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#bonfonsNicolas">
+                                        <forename>Nicolas</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les Antiquitez, croniques et singularitez de Paris… avec les fondations et bastimens des lieux, les sépulchres et épitaphes des princes, princesses et autres personnes illustres, par Gilles Corrozet,… augmentées par N. B. [Nicolas Bonfons], Parisien </title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>par Galiot Corrozet</publisher>
+                                        <date when="1586">1586</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                        unit="pages" quantity="454">XV-212 ff.</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb319705079/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13964</idno>
+                                <!-- TODO vérifier qu’il ne s’agit pas d’un doublon -->
+                                <!-- N. B. = Nicolas Bonfons. - Extrait du privilège royal de 10 ans accordé à Galiot Corrozet le 18 février 1581. - Complété par : "Les antiquitez et singularitez de Paris. Livre second. De la sepulture des roys, & roynes de France, princes, princesses & autres personnes illustres : representez par figures ainsi qu'ils se voyent encores a present es eglises ou ils sont inhumez. Recueillis par Jean Rabel, M. paintre" (Paris : Nicolas Bonfons, 1588). - Sig. ã8, *8, A-Z8, Aa-Cc8, Dd4. - Caractères italiques et romains ; manchettes ; initiales et bandeaux gravés sur bois. - Marque au titre. - Cité dans : "Adams C 2696"
+ cf http://www.sudoc.abes.fr/xslt/DB=2.1//SRCH?IKT=12&TRM=103546685 -->
+                            </biblStruct>
+                        </listBibl>
+                        <listBibl xml:id="bonfonsPierreBiblio">
+                            <head>Pierre Bonfons, Les fastes, antiquitez et choses les plus remarquables de Paris</head>
+                            <biblStruct xml:id="biblioBonfons1605" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#bonfonsPierre">
+                                        <forename>Pierre</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les Fastes, antiquitez et choses plus remarquables de Paris. Labeur de curieuse et diligente recherche, divisé en quatre livres par M. Pierre Bonfons,…</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>N. et P. Bonfons</publisher>
+                                        <date when="1605">1605</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                        unit="pages" quantity="724">XVI-336 ff.</dim> </extent>
+                                </monogr>
+                                <note>L’exemplaire 8-Z Le Senne-13974 dispose d’une table manuscrite</note>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb30126049r/</idno>
+                                <idno type="exBnf">8-Lk7-5987</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-5987</idno>
+                                <idno type="exBnfEst">Ve-735-8</idno>
+                                <idno type="exBnfArs">8-H-13211</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb318392367/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13974</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="biblioBonfons1607" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#bonfonsPierre">
+                                        <forename>Pierre</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <title level="m"
+                                        >Les Fastes, antiquitez et choses plus remarquables de Paris, labeur de curieuse et diligente recherche, divisé en trois livres par M. Pierre Bonfons,…</title>
+                                    <imprint>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>N. Bonfons</publisher>
+                                        <date when="1607">1607</date>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-12">In-12</dim> <dim
+                                        unit="pages" quantity="722">XV-336 ff., fig., pl.</dim>
+                                    </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb34216813g/</idno>
+                                <idno type="exBnfRes">Res 8-Lk7-43607</idno>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb31839237k/</idno>
+                                <idno type="exBnf">8-Z Le Senne-13975</idno>
+                            </biblStruct>
+                            <biblStruct xml:id="biblioBonfons1608" type="manifestation">
+                                <monogr>
+                                    <author> <persName ref="#bonfonsPierre">
+                                        <forename>Pierre</forename> <surname>Bonfons</surname>
+                                        </persName> </author>
+                                    <author> <persName ref="#duBreul"> <forename>Jacques</forename>
+                                        <surname>du Breul</surname> </persName> </author>
+                                    <title level="m"
+                                        >Les Antiquitez et choses plus remarquables de Paris, recueillies par M. Pierre Bonfons,… augmentées par Frère Jacques Du Breul,… </title>
+                                    <imprint>
+                                        <date when="1608">1608</date>
+                                        <pubPlace>Paris</pubPlace>
+                                        <publisher>N. Bonfons</publisher>
+                                    </imprint>
+                                    <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                        unit="pages" quantity="894"
+                                        >pièces liminaires, 447 ff. et la table, fig.</dim>
+                                    </extent>
+                                </monogr>
+                                <idno type="catBnf"
+                                    >http://catalogue.bnf.fr/ark:/12148/cb303615791/</idno>
+                                <idno type="exBnf">8-LK7-5988</idno>
+                                <idno type="exBnf">8-Z-LE-SENNE-13976</idno>
+                                <idno type="exBnfEst">VE-732-8</idno>
+                                <idno type="exBnfArs">8-H-13215</idno>
+                                <idno type="exBnfArs">8-H-13216</idno>
+                            </biblStruct>
+                        </listBibl>
+                        <biblStruct xml:id="jaillot1745Manifestation" type="manifestation">
+                            <monogr>
+                                <author/>
+                                <title level="m"
+                                    >Les rues et les environs de Paris …, par ordre alphabétique</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Valleyre</publisher>
+                                    <date from="1745">1745-</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="17x9cm">17 x 9 cm</dim> <dim
+                                    unit="pages" quantity="454">454</dim> </extent>
+                            </monogr>
+                            <note>Tome premier contenant : les rues de Paris, carrefours, culs-de-sacs, cloîtres, cours, passages… Tome second contenant : les villes, villages, hameaux, chateaux et belles maisons qui sont éloignés de Paris à dix lieues à la ronde</note>
+                            <idno type="exINHA">12 Rés 1238</idno>
+                            <idno type="exINHANum">http://www.purl.org/yoolib/inha/3742/</idno>
+                        </biblStruct>
+                        <biblStruct xml:id="jaillot1777Manifestation" type="manifestation">
+                            <monogr>
+                                <author/>
+                                <title level="m"
+                                    >Les rues et les environs de Paris …, par ordre alphabétique</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Valleyre</publisher>
+                                    <date when="1777">1777</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="17x10cm">17 x 10 cm</dim> <dim
+                                    unit="volumes" quantity="2">2</dim> <dim unit="pages"
+                                    quantity="640" n="vol1">640</dim> <dim unit="pages"
+                                    quantity="480" n="vol2">480</dim> </extent>
+                            </monogr>
+                            <idno type="exINHA" n="vol1">12 Rés 1383 (1)</idno>
+                            <idno type="exINHA" n="vol2">12 Rés 1383 (2)</idno>
+                        </biblStruct>
+                        <biblStruct xml:id="marles1838Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName ref="#marlesJulesLacroixDe">
+                                    <forename>Jules Lacroix</forename> <surname>Marlès</surname>
+                                    <nameLink>de</nameLink> </persName> </author>
+                                <title level="m"
+                                    >Paris ancien et moderne ou Histoire de France divisée en douze périodes appliquées aux douze arrondissements de Paris, et justifiée par les monuments de cette ville célèbre… : d’après Dubreuil, Sauval, Félibien, Piganiol, Delamare, Jaillot, etc  / par J. de Marlès</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Parent-Desbarres</publisher>
+                                    <date from="1837" to="1838">1837-1838</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-4">In-4</dim> <dim
+                                    unit="volumes" quantity="4">4, dont un de pl.</dim> </extent>
+                            </monogr>
+                            <note>
+                                <p>L’atlas est celui du Tableau historique et pittoresque de Paris, par J.-B. de Saint-Victor, Paris, C. Gosselin, 1822</p>
+                                <p>Titre alternatif : Histoire de France divisée en douze périodes appliquées aux douze arrondissements de Paris, et justifiée par les monuments de cette ville célèbre..</p> </note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb308871638/</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb323357227/</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb32420865j/</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb308871638/</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb33997835r/</idno>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb324208677/</idno>
+                            <idno type="gallica" n="vol1"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k6374009t/</idno>
+                            <idno type="gallica" n="vol2"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k63759349/</idno>
+                            <idno type="gallica" n="vol3"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k63759542/</idno>
+                            <idno type="gallica" n="vol4"
+                                >http://gallica.bnf.fr/ark:/12148/bpt6k6377214r/</idno>
+                            <note type="perso" resp="#EC"
+                                >Le volume de planches est intéressant. Même si les vues ne paraissent pas très réalistes, certaines paraissent peu courantes.</note>
+                        </biblStruct>
+                        <biblStruct xml:id="marles1854Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName full="yes"
+                                    >Marlès, Jules Lacroix de (17..-1850?)</persName> </author>
+                                <title level="m"
+                                    >Paris et ses monuments anciens et modernes,… par J. de Marlès</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>T. Pitrat et fils</publisher>
+                                    <date when="1854">1854</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-4">In-4</dim> <dim
+                                    unit="volumes" quantity="4">3, et un atlas</dim> </extent>
+                            </monogr>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30887164m/</idno>
+                        </biblStruct>
+                    </listBibl>
+                </div>
+                <div>
+                    <head>Références à consulter</head>
+                    <listBibl>
+                        <head/>
+                        <biblStruct xml:id="brice1888Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName full="yes">Brice, Germain (1653?-1727)</persName> </author>
+                                <title level="m"
+                                    >Testament, scellé et inventaire après décès de Germain Brice. (Publié par J.-J. Guiffrey.)</title>
+                                <imprint>
+                                    <pubPlace>Nogent-le-Rotrou</pubPlace>
+                                    <publisher>impr. de Daupeley-Gouverneur</publisher>
+                                    <date when="1883">1883</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                    unit="pages" quantity="20">20</dim> </extent>
+                            </monogr>
+                            <note>Extrait du "Bulletin de la Société de l’Histoire de Paris et de l’Ile-de-France", 10e année (1883), p. 98-117</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb30160628t/</idno>
+                            <idno type="exBnf">8-Ln27-34470</idno>
+                            <idno type="exBnfArs">Br-8618</idno>
+                        </biblStruct>
+                        <biblStruct xml:id="bonnardot1971Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName full="yes"
+                                    >Bonnardot, Alfred (1808-1884)</persName> </author>
+                                <title level="m"
+                                    >Gilles Corrozet et Germain Brice : études bibliographiques sur ces deux historiens de Paris / A. Bonnardot,…</title>
+                                <imprint>
+                                    <pubPlace>Genève</pubPlace>
+                                    <publisher>Slatkine</publisher>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Champion</publisher>
+                                    <date when="1971">1971</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="22cm">22 cm</dim> <dim
+                                    unit="pages" quantity="69">[3]-65-[1] p. ill.</dim> </extent>
+                            </monogr>
+                            <note>Reprod. en fac-sim. de l’éd. de Paris, H. Champion, 1880. - Fac-sim. des marques typographiques</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb35319474m/</idno>
+                            <idno type="exBnf">8-Lk7-5986 (Bis,A)</idno>
+                            <idno type="exBnf">84/31 CORR T BO</idno>
+                            <idno type="exBnfMf">MFiche 8-Lk7-5986 (Bis,A)</idno>
+                        </biblStruct>
+                        <biblStruct xml:id="corrozet1608Manifestation" type="manifestation">
+                            <monogr>
+                                <author> <persName full="yes"
+                                    >Corrozet, Gilles (1510-1568) </persName> </author>
+                                <title level="m"
+                                    >La Historia di tutte le città ville, fiumi, fonti, et altre cose notabili della Franza, &amp; di tutti i re di quella [Texte imprimé]. Tradotta dalla lingua franzese nella italiana</title>
+                                <imprint>
+                                    <pubPlace>In Vinegia</pubPlace>
+                                    <publisher>per Michele Tramezzino</publisher>
+                                    <date when="1608">1608</date>
+                                </imprint>
+                                <extent> <dim type="format" extent="in-8">In-8</dim> <dim
+                                    unit="pages" quantity="112">[8]-104 f.</dim> </extent>
+                            </monogr>
+                            <note>CG, XXXII, 710</note>
+                            <idno type="catBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb361243802/</idno>
+                            <idno type="exBnf">8-L20-4</idno>
+                            <idno type="exBnfMf">MFiche 12O-4</idno>
+                        </biblStruct>
+                    </listBibl>
+                    <!-- TODO a supprimer -->
+                    <listBibl>
+                        <head>Pour tester la transformation</head>
+                        <biblStruct xml:id="ozanam1699Manifestation">
+                            <monogr>
+                                <author> <forename>Jacques</forename> <surname>Ozanam</surname> </author>
+                                <author> <forename>Deuxième</forename> <surname>Nom</surname> </author>
+                                <title level="m"
+                                    >Traité de l’arpentage et du toisé, ou Méthode facile pour arpenter et mesurer toutes sortes de superficies… par M. Ozanam,… </title>
+                                <imprint>
+                                    <date when="1699">1699</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Jombert</publisher>
+                                </imprint>
+                                <extent/>
+                            </monogr>
+                            <!-- TODO vérifier car pas trouvé d’édition à cette date à la BNF -->
+                        </biblStruct>
+                        <biblStruct xml:id="ozanam1679Manifestation">
+                            <monogr>
+                                <author> <forename>Jacques</forename> <surname>Ozanam1</surname> </author>
+                                <author> <forename>Jacques</forename> <surname>Ozanam2</surname> </author>
+                                <author> <forename>Troisième</forename> <surname>Nom</surname> </author>
+                                <title level="m"
+                                    >Test 3 titres, Traité de l’arpentage et du toisé, ou Méthode facile pour arpenter et mesurer toutes sortes de superficies… par M. Ozanam,… </title>
+                                <imprint>
+                                    <date when="1699">1699</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Jombert</publisher>
+                                </imprint>
+                                <extent/>
+                            </monogr>
+                            <!-- TODO vérifier car pas trouvé d’édition à cette date à la BNF -->
+                        </biblStruct>
+                        <biblStruct xml:id="ozanam1690Manifestation">
+                            <monogr>
+                                <author> <surname>surname1</surname> </author>
+                                <title level="m"
+                                    >Traité de l’arpentage et du toisé, ou Méthode facile pour arpenter et mesurer toutes sortes de superficies… par M. Ozanam,… </title>
+                                <imprint>
+                                    <date when="1699">1699</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Jombert</publisher>
+                                </imprint>
+                                <extent/>
+                            </monogr>
+                            <!-- TODO vérifier car pas trouvé d’édition à cette date à la BNF -->
+                        </biblStruct>
+                        <biblStruct xml:id="ozanam1609Manifestation">
+                            <monogr>
+                                <author> <forename>surname2</forename> </author>
+                                <title level="m"
+                                    >Traité de l’arpentage et du toisé, ou Méthode facile pour arpenter et mesurer toutes sortes de superficies… par M. Ozanam,… </title>
+                                <imprint>
+                                    <date when="1699">1699</date>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Jombert</publisher>
+                                </imprint>
+                                <extent/>
+                            </monogr>
+                            <!-- TODO vérifier car pas trouvé d’édition à cette date à la BNF -->
+                        </biblStruct>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

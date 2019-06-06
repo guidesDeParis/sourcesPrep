@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/gdpSchemaTEI.rng" 
+            type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+    Guides de Paris, Germain Brice, 1706 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fre" type="main">Germain Brice 1706</title>
+            <principal>
+               <persName ref="#MCL">
+                  <forename>Marianne</forename>
+                  <surname>Cojannot-Le Blanc</surname>
+               </persName>
+               <affiliation>
+                  <orgName>Histoire des Arts &amp; Représentations</orgName>
+                  <orgName type="acronym">HAR</orgName>
+                  <orgName type="alt">EA 4414</orgName>
+                  <roleName>responsable scientifique</roleName>
+               </affiliation>
+               <affiliation>
+                  <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
+                  <orgName type="alt">Paris 10</orgName>
+                  <roleName>professeur d'histoire de l'art</roleName>
+               </affiliation>
+            </principal>
+            <funder>
+               <orgName>Labex Les Passés dans le Présent</orgName>
+               <date from="2013" to="2018">2013-2018</date>
+            </funder>
+            <respStmt>
+               <resp key="prg">modélisation XML-TEI</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="mrk">encodage</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="edt">édition</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="trc">transcription et relecture</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="trc">transcriptions réalisées par des étudiants du Master 1 d'histoire de
+                  l'art, de l'université Paris-Ouest Nanterre, <date from="2014-02" to="2014-04"
+                     >février à avril 2014</date>, pp. </resp>
+               <persName ref="#renaudBastien">
+                  <forename>Bastien</forename>
+                  <surname>Renaud</surname>
+               </persName>
+               <persName ref="#girardetAmandine">
+                  <forename>Amandine</forename>
+                  <surname>Girardet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">première édition électronique, <date from="2013" to="2018"
+                  >2013-2018</date></edition>
+         </editionStmt>
+         <extent><!-- TODO : taille du fichier en octet --></extent>
+         <publicationStmt>
+            <authority>
+               <orgName>Histoire des Arts &amp; Représentations</orgName>
+               <orgName type="acronym">HAR</orgName>
+               <orgName type="alt">EA 4414</orgName>
+               <address>
+                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                    <addrLine>200, Avenue de la République</addrLine>
+                    <addrLine>92001 Nanterre Cedex</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>http://har.u-paris10.fr</addrLine>
+                    <addrLine>harparisouest@gmail.com</addrLine>
+                </address>
+            </authority>
+            <date from="2014" to="2018">2014-2018</date>
+            <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
+            <idno>ark</idno>
+            <!-- responsable de la publication -->
+            <publisher>
+               <orgName>Histoire des Arts &amp; Représentations</orgName>
+               <orgName type="acronym">HAR</orgName>
+               <orgName type="alt">EA 4414</orgName>
+               <address>
+                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                    <addrLine>200, Avenue de la République</addrLine>
+                    <addrLine>92001 Nanterre Cedex</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>http://har.u-paris10.fr</addrLine>
+                    <addrLine>harparisouest@gmail.com</addrLine>
+                </address>
+            </publisher>
+            <availability status="restricted" xml:id="gdpBrice1706Licence">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+                  <p>Texte de la licence</p>
+                  <!-- TODO renseigner le texte de la licence -->
+                  <graphic url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"/>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="fre" type="main">Les Guides de Paris</title>
+            <title xml:lang="fre" type="sub">Les historiens des arts et les
+               corpus numériques</title>
+            <idno type="URI">http://www.guidesdeparis.net</idno>
+         </seriesStmt>
+         <!--
+         <notesStmt>
+            <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
+            <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
+         </notesStmt>
+         -->
+         <!-- description de la source -->
+         <sourceDesc xml:id="gdpBrice1706">
+            <bibl copyOf="#brice1706b"/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- description du projet éditorial -->
+         <projectDesc>
+            <p>L'édition des Guides de Paris fait partie d'un programme de recherche sur les
+               historiens de l'art et les corpus numériques.</p>
+         </projectDesc>
+         <!-- déclaration des principes éditoriaux -->
+         <editorialDecl>
+            <correction>
+               <p>La syntaxe originale du manuscrit a été respectée en suivant les indications de
+                  Bernard Barbiche, <ref type="external"
+                     target="http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes"
+                     >Conseils pour l’édition des textes de l’époque moderne (XVI<hi
+                        rend="superscript">e</hi>-XVIII<hi rend="superscript">e</hi>
+                  siècle)</ref>.</p>
+            </correction>
+            <hyphenation>
+               <p>Pour les ouvrages imprimés, il n'a pas été tenu compte de l'hyphénation.</p>
+            </hyphenation>
+            <interpretation>
+               <p>Les interprétations sont traitées au moyen d'un élément supplied ou bien sont
+                  renvoyées en notes. Une mention de responsabilité est fournie grâce à l'attribut
+                  resp sur le passage concerné.</p>
+            </interpretation>
+            <normalization>
+               <p>La ponctuation ainsi que les majuscules ont été normalisées. Les abréviations ont
+                  été développées.</p>
+            </normalization>
+            <stdVals>
+               <p>On utilise...</p>
+            </stdVals>
+            <quotation>
+               <p>Les citations dans le texte sont encodées soit au moyen d'un élément quote, soit
+                  au moyen d'un élément...</p>
+            </quotation>
+         </editorialDecl>
+         <!-- déclaration concernant la méthode d'établissement du corpus (sélection) -->
+         <refsDecl>
+            <p>Description du système de référence canonique.</p>
+            <!-- TODO à renseigner avec une expression régulière -->
+         </refsDecl>
+         <samplingDecl>
+            <p>Échantillonnage</p>
+            <!-- TODO modifier à la fin du projet -->
+         </samplingDecl>
+         <variantEncoding method="location-referenced" location="external"/>
+      </encodingDesc>
+      <!-- présentation du profil de fichier -->
+      <profileDesc>
+         <creation when="2014">2014</creation>
+         <langUsage>
+            <language ident="fre" usage="98">Français (langue principale du corpus)</language>
+            <language ident="lat" usage="2">Latin</language>
+            <!-- TODO vérifier -->
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="fre" scheme="http://data.bnf.fr/liste-rameau">
+               <term>18e siècle</term>
+               <term>France</term>
+            </keywords>
+            <keywords xml:lang="eng" scheme="http://id.loc.gov/authorities/about.html#lcsh">
+               <term>17th-18th centuries</term>
+               <term>France</term>
+            </keywords>
+            <classCode scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
+               <term>Text</term>
+            </classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-30">Premier échantillonnage</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <!-- TODO traiter les tomes séparément avec des éléments group -->
+      <front>
+         <titlePage xml:lang="fre" corresp="#brice1706b">
+            <docTitle>
+               <titlePart><hi rend="capital">Description <lb/>Nouvelle <lb/>de la <lb/>Ville de
+                     Paris, <lb/>et <lb/>Recherche <lb/>des singularitez</hi>
+                  <lb/>les plus remarquables qui se trouvent <lb/>à present dans cette grande
+                  Vile.</titlePart>
+            </docTitle>
+            <docEdition>Cinquiéme Edition augmentée, <lb/><hi rend="italic">Avec un nouveau plan
+                  &amp; des figures</hi></docEdition>
+            <byline>par <docAuthor ref="#brice">Germain <hi rend="capital"
+               >Brice</hi></docAuthor></byline>
+            <docTitle>
+               <titlePart>Tome Premier.</titlePart>
+            </docTitle>
+            <metamark rend="typographicalPiece"/>
+            <docImprint>
+               <pubPlace>A Paris,</pubPlace>
+               <publisher>Chez <hi rend="capital">Michel Brunet</hi>, dans la grand'Salle du Palais,
+                  au Mercure Galant.</publisher>
+               <metamark rend="simpleLine"/>
+               <docDate when="1706">M. DCC. VI.</docDate>
+            </docImprint>
+            <imprimatur rend="capital italic">Avec Privilège du Roy</imprimatur>
+         </titlePage>
+         <div xml:lang="fre">
+            <div type="imprimatur">
+               <!-- ornements typographiques -->
+               <gap reason="sampling"/>
+            </div>
+            <div type="foreword">
+               <!-- ornements typographiques -->
+            </div>
+            <div type="toc">
+               <gap reason="sampling"/>
+            </div>
+            <div type="preface">
+               <gap reason="sampling"/>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div xml:lang="fre">
+            <gap reason="sampling"/>
+            <pb/>
+            <fw type="pageNum">374</fw>
+            <div>
+               <head rend="capital alignCenter">L’Eglise <lb/>de Saint Gervais.</head>
+               <p><hi rend="capital"><hi rend="initial">C</hi>ette</hi> Eglise est un peu plus
+                  avant. Elle est une des plus anciennes paroisses de Paris comme on le voit dans
+                  l’Histoire de <persName>saint Germain</persName>, Evêque de cette même Vile qui
+                  vivoit en 578, en faveur duquel il s’y fit un insigne miracle au raport de
+                        <persName><hi rend="italic">Fortunatus</hi></persName>, Evêque de Poitiers.
+                  Le corps de l’edifice est assez bien bâti dans le goût Gothique dont les voutes
+                  sont tout-à-fait élevées avec des bas-côtez et des Chapelles tout autour. Mais
+                  l’interieur en est obscur et tres mal propre. Les vites peintes en aprêt et les
+                  croisées étroites et mal proportionnées en sont la principale cause. De même que
+                  le peu de soin que l’on a de tenir les dedans propres et de les blanchir de temps
+                  en temps comme on fait tous les ans en Italie et en d’autres endroits où
+                  l’exactitude sur cet article est infiniment plus grande qu’en France. Ces vitres
+                  sont cependant estimées. Elles sont de <persName><hi rend="italic">Jean</hi>
+                     <hi rend="capital">Cousin</hi></persName>, qui excelloit dans ce genre
+                  d’ouvrage, dont on est sagement revenu à present à cause de l’obscurité que les
+                  couleurs produisent.</p>
+               <p>Cependant tous ces défauts sont bien reparez par le magnifique et superbe portail
+                  de <pb/>
+                  <figure type="plate"/><!-- Le Portail de St Gervais -->
+                  <pb/>
+                  <fw type="pageNum">375</fw> cette Eglise, le quel doit être consideré comme le
+                  plus beau morceau d’Architecture qu’il y ait en europe où le goût simple et
+                  majustueux de l’admirable Antiquité se fait encore sentir.</p>
+               <p>Il est composé des trois ordres Grecs l’un sur l’autre, c’est-à-dire du dorique,
+                  de l’ionique et du corinthien, dont les proportions sont si regulieres qu’au
+                  sentiment du <persName>Cavalier <hi rend="italic">Bernin</hi></persName>, tout
+                  reservé qu’il étoit, on n’a rien de plus correcte et de plus parfait dans les
+                  ouvrages modernes les plus somptueux et les plus estimez. Les colonnes doriques
+                  sont engagées d’un tiers dans le vif du bâtiment et unies jusqu’à la troisième
+                  partie de leur hauteur. Le reste st cannelé de cannelures à côtes. Celles des
+                  autres ordres sont détachées et hors d’œuvre sans être chargées d’autres ornemens
+                  que de ceux qui leur sont propres. Tous ces trois ordres, dont les deux premiers
+                  sont de huit colonnes chacun et le dernier de quatre seulement, sont ensemble une
+                  fabrique de vingt-six toises de hauteur, qui offre à la vue un tres grand objet.
+                  Mais la place, ou plutôt la miserable espace qui se trouve devant ce beau portail
+                  est si serré et si irregulier que l‘on ne voit que tres imparfaitement ce bel
+                  ouvrage. La seule chose que l’on pourroit trouver à redire est que les sculptures
+                  n’en sont pas d’une bonne maniere. Mais ce défaut est bien récompensé par <pb/><fw
+                     type="pageNum">376</fw> la rare et singuliere beauté de tout le reste.<lb/>On
+                  donne toute la gloire de ce magnifique edifice à <persName><hi rend="italic"
+                        >Jacques</hi>
+                     <hi rend="capital">de Brosse</hi></persName>, tres excellent architecte, le
+                  même qui a donné les desseins du <placeName>Palais de Luxembourg</placeName>, de
+                     l’<placeName>Aqueduc d’Arcueil</placeName> et de quelques autres grands
+                  bâtimens où l’on reconnoît beaucoup d’Art et de majesté. <persName><hi
+                        rend="capital">De Fourci</hi></persName> et de <persName><hi rend="capital"
+                        >Donon</hi></persName>, Intendans des bâtimens sous <persName><hi
+                        rend="italic">Louis</hi> XIII</persName>, étoient alors Marguilliers
+                  d’honneur de cette Eglise et ce fut par leurs soins qu’on entreprit ce grand
+                  ouvrage <date when="1617">en 1617</date> où <persName><hi rend="italic">Louis
+                     </hi> XIII</persName> mit la premiere pierre avec ceremonie. En fort peu de
+                  temps, ce bel edifice fut achevé et conduit dans l’état de perfection où l’o le
+                  voit à present.</p>
+               <p>Il y a quelques peintures dans cette Eglise qui sont stimées et qui meritent que
+                  l’on les considere exactement. La Nef est ornée de six grands tableaux. Le premier
+                  en entrant à main droite est de <persName><hi rend="capital"
+                     >Bourdon</hi></persName> et les deux dans la même suite sont de <persName><hi
+                        rend="capital">le Sueur</hi></persName>, les trois autres placez vis-à-vis
+                  sont de <persName><hi rend="capital">Champagne</hi></persName> et l’on peut dire
+                  que ces pieces sont tres considerables par la beauté de la composition et par la
+                  correction du dessein que l’on y remarque. On a fait de tres riches tapisseries
+                  sur ces excellens originaux que l’on expose les jours des grandes Fêtes.</p>
+               <p>Dans une petite chapelle qui est sous la croisée à main gauche, on pourra voir
+                     quel<pb/><fw>377</fw>ques peintures du même <persName><hi rend="capital">le
+                        Sueur</hi></persName>, un des plus excellens Peintres qui ait paru en
+                  France, duquel on aura occasion de parler ailleurs plus amplement. Les grisailles
+                  des vitres qui représentent le Martyre de <persName>saint Gervais</persName> et le
+                  tableau de l’Autel sont du même Maître mais cette chapelle est rarement ouverte et
+                  celuy à qui elle appartient ne la fait pas voir agréablement, n’en permettant
+                  l’entrée qu’avec des façons affectées qui ne plaisent pas aux curieux.</p>
+               <p>Sur la port du Chœur de cette même Eglise, on admire le grand crucifix avec la
+                  statue de la Saint Vierge et celle de saint Jean, qui sont de la maint de
+                        <persName><hi rend="capital">Sarazin</hi></persName>, tres excellent
+                  sculpteur. La grille de fer qui sert de fermeture est d’un travail qui a coûté une
+                  somme considerable.</p>
+               <p>Les personnes les plus renommées enterrées dans <persName>saint Gervais</persName>
+                  sont :</p>
+               <!-- RMQ énumération, on choisi par commodité des paragraphes plutôt qu'une liste -->
+               <p><persName><hi rend="italic">Philippe</hi>
+                     <hi rend="capital">de Champagne</hi></persName>, peintre fameux, né à
+                  Bruxelles, lequel vint s’établir à Paris où il est mort en l’<date when="1674"
+                     >année 1674</date>, âgé de soixante et douze ans. C’est du même Maître que sont
+                  les grands tableaux dont on vient de parler. Il a fait beaucoup d’ouvrages à
+                  Vincennes et au Louvre.</p>
+               <p><persName><hi rend="italic">Charles</hi>
+                     <hi rend="capital">du Fresne</hi></persName>, <persName>Sieur du <hi
+                        rend="capital">Cange</hi></persName>, natif d’<placeName>Amiens</placeName>,
+                  un des plus sçavans hommes de ces derniers siecles. Les ouvrages qu’il a mis au
+                  jour marquent une tres profonde science. <pb/><fw type="pageNum">378</fw> On
+                  estime sur tout son glossaire latin en trois volumes <foreign xml:lang="lat">in
+                     folio</foreign> et des notes toutes remplies d’érudition qu’il a faites sur
+                  quantité de vieux auteurs françois, lesquels il a éclaircis et traduits d’une
+                  maniere merveilleuse. On loue aussi beaucoup son Histoire Bizantine dont le double
+                  commentaire est rempli d’un tres grand nombre de recherches sçavantes et
+                  curieuses, la plupart tirées des Medailles du cabinet du Roy sur lesquelles on l’a
+                  vu longtemps travailler avec application.</p>
+               <p>Voicy l’epitaphe que l’on a gravée sur son tombeau attachée à un pilier entre deux
+                  chapelles, assez proche de la Sacristie.</p>
+               <floatingText>
+                  <body>
+                     <div xml:lang="lat" rend="alignCenter">
+                        <head rend="capital">Siste viator</head>
+                        <l>Et bene precare extncto heu ! ibique sepulto</l>
+                        <l><hi>Clarissimo Viro</hi>
+                           <lb/><hi rend="capital">Carolo du Fresne</hi> Domino <lb/><hi
+                              rend="capital">du Cange</hi>,</l>
+                        <l>Nobili apud Ambianos stirpe oriundo,</l>
+                        <l>Franciæ Quæstorum in Ambianensi Præfectura,</l>
+                        <l>Quem si noveris, virum noveris.</l>
+                        <l>Candidis moribus, ingenio, suavi, judicio sagaci et exquisito, capaci
+                           animo.</l>
+                        <pb/>
+                        <fw>379</fw>
+                        <l>Et summa Eruditione repleto ; <lb/>qui</l>
+                        <l>Eximia &amp; minimè fucata erga Deum religione ac pietate,</l>
+                        <l>Blanda erga suos charitate,</l>
+                        <l>Costanti erga amicos fide &amp; obsequio,</l>
+                        <l>Facili ac liberali erga litteratos doctrine communicatione ;</l>
+                        <l>Omnium sibi amorem demeruit,</l>
+                        <l>Et magnam sibi paravit tum virtutis tum scientiæ existimationem.</l>
+                        <l>Quantum illi litteræ debeant abundè testantur libri complures</l>
+                        <l>In publicum commodum ab eo editi &amp; vulgati,</l>
+                        <l>Rei antiquariæ sicientia haud vulgari respersi.</l>
+                        <l rend="capital">Natus XV. Kal. Jan. Ann. <lb/>MDCX. <lb/>obiit X. Kal.
+                           Novemb. ann. <lb/>MDCLXXXVIII.</l>
+                        <l>Inibi jacet <lb/><hi rend="capital">Philippus du Fresne, Caroli</hi>
+                           <lb/>Filius &amp; quant ! Vita defunctus <lb/>22 . Jun. Ann. 1692.</l>
+                        <l>Ibidem <hi rend="capital">Catharina du Bos</hi> ejusdem <pb/><fw>380</fw>
+                           <hi rend="capital">Caroli du Fresne</hi> carissima conjux consepulta
+                           est.</l>
+                        <l>19 Jul. Ann. 1694.</l>
+                     </div>
+                  </body>
+               </floatingText>
+               <p>Derriere le Chœur dans une chapelle à main droite, on remarquera le tombeau de
+                        <persName><hi rend="italic">Michel</hi>
+                     <hi rend="capital">le Tellier</hi></persName>, chancelier de France, où il est
+                  représenté à demi couché sur un grand marbre noir en maniere de <hi rend="italic"
+                     >sarcophage</hi>, sous un arc assez élevé, couronné d’un fronton sur lequel on
+                  a placé deux vertus. On a encore mis deux autres vertus pour accompagner cet
+                  ouvrage qui sont beaucoup mieux placées pour être plus à portée de la vue.
+                        <persName><hi rend="capital">Mazeline</hi></persName> &amp; <persName><hi
+                        rend="capital">Utrel</hi></persName>, sculpteurs de l’Academie, ont conduit
+                  cet ouvrage qui est tout de marbre, orné de feuillages et de festons, de bronze
+                  doré qui sont une assez belle décoration.</p>
+               <p>L’inscription qui suit est gravée sur le devant du tombeau.</p>
+               <!-- RMQ pourquoi ne pas mettre les phrases d'introduction dans le front du floatingtext-->
+               <floatingText>
+                  <body>
+                     <div xml:lang="lat">
+                        <l rend="capital">A la gloire de dieu, </l>
+                        <l>&amp; à la Memoire éternelle.</l>
+                        <p><persName><hi rend="capital">De Michel Le Tellier</hi></persName>,
+                           Chancellier de France, illustre par sa fidelité inviolable envers son
+                           prince et par sa conduite toujours sage, toujours
+                           heureu<pb/><fw>381</fw>se. Il fut nommé par le Roy <persName><hi
+                                 rend="capital">Louis XIII</hi></persName> pour remplir la charge de
+                           Secretaire d’Etat de la Guere, &amp; en commença les fonctions la
+                           premiere année de la Regence <persName><hi rend="capital">d’Anne
+                                 d’Austriche</hi></persName>. Durant des temps si difficiles, il
+                           n’eut d’autre interêt que son devoir, &amp; fut regardé de tous les
+                           partis comme le plus habile &amp; le plus zelé défenseur de l’autorité
+                           Royale. <persName><hi rend="capital">Louis le Grand</hi></persName> ayant
+                           resolu de gouverner toutes choses par luy-même, l choisit pour être un
+                           des principaux Ministres de ses volontez et se servit de luy pour
+                           rétablir l’ordre dans son Etat et la discipline dans ses armées. Il
+                           léleva depuis à la dignité de chancelier. Dans cette longue suite
+                           d’honneurs, il signala sa pieté envers Dieu, sa passion pour la gloire de
+                           son Roy et son amour pour le bien de l’Etat. Il fit également admirer en
+                           luy le grand sens, l’équité, la modestie. Enfin à l’âge de <persName><hi
+                                 rend="smallcap">LXXXIII</hi></persName> ans le <date when="1685">30
+                              octobre M. DC. LXXXV.</date> huit jours apres qu’il eut scellé la
+                           revocation de l’Edit de Nantes, content d’avoir vu consommer ce grand
+                           ouvrage et tout pleind e pensées de l’Eternité, il expira dans les
+                              <pb/><fw>382</fw> bras de sa Famille, pleuré des Peuples &amp;
+                           regretté de <persName><hi rend="capital">Louis le
+                           Grand</hi></persName>.</p>
+                     </div>
+                  </body>
+               </floatingText>
+               <p>Le <persName>Chancelier <hi rend="italic">Louis</hi>
+                     <hi rend="capital">Boucherat</hi></persName> a fait construire une chapelle du
+                  côté de la Sacristie, dans laquelle il a choisi sa sepulture, mais comme elle
+                  n’est pas achevée, on n’y voit rien de partiulier. Ce Magistrat est mort âgé de
+                  quatre-vingt-quatre ans, dans le mois de septembre de l’année 1699.</p>
+               <p><persName><hi rend="italic">Pierre</hi>
+                     <hi rend="capital">du Rier</hi></persName>, qui a traduit un tres grand nombre
+                  d’auteurs en françois mais d’une maniere peu correcte, est enterré dans cette même
+                  Eglise. Il est mort le 7 de décembre 1658, âgé de cinquante-trois ans.</p>
+               <p>Depuis saint Gervais jusqu’au milieu du la rue saint Antoine, il n’y a rien de
+                  considerable à voir.</p>
+               <gap reason="sampling"/>
+            </div>
+            <gap reason="sampling"/>
+            <fw type="pageNum">483</fw>
+            <div>
+               <head rend="capital alignCenter">La Maison <lb/>de Bretonvilliers</head>
+               <p><hi rend="capital"><hi rend="initial">C</hi>ette</hi> maison jouit d’une situation
+                  encore plus heureuse que celle dont on vient de parler parce qu’elle est
+                  directement située à la pointe de l’isle ; ce qui fait qu’elle est presque
+                  environnée des deux bras de la riviere. Elle occupe aussi un terrain plus grand et
+                  plus étendu. Elle appartient à <persName><hi rend="italic">Benigme le Ragois</hi>
+                     <hi rend="capital">de Bretonvilliers</hi></persName>, aussi président <pb/>
+                  <fw type="pageNum">484</fw> à la Chambre des Comptes, <persName>le pere
+                     duquel</persName> l’a fait construire de fond en comble avec une dépense
+                  extrême. Il fit revêtir la pointe de l’isle, d’un quay de pierre de taille sur
+                  pilotis dans un endroit où la riviere est tres profondes et tres rapide et il ne
+                  fit aucune difficulté d’employer huit cens mile francs à cet ouvrage et aux seules
+                  fondations de cette grande maison ; ce qui peut faire aisément comprendre à
+                  quelles sommes le reste a pu monter. La maçonnerie des façades, quoique sans aucun
+                  ordre d’architecture, est d’une tres grande apparence à cause des divers ornemens
+                  qui y sont placez, assez à propos. L’escalier est à main gauche, dans un des coins
+                  de la cour, bâti avec solidité, ainsi que le reste du logis où l’on n’a pas
+                  épargné les voutes dans les endroits qui en pouvoient avoir besoin. Cette maison
+                  est spacieuse et peut fournir toutes les commoditez necessaires au logement d’un
+                  grand Seigneur. La basse cour est separée du reste afin qu’elle cause aucune
+                  incommodité. Pour les dedans, on ne peut rien desirer de plus beau. Les vues en
+                  sont tres riches et tres étendues et des fenêtres. Il semble que les batteaux qui
+                  arrivent incessamment pour la subsistance de cette grande vile viennent prendre
+                  terre aux piés de cette belle maison. On les voit des fenêtres se diviser d’un
+                  côté et d’autre pour aller au <placeName>port saint Paul</placeName> ou au <pb/>
+                  <fw type="pageNum">485</fw>
+                  <placeName>Port de la tournelle</placeName> où on les décharge ordinairement. Les
+                  meubles sont magnifiques. On y verra des lits en broderie tres riches et des
+                  tapisseries rehaussées d’or et d’argent. Les peintures y sont aussi excellentes.
+                     <hi rend="capital"><persName>Bourdon</persName></hi>, mort <date when="1671">en
+                     1671</date>, dans le mois d’avril, a peint toute la galerie. Les côtez, au lieu
+                  de Menuiseries, sont tous remplis de ses ouvrages qui occupent long temps les
+                  curieux par l’extrême plaisir qu’ils ont de voir dans ces pieces une partie des
+                  choses que l’on va chercher en <placeName>Italie</placeName> avec tant
+                  d’empressement. Les appartements d’en bas sont fort agréables, où parmis plusieurs
+                  chambres, on a menagé un Sale pour les bains. Enfin, rien ne manque à cette belle
+                  maison et l’on y trouve tout ce que l’on peut desirer. Celuy qui l’a fait
+                  construire n’ayant rien du tout épargné, pour la rendre magnifique et commode
+                  comme elle est à present. On y verra encore un cabinet rempli d’excellens tableaux
+                  d’un choix et d’une beauté singuliere, assemblez par une personne qui s’y connoit
+                  parfaitement.</p>
+               <p>En sortant de cette Maison, on doit prendre le chemin du <placeName><hi
+                        rend="capital">Quay Dauphin</hi></placeName>, que l'on nomme aussi le
+                        <placeName><hi rend="capital">Quay des Balcons</hi></placeName>, parce que
+                  toutes les maisons qui le bordent ont des balcons qui sortent des fenêtres, pour
+                  jouir des vûes charmantes qui se trouvent de ce côté-là.</p>
+               <pb/>
+               <fw type="pageNum">486</fw>
+               <p>Mais la plus belle, est celle qui a été bâtie par <persName><hi rend="capital"
+                        >Hesselin</hi></persName>, Maître de la Chambre aux Deniers de la Maison du
+                  Roy, qui de son temps passoit pour un grand Amateur des beaux Arts &amp; des
+                  choses extraordinaires, &amp; qui s'y connoissoit parfaitement. Il fit bâtir cette
+                  Maison sur les desseins de <persName>le <hi rend="capital">Veau</hi></persName>.
+                  La face est d'une ordonnance gracieuse, sans être embarassée d'ornemens inutiles
+                  &amp; superflus. Les dedans ont leurs beautez particulieres. L'escalier est
+                  remarquable, &amp; les chambres ont des plafons peints par des Maîtres excellens.
+                  La cour est à la verité petite, parce que l'on n'a pas été en liberté de luy
+                  donner plus d'espace, à cause du voisinage qu'elle a ; cependant l'exterieur du
+                  bâtiment de ce côté-là, est fort embelli ; ce qui repare ce défaut. Cette belle
+                  Maison appartient à present à <persName><hi rend="capital"
+                     >Forcadel</hi></persName>, Commissaire des Saisies Réelles, qui a dépensé au
+                  moins cent mile francs, pour la reparer &amp; pour remettre dans le goût de la
+                  mode ce qui n'y étoit plus.</p>
+               <p>La Maison de <persName><hi rend="italic">Jean</hi>
+                     <hi rend="capital">Rouillé</hi></persName> Conseiller d'Etat, est dans la même
+                  suite. Il y a un escalier qui merite sur tout d'être vû. Il est soutenu de
+                  colonnes Ioniques, &amp; enrichi de bas-reliefs. Du côté de la cour ; le bâtiment
+                  est orné d'Architecture, où il paroît du dessein.</p>
+               <p>Pour ne rien negliger dans ce Quartier, il faut aller dans la rue saint Louis, qui
+                  traverse l'Isle, comme on a déjà dit, où l'on verra</p>
+               <gap reason="sampling"/>
+            </div>
+            <gap reason="sampling"/>
+         </div>
+      </body>
+      <back>
+         <div xml:lang="fre">
+            <gap reason="sampling"/>
+         </div>
+      </back>
+   </text>
+</TEI>

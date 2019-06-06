@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exemple de problème d'encodage</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <head>Remarques</head>
+            <p>Ce fichier rassemble un certain nombre de passages rencontrés au cours
+               de la transcription des Guides dont l'encodage s'avère
+               problématique.</p>
+            <p>Les problèmes rencontrés permettent notamment d'identifier les limites
+               de la sémantique de la TEI pour identifier des objets culturels au sein
+               du texte ou du point de vue de l'indexation. Si l'on confie la
+               définition de ces objets à une sémantique que celle de la TEI pour ne
+               désigner qu'une chaîne de caractère que l'on indexerait par la suite, à
+               quel cas de figure l'emploi d'éléments d'indexation tels que placeName
+               doit-elle réservée ? La chaîne de caractères qui désigne ou fait
+               référence dans le texte à un lieu ou un objet culturel doit-elle
+               nécessairement être balisée dans le fichier TEI ? Quels sont les
+               éléments génériques de la TEI qui s'appliquent le mieux à ce
+               balisage ?</p>
+            <p>Le cas à traiter est intéressant du point de vue de la TEI car il impose
+               de réfléchir au périmètre de la TEI pour l'encodage en vue de
+               l'indexation. Il peut soit conduire à préciser les éléments et les
+               systèmes mis en place dans la TEI pour l'indexation, soit à définir des
+               stratégies reposant sur l'utilisation d'autres modèles pour baliser le
+               texte. La TEI est d'abord une ontologie du texte, son vocabulaire
+               s'applique principalement à la description de phénomènes textuels. Ce
+               que nous voulons indexer dans le texte relève d'une réalité externe au
+               texte dont il est fait mention à l'intérieur du texte. De deux choses
+               l'une, ou l'on décide que les passages concernés sont un des éléments du
+               contenu du texte que l'on souhaite baliser, ou l'on considère qu'ils
+               font référence à quelquechose. [[affiner]]</p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Tomaison</head>
+            <p>Du point de vue de la macrostructure, comment tenir compte de la
+               tomaison pour prendre en charge correctement les pages de titre et
+               éventuellement les variation dans la structure du texte ? Quelle est
+               l'unité de traitement pour le travail ?</p>
+         </div>
+         <div>
+            <!-- brice -->
+            <!-- Quelle est l'entité nommée ? -->
+            <fw type="pageNum">x</fw>
+            <gap reason="sampling"/>
+            <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 450.</ref> Il est parlé de
+                  l'<placeName>Hôtel de Pontchartrain</placeName>, <placeName>rue Neuve
+                  des Petits-Champs</placeName>. Cet Hôtel s'appelle à présent
+                  l'<placeName>Hôtel des Ambassadeurs</placeName>, depuis que le Roi
+               l'a destiné pour y loger les Ambassadeurs, à la place de
+                  l'<placeName>Hôtel</placeName> qu'ils avoient auparavant
+                  <placeName>rue de Tournon</placeName>.</p>
+            <gap reason="sampling"/>
+            <!-- autre exemple avec pb typo, et désignation de voies + jardin qui n'est pas un lieu proprement dit -->
+            <fw type="pageNum">xiv</fw>
+            <fw type="runningHead" rend="smallCapitals">Avertissement.</fw>
+            <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 266.</ref>
+                     L'<placeName><hi rend="italic">Hôtel de
+                  Lesdiguières</hi></placeName>, appelé depuis l'<placeName><hi
+                     rend="italic">Hôtel de Villeroi</hi></placeName>, a été
+               entièrement démoli, il y a quelques années. Une partie du terrain a été
+               employé à percer <placeName>une rue</placeName>, qui va de <placeName>la
+                  rue de la Cerisaye</placeName> dans la <placeName>rue Saint
+                  Antoine</placeName>. L'autre partie a été vendue aux <orgName>Filles
+                  de Ste Marie</orgName> pour aggrandir <placeName>leur
+                  Jardin</placeName>.<gap reason="sampling"/></p>
+         </div>
+         <div>
+            <!-- Comment qualifier les objets culturels désignés dans le texte ?
+            par ailleurs est-il possible d'utiliser des chaînes de références -->
+            <!-- Distinguer la désignation de l'édifice proprement dit -->
+            <!-- Dans quelle mesure l'encodage du texte peut-il nous conduire à établir des listes de dénominations -->
+            <gap reason="sampling"/>
+            <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 478.</ref> On y fait la
+                  descrip<pb/><fw type="runningHead" rend="smallCapitals"
+                  >Avertissement.</fw><gap reason="sampling"/><fw type="pageNum"
+                  >xj</fw>tion de l'<placeName>Hôtel de Soissons</placeName>. Cet Hôtel
+               vient d'être entièrement démoli. On n'a conservé que la colonne
+               colossale<!-- placeName ? un objet -->, que <persName>Catherine de
+                  Médicis</persName> avoit fait élever dans l'un des coins de <rs>cet
+                  Hôtel</rs>.</p>
+            <gap reason="sampling"/>
+         </div>
+         <div>
+            <!-- Pb entités-nommées personnes, questions typographiques -->
+            <pb/>
+            <fw type="pageNum">xij</fw>
+            <gap reason="sampling"/>
+            <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 206.</ref>
+               <q>L'<placeName>Hôtel de Sully</placeName></q>, dit <persName>Germain
+                  Brice</persName>, <q>a autrefois appartenu à un nommé Gallet, riche
+                  Partisan de profession : il avoit <pb/><fw type="runningHead"
+                     rend="smallCapitals">Avertissement.</fw><fw type="pageNum"
+                     >xiij</fw> fait édifier cet Hôtel de son gain,
+                     <abbr>&amp;c.</abbr></q>
+               <rs>L'Auteur</rs> a suivi en cela tradition commune, selon laquelle
+                  <persName>les Éditeurs de <persName>Boileau</persName></persName> ont
+               dit la même chose. <persName><abbr>M.</abbr> Piganiol</persName> nous
+               apprend au contraire que cette maison fut bâtie par <persName><hi
+                     rend="smallCapitals">Du Cerceau</hi></persName>, pour
+                     <persName><hi rend="italic">Maximilien de Béthune de
+                  Sully</hi></persName>, &amp; que ceux qui assurent qu'elle a
+               appartenu à <q><persName>Gallet</persName>, qui d'Élu de Chinon</q>,
+               dit-il, <q>étoit parvenu à être Contrôleur Général des Finances</q>,
+               confondent deux maisons bien différentes.
+                  <q><persName>Gallet</persName></q>, continue
+                     <persName><abbr>M.</abbr> Piganiol,</persName>
+               <q>étoit propriétaire <placeName>d'une maison dans laquelle il y avoit
+                     un cabaret</placeName>, qui étant auprès de l'<placeName>Hôtel de
+                     Sully</placeName>, l'avoit pris pour enseigne.
+                     <persName>Gallet</persName> fut obligé de la vendre pour payer ses
+                  créanciers, &amp; la conformité de ce nom a fait croire &amp; dire
+                  que l'<placeName>Hôtel des Ducs de Sully</placeName> lui avoit
+                  appartenu, &amp; qu'il l'avoit perdu au jeu.</q>
+               <persName><abbr>M.</abbr> Piganiol</persName>,
+                     <title><abbr>Descrip.</abbr> de Paris</title>, <abbr>tom.</abbr>
+               4. <abbr>pag.</abbr> 411.</p>
+            <pb/>
+         </div>
+         <div>
+            <!-- Comment traiter les ouvrages cités (titre ou référence ?), comment traiter la pagination des ouvrages cités, comment traiter les citations parfois tronquées, etc. -->
+            <fw type="pageNum">xj</fw>
+            <gap reason="sampling"/>
+            <p><ref>Tome II. <hi rend="italic"><abbr>Pag.</abbr></hi> 152.</ref> Il se
+               trouve dans l'<title>Épitaphe</title> de <persName>M. du
+                  Cange</persName> plusieurs fautes, que les Éditeurs n'ont pas eu
+               l'attention de corriger. <num>1°.</num> Ligne 8. au lieu de <foreign
+                  xml:lang="lat">Franciæ quœstorum</foreign>, il faut lire <foreign
+                  xml:lang="lat">Franciæ quœstori</foreign>. Lig. 20. on a mis <foreign
+                  xml:lang="lat">ohsequio</foreign> pour <foreign xml:lang="lat"
+                  >obsequio</foreign>. Vers la fin de cette même Épitaphe, pag. 153.
+               lig. 14. On lit <foreign xml:lang="lat">filius &amp;
+               quant !</foreign><!-- TODO étoile pour appel de note --></p>
+
+            <!-- autre exemple citation avec source, utiliser cit ? quid de l'interruption de la citation, du titre ? -->
+            <pb/>
+            <fw type="pageNum">xij</fw>
+            <gap reason="sampling"/>
+            <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 206.</ref>
+               <q>L'<placeName>Hôtel de Sully</placeName></q>, dit <persName>Germain
+                  Brice</persName>, <q>a autrefois appartenu à un nommé Gallet, riche
+                  Partisan de profession : il avoit <pb/><fw type="runningHead"
+                     rend="smallCapitals">Avertissement.</fw><fw type="pageNum"
+                     >xiij</fw> fait édifier cet Hôtel de son gain,
+                     <abbr>&amp;c.</abbr></q>
+               <rs>L'Auteur</rs> a suivi en cela tradition commune, selon laquelle
+                  <persName>les Éditeurs de <persName>Boileau</persName></persName> ont
+               dit la même chose. <persName><abbr>M.</abbr> Piganiol</persName> nous
+               apprend au contraire que cette maison fut bâtie par <persName><hi
+                     rend="smallCapitals">Du Cerceau</hi></persName>, pour
+                     <persName><hi rend="italic">Maximilien de Béthune de
+                  Sully</hi></persName>, &amp; que ceux qui assurent qu'elle a
+               appartenu à <q><persName>Gallet</persName>, qui d'Élu de Chinon</q>,
+               dit-il, <q>étoit parvenu à être Contrôleur Général des Finances</q>,
+               confondent deux maisons bien différentes.
+                  <q><persName>Gallet</persName></q>, continue
+                     <persName><abbr>M.</abbr> Piganiol,</persName>
+               <q>étoit propriétaire <placeName>d'une maison dans laquelle il y avoit
+                     un cabaret</placeName>, qui étant auprès de l'<placeName>Hôtel de
+                     Sully</placeName>, l'avoit pris pour enseigne.
+                     <persName>Gallet</persName> fut obligé de la vendre pour payer ses
+                  créanciers, &amp; la conformité de ce nom a fait croire &amp; dire
+                  que l'<placeName>Hôtel des Ducs de Sully</placeName> lui avoit
+                  appartenu, &amp; qu'il l'avoit perdu au jeu.</q>
+               <persName><abbr>M.</abbr> Piganiol</persName>,
+                     <title><abbr>Descrip.</abbr> de Paris</title>, <abbr>tom.</abbr>
+               4. <abbr>pag.</abbr> 411.</p>
+            <pb/>
+
+            <!-- question des appelation de l'auteur rs ? -->
+            <fw type="pageNum">xj</fw>
+            <gap reason="sampling"/>
+            <note>
+               <p><persName>M. Piganiol</persName> a fait contre <persName>Germain
+                     Brice</persName> une sortie un peu vive à l'occasion de cette
+                  faute ; il prétend que les deux abbréviations <q><foreign
+                        xml:lang="lat">et quæst.</foreign> n'ayant point</q>, dit-il,
+                     <q>été entendues par Germain Brice, il leur a substitué <foreign
+                        xml:lang="lat">et quant !</foreign> que personne ne peut
+                     entendre, &amp; que très-certainement il n'entendoit pas lui-même.
+                     Cette faute</q>, continue <rs>cet Auteur,</rs>
+                  <q>&amp; plusieurs autres que j'ai remarquées dans les Épitaphes
+                     qu'il a rapportées, m'ont convaincu que <rs>ce Descripteur de
+                        Paris</rs> n'entendroit pas le latin.</q></p>
+            </note>
+         </div>
+         <div>
+            <!-- Comment traiter les emphases, les traductions, majuscules, sans majuscules, etc. -->
+            <fw type="pageNum">xj</fw>
+            <gap reason="sampling"/>
+            <note>
+               <p>Il me semble au contraire que l'<foreign xml:lang="lat">et
+                     quant !</foreign> peut être <hi rend="emphasis">entendu</hi>, que
+                     <persName>Brice</persName>
+                  <hi rend="emphasis">l'entendoit</hi>, &amp;<pb/><fw type="pageNum"
+                     >xij</fw><fw type="runningHead" rend="smallCapitals"
+                     >Avertissement.</fw> cela, parce qu'il entendois le latin. Cet
+                     <foreign xml:lang="lat">&amp; quant
+                  !</foreign><!-- l'esperluette fait-elle partie du latin -->
+                  c'est-à-dire, <q>dans ce même endroit gît <persName>Philippe du
+                        Frêne</persName>, fils de Charles, &amp; quel fils !</q> Telle
+                  est la force du mot <foreign xml:lang="lat">quantus</foreign>, qui
+                  signifie, <hi rend="traduction">quel</hi>, <hi rend="traduction"
+                     >combien grand</hi>. <gap reason="sampling"/></p>
+            </note>
+         </div>
+         <div>
+            <!-- Structure du texte, versus inscription sur le support -->
+            <!-- Le problème des notes -->
+            <fw type="pageNum">xj</fw>
+            <gap reason="sampling"/>
+            <p><ref>Tome II. <hi rend="italic"><abbr>Pag.</abbr></hi> 152.</ref> Il se
+               trouve dans l'<title>Épitaphe</title> de <persName>M. du
+                  Cange</persName> plusieurs fautes, que les Éditeurs n'ont pas eu
+               l'attention de corriger. <num>1°.</num> Ligne 8. au lieu de <foreign
+                  xml:lang="lat">Franciæ quœstorum</foreign>, il faut lire <foreign
+                  xml:lang="lat">Franciæ quœstori</foreign>. <abbr>Lig.</abbr> 20. on a
+               mis <foreign xml:lang="lat">ohsequio</foreign> pour <foreign
+                  xml:lang="lat">obsequio</foreign>. Vers la fin de cette même
+               Épitaphe, <abbr>pag.</abbr> 153. <abbr>lig.</abbr> 14. On lit <foreign
+                  xml:lang="lat">filius &amp; quant !</foreign><!-- TODO étoile pour appel de note --><note>
+                  <gap reason="sampling"/>
+                  <p>Il me semble au contraire que l'<foreign xml:lang="lat">et
+                        quant !</foreign> peut être <hi rend="emphasis">entendu</hi>,
+                     que <persName>Brice</persName>
+                     <hi rend="emphasis">l'entendoit</hi>, &amp;<pb/><fw type="pageNum"
+                        >xij</fw><fw type="runningHead" rend="smallCapitals"
+                        >Avertissement.</fw> cela, parce qu'il entendois le latin. Cet
+                        <foreign xml:lang="lat">&amp; quant !</foreign>
+                     <gap reason="sampling"/> Ceux qui l'ont connu assurent qu'il
+                     possédoit parfaitement cette Langue, &amp; on dit même que
+                     n'entendant point la langue naturelle de plusieurs des Étrangers
+                     qu'il conduisoit dans <placeName>Paris</placeName>, c'étoit en
+                     latin qu'il leur expliquoit tout ce qu'il y avoit de remarquable.
+                     Il se servoit même de cette langue pour faire entendre les
+                     principes du François à ceux des Étrangers qui ne vouloient
+                     l'apprendre que de
+                  lui.</p><!-- RMQ annecdote piquante sur le latin et l'auteur --></note>
+               Il faut lire <foreign xml:lang="lat">filius et. quœst.</foreign>
+               c'est-à-dire, <foreign xml:lang="lat">filius etiam
+               quœstor</foreign>.</p>
+            <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 206.</ref>
+               <q>L'<placeName>Hôtel de Sully</placeName></q>, dit <persName>Germain
+                  Brice</persName>, <q>a autrefois appartenu à un nommé Gallet, riche
+                  Partisan de profession : il avoit <pb/><fw type="runningHead"
+                     rend="smallCapitals">Avertissement.</fw><fw type="pageNum"
+                     >xiij</fw> fait édifier cet Hôtel de son gain,
+                     <abbr>&amp;c.</abbr></q><gap reason="sampling"/></p>
+         </div>
+         <div>
+            <!-- placeName dans orgName, etc. comment traiter l'imbrication ? au niveau de l'index ou de l'encodage ? -->
+            <p><pb/><fw type="pageNum">xvj</fw><fw type="runningHead"
+                  rend="smallCapitals">Avertissement.</fw> quelque chose de curieux à
+               voir, occasionnoient de la part de ces Seigneurs des reconnoissances
+               utiles, qui augmentoient encore l'aisance dont il jouissoit. De sorte,
+               qeu l'on ne peut pas dire que <persName>Germain Brice</persName> ait
+               jamais été menacé de tomber dans l'indigence. Il vivoit d'une façon
+               très-honnête, &amp; a toujours eu un domestique pour le servir ; c'est
+               ce que nous assurons d'après le témoignage d'un de ses neveux
+                     <!-- TODO astérisque comme appel de note --><note><p>Le
+                           <persName><abbr>R.</abbr>
+                        <abbr>P.</abbr> Dom Brice</persName>, Religieux de
+                        l'<orgName>Abbaye de <abbr>S.</abbr>
+                     Germain-des-Prés</orgName>.<!-- Traiter le placeName dans l'index ? --></p></note><gap
+                  reason="sampling"/></p>
+         </div>
+      </body>
+   </text>
+</TEI>

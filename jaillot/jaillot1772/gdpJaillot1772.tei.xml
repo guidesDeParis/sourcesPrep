@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/gdpSchemaTEI.rng" 
+            type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+    Guides de Paris, corpus de Jaillot
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fre" type="main">Jaillot, 1772</title>
+            <principal>
+               <persName ref="#MCL">
+                  <forename>Marianne</forename>
+                  <surname>Cojannot-Le Blanc</surname>
+                  <affiliation>
+                     <orgName>Histoire des Arts &amp; Représentations</orgName>
+                     <orgName type="acronym">HAR</orgName>
+                     <orgName type="alt">EA 4414</orgName>
+                     <roleName>responsable scientifique</roleName>
+                  </affiliation>
+                  <affiliation>
+                     <orgName>Université Paris-Ouest Nanterre-La
+                        Défense</orgName>
+                     <orgName type="alt">Paris 10</orgName>
+                     <roleName>Professeur d'histoire de l'art</roleName>
+                  </affiliation>
+               </persName>
+            </principal>
+            <funder>
+               <orgName>Labex Les Passés dans le Présent</orgName>
+               <date from="2013" to="2018">2013-2018</date>
+            </funder>
+            <respStmt>
+               <resp key="prg">modélisation XML-TEI</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="mrk">encodage</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="edt">édition</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">première édition électronique, <date from="2013"
+               to="2018">2013-2018</date></edition>
+         </editionStmt>
+         <extent><!-- TODO : taille du fichier en octet --></extent>
+         <publicationStmt>
+            <date when="2013">2013</date>
+            <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
+            <idno>ark</idno>
+            <!-- responsable de la publication -->
+            <publisher>
+               <orgName>Histoire des Arts et Représentations</orgName>
+               <orgName type="acronym">HAR</orgName>
+               <address>
+                        <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                        <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                        <addrLine>200, Avenue de la République</addrLine>
+                        <addrLine>92001 Nanterre Cedex</addrLine>
+                        <addrLine>France</addrLine>
+                        <addrLine>http://har.u-paris10.fr</addrLine>
+                        <addrLine>harparisouest@gmail.com</addrLine>
+                    </address>
+            </publisher>
+            <availability status="restricted" xml:id="jaillotLicence">
+               <licence
+                  target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+                  <p>Texte de la licence</p>
+                  <graphic
+                     url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"
+                  />
+               </licence>
+               <p>Texte de la licence choisie.</p>
+               <!-- TODO : <licence> à ajouter partout -->
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="fre" type="main">Les Guides de Paris</title>
+            <title xml:lang="fre" type="sub">Les historiens des arts et les corpus
+               numériques</title>
+            <idno type="URI">http://www.guidesdeparis.net</idno>
+         </seriesStmt>
+         <!--<notesStmt>
+                <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
+                <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
+            </notesStmt>-->
+         <!-- description de la source -->
+         <sourceDesc xml:id="jaillot">
+            <bibl copyOf="#jaillotBiblio" />
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- description du projet éditorial -->
+         <projectDesc>
+            <p>L'édition des Guides de Paris fait partie d'un programme de
+               recherche sur les historiens de l'art et les corpus numériques.</p>
+         </projectDesc>
+         <!-- déclaration des principes éditoriaux -->
+         <editorialDecl>
+            <correction>
+               <p>La syntaxe originale du manuscrit a été respectée en suivant les
+                  indications de Bernard Barbiche, <ref type="external"
+                     target="http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes"
+                     >Conseils pour l’édition des textes de l’époque moderne
+                     (XVI<hi rend="superscript">e</hi>-XVIII<hi
+                        rend="superscript">e</hi> siècle)</ref>.</p>
+            </correction>
+            <hyphenation>
+               <p>Pour les ouvrages imprimés, il n'a pas été tenu compte de
+                  l'hyphénation.</p>
+            </hyphenation>
+            <interpretation>
+               <p>Les interprétations sont traitées au moyen d'un élément supplied
+                  ou bien sont renvoyées en notes. Une mention de responsabilité
+                  est fournie grâce à l'attribut resp sur le passage
+                  concerné.</p>
+            </interpretation>
+            <normalization>
+               <p>La ponctuation ainsi que les majuscules ont été normalisées. Les
+                  abréviations ont été développées.</p>
+            </normalization>
+            <stdVals>
+               <p>On utilise...</p>
+            </stdVals>
+            <quotation>
+               <p>Les citations dans le texte sont encodées soit au moyen d'un
+                  élément quote, soit au moyen d'un élément...</p>
+            </quotation>
+         </editorialDecl>
+         <!-- déclaration concernant la méthode d'établissement du corpus (sélection) -->
+         <refsDecl>
+            <p>Description du système de référence canonique.</p>
+            <!-- TODO à renseigner avec une expression régulière -->
+         </refsDecl>
+         <samplingDecl>
+            <p>Échantillonnage</p>
+            <!-- TODO modifier à la fin du projet -->
+         </samplingDecl>
+         <variantEncoding method="location-referenced" location="external" />
+      </encodingDesc>
+      <!-- présentation du profil de fichier -->
+      <profileDesc>
+         <creation when="2013">2013</creation>
+         <langUsage>
+            <language ident="fre" usage="100">Français (langue principale du
+               corpus)</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="fre" scheme="http://data.bnf.fr/liste-rameau">
+               <term>18e siècle</term>
+               <term>France</term>
+            </keywords>
+            <keywords xml:lang="eng"
+               scheme="http://id.loc.gov/authorities/about.html#lcsh">
+               <term>17th-18th centuries</term>
+               <term>France</term>
+            </keywords>
+            <classCode
+               scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
+               <term>Text</term>
+            </classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-29">Premier échantillonnage</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <!-- Traite-t-on les volumes isolément ? l'ouvrage devenant un corpus -->
+      <!-- Sinon dans des fichiers différents, dans un fichier unique en conservant structure front, body, back -->
+      <front>
+         <titlePage xml:lang="fre">
+            <docTitle>
+               <titlePart rend="capital">Recherches <lb />critiques, <lb />historiques
+                  et topographiques <lb />sur <lb />la ville de Paris, <lb />depuis ses
+                  commencements connus <lb />jusqu'à présent ; <lb />Avec le Plan de
+                  chaque Quartier : <lb />Par le <abbr>Sr</abbr> Jaillot, Géographe
+                  Ordinaire du Roi.</titlePart>
+               <!-- Quim verum... curo & rogo, & omnis in hoc sum. Horat. Libr. I, Epist. I.-->
+               <titlePart rend="capital">Premier Quartier. <lb />La Cité.</titlePart>
+            </docTitle>
+            <docImprint>
+               <pubPlace>À Paris</pubPlace>
+               <publisher>Chez Aug. Mart. Lottin aîné, Imprimeur-Libraire Ordinaire de
+                     M<hi rend="superscript">gr</hi> Le Dauphin &amp; de la Ville, rue
+                  S. Jacques, au Coq</publisher>
+               <date when="1772">M. DCC. LXXII.</date>
+               <!-- Avec Approbation, & Privilège du Roi. -->
+            </docImprint>
+         </titlePage>
+         <pb />
+         <space quantity="1" unit="page" />
+         <pb />
+         <div xml:lang="fre">
+            <!-- cartouche -->
+            <div type="preface">
+               <head rend="capital"><hi rend="bigger italic">Discours</hi>
+                  <lb />préliminaire.</head>
+               <p><hi rend="capital"><hi rend="initial">E</hi>n lisant</hi> seuleument
+                  les titres des différents Ouvrages qui ont été publiés depuis deux
+                  siècles sur cette Capitale, on seroit tenté de croire, par leur
+                  nombre &amp; par leur étendue, que leurs Auteurs ont épuisé toutes
+                  les recherches, &amp; qu'ils ne nous ont rien laissé à désirer sur
+                  tout ce qui la concerne. Cependant, si l'on examine leurs écrits avec
+                  attention &amp; sans partialité, on verra qu'ils sont en
+                  contradiction les uns avec les autres sur les faits historiques, sur
+                  leurs époques, sur leurs circonstances, souvent même sur les lieux où
+                  ils se sont passés ; que la Chronologie, partie essentielle de
+                  l'Histoire, y a été négligée ; que l'on n'a point corrigé les
+                  erreurs, ni rétabli les omissions ; enfin, qu'on a souvent substitué
+                  les conjectures à la vérité ; soit que ceux qui ont écrit aient été
+                  effrayés de l'immensité des recherches nécessaires pour la découvrir,
+                  soit qu'ils aient été rebutés par les difficultés, ou découragés par
+                  l'inutilité des tentatives qu'ils ont faites pour les surmonter.</p>
+               <p>J'avoue que l'antiquité est enveloppée de nuages qu'il est difficile
+                  de dissiper, <!-- a iij -->
+                  <pb /><fw type="pageNum">vj</fw><fw type="runningHead">Discours
+                     préliminaire.</fw> souvent même d'une obscurité qu'il est
+                  impossible de percer. L'ignorance qui régnoit dans les premiers
+                  siècles de notre Monarchie, les malheurs des temps, &amp; la
+                  négligence de quelques Historiens contemporains, nous ont privés de
+                  la connoissance d'une infinité de faits intéressants : ceu qui les
+                  ont suivis, n'ont souvent mis en usages que les ressources de
+                  l'imagination ; les fictions tenoient alors la place de la réalité,
+                  le merveilleux seula voit droit de plaire : dès que la crédulité
+                  publique avoit adopté des fables, quoiqu'absurdes &amp; dénuées de
+                  vraisemblance, elles passoient pour des vérités incontestables ; on
+                  ne s'imaginoit pas même qu'on dut les approfondir, encore moins qu'il
+                  fût permis d'en douter. Des temps plus heureux ont succédé ; l'amour
+                  des Sciences &amp; des Arts a épuré le goût &amp; multiplié les
+                  connoissances ; on s'est appliqué à discerner le vrai d'avec le
+                  faux ; mais, quand on n'a pu y parvenir, on s'est livré aux
+                  conjectures, &amp; du doute sont nées les opinions différentes qui
+                  ont partagé les Savants.</p>
+               <p>Je ne trouve point qu'avant le règne de <persName>François
+                     I</persName>, aucun Écrivain se soit attaché à nous donner
+                  l'Histoire de <placeName>Paris</placeName>. <persName>Gilles
+                     Corrozet</persName>, Libraire, est, à ce que je crois, le premier
+                  qui ait travaillé sur ce sujet. Il publia <date when="1532">en
+                     1532</date> un Volume <hi rend="italic">in-8<hi rend="superscript"
+                        >o</hi></hi> sous ce <pb /><fw type="pageNum">vij</fw><fw
+                     type="runningHead">Discours préliminaire.</fw> titre : <title>La
+                     Fleur des Antiquités, Singularités &amp; Excellence de la Ville
+                     &amp; Cité de Paris</title>. Cet Ouvrage n'a guère aujourd'hui
+                  d'autre mérite que celui de son ancienneté ; mais alors il fut
+                  recherché avec empressement ; on peut en juger par quatre éditions
+                  subséquentes ; il fut même réimprimé avec des augmentations par
+                     <persName>Nicolas Bonfons</persName>, Libraire, <date when="1581"
+                     >en 1581</date>, <date when="1586">1586</date>
+                  <!-- TODO appel de note --> &amp; <date when="1588">1588</date>.</p>
+               <p><persName>Dom Jacques du Breul</persName>, Religieux Bénédictin de
+                     <orgName>Saint-Germain-des-Prés</orgName>, retoucha cet Ouvrage,
+                  le corrigea &amp; l'augmenta <date when="1608">en 1608</date> : plus
+                  laborieux &amp; plus éclairé que Corrozet &amp; Bonfons, ami de la
+                  vérité, qui est la base de l'Histoire, il fit des recherches utiles,
+                  consultat les Titres, les personnes instruites, &amp; donna au Public
+                     <date when="1612">en 1612</date>
+                  <!-- TODO appel de note -->, <title>le Théâtre des Antiquités de
+                     Paris</title>, en un Volume <hi rend="italic">in-4<hi
+                        rend="superscript"
+                  >o</hi></hi><!-- ou bien encodé comme latin -->, auquel il ajouta un
+                  Supplément <date when="1614">en 1614</date> : il fut réimprimé avec
+                  quelques additions <date when="1639">en 1639</date>. Cet Ouvrage est
+                  précieux, &amp; a été d'un très-grand secours à ceux qui ont écrit
+                  après lui : quelques-uns d'entr'eux ne lui ont pas rendu toute la
+                  justice qu'il mérite ; leur critique auroit pu être plus polie, &amp;
+                  l'équité exigeoit qu'on eût égard à son grand <!-- TODO note : "Cette étoile &amp; celles qu'on trouvera dans ce Discours, indiquent les éditions que j'ai citées dans le corps de l'ouvrage."--><!-- a iv -->
+                  <pb /><fw type="pageNum">x</fw><fw type="runningHead">Discours
+                     préliminaire.</fw> uns, &amp; n'a pas même nommé les autres.</p>
+               <p><date when="1728">En 1728</date>, <persName><abbr>M.</abbr>
+                     Grancolas</persName> donna, en <num>2</num> volumes <hi
+                     rend="italic">in-12</hi><!-- encoder en latin ? -->,
+                     <title>l'Histoire abrégé de l'Église &amp; de l'Université de
+                     Paris</title>. Les expressions peu mesurées, pour ne rien dire de
+                  plus, dont il s'est servi en parlant de <persName>feu <abbr>M.</abbr>
+                     le Cardinal de Noailles</persName>, Prélat plus recommandable
+                  encore par ses vertus que par sa haute naissance, firent supprimer
+                  cet Ouvrage. Il eut été peut-être à désirer pour l'Auteur &amp; pour
+                  le Public, qu'il ne fut pas sorti de l'oubli auquel il avoit été si
+                  justement condamné.</p>
+               <p>Les Personnes éclairées porteront un jugement tout contraire de
+                     <title>l'Histoire de l'Université</title>, publiée <date
+                     when="1761">en 1761</date> en <num>7</num> Volumes <hi
+                     rend="italic">in-12</hi><!-- encoder en latin -->, par
+                        <persName><abbr>M.</abbr> Crevier</persName>, Professeur au
+                     <orgName>Collège de Beauvais</orgName>. L'Ouvrage est digne de son
+                     <rs>Auteur</rs>. Ce mot suffit, à ce que je crois pour en faire
+                  l'éloge le plus distingué.</p>
+               <p>Germain Brice publia <date when="1684">en 1684</date> une
+                     <title>Description</title>, en <num>2</num> Volumes <hi
+                     rend="italic">in-12</hi><!-- encoder en latin ? -->, <title>de ce
+                     qu'il y a de plus remarquable dans la Ville de Paris</title>. Neuf
+                  éditions de cet Ouvrage jusqu'<date when="1752">en
+                  1752</date><!-- encoder appel de note --> prouvent qu'il n'est pas
+                  sans mérite. Il y a peut-être autant d'excès dans les éloges qu'on
+                  lui a prodigués, que dans la Critique qu'on en a faite. Il annonce la
+                  facilité de l'<rs>Auteur</rs>, &amp; ses connoissances en Peinture,
+                  Sculpture &amp; Architecture ; mais les détails
+                     his<pb />toriques<!-- TODO chercher une solution d'encodage plus élégante --><fw
+                     type="runningHead">Discours préliminaire</fw><fw type="pageNum"
+                     >xj</fw> qu'il y a joints, manquent presque toujours
+                  d'exactitude.</p>
+               <p><date when="1753">L'année suivante</date>, <persName><abbr>M.</abbr>
+                     le Maire</persName> donna, en <num>3</num> Volumes <hi
+                     rend="italic">in-12</hi>, le <title>Paris ancien &amp;
+                     moderne</title>. Ce Livre est un extrait bien fait du
+                     <title>Théâtre des Antiquités</title> de <persName>du
+                     Breul</persName> : on le liroit avec beaucoup plus de plaisir,
+                  s'il eût été mis dans un ordre différent.</p>
+               <p><date when="1690">En 1690</date> parut le premier Volume de
+                     l'<title>Histoire de l'Église de
+                     <placeName>Paris</placeName></title>, par <persName>Gérard
+                     Dubois</persName>, Prêtre de l'<orgName>Oratoire</orgName>. Le
+                  Second n'a été publié qu'<date when="1707">en 1707</date>, par le
+                        <persName><abbr>P.</abbr> Barthélemi de la Ripe</persName>, de
+                     <rs>la même Congrégation</rs>. Cette Histoire, écrite en Latin,
+                  est trop diffuse, &amp; ne traite pas de tous les monuments
+                  ecclésiastiques de cette <rs>Ville</rs> : on auroit pu la rendre plus
+                  intéressante &amp; plus ample, sans augmenter le nombre des Volumes ;
+                  mais elle nous présente plusieurs Titres précieux, qui dédommagent en
+                  partie de ce qu'elle laisse à désirer.</p>
+               <p>Les accroissements &amp; les embellissements de
+                     <placeName>Paris</placeName>, depuis le commencement de ce siècle,
+                  ont donné lieu à différentes <title>Descriptions</title> de cette
+                  Ville, dont on parle à peine aujourd'hui. Celle que
+                        <persName><abbr>M.</abbr> Piganiol de la Force</persName>
+                  publia <date when="1718">en 1718</date>, &amp; qu'il redonna en 2
+                  Volumes <date when="1722">en 1722</date>, parut mériter quelque
+                  considération ; il nous apprend lui-même qu'il en étoit redevable à
+                  plu<pb />sieurs <fw type="pageNum">xij</fw><fw type="runningHead"
+                     >Discours préliminaire.</fw> extraits du manuscrit de
+                     <persName>Sauval</persName>, qu'il y avoit insérés. Il faut lui
+                  savoir d'autant plus de gré de cet aveu, que quand il parloit de ses
+                  Ouvrages, la modestie n'étoit pas sa vertu favorite : c'est à cette
+                  aveugle prévention qu'il faut attribuer toutes les fautes qui se
+                  trouevnt dans cette Description ; elles se sont perpétuées dans les
+                  éditions suivantes, même dans celle de <date when="1742">1742</date>,
+                  en <num>8</num> Volumes : il est fâcheux que l'Éditeur éclairé qui
+                  nous l'a redonnée <date when="1765">en 1765</date>
+                  <!-- TODO Traiter appel de note -->, en <num>10</num> Volumes, les
+                  ait laissé subsister.</p>
+               <p><date when="1711">Dès l'année 1711</date>, <persName><abbr>M.</abbr>
+                     Bignon</persName>, Prévôt des Marchands, avoit chargé
+                     <persName>Dom Michel Félibien</persName>, Bénédictin de la
+                     <orgName>Congrégation de <abbr>S.</abbr> Maur</orgName>, de
+                  travailler à l'<title>Histoire de la <placeName>Ville de
+                        Paris</placeName></title>. Ce Religieux, déjà connu
+                  avantageusement par les Ouvrages qu'il avoit donnés au Public, étoit
+                  bien capable de justifier le choix de <persName><abbr>M.</abbr>
+                     Bignon</persName>. La mort l'ayant enlevé <date when="1719-09-25"
+                     >le 25 septembre 1719</date>, il fut remplacé par <persName>Dom
+                     Lobineau</persName> : parmi les manuscrits qu'ils avoient
+                  consultés, ceux de <persName>Sauval</persName> avoient été
+                  distingués, &amp; on voit qu'ils les ont souvent cités. Ceux qui en
+                  étoient les dépositaires, se hâtèrent de les faire imprimer <date
+                     when="1724">en 1724</date>, &amp; dans e temps où
+                     <title>l'Histoire de <placeName>Paris</placeName></title> alloit
+                  paroître. L'empressement trop précipité qeu les Li<pb />braires <fw
+                     type="pageNum">xiij</fw><fw type="runningHead">Discours
+                     préliminaire.</fw> marquèrent de part &amp; d'autre, nuisit
+                  également aux deux Ouvrages. Les Éditeurs de Sauval ne mirent pas ses
+                  Recherches dans un ordre convenable, ils ne nous donnèrent qu'un
+                  monceau de pierres propres à construire un édifice solide, mais
+                  qu'ils n'avoient eu ni le temps de choisir, ni peut-être le talent de
+                  dégrossir ; ils laissèrent subsister les répétitons inutiles, les
+                  contradictions, &amp; toutes les fautes inévitables dans un Recueil
+                  de Notes historiques, de faits &amp; de dates qu'il n'avoit pas
+                  vérifiés, &amp; qui ne peuvent se concilier.</p>
+               <p>D'un autre côté, la précipitation avec laquelle <persName>Dom
+                  Lobineau</persName> se vit obligé de publier <date when="1725"
+                  >en 1725</date> <title>l'Histoire de Paris</title> en
+                  <num>cinq</num> Volumes <hi rend="italic">in-folio</hi>, ne
+                  lui permit aps de constater certains faits, &amp; d'en
+                  éclaircir d'autres, ni de rectifier quelques fautes &amp; de
+                  suppléer les omissions. Malgré quelques légers défauts, cet
+                  Ouvrage est d'autant plus précieux, que les trois derniers
+                  Volumes contiennent les pièces justificatives des faits
+                  énoncés dans les deux premiers. <date when="1735">En
+                  1735</date>, on en publia un Abrégé en cinq Volumes <hi
+                  rend="italic">in-12</hi>. Cet Ouvrage est de
+                  <persName><abbr>M.</abbr> d'Auvigny</persName>, qui nous avoit
+                  déjà donné <title>les Hommes illustres de la France</title> :
+                  le Public en fit honneur à <persName>l'Abbé des
+                  Fontaines</persName> ; mais il <pb/><fw type="pageNum"
+                  >xiv</fw><fw type="runningHead">Discours préliminaire.</fw>
+                  convient lui-même qu'il n'y a eu d'autre part que d'avoir
+                  donné ses conseils à l'<rs>Auteur</rs>. On a aussi attribué
+                  cet Ouvrage en entier à <persName>feu <abbr>M.</abbr> de la
+                  Barre</persName>, de l'<orgName>Académie des Inscriptions
+                  &amp; Belles-Lettres</orgName> ; nous ne lui sommes cependant
+                  redevables que d'une partie du 4<hi rend="superscript">e</hi>
+                  Tome &amp; du précis des preuves de <title>l'Histoire</title>
+                  de <persName>Dom Félibien</persName>, qui forme le
+                  cinquième.</p>
+               <p><persName><abbr>M.</abbr> de Saintfoix</persName>, accoutumé à
+                  répandre des graces sur tous les sujets qu'il traite, publia en 1742
+                  la première édition des ses <title>Essais historiques sur
+                        <placeName>Paris</placeName></title>. À proprement parler, il
+                  n'y a que le premier Volume &amp; la moitié du second qui aient un
+                  rapport direct à <rs>cette Ville</rs> ; le reste est l'histoire des
+                  mœurs de la Nation, &amp; de leur conformité ou de leur constraste
+                  avec celle de nos ancêtres &amp; des autres Peuples. Cet Ouvrage
+                  ingénieux a été imprimé quatre fois <!-- TODO appel de note -->. On
+                  le relit toujours avec un nouveau plaisir, qui ne nous permt pas
+                  d'appercevoir quelques négligences dans les traits historiques
+                  rapportés dans les deux premiers Volumes.</p>
+               <quote><foreign xml:lang="lat">Ast ubi plura nitent in Carmine, non ego
+                     paucis Offendar maculis.</foreign></quote>
+               <p>On réimprima <date when="1749">en 1749</date>
+                  <!-- TODO appel de note -->
+                  <title>le Mémorial de <placeName>Paris</placeName></title>, que
+                     <persName>l'Abbé Antonini</persName> avoit publié
+                     <!-- TODO Note : La dernière édition est de 1766. --><pb /><fw
+                     type="pageNum">xv</fw><fw type="runningHead">Discours
+                     préliminaire.</fw>
+                  <date when="1732">en 1732</date>. Cette Description, peu exacte, des
+                  endroits les plus curieux de cette Ville, fut effacée <date
+                     when="1752">en 1752</date> par le <title>Voyage
+                     Pittoresque</title> de <persName><abbr>M.</abbr> Dézalier
+                     d'Argenville</persName>, dont nous avons eu six éditions. Les
+                  Amateurs des Beaux-Arts peuvent le consulter avec plus de certitude
+                  &amp; de satisfaction.</p>
+               <p><date when="1753">L'année suivante</date>, <persName>Dom Toussaint
+                     Duplessis</persName>, Religieux Bénédictin, publia de
+                     <title>Nouvelles Annales de Paris</title>, <date>jusqu'au règne de
+                        <persName>Hugues
+                  Capet</persName></date><!-- TODO enregistrer date normalisée -->. Le
+                  Public n'a pas fait à cet Ouvrage tout l'accueil dont l'Auteur
+                  s'étoit flatté ; il en faut vraisemblablement attribuer la cause à
+                  des opinions particulières, avancées avec trop de confaince &amp;
+                  trop de sécurité, &amp; à des idées singulières, opposées au
+                  témoignage des Historiens, ou à une tradition constante : il faut
+                  cependant convenir qu'on trouve dans ces Annales, des recherches
+                  &amp; des discussions chronologiques, utiles à ceux qui écriront
+                  notre Histoire.</p>
+               <p><date when="1754">En 1754</date>, <persName>l'Abbé Lebeuf</persName>
+                  donna son <title>Histoire du <orgName>Diocèse de
+                     Paris</orgName></title>. Cet Écrivain laborieux, très-versé dans
+                  l'Antiquité, &amp; qui a fait honneur à l'<orgName>Académie des
+                     Inscriptions &amp; Belles-Lettres</orgName>, s'étoit déjà fait
+                  connoître par des <title>Dissertations</title> savantes &amp; des
+                     <title>Mémoires</title> imprimés dans le Recueil de <rs>cette
+                     Académie</rs>. Son Ouvrage est plein de <pb /><fw type="pageNum"
+                     >xvj</fw><fw type="runningHead">Discours préliminaire.</fw>
+                  recherches sans nombre &amp; de toutes espèces mais je ne sais si
+                  l'on ne pourroit pas reprocher à l'<persName>Abbé Lebeuf</persName>
+                  de ne les avoir pas toujours assez approfondies, d'avoir quelquefois
+                  lu avec trop de précipitation, &amp; souvent d'avoir substitué des
+                  conjectures à des opinions graves &amp; généralement reçues. Il s'est
+                  borné, dans les deux premiers Volumes, aux seules Églises Collégiales
+                  ou Paroissiales, &amp; aux anciens Monastères : il eût été à
+                  souhaiter qu'il ne se fût pas contenté d'indiquer seulement les noms
+                  des autres, &amp; d'en fixer l'époque ou l'origine par des dates qui
+                  ne méritent pas toute notre confiance. On peut porter le même
+                  jugement des <title>Notes</title> qu'il a données sur les <title>Rues
+                     anciennes</title> de <persName>Guillot</persName> ; il n'a pas
+                  toujours reconnu celles qui ont changé de nom, oubien il les a
+                  confondues avec d'autres.</p>
+               <p>Je ne parle point de quelques autres Ouvrages sur
+                  <placeName>Paris</placeName>, qui ne méritent pas d'être tirés
+                  de l'oubli, tels que <title>le Calendirer historique</title>,
+                  &amp; <title>l'Histoire des Églises de
+                  <placeName>Paris</placeName></title>, qui ne sont qu'un
+                  plagiat sans goût de quelques articles de
+                  l'<title>Histoire</title> de <persName>Dom
+                  Félibien</persName>, souvent copiés mot pour mot. Je passe
+                  aussi sous silence les <title>Nomenclatures</title> &amp; un
+                  Ouvrage publié depuis peu sous le titre du <title>Géographe
+                  Parisien</title>, dans lequel, à la réserve des anecdotes
+                  copiées d'après les <!-- TODO mot en réclame "Essais" -->
+                  <pb/><fw type="pageNum">xvij</fw><fw type="runningHead"
+                  >Discours préliminaire.</fw> <title>Essais historiques</title>
+                  de <persName><abbr>M.</abbr> de Saintfoix</persName>, je puis
+                  assurer qu'on ne trouvera de vrai, de juste &amp; d'exact que
+                  l'éloge <rs>du Magistrat <!-- TODO appel de note --> auquel il
+                  est dédié</rs>.</p>
+               <p>Si les ouvrages de ceux qui sont écrit<!-- accord ?, sic ? -->
+                  sur <placeName>Paris</placeName> ne sont pas sans défauts, on
+                  est forcé de convenir que nous n'avons pas plus à nous louer
+                  de ceux qui nous ont donné des Plans de <rs>cette
+                  Capitale</rs> ; le Public seroit même en droit de se plaindre
+                  de la multiplicité de ceux qu'on a mis au jour depuis le
+                  commencement de ce siècle, &amp; de l'abus manifeste qu'on
+                  fait tous les jours de sa confiance, en lui présentant de
+                  vieux Plans sous une date moderne. Il y en a cependant qui ne
+                  méritent pas d'être confondus dans la foule ; je cite
+                  volontiers ceux de <persName>Gomboust</persName>, de
+                  <persName>Bullet</persName>, de <persName>Jouvin</persName>,
+                  de <persName>Rochefort</persName>, de
+                  <persName>Delisle</persName>, de <persName>Roussel</persName>,
+                  de <persName>La Grive</persName>, <abbr>&amp;c.</abbr> Le plus
+                  ancien, que je connoisse, est celui que l'on conserve à
+                  l'<orgName>Abbaye de S. Victor</orgName>, &amp; que le
+                  <persName><abbr>S<hi rend="superscript">r</hi></abbr>
+                  Dheulland</persName> a gravé il y a quelques années ; il n'est
+                  guère différent de celui dont on voit un Dessin à la
+                  <orgName>Bibliothèque du Roi</orgName>, &amp; qui paroît avoir
+                  été fait <date>sous le règne de <persName>Louis
+                  XII</persName></date><!-- TODO fournir dates -->. Ce Plan,
+                  quoique peu correct, nous donne toujours une idée de ce
+                  qu'étoit la Ville de Paris <date notBefore="1535"
+                  notAfter="1565">au milieu du XVI<hi rend="superscript">e</hi>
+                  siècle</date>. Mais quel étoit son état antérieur ? par
+                  <!-- TODO note : <persName><abbr>M.</abbr> de Sartine</persName> Conseiller d'État, Lieutenant-Général de Police. --><!-- I. Quartier. b -->
+                  <pb/><fw type="pageNum">xviij</fw><fw type="runningHead"
+                  >Discours préliminaire.</fw> quels degrés cette
+                  <rs>Ville</rs>, qui fait l'admiration de <placeName>toute
+                  l'Europe</placeName>, est-elle parvenue au point de grandeur
+                  &amp; de magnificence où nous la voyons aujourd'hui ? Cette
+                  progression successive ne se trouve pas même décrite dans
+                  l'Histoire ; les notions qu'elle nous donne se ses différents
+                  accroissements se confondent, par la multiplicité des faits
+                  qui les ont précédés ou suivis : l'imagination se perd dans
+                  les détails ; il falloit pour la fixer, présenter aux yeux des
+                  Plans qui nous montrassent, pour ainsi dire, <rs>cette
+                  Ville</rs> de siècle en siècle. <persName>Le Commissaire
+                  Lamarre</persName> l'entreprit ; il inséra dans le premier
+                  Tome de l'excellent <title>Traité de la Police</title>, qu'il
+                  publia <date when="1705">en 1705</date>, une
+                  <title>Description topographique de cette Ville, considérée
+                  dans les différents états par lesquels elle a passé</title> ;
+                  &amp; il y joignit huit Plans différents. Il est étonnant que
+                  cet objet ait été si mal traité, ce n'est pas assez de dire
+                  qu'il a été négligé : on peut se convaincre, en voyant ces
+                  Plans, que leur Auteur n'a consulté que son imagination pour
+                  les tracer ; que les rues &amp; les monuments y sont déplacés,
+                  &amp; que les fautes dont ils fourmillent sont d'autant plus
+                  dangereuses, que la réputation si justement due au
+                  <title>Traité de la Police</title> a influé sur les Plans,
+                  qu'on a cités plus d'une fois dans des contestations, &amp;
+                  qu'on a souvent consultés pour les décider.</p>
+               <pb />
+               <fw type="pageNum">xix</fw>
+               <fw type="runningHead">Discours préliminaire.</fw>
+               <p>J'ai toujours pensé que la meilleure manière de critiquer un
+                  Ouvrage, étois d'en faire un meilleur : je m'étois donc
+                  proposé de donner une Notice abrégée des différents
+                  accroissements de Paris, avec les Plans successifs, sur
+                  lesquels j'aurois tracé les rues avec les noms qu'elles ont
+                  portés, &amp; les différents monuments, sacrés ou profanes,
+                  qui existoient alors, &amp; qui ne subsistent plus. Tel étois
+                  mon premier dessein, &amp; je ne l'ai point abandonné ; mais
+                  j'ai été obligé de changer quelque chose à mon plan, &amp; de
+                  l'étendre davantage. 1° Ces Plans ne peuvent, &amp; ne doivent
+                  être multipliés, qu'autant que de nouvelles enceintes ou des
+                  augmentations considérables l'exigeront ; il n'étoit donc pas
+                  possible d'y voir quand les rues ont été percées, ou couvertes
+                  de certains édifices, ni de les désigner avec toutes leurs
+                  variantes, certaines rues ayant chagé de nom deux ou trois
+                  fois en moins d'un siècle. 2° je ne prétendois pas me borner,
+                  comme l'Auteur des <title>Tablettes Parisiennes</title>, à une
+                  nomenclature sèche des rues, aevc leurs anciens noms, telle
+                  qu'il l'a donnée d'après <persName>Sauval</persName>, &amp;
+                  d'après les Notes de l'<persName>Abbé Lebeuf</persName> sur
+                  <title>le dit des rues de Paris, mis en Vers par
+                  <persName>Guillot</persName></title> : j'étois bien-aise de
+                  vérifier ces noms sur les anciens Terriers, de <!-- b ij -->
+                  <pb/><fw type="pageNum">xx</fw><fw type="runningHead">Discours
+                  préliminaire.</fw> suppléer les omissions, de retracer les
+                  rues qui ne substistent plus, de découvrir la véritable époque
+                  des établissements, de discuter les différentes opinions,
+                  &amp; d'indiquer les sources où j'ai puisé. Tous ces objets
+                  étoient trop étendus, pour qu'il fût possible de les resserrer
+                  dans les bornes d'une simple Notice. Je réclame cependant
+                  l'indulgence de mes Lecteurs, pour plusieurs articles de rues
+                  qui ne m'ont fourni aucun moyen d'exciter leur curiosité :
+                  <q><foreign xml:lang="lat">Ornari res ipsa negat contenta
+                  doceri.</foreign></q></p>
+               <p>3° J'ai senti que malgré mes recherches, il y auroit encore bien des
+                  choses qui m'auroient échappé, ou qui ne seroient pas venues à ma
+                  connoissance, &amp; j'ai présumé que ceu qui s'en appercevront,
+                  voudront bien m'instruire &amp; m'éclairer, en me faisant connoître
+                  mes fautes, &amp; en me mettant en <sic>étant</sic> de les réparer :
+                  en conséquence j'ai pensé que ma <title>Notice topographique</title>
+                  devoit être précédée du développement des Plans qui
+                  l'accompagneront.</p>
+               <p>J'ai pris chaque Quartier en particulier :
+               <gap reason="sampling"/>
+                  <!-- http://babel.hathitrust.org/cgi/pt?id=nyp.33433069335598;view=1up;seq=26 -->
+               </p>
+         </div>
+         </div>
+      </front>
+      <body>
+         <div xml:lang="fre" />
+      </body>
+      <back>
+         <div xml:lang="fre" />
+      </back>
+   </text>
+</TEI>

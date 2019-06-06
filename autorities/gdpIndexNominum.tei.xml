@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/gdpSchemaTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+   Guides de Paris, Index Nominum 
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+--> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fre" type="main">Index nominum</title>
+                <principal>
+                    <persName ref="#MCL">
+                        <forename>Marianne</forename>
+                        <surname>Cojannot-Le Blanc</surname> 
+                        <affiliation>
+                            <orgName>Histoire des Arts &amp; Représentations</orgName>
+                            <orgName type="acronym">HAR</orgName>
+                            <orgName type="alt">EA 4414</orgName>
+                            <roleName>responsable scientifique</roleName>
+                        </affiliation>
+                        <affiliation>
+                            <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
+                            <orgName type="alt">Paris 10</orgName>
+                            <roleName>Professeur d’histoire de l’art</roleName>
+                        </affiliation>
+                    </persName>
+                </principal>
+                <funder>
+                    <orgName>Labex Les Passés dans le Présent</orgName>
+                    <date from="2013" to="2018">2013-2018</date>
+                </funder>
+                <respStmt>
+                    <resp key="prg">modélisation XML-TEI</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">encodage</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">première édition électronique, <date from="2013" to="2018"
+                    >2013-2018</date></edition>
+            </editionStmt>
+            <extent><!-- TODO : taille du fichier en octet --></extent>
+            <publicationStmt>
+                <authority> <orgName>Histoire des Arts et Représentations</orgName> <orgName
+                    type="acronym">HAR</orgName> <address>
+                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                    <addrLine>200, Avenue de la République</addrLine>
+                    <addrLine>92001 Nanterre Cedex</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>http://har.u-paris10.fr</addrLine>
+                    <addrLine>harparisouest@gmail.com</addrLine>
+                    </address> </authority>
+                <date when="2013">2013</date>
+                <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
+                <idno>ark</idno>
+                <!-- responsable de la publication -->
+                <publisher> <orgName>Histoire des Arts et Représentations</orgName> <orgName
+                    type="acronym">HAR</orgName> <address>
+                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                    <addrLine>200, Avenue de la République</addrLine>
+                    <addrLine>92001 Nanterre Cedex</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>http://har.u-paris10.fr</addrLine>
+                    <addrLine>harparisouest@gmail.com</addrLine>
+                    </address> </publisher>
+                <availability status="restricted" xml:id="indexNominumTextLicence">
+                    <!-- TODO : <licence> à ajouter partout -->
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+                        <p>Texte de la licence</p> <graphic
+                        url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"/> </licence>
+                    <p>Texte de la licence choisie.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="fre" type="main">Les Guides de Paris</title>
+                <title xml:lang="fre" type="sub"
+                    >Les historiens des arts et les corpus numériques</title>
+                <idno type="URI">http://www.guidesdeparis.net</idno>
+            </seriesStmt>
+            <!--<notesStmt> <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note> <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note> </notesStmt>-->
+            <!-- description de la source -->
+            <sourceDesc xml:id="gdpIndexNominum">
+                <p>Fichier nativement numérique</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <stdVals>
+                    <p>On utilise…</p>
+                </stdVals>
+                <!-- TODO revoir -->
+            </editorialDecl>
+            <!-- déclaration concernant la méthode d’établissement du corpus (sélection) -->
+            <refsDecl>
+                <p>Description du système de référence canonique.</p>
+                <!-- TODO revoir -->
+            </refsDecl>
+        </encodingDesc>
+        <!-- présentation du profil de fichier -->
+        <profileDesc>
+            <creation when="2013">2013</creation>
+            <langUsage>
+                <language ident="fre" usage="100">Français (langue principale du corpus)</language>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="fre" scheme="http://data.bnf.fr/liste-rameau">
+                    <term>18e siècle</term>
+                    <term>France</term>
+                </keywords>
+                <keywords xml:lang="eng" scheme="http://id.loc.gov/authorities/about.html#lcsh">
+                    <term>17th-18th centuries</term>
+                    <term>France</term>
+                </keywords>
+                <classCode scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
+                    <term>Text</term>
+                    <!-- TODO qualifier --> </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-02-01" who="#EC">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Index Nominum</head>
+            <listPerson>
+                <head>Exemple</head>
+                <person xml:id="in000ex">
+                    <!-- exemple -->
+                    <persName full="yes"
+                        >Münchhausen, Karl Hieronymus (1720-1797 ; baron von)</persName>
+                    <persName>
+                        <forename>Karl</forename><!-- order is significant, it can be encoded with @sort -->
+                        <forename>Friedrich</forename>
+                        <forename>Hieronymus</forename>
+                        <nameLink>von</nameLink><!-- if needed -->
+                        <surname>Münchhausen</surname>
+                        <genName>Junior</genName>
+                        <roleName type="nobility">baron</roleName><!-- possible values for @type military, nobility, office, epithet --> </persName>
+                    <birth>
+                        <date when="1720-05-11">11 mai 1720</date>
+                        <placeName>noWhere</placeName>
+                    </birth>
+                    <death>
+                        <date when="1797-02-22">22 février 1797</date>
+                        <placeName>Somewhere</placeName>
+                    </death>
+                    <occupation from="1740" to="1797">mercenaire</occupation>
+                    <note>
+                        <p>this is a paragraph</p>
+                        <p>this is a paragraph</p>
+                    </note>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb119462100</idno>
+                    <!-- possible values for @type : agorah, akl, dataBnf, idRef, isni, ulan, viaf, wikidata, wbis"-->
+                </person>
+                <person xml:id="louisXIV">
+                    <persName>Louis XIV (roi de France ; 1638-1715)</persName>
+                    <birth>
+                        <date when="1638-09-05">5 septembre 1638</date>
+                        <placeName>Saint-Germain-en-Laye (Yvelines)</placeName>
+                    </birth>
+                    <death>
+                        <date when="1715-09-01">1er septembre 1715</date>
+                        <placeName>Versailles</placeName>
+                    </death>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb11913463s</idno>
+                    <idno type="isni">http://www.isni.org/0000000108030835</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q7742</idno>
+                </person>
+                <person xml:id="marieTherese">
+                    <persName>Marie-Thérèse d’Autriche</persName>
+                </person>
+                <!-- relations -->
+                <!-- cf. http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-relation.html -->
+                <listRelation>
+                    <relation from="1660-06-09" to="1683-06-30" type="personal" name="spouse"
+                        mutual="#louisXIV #marieTherese">
+                        <desc>Marié à...</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
+            
+            <listPerson>
+                <head>Index des auteurs</head>
+                <person xml:id="antoniniAnnibale">
+                    <persName full="yes">Antonini, Annibale (1702-1755)</persName>
+                    <persName>
+                        <forename>Annibale</forename>
+                        <surname>Antonini</surname>
+                    </persName>
+                    <birth>
+                        <date when="1702">1702</date>
+                    </birth>
+                    <death>
+                        <date when="1755">1755</date>
+                    </death>
+                    <note>
+                        <p>Abbé, auteur de dictionnaires et grammairien. Maître de langue italienne pendant 25 ans à Paris, a aussi écrit en italien et traduit de l’italien en français.</p>
+                    </note>
+                    <idno type="isni">http://isni.org/isni/0000000115615831</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb125444424</idno>
+                    <idno type="idRef">https://www.idRef.fr/034719709</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q15430956</idno>
+                </person>
+                <person xml:id="beguilliet">
+                    <persName full="yes">Béguillet, Edme (17..-1786)</persName>
+                    <persName>
+                        <forename>Edme</forename>
+                        <surname>Béguillet</surname>
+                    </persName>
+                    <birth>
+                        <date notBefore="1700">17..</date>
+                    </birth>
+                    <death>
+                        <date when="1786">1786</date>
+                        <placeName>Dijon</placeName>
+                    </death>
+                    <occupation>Agronome et historien</occupation>
+                    <occupation>Avocat et notaire à Dijon</occupation>
+                    <idno type="dataBnf">http://data.bnf.fr/15563279/edme_beguillet/</idno>
+                    <idno type="isni">http://isni.org/isni/000000006634638X</idno>
+                    <idno type="viaf">https://viaf.org/viaf/39693205/</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb15563279h</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q3047685</idno>
+                    <idno type="idRef">https://www.idRef.fr/060571985</idno>
+                </person>
+                <person xml:id="bonfonsNicolas">
+                    <persName full="yes">Bonfons, Nicolas</persName>
+                    <persName>
+                        <forename>Nicolas</forename>
+                        <surname>Bonfons</surname>
+                    </persName>
+                    <birth>
+                        <date notBefore="1500">15..</date>
+                    </birth>
+                    <death>
+                        <date when="1626-03-27">27 mars 1626</date>
+                    </death>
+                    <floruit from="1572" to="1618">1572-1618 ?</floruit>
+                    <note>
+                        <p>Fils et successeur du libraire parisien <persName>Jean Bonfons</persName>, Niolas Bonfons épousa la fille du libraire-imprimeur <persName>Gilles Corrozet</persName>, dont il réimprima l’ouvrage <title>Les Antiquitez et Singularitez de Paris</title> entre 1586 et 1588, en y apportant quelques modifications.</p>
+                        <p>Il travailla en association avec son fils, <persName>Pierre Bonfons</persName>, de 1596 à 1607.</p>
+                        <p>Gendre en secondes noces (mai 1571) du libraire <persName>Jean I Ruelle</persName>, il était encore en activité en 1618. Il décéda à Paris en mars 1626 et sa veuve <persName>Catherine Ruelle</persName> dès le 14 juin suivant.</p>
+                    </note>
+                    <note type="mark">
+                        <p>La marque de Nicolas Bonfons était constituée des « quatre Vertus, la Foy, l’Esperance, la Charité &amp; la Force, avec un cœur dans le milieu, pour faire allusion à son nom, en signifiant qu’un cœur soûtenu de ces quatre vertus à un bon fond, avec ce Passage de David <q xml:lang="lat">Proba me Deus &amp; Scito cor meum</q> (Psaume 139:23). Il signe souvent par N. B. Parisien.</p>
+                    </note>
+                    <idno type="isni">http://isni.org/isni/0000000000513317</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12238948t</idno>
+                    <idno type="idRef">https://www.idref.fr/031110517</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q3340112</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/12238948/nicolas_bonfons/</idno>
+                </person>
+                <person xml:id="bonfonsPierre">
+                    <persName full="yes">Bonfons, Pierre (15..-16.. ; libraire)</persName>
+                    <persName>
+                        <forename>Pierre</forename>
+                        <surname>Bonfons</surname>
+                    </persName>
+                    <birth>
+                        <date notBefore="1500">15..</date>
+                    </birth>
+                    <death>
+                        <date notAfter="1699">16..</date>
+                    </death>
+                    <floruit from="1596" to="1608">1596-1608 ?</floruit>
+                    <residence from="1596" to="1608">(Rue Neuve-Notre-Dame et) Au quatrième pilier de la grand-salle du Palais</residence>
+                    <note>
+                        <p>Fils de Nicolas Bonfons, il quitta la profession vers 1607-1608 et devint contrôleur du Grenier à sel de Pontoise. Il était généralement associé à son père, le libraire <persName>Nicolas Bonfons</persName>.</p>
+                    </note>
+                    <idno type="isni">http://isni.org/isni/0000000138789551</idno>
+                    <idno type="catBnf">http://catalogue.bnf.fr/ark:/12148/cb122389495</idno>
+                    <idno type="idRef">http://www.idref.fr/119954478</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/12238949/pierre_bonfons/</idno>
+                </person>
+                <person xml:id="briceGermain">
+                    <persName full="yes">Brice, Germain (1653?-1727)</persName>
+                    <persName>
+                        <forename>Germain</forename>
+                        <surname>Brice</surname>
+                    </persName>
+                    <birth>
+                        <date when="1653">1653?</date>
+                    </birth>
+                    <death>
+                        <date when="1727-11-18">18 novembre 1727</date>
+                    </death>
+                    <occupation>Historien, topographe</occupation>
+                    <idno type="isni">http://isni.org/isni/0000000080782671</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12176653r</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/12176653/germain_brice/</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12176653r/</idno>
+                    <idno type="idRef">http://www.idref.fr/030328411</idno>
+                </person>
+                <person xml:id="corrozetGilles">
+                    <persName full="yes">Corrozet, Gilles (1510-1568)</persName>
+                    <persName>
+                        <forename>Gilles</forename>
+                        <surname>Corrozet</surname>
+                    </persName>
+                    <birth>
+                        <date when="1510-01-04">4 janvier 1510</date>
+                    </birth>
+                    <death>
+                        <date when="1568-07-04">4 juillet 1568</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <occupation>imprimeur, écrivain</occupation>
+                    <floruit from="1535" to="1568">1535-1568</floruit>
+                    <residence from="1535" to="1568">En la grand-salle du Palais (, du côté de la chapelle de Messieurs ; près la chambre des Consultations) (ou : Au Palais).</residence>
+                    <residence when="1549">Rue de la Vieille-Draperie, près l’église Sainte-Croix (, en la Cité)</residence>
+                    <residence when="1554">Rue de la Juiverie, À l’enseigne du Château</residence>
+                    <note>
+                        <p>Libraire, natif de Paris il fut aussi poète et historien. Auteur, entre autres, de <title>La Fleur des antiquitez… de Paris</title> en 1532, des <title>Antiques Érections des Gaules</title> en 1535 et du <title>Thresor des histoires de France</title>, publié à titre posthume en 1583. Petit-fils du libraire parisien <persName>Pierre Le Brodeur</persName> qui aurait contribué à son établissement en 1535. Décédé à Paris en juillet 1568.</p>
+                        <p>Sa marque (une rose dans un cœur accompagnée de cette devise tirée du livre des <title>Proverbes</title> : <q xml:lang="lat">In corde prudentis requiescit sapientia</q>) se retrouve sur de nombreux textes importants de l’époque par <persName>Clément Marot</persName>, <persName>Pierre de Ronsard</persName>, <persName>Joachim du Bellay</persName>, <persName>Pierre Belon</persName>.</p>
+                        <p>autre devise, <q xml:lang="lat">Labore conscendimus altum</q></p>
+                    </note>
+                    <idno type="isni">http://isni.org/isni/0000000121007605</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb11991663h</idno>
+                    <idno type="idRef">http://www.idref.fr/027991075</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q3106164</idno>
+                </person>
+                <person xml:id="dezallierDArgenvilleAntoineNicolas">
+                    <persName full="yes">Dezallier d’Argenville, Antoine-Nicolas (1723-1796)</persName>
+                    <idno type="isni"/>
+                    <!-- @todo vérifier -->
+                </person>
+                <person xml:id="duBreulJacques">
+                    <persName full="yes">Du Breul, Jacques (1528-1614)</persName>
+                    <persName>
+                        <forename>Jacques</forename>
+                        <surname>Du Breul</surname>
+                    </persName>
+                    <birth>
+                        <date when="1528-09-17">17 septembre 1528</date>
+                        <placeName>Paris</placeName>
+                    </birth>
+                    <death>
+                        <date when="1614-07-17">17 juillet 1614</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <occupation>Théologien et historien</occupation>
+                    <note>
+                        <p>Bénédictin, prieur claustral de Saint-Germain-des-Près, Paris</p>
+                    </note>
+                    <idno type="isni">http://www.isni.org/isni/0000000061190136</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb10566589p/</idno>
+                    <idno type="idRef">https://www.idref.fr/059153377</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/10566589/jacques_du_breul/</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q15973922</idno>
+                    <idno type="dbPedia">http://fr.dbpedia.org/resource/Jacques_du_Breul</idno>
+                </person>
+                <person xml:id="dulaureJA">
+                    <persName full="yes">Dulaure J. A.</persName>
+                </person>
+                <person xml:id="jeze">
+                    <persName full="yes">Jèse</persName>
+                </person>
+                <person xml:id="leComteFlorent">
+                    <persName full="yes">Le Comte, Florent</persName>
+                </person>
+                <person xml:id="leMaireCharles">
+                    <persName full="yes">Le Maire, Charles</persName>
+                    <persName>
+                        <forename>Charles</forename>
+                        <surname>Le Maire</surname>
+                    </persName>
+                    <birth>
+                        <date notBefore="1600">16..</date>
+                    </birth>
+                    <death>
+                        <date notAfter="1699">16..</date>
+                    </death>
+                    <idno type="isni">http://www.isni.org/isni/0000000061343913</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb10244990k/</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/10244990/charles_le_maire/</idno>
+                </person>
+                <person xml:id="liger">
+                    <persName full="yes">Liger</persName>
+                </person>
+                <person xml:id="malingreClaude">
+                    <persName full="yes">Malingre, Claude (1580?-1653?)</persName>
+                    <persName>
+                        <forename>Claude</forename>
+                        <surname>Malingre</surname>
+                    </persName>
+                    <birth>
+                        <date when="1580">1580 ?</date>
+                    </birth>
+                    <death>
+                        <date when="1653">1653 ?</date>
+                    </death>
+                    <note>
+                        <p>Auteur de plusieurs ouvrages historiques</p> <list>
+                        <item>Les <title>Annales générales de la ville de Paris</title>, représentant tout ce que l’histoire a peu remarquer de ce qui s’est passé de plus mémorable en icelle, depuis sa première fondation jusques à présent. Le tout par l’ordre des années et des règnes de nos rois de France…</item>
+                        <item><title>Les Antiquités de la ville de Paris</title>, contenant la recherche nouvelle des fondations et établissements des églises, chapelles, monastères, hôpitaux, hôtels, maisons remarquables, fontaines, regards, quais, ponts, et autres ouvrages curieux… Le tout extrait de plusieurs titres et archives, cabinets… Enrichies de plusieurs belles figures . (Signé : Claude Malingre.)</item>
+                        <item>Entrée magnifique du Roy, faicte en sa ville d’Orléans, le mardy huictiesme juillet 1614, avec l’ordre et cérémonies observées en icelle . Par Claude Malingre</item>
+                        <item>Histoire du règne de Louys XIII. Roy de France et de Navarre. Prise du jour de sa naissance jusques à sa mort… Par S. M. C. </item>
+                        <item>Trésor de l’histoire de France, réduit par tiltres et lieux communs, divisé en deux parties : la première, composée par G. C. (Corrozet) ; la deuxiesme est une nouvelle augmentation, illustrée et enrichie de plusieurs curieuses recherches et pièces autentiques importantes à la gloire de nos roys… avec l’histoire des roys de France et leurs portraicts contenus en la deuxiesme page, par C. M. H. D. F. (Claude Malingre, historiographe de France.)</item>
+                        <item>et diverses chroniques</item>
+                        </list>
+                    </note>
+                    <idno type="isni">http://isni.org/isni/0000000061355121</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb124625069/</idno>
+                    <idno type="idRef">https://www.idref.fr/033800774</idno>
+                </person>
+                <person xml:id="millin">
+                    <persName full="yes">Millin</persName>
+                </person>
+                <person xml:id="nemeitzJC">
+                    <persName full="yes">Nemeitz, Joachim Christoph (1679-1753)</persName>
+                </person>
+                <person xml:id="piganiolDeLaForceJeanAymar">
+                    <persName full="yes">Piganiol de La Force, Jean-Aymar (1673-1753)</persName>
+                    <persName>
+                        <forename>Jean-Aymar</forename>
+                        <surname n="1">Piganiol</surname>
+                        <nameLink n="2">de</nameLink>
+                        <surname n="3">La Force</surname>
+                    </persName>
+                    <birth>
+                        <date when="1673">1673</date>
+                    </birth>
+                    <death>
+                        <date when="1753">1753</date>
+                    </death>
+                    <idno type="isni">http://isni.org/isni/0000000122809597</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb13005391r</idno>
+                    <idno type="idRef">http://www.idref.fr/067069282</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q3163657</idno>
+                </person>
+                <person xml:id="raynalGuillaumeThomas">
+                    <persName full="yes">Raynal, Guillaume-Thomas (1713-1796)</persName>
+                    <persName>
+                        <forename>Guillaume-Thomas</forename>
+                        <surname>Raynal</surname>
+                    </persName>
+                    <birth>
+                        <date when="1713-04-12">12 avril 1713</date>
+                    </birth>
+                    <death>
+                        <date when="1796-03-06">6 mars 1796</date>
+                    </death>
+                    <occupation>Jésuite. - Prêtre à Paris. - Philosophe et historien</occupation>
+                    <idno type="isni">http://isni.org/isni/0000000110308074</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb119212827</idno>
+                    <idno type="idRef">http://www.idref.fr/027091430</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q727782</idno>
+                    <note>
+                        <p>Également l’auteur d’un Extrait de l’Essai sur la peinture, la sculpture et l’architecture de M. de *** [Bachaumont], par M. l’abbé Raynal… [Texte imprimé] Publication : (S. l.), 1751. In-8°, 15 p., Tiré du Mercure de France du mois d’octobre 1751, p. 153 et suiv., http://catalogue.bnf.fr/ark:/12148/cb32558890g/</p>
+                    </note>
+                </person>
+                <person xml:id="sauvalHenri">
+                    <persName full="yes">Sauval, Henri (1620?-1676)</persName>
+                    <persName>
+                        <forename>Henri</forename>
+                        <surname>Sauval</surname>
+                    </persName>
+                    <birth>
+                        <date when="1620">1620 ?</date>
+                    </birth>
+                    <death>
+                        <date when="1676-03-21">21 mars 1676</date>
+                    </death>
+                    <occupation>Avocat. - Historien, archéologue</occupation>
+                    <idno type="isni">http://isni.org/isni/0000000121024878</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12815319g/</idno>
+                    <idno type="idRef">http://www.idref.fr/097551945</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q3131994</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/12815319/henri_sauval/</idno>
+                    <idno type="dbPedia">http://fr.dbpedia.org/resource/Henri_Sauval</idno>
+                </person>
+                <person xml:id="teisserenc">
+                    <persName full="yes">Teisserenc, Étienne (Abbé)</persName>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb106240059</idno>
+                </person>
+                <person xml:id="thieryLucVincent">
+                    <persName full="yes">Thiery Luc-Vincent</persName>
+                </person>
+                <!-- a priori exclus du corpus 1716 Georges-Louis Le Rouge Les Curiositez de Paris, de Versailles, de Marly, de Vincennes, de Saint-Cloud et des environs, par M. L. R., Paris, Saugrain l’aîné, 1716, INHA 12 i 99 1719, 2 vol. (plein cuir, sélectionné, à confirmer pour NUMM) Puis 1723, 1760, 1771, 1778 1779 Hurtaut et Magny Dictionnaire historique de la Ville de Paris et de ses environs, Paris, Moutard, 1779, ? vol 1766 : Hébert, Dictionnaire pittoresque et historique ou description d’Architecture, Peinture, Sculpture, Gravure, Histoire naturelle, etc, Paris, 1766, 2 tomes ; Genève, Minkoff reprint, 1972.-->
+                <!-- Exemple de notices d’autorités <person xml:id=""> <persName full="yes"><!-\- forme normalisée -\-></persName> <idno type="dataBnf" /> <idno type="isni" ></idno> <idno type="viaf" ></idno> <idno type="autBnf" ></idno> <idno type="idRef" ></idno> <idno type="wbis" ></idno> <idno type="akl" ></idno> <idno type="agorah" ></idno> <idno type="dbPedia" ></idno> <idno type="ulan" ></idno> </person> -->
+            </listPerson>
+
+            <listPerson>
+                <head>Index des éditeurs</head>
+                <person xml:id="bordeletMarc">
+                    <persName full="yes">Bordelet, Marc (1697?-1754)</persName>
+                    <idno type="isni">http://isni.org/isni/0000000059336220</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb122331232/</idno>
+                </person>
+                <person xml:id="gisseyHenriSimonPierre">
+                    <persName full="yes">Gissey, Henri-Simon-Pierre (1691?-1761)</persName>
+                    <idno type="isni">http://www.isni.org/isni/0000000070332140</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb135306628</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/13530662/henri-simon-pierre_gissey/</idno>
+                </person>
+                <person xml:id="henriWorle">
+                    <persName full="yes">Henri, Worle (16..?-1747)</persName>
+                    <birth>
+                        <date notBefore="1600">16..</date>
+                    </birth>
+                    <death>
+                        <date when="1747-10-19">19 octobre 1747</date>
+                    </death>
+                    <idno type="isni">http://isni.org/isni/0000000359435060</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12384451k/</idno>
+                    <idno type="idRef">http://www.idref.fr/07589856X</idno>
+                </person>
+                <person xml:id="lacroixPaul">
+                    <persName full="yes">Lacroix, Paul (1806-1884)</persName>
+                    <birth>
+                        <date when="1806-02-27">1806-02-27</date>
+                        <placeName>Paris</placeName> </birth>
+                    <death>
+                        <date when="1884-10-19">1806-02-27</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <note>Historien et bibliographe. - Journaliste. - Romancier et auteur dramatique. - Conservateur à la Bibliothèque de l’Arsenal On lui attribue des titres signés Pierre Dufour bien qu’il en ait nié la paternité.</note>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb130915095/</idno>
+                </person>
+                <person xml:id="mariettePierreJean">
+                    <persName full="yes">Mariette, Pierre-Jean (1694-1774)</persName>
+                    <birth when="1694-05-07">1694-05-07</birth>
+                    <death when="1774-09-11">1774-09-11</death>
+                    <floruit from="1714" to="1750">1714-1750</floruit>
+                    <occupation>Auteur, Imprimeur libraire (Texte imprimé)</occupation>
+                    <note> <p>Devise(s) : Haec meta laborum</p>
+                        <p>Autre(s) graphie(s) : Mariette fils. - Imprimeur-libraire ; imprimeur de la police ; graveur. - Fils du libraire parisien Jean Mariette. Libraire dès le 20 avril 1714, il n’est reçu imprimeur que le 14 avril 1722. En nov. 1750, revend son fonds de librairie à six libraires parisiens (pour 150 000 l.), son fonds d’estampes à Charles-Antoine Jombert et se démet de son imprimerie qu’il vend à Louis-François Delatour. En 1752, achète une charge de secrétaire du Roi et contrôleur général de l’audience de la Chancellerie de France pour les mois d’octobre, novembre et décembre. Se retire une partie de l’année à Croissy (Yvelines). Également amateur, collectionneur et critique d’art. A rédigé des catalogues et des ouvrages sur l’art. Associé honoraire de l’Académie royale de peinture et de sculpture (1750) et de l’Académie de Florence (1733). Décédé à Paris en sept. 1774</p> </note>
+                    <note>
+                        <p>Adresse : Paris : 1714-1750. - Rue Saint-Jacques. - Enseigne(s) : Aux Colonnes d’Hercule</p> </note>
+                    <note>
+                        <p>Forme(s) associée(s) : Source(s) : Lottin. - Hoefer. - Delalain, Marques. - Thieme, Becker. - Grente, 18 s.. - Bénézit Consultée(s) en vain : Dict. des éd. d’estampes</p> </note>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb119145759/</idno>
+                    <idno type="isni">http://isni.org/isni/0000000121347984</idno>
+                    <idno type="idRef">http://www.idref.fr/027010007</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q322341</idno>
+                </person>
+                <person xml:id="moetteCharles">
+                    <persName full="yes">Moette, Charles (1672-1754)</persName>
+                    <persName>
+                        <forename>Charles</forename>
+                        <surname>Moette</surname>
+                    </persName>
+                    <birth>
+                        <date when="1672-06-07">7 juin 1672</date>
+                    </birth>
+                    <death>
+                        <date when="1754-02-28">28 février 1754</date>
+                    </death>
+                    <floruit from="1693" to="1752">1693-1752 ?</floruit>
+                    <idno type="isni">http://isni.org/isni/0000000121216415</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12497166w/</idno>
+                    <idno type="idRef">http://www.idref.fr/034187820</idno>
+                </person>
+                <person xml:id="perauGabrielLouis">
+                    <persName full="yes">Pérau, Gabriel-Louis (1700-1767)</persName>
+                    <birth> <date when="1700">1700</date> <placeName>Semur (Côte d’Or)</placeName> </birth>
+                    <death> <date when="1767-03-31">1767-03-31</date> <placeName>Paris</placeName> </death>
+                    <note>
+                        <p>Prieur de Sorbonne (mais cet ecclésiastique n’a jamais été ordonné prêtre)</p>
+                        <p>On attribue généralement à G.-L. Pérau « L’Ordre des francs-maçons trahi, et le secret des Mopses révélé » : voir ce titre (avec ses variantes) dans le fichier des titres conventionnels</p> </note>
+                    <note>Forme(s) associée(s) : Source(s) : Description historique de l’hôtel royal des Invalides / abbé Gabriel Pérau ; [préf. de Bertrand Jestaz], 1974 Quérard. - Michaud. - Hoefer. - Larousse XIXe s.. - Manuel bibliograpgique des sciences psychiques ou occultes / Albert L. Caillet, t. III, 1912, p. 257-259 BN Cat. gén. : PÉRAU (abbé Gabriel-Louis Calabre) Consultée(s) en vain : GDEL </note>
+                    <idno type="isni">http://isni.org/isni/0000000110211475</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb11919082d/</idno>
+                </person>
+                <person xml:id="rabelJean">
+                    <persName full="yes">Rabel, Jean (154.-1603)</persName>
+                    <birth>
+                        <date notBefore="1540">154.</date>
+                        <placeName>Beauvais (Oise)</placeName>
+                    </birth>
+                    <death>
+                        <date when="1603">1603</date>
+                        <persName>Paris</persName>
+                    </death>
+                    <residence from="1540" to="1603">Paris, Pont Saint-Michel</residence>
+                    <idno type="isni">http://isni.org/isni/000000036224162X</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb14961126q</idno>
+                    <idno type="idRef">http://www.idref.fr/103546456</idno>
+                    <idno type="dataBnf">http://data.bnf.fr/14961126/jean_rabel/</idno>
+                </person>
+                <person xml:id="saugrainGuillaume">
+                    <persName full="yes">Saugrain, Guillaume (1686-1733)</persName>
+                    <persName>
+                        <forename>Guillaume</forename>
+                        <surname>Saugrain</surname>
+                    </persName>
+                    <birth>
+                        <date when="1686-05-27">27 mai 1686</date>
+                    </birth>
+                    <death>
+                        <date when="1733-07-22">22 juillet 1733</date>
+                    </death>
+                    <floruit from="1710" to="1733">1710-1733</floruit>
+                    <occupation>Libraire</occupation>
+                    <residence from="1715" to="1728">Paris : 1710-1733. - Au Palais (, vis-à-vis la Grand-Chambre). Enseigne(s) : À l’Ange gardien</residence>
+                    <residence from="1730" to="1733">(Au milieu du) Quai de Gesvres. Enseigne(s) : À la Croix blanche</residence>
+                    <note>
+                        <p>Troisième fils du libraire parisien <persName>Guillaume I Saugrain</persName>. Reçu maître le 25 juin 1710. Décédé en juillet 1733. Sa veuve <persName>Anne-Barbe Knapen (169.?-1768)</persName>, veuve en premières noces de l’apothicaire <persName>Joseph Alary</persName>, lui succède, avant de se remarier en 1735 au libraire <persName>Jean Rouy (1707?-1749)</persName></p>
+                    </note>
+                    <idno type="isni">http://isni.org/isni/0000000000648983</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12239415q</idno>
+                    <idno type="idRef">https://www.idref.fr/129422878</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12239415q/</idno>
+                </person>
+            </listPerson>
+            <listPerson>
+                <head>Autres auteurs</head>
+                <person xml:id="marlesJulesLacroixDe">
+                    <persName full="yes">Marlès, Jules Lacroix de (17..-1850?)</persName>
+                    <persName>
+                        <forename>Jules</forename>
+                        <surname n="1">Lacroix</surname>
+                        <nameLink n="2">de</nameLink>
+                        <surname n="3">Marlès</surname>
+                    </persName>
+                    <birth>
+                        <date notBefore="1700">17..</date>
+                    </birth>
+                    <death>
+                        <date when="1850">1850 ?</date>
+                    </death>
+                    <idno type="isni">http://isni.org/isni/0000000122379662</idno>
+                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb126777743/</idno>
+                    <idno type="idRef">http://www.idref.fr/028443047</idno>
+                </person>
+            </listPerson>
+
+            <!-- Organisations et personnes morales -->
+            <orgList>
+                <head>Index des personnes morales</head>
+                <org/>
+                <!-- Exemple d’encodage d’une organisation -->
+                <!-- <org xml:id="inOrg001"> <orgName type="full"></orgName> <idno/> </org> -->
+            </orgList>
+        </body>
+    </text>
+</TEI>

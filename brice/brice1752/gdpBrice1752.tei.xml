@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/gdpSchemaTEI.rng" 
+            type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+    Guides de Paris, Germain Brice, 1752 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fre" type="main">Germain Brice 1752</title>
+            <principal>
+               <persName ref="#MCL">
+                  <forename>Marianne</forename>
+                  <surname>Cojannot-Le Blanc</surname>
+               </persName>
+               <affiliation>
+                  <orgName>Histoire des Arts &amp; Représentations</orgName>
+                  <orgName type="acronym">HAR</orgName>
+                  <orgName type="alt">EA 4414</orgName>
+                  <roleName>responsable scientifique</roleName>
+               </affiliation>
+               <affiliation>
+                  <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
+                  <orgName type="alt">Paris 10</orgName>
+                  <roleName>professeur d’histoire de l’art</roleName>
+               </affiliation>
+            </principal>
+            <funder>
+               <orgName>Labex Les Passés dans le Présent</orgName>
+               <date from="2013" to="2018">2013-2018</date>
+            </funder>
+            <respStmt>
+               <resp key="prg">modélisation XML-TEI</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="mrk">encodage</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="edt">édition</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="trc">transcription et relecture</resp>
+               <persName ref="#EC">
+                  <forename>Emmanuel</forename>
+                  <surname>Château</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="trc">transcriptions réalisées par des étudiants du Master 1 d’histoire de
+                  l’art, de l’université Paris-Ouest Nanterre, <date from="2014-02" to="2014-04"
+                     >février à avril 2014</date>, pp. </resp>
+               <persName ref="#renaudBastien">
+                  <forename>Bastien</forename>
+                  <surname>Renaud</surname>
+               </persName>
+               <persName ref="#girardetAmandine">
+                  <forename>Amandine</forename>
+                  <surname>Girardet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">première édition électronique, <date from="2013" to="2018"
+                  >2013-2018</date></edition>
+         </editionStmt>
+         <extent><!-- TODO : taille du fichier en octet --></extent>
+         <publicationStmt>
+            <authority>
+               <orgName>Histoire des Arts &amp; Représentations</orgName>
+               <orgName type="acronym">HAR</orgName>
+               <orgName type="alt">EA 4414</orgName>
+               <address>
+                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                    <addrLine>200, Avenue de la République</addrLine>
+                    <addrLine>92001 Nanterre Cedex</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>http://har.u-paris10.fr</addrLine>
+                    <addrLine>harparisouest@gmail.com</addrLine>
+                </address>
+            </authority>
+            <date from="2014" to="2018">2014-2018</date>
+            <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
+            <idno>ark</idno>
+            <!-- responsable de la publication -->
+            <publisher>
+               <orgName>Histoire des Arts &amp; Représentations</orgName>
+               <orgName type="acronym">HAR</orgName>
+               <orgName type="alt">EA 4414</orgName>
+               <address>
+                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                    <addrLine>200, Avenue de la République</addrLine>
+                    <addrLine>92001 Nanterre Cedex</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>http://har.u-paris10.fr</addrLine>
+                    <addrLine>harparisouest@gmail.com</addrLine>
+                </address>
+            </publisher>
+            <availability status="restricted" xml:id="gdpBrice1752Licence">
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+                  <p>Texte de la licence</p>
+                  <!-- TODO renseigner le texte de la licence -->
+                  <graphic url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"/>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="fre" type="main">Les Guides de Paris</title>
+            <title xml:lang="fre" type="sub">Les historiens des arts et les
+               corpus numériques</title>
+            <idno type="URI">http://www.guidesdeparis.net</idno>
+         </seriesStmt>
+         <!--
+         <notesStmt>
+            <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
+            <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
+         </notesStmt>
+         -->
+         <!-- description de la source -->
+         <sourceDesc xml:id="gdpBrice1752">
+            <bibl copyOf="#brice1752Manifestation"/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- description du projet éditorial -->
+         <projectDesc>
+            <p>L’édition des Guides de Paris fait partie d’un programme de recherche sur les
+               historiens de l’art et les corpus numériques.</p>
+         </projectDesc>
+         <!-- déclaration des principes éditoriaux -->
+         <editorialDecl>
+            <correction>
+               <p>La syntaxe originale du manuscrit a été respectée en suivant les indications de
+                  Bernard Barbiche, <ref type="external"
+                     target="http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes"
+                     >Conseils pour l’édition des textes de l’époque moderne (XVI<hi
+                        rend="superscript">e</hi>-XVIII<hi rend="superscript">e</hi>
+                  siècle)</ref>.</p>
+            </correction>
+            <hyphenation>
+               <p>Pour les ouvrages imprimés, il n’a pas été tenu compte de l’hyphénation.</p>
+            </hyphenation>
+            <interpretation>
+               <p>Les interprétations sont traitées au moyen d’un élément supplied ou bien sont
+                  renvoyées en notes. Une mention de responsabilité est fournie grâce à l’attribut
+                  resp sur le passage concerné.</p>
+            </interpretation>
+            <normalization>
+               <p>La ponctuation ainsi que les majuscules ont été normalisées. Les abréviations ont
+                  été développées.</p>
+            </normalization>
+            <stdVals>
+               <p>On utilise...</p>
+            </stdVals>
+            <quotation>
+               <p>Les citations dans le texte sont encodées soit au moyen d’un élément quote, soit
+                  au moyen d’un élément...</p>
+            </quotation>
+         </editorialDecl>
+         <!-- déclaration concernant la méthode d’établissement du corpus (sélection) -->
+         <refsDecl>
+            <p>Description du système de référence canonique.</p>
+            <!-- TODO à renseigner avec une expression régulière -->
+         </refsDecl>
+         <samplingDecl>
+            <p>Échantillonnage</p>
+            <!-- TODO modifier à la fin du projet -->
+         </samplingDecl>
+         <variantEncoding method="location-referenced" location="external"/>
+      </encodingDesc>
+      <!-- présentation du profil de fichier -->
+      <profileDesc>
+         <creation when="2014">2014</creation>
+         <langUsage>
+            <language ident="fre" usage="98">Français (langue principale du corpus)</language>
+            <language ident="lat" usage="2">Latin</language>
+            <!-- TODO vérifier -->
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="fre" scheme="http://data.bnf.fr/liste-rameau">
+               <term>18e siècle</term>
+               <term>France</term>
+            </keywords>
+            <keywords xml:lang="eng" scheme="http://id.loc.gov/authorities/about.html#lcsh">
+               <term>17th-18th centuries</term>
+               <term>France</term>
+            </keywords>
+            <classCode scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
+               <term>Text</term>
+            </classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2013-11-30">Premier échantillonnage</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <!-- TODO traiter les tomes séparément avec des éléments group -->
+
+      <!-- Traite-t-on les volumes isolément ? l’ouvrage devenant un corpus -->
+      <!-- Sinon dans des fichiers différents, dans un fichier unique en conservant structure front, body, back -->
+      <!-- TODO traiter les pages d’avant-titre -->
+      <front>
+         <titlePage xml:lang="fre" corresp="#brice1752">
+            <docTitle>
+               <titlePart rend="capital">Description <lb/>de la ville <lb/>de Paris, <lb/>et <lb/>de
+                  tout ce qu’elle contient <lb/>de plus remarquable. <lb/>Par Germain Brice.
+                  <lb/>Nouvelle édition. <lb/>Enrichie d’un nouveau Plan &amp; de nouvelles
+                  <lb/>Figures dessinées &amp; gravées correctement.</titlePart>
+               <titlePart>Tome premier.</titlePart>
+               <!-- Revoir structure de la page de titre -->
+            </docTitle>
+            <docImprint>
+               <pubPlace>À Paris,</pubPlace>
+               <publisher>Chez les Libraires Associés</publisher>
+               <docDate when="1752">M. DCC. LII.</docDate>
+               <!-- Avec Approbation &amp; Privilège du Roi. -->
+            </docImprint>
+         </titlePage>
+         <pb/>
+         <space quantity="1" unit="page"/>
+         <pb/>
+         <div xml:lang="fre">
+            <div type="imprimatur">
+               <!-- ornements typographiques -->
+               <gap reason="sampling"/>
+            </div>
+            <div type="foreword">
+               <!-- j -->
+               <!-- ornements typographiques -->
+               <head rend="capital">Avertissement.</head>
+               <p><hi rend="initial">I</hi>L seroit inutile de s’étendre sur les avantages que l’on
+                  peut retirer de l’Ouvrage dont nous donnons une nouvelle édition. Il est connu
+                  depuis long-tems <!-- TODO attacher -->, &amp; nous ne pourrions que repéter ce
+                  qu’on en a dit depuis qu’il est entre les mains du Public. Nous nous contenterons
+                  pour le présent de rendre compte de cette édition, après que nous aurons dit
+                  quelque chose de <rs>l’Auteur</rs>.</p>
+               <p><persName>Germain Brice</persName> naquit à <placeName>Paris</placeName>
+                  <date when="1653">vers l’an 1653</date>. Ses parens, quoique peu favorisés de la
+                  fortune, lui donnèrent néanmoins une excellente éducation, &amp; profitèrent des
+                  secours qui se trouvent dans <rs>cette grande Ville</rs>, pour lui faire ses
+                  études. Il entra ensuite dans le monde, &amp; sans avoir dessein d’embrasser
+                  sérieusement au<!-- Tome I. à --><pb/><fw type="pageNum"
+                     >ij</fw><!-- corriger en ii ? --><fw type="runningHead" rend="smallCapitals"
+                     >Avertissement.</fw>cun état, il prit l’habit ecclésiastique, qu’il a porté
+                  jusqu’à la fin de sa vie, sans entrer dns les Ordres.</p>
+               <p>Le hazard, ou son propre goût, l’ayant mis en quelque relation avec des Étrangers,
+                  dont le concours est toujours fréquent à Paris, soit pour se perfectionner dans la
+                  Langue Françoise, soit pour admirer ce qu’il y a de plus remarquable dans cette
+                  Capitale, il essaya de se lier avec eux, &amp; il sçut leur plaire par la vivacité
+                  de ses saillies. Il devint bientôt de leurs amis, de sorte qu’ils ne voulurent
+                  point d’autre Maître que lui pour la Langue Françoise. Ils le prièrent de plus de
+                  leur servir de guide dans les endroits de <rs>la Ville</rs>, qui méritoient
+                  l’attention des Curieux.</p>
+               <p>Cette occupation ne lui parut d’abord qu’un simple amusement ; mais bientôt il
+                  s’apperçut que la <pb/><fw type="runningHead" rend="smallCapitals"
+                     >Avertissement.</fw><fw type="pageNum">iij</fw><!-- corriger en iii ? -->
+                  commission dont il se chargeoit, étoit plus difficile à rmeplir qu’il ne l’avoit
+                  imaginé. Ce n’étoit pas assez de conduire ces Étrangers dans les endroits de
+                     <rs>la Ville</rs> les plus remarquables ; il falloit de plus entrer dans le
+                  détail des différentes beautés qui se rencontroient dans les Ouvrages des grands
+                  Artistes, tant Architectes, que Peintres ou Sculpteurs.
+                  <persName>Brice</persName>, qui avoit de la hardiesse &amp; une grande facilité
+                  d’expression, s’en tira d’abord assez bien avec ceux de ses écoliers, qui
+                  n’avoient pas plus de connoissance que lui dans les beaux Arts ; mais il rencontra
+                  plus de difficulté avec certains Étrangers, qui, quoique jeunes encore, en avoient
+                  eu quelque teinture. Il comprit que sans une étude particulière, il lui seroit
+                  impossible d’entrer dans des détails, &amp; que souvent il préféreroit avec le
+                  public ignorant des morceaux purement d’éclat, à d’autres qui
+                     <!-- a ij --><pb/><fw type="pageNum">iv</fw><fw type="runningHead"
+                     rend="smallCapitals">Avertissement.</fw> avec moins d’apparence renfermoient
+                  cependant plus de beautés réelles.</p>
+               <p>Dèslors <!-- détacher ? --> il consulta les Maîtres de l’Art, &amp; il devint
+                  écolier lui-même, pour être en état dans la suite de saisir au premier coup, &amp;
+                  de faire appercevoir ce que la magnificence de la Capitale contenoit de plus
+                  précieux. Le désir qu’il avoit de s’instruire, lui fit faire de rapides progrès ;
+                  mais rien ne contribua davantage à le perfectionner dans la connoissance des beaux
+                  Arts, qu’un voyage qu’il fit en Italie, où sous la conduite des grands Maîtres, il
+                  étudia les riches modèles de l’antiquité.</p>
+               <p>Les provisons qu’il fit en conséquence de cette étude, le mirent en état à son
+                  retour à <placeName>Paris</placeName>, d’être plus utile aux Étrangers qu’il ne
+                  l’avoit pû être jusqu’alors. Il en retira aussi des avantages pour lui-même, &amp;
+                  il ne fut pas long-temps<!-- réunir ? --> à se faire <pb/><fw type="runningHead"
+                     rend="smallCapitals">Avertissement.</fw><fw type="pageNum">v</fw> une situation
+                  fort aisée, surtout pour un homme seul, qui n’avoit nulle charge, nul embarras,
+                  &amp; très-peu<!-- séparer ? --> de dépense à faire.</p>
+               <p>Ses ouvrages contribuèrent aussi beaucoup à augmenter l’aisance dont il
+                  joüissoit<!-- garder le tréma ?-->. Je ne parle ici que de sa <title>Description
+                     de Paris</title>, dont la première édition qui parut <date when="1684">en
+                     1684</date>, fut bientôt suivie de plusieurs autres, de façon que dasn un
+                  certain nombre d’années, il a pu en voir jusqu’à huit éditions, qui toutes ont été
+                  enlevées avec le plus grand empressement.</p>
+               <p>Avant que <persName>Germain Brice</persName> donnât la première édition de son
+                  Ouvrage, nous en avions déjà un à peu près dans le même goût composé par le
+                        <persName><abbr>P.</abbr> du Breul</persName>, Religieux de
+                     l’<orgName>Abbbaye Saint Germain</orgName>, sur lequel
+                  long-tems<!-- réunir ? --> après <persName><abbr>M.</abbr> le Maire</persName>
+                  composa son Ouvrage intitulé ; <title>Paris ancien &amp; nouveau,
+                        <abbr>&amp;c.</abbr></title> Celui-ci parut après l’Ouvrage de
+                     <persName>Brice</persName> ; mais ni le Livre de <persName>du Breul</persName>,
+                     <!-- a iij --><fw type="pageNum">vj</fw><fw type="runningHead"
+                     rend="smallCapitals">Avertissement.</fw> ni celui de <persName>le
+                     Maire</persName>, quoiqu’estimés en eux-mêmes, ne firent aucun tort à la
+                  réputation de l’Ouvrage de <persName>Brice</persName>. <rs>L’Auteur</rs> de la
+                  grande Histoire de <placeName>la Ville de Paris</placeName>, dit à ce sujet dans
+                  sa Préface, que <quote><persName>Germain Brice</persName> plus brillant &amp; plus
+                     actif que les deux autres</quote> (<persName>du Breul</persName> &amp;
+                     <persName>le Maire</persName>) <quote>donnoit chaque jour un nouveau lustre à
+                     la Capitale du Royaume par ses Descriptions si souvent
+                  réimprimées.</quote><!-- quote ou q --></p>
+               <p>Quoique cet Auteur à chaque édition eût corrigé ce qu’il y avoit de défecteux dans
+                  les précédentes ; cependant, comme dans la description d’une Ville telle que
+                     <placeName>Paris</placeName>, il est difficile qu’il n’échappe quelque chose
+                  aux recherches même les plus exactes, il commençoit à travailler à une neuvième
+                  édition, lorsque la mort le surprit. Il mourut paisiblement <date when="1727">en
+                     1727</date>, dans sa soixante &amp; quatorzième année, &amp; fut inhumé à
+                        <placeName><abbr>S.</abbr> Sulpice</placeName></p>
+               <pb/>
+               <fw type="runningHead" rend="smallCapitals">Avertissement.</fw>
+               <fw type="pageNum">vij</fw>
+               <p>Divers incidnes dont il seroit inutile de rendre compte, ayant suspendu pendant un
+                  certain nombre d’années cette édition méditée par <rs>l’Auteur</rs>, on reprit ce
+                  dessein il y a environ dix ou douze ans. On mit sous-presse les trois premiers
+                  volumes ; après quoi on suspendit encore cet Ouvrage jusqu’à l’année présente
+                  <!-- TODO appel de note *, note : "1751" -->, où l’on a pris enfin le aprti de le
+                  terminer sans plus de délai. Comme les trois premiers volumes qui étoient
+                  imprimés, il y a déjà du temps, contiennent beaucoup de choses qui existoient
+                  alors, mais qui ne sont plus aujourd’hui, ou qui sont considérablement changées,
+                  nous avons cru devoir exposer ici en peu de mots, suivant le nombre des volumes
+                  &amp; des pages en quoi consistent les changeemns qui ont pû arriver dans les
+                  principaux Quartiers de <rs>cette Ville</rs>.</p>
+               <p><ref>Tome I. <hi rend="italic"><abbr>pag.</abbr> 73. &amp;
+                     <abbr>suiv.</abbr></hi></ref> l’Edi<!-- a iiij--><pb/><fw type="pageNum"
+                     >viij</fw><fw type="runningHead" rend="smallCapitals">Avertissement.</fw>teur à
+                  l’article du Louvre, parle des <orgName>Académies</orgName>, &amp; rapporte les
+                  noms des Académiciens qui composoient alors ces illustres Assemblées. Aujourd’hui
+                  presque tout est changé par la mort d’un grand nombre d’entr’eux. Nous n’entrerons
+                  point dans le détail de ces changemens. Nous nous contenterons de renvoyer aux
+                  listes que l’on a tous les ans de ces Académiciens, &amp; d’ailleurs il suffira au
+                  Lecteur de consulter l’Alamanach Royal<!-- créer ref bib ? --> de l’année. Par ce
+                  même moyen, on pourra aussi rectifier ce qui se trouve ici de défectueux par
+                  rapport aux Membres des <orgName>Académies de Sculpture &amp; de
+                     Peinture</orgName>, &amp; aux célèbres Artistes qui ont des logemens dans
+                     <placeName>le Louvre</placeName></p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 191.</ref> On parle de
+                        <placeName><abbr>S.</abbr> Thomas</placeName> &amp; de
+                        <placeName><abbr>S.</abbr> Nicolas du Louvre</placeName>, deux Églises
+                  Collégiales situées alors près <placeName>le Louvre</placeName>. Ces deux Églises
+                  ne subsistent plus. Celle de <placeName><abbr>S.</abbr> Thomas</placeName> écroula
+                  tout-à-coup le <pb/><fw type="runningHead" rend="smallCapitals"
+                     >Avertissement.</fw><fw type="pageNum">ix</fw>
+                  <date when="1739-10-15">15 Octobre 1739</date>. Le Chapitre fut réuni à celui de
+                     <orgName>Saint Nicolas du Louvre</orgName>. Peu après on a élevé une nouvelle
+                  Église à la place de celle de <placeName>Saint Thomas</placeName> : on la nomme
+                        <placeName><soCalled>Saint Louis du Louvre</soCalled></placeName>. Le
+                     <orgName>Chapitre de S. Nicolas</orgName> y a été transféré, &amp; on a détruit
+                  ensuite <placeName>l’Église de Saint Nicolas</placeName>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 211.</ref> On parle du
+                     <orgName>Chapitre Saint Germain-l’Auxerrois</orgName>, tel qu’il étoit dans ce
+                  tems-là, aujourd’hui ce Chapitre n’existe plus. Il y a quelqeus années qu’il a été
+                  réuni à <orgName>celui de la Cathédrale</orgName>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 226.</ref>
+                  <placeName>L’Église des Prêtres de l’Oratoire</placeName>, qui restoit à achever
+                  depuis long-tems, a été enfin totalement terminée <date notBefore="1746"
+                     notAfter="1747">depuis environ quatre à cinq ans</date>. On y remarquera un
+                  superbe portail, qui règne sur la <placeName>rue <abbr>S.</abbr>
+                     Honoré</placeName>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 269.</ref> Le grand portail qui
+                  manquoit alors à l’<placeName>Église S. Roch</placeName>, a été commencé <date
+                     from="1736">en 1736</date> sur les desseins de <persName>Robert de
+                     Cotte</persName>, Ar<!-- a v --><pb/><fw type="pageNum">x</fw><fw
+                     type="runningHead" rend="smallCapitals">Avertissement.</fw>chitecte du Roi,
+                  &amp; terminé par <persName>Jules-Robert de Cotte, son fils</persName>. Les
+                  Connoisseurs regardent ce morceau d’Architecture, comme un des plus beaux qu’il y
+                  ait à <placeName>Paris</placeName>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 318.</ref> La <placeName>Porte S.
+                     Honoré</placeName> dont <persName>Brice</persName> prédit la destruction, a été
+                  entièrement démolie <date when="1733">en 1733</date>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 373.</ref> où il s’agit de la
+                     <placeName>Bibliothèque du Roi</placeName>, il y a plusieurs changemens arrivés
+                  par la mort de quelques-uns de ceux à qui <persName>Sa Majesté</persName> avoit
+                  confié le soin. On peut encore ici consulter l’Almanach
+                  Royal.<!-- créer ref bib ? --></p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 450.</ref> Il est parlé de
+                     l’<placeName>Hôtel de Pontchartrain</placeName>, <placeName>rue Neuve des
+                     Petits-Champs</placeName>. Cet Hôtel s’appelle à présent l’<placeName>Hôtel des
+                     Ambassadeurs</placeName>, depuis que le Roi l’a destiné pour y loger les
+                  Ambassadeurs, à la place de l’<placeName>Hôtel</placeName> qu’ils avoient
+                  auparavant <placeName>rue de Tournon</placeName>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 478.</ref> On y fait la
+                     descrip<pb/><fw type="runningHead" rend="smallCapitals">Avertissement.</fw><fw
+                     type="pageNum">xj</fw>tion de l’<placeName>Hôtel de Soissons</placeName>. Cet
+                  Hôtel vient d’être entièrement démoli. On n’a conservé que la colonne
+                  colossale<!-- placeName ? un objet -->, que <persName>Catherine de
+                     Médicis</persName> avoit fait élever dans l’un des coins de <rs>cet
+                  Hôtel</rs>.</p>
+               <p><ref>Tome II. <hi rend="italic"><abbr>Pag.</abbr></hi> 152.</ref> Il se trouve
+                  dans l’<title>Épitaphe</title> de <persName>M. du Cange</persName> plusieurs
+                  fautes, que les Éditeurs n’ont pas eu l’attention de corriger. <num>1°.</num>
+                  Ligne 8. au lieu de <foreign xml:lang="lat">Franciæ quœstorum</foreign>, il faut
+                  lire <foreign xml:lang="lat">Franciæ quœstori</foreign>. <abbr>Lig.</abbr> 20. on
+                  a mis <foreign xml:lang="lat">ohsequio</foreign> pour <foreign xml:lang="lat"
+                     >obsequio</foreign>. Vers la fin de cette même Épitaphe, <abbr>pag.</abbr> 153.
+                     <abbr>lig.</abbr> 14. On lit <foreign xml:lang="lat">filius &amp;
+                     quant !</foreign><!-- TODO étoile pour appel de note --><note>
+                     <p><persName>M. Piganiol</persName> a fait contre <persName>Germain
+                           Brice</persName> une sortie un peu vive à l’occasion de cette faute ; il
+                        prétend que les deux abbréviations <q><foreign xml:lang="lat">et
+                              quæst.</foreign> n’ayant point</q>, dit-il, <q>été entendues par
+                           Germain Brice, il leur a substitué <foreign xml:lang="lat">et
+                              quant !</foreign> que personne ne peut entendre, &amp; que
+                           très-certainement il n’entendoit pas lui-même. Cette faute</q>, continue
+                           <rs>cet Auteur,</rs>
+                        <q>&amp; plusieurs autres que j’ai remarquées dans les Épitaphes qu’il a
+                           rapportées, m’ont convaincu que <rs>ce Descripteur de Paris</rs>
+                           n’entendroit pas le latin.</q></p>
+                     <p>Il me semble au contraire que l’<foreign xml:lang="lat">et quant !</foreign>
+                        peut être <hi rend="emphasis">entendu</hi>, que <persName>Brice</persName>
+                        <hi rend="emphasis">l’entendoit</hi>, &amp;<pb/><fw type="pageNum"
+                           >xij</fw><fw type="runningHead" rend="smallCapitals">Avertissement.</fw>
+                        cela, parce qu’il entendois le latin. Cet <foreign xml:lang="lat">&amp;
+                           quant !</foreign><!-- l’esperluette fait-elle partie du latin -->
+                        c’est-à-dire, <q>dans ce même endroit gît <persName>Philippe du
+                              Frêne</persName>, fils de Charles, &amp; quel fils !</q> Telle est la
+                        force du mot <foreign xml:lang="lat">quantus</foreign>, qui signifie, <hi
+                           rend="traduction">quel</hi>, <hi rend="traduction">combien grand</hi>. Il
+                        n’y a donc ici d’autre faute de la part de <persName>Brice</persName>, que
+                        de n’avoir pas suivi l’Épitaphe à la lettre. Ce qui a pu occasionner son
+                        erreur, c’est que s’en étant rapporté à un Copiste, celui-ci aura
+                        apparemment si mal écrit l’<foreign xml:lang="lat">et. quæst.</foreign> que
+                           <persName>Brice</persName> aura soupçonné que <rs>l’Auteur</rs> a voulu
+                        mettre <foreign xml:lang="lat">&amp; quant !</foreign> qui bien loin de ne
+                        rien signifier, forme au contraire un très-bel éloge. On a donc eu tort d’en
+                        conclure que Brice n’entendoit pas le latin. Ceux qui l’ont connu assurent
+                        qu’il possédoit parfaitement cette Langue, &amp; on dit même que n’entendant
+                        point la langue naturelle de plusieurs des Étrangers qu’il conduisoit dans
+                           <placeName>Paris</placeName>, c’étoit en latin qu’il leur expliquoit tout
+                        ce qu’il y avoit de remarquable. Il se servoit même de cette langue pour
+                        faire entendre les principes du François à ceux des Étrangers qui ne
+                        vouloient l’apprendre que de
+                     lui.</p><!-- RMQ annecdote piquante sur le latin et l’auteur --></note> Il faut
+                  lire <foreign xml:lang="lat">filius et. quœst.</foreign> c’est-à-dire, <foreign
+                     xml:lang="lat">filius etiam quœstor</foreign>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 206.</ref>
+                  <q>L’<placeName>Hôtel de Sully</placeName></q>, dit <persName>Germain
+                     Brice</persName>, <q>a autrefois appartenu à un nommé Gallet, riche Partisan de
+                     profession : il avoit <pb/><fw type="runningHead" rend="smallCapitals"
+                        >Avertissement.</fw><fw type="pageNum">xiij</fw> fait édifier cet Hôtel de
+                     son gain, <abbr>&amp;c.</abbr></q>
+                  <rs>L’Auteur</rs> a suivi en cela tradition commune, selon laquelle <persName>les
+                     Éditeurs de <persName>Boileau</persName></persName> ont dit la même chose.
+                        <persName><abbr>M.</abbr> Piganiol</persName> nous apprend au contraire que
+                  cette maison fut bâtie par <persName><hi rend="smallCapitals">Du
+                     Cerceau</hi></persName>, pour <persName><hi rend="italic">Maximilien de Béthune
+                        de Sully</hi></persName>, &amp; que ceux qui assurent qu’elle a appartenu à
+                        <q><persName>Gallet</persName>, qui d’Élu de Chinon</q>, dit-il, <q>étoit
+                     parvenu à être Contrôleur Général des Finances</q>, confondent deux maisons
+                  bien différentes. <q><persName>Gallet</persName></q>, continue
+                        <persName><abbr>M.</abbr> Piganiol,</persName>
+                  <q>étoit propriétaire <placeName>d’une maison dans laquelle il y avoit un
+                        cabaret</placeName>, qui étant auprès de l’<placeName>Hôtel de
+                        Sully</placeName>, l’avoit pris pour enseigne. <persName>Gallet</persName>
+                     fut obligé de la vendre pour payer ses créanciers, &amp; la conformité de ce
+                     nom a fait croire &amp; dire que l’<placeName>Hôtel des Ducs de
+                        Sully</placeName> lui avoit appartenu, &amp; qu’il l’avoit perdu au jeu.</q>
+                  <persName><abbr>M.</abbr> Piganiol</persName>, <title><abbr>Descrip.</abbr> de
+                     Paris</title>, <abbr>tom.</abbr> 4. <abbr>pag.</abbr> 411.</p>
+               <pb/>
+               <fw type="pageNum">xiv</fw>
+               <fw type="runningHead" rend="smallCapitals">Avertissement.</fw>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 266.</ref> L’<placeName><hi
+                        rend="italic">Hôtel de Lesdiguières</hi></placeName>, appelé depuis
+                        l’<placeName><hi rend="italic">Hôtel de Villeroi</hi></placeName>, a été
+                  entièrement démoli, il y a quelques années. Une partie du terrain a été employé à
+                  percer <placeName>une rue</placeName>, qui va de <placeName>la rue de la
+                     Cerisaye</placeName> dans la <placeName>rue Saint Antoine</placeName>. L’autre
+                  partie a été vendue aux <orgName>Filles de Ste Marie</orgName> pour aggrandir
+                     <placeName>leur Jardin</placeName>.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 308.</ref> Il y a une faute
+                  d’impression, à la datte de la mort de <persName>Rabelais</persName>. On a mis
+                  1153. pour 1553.</p>
+               <!-- quid typo ? les points pour séparer les parties -->
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 374.</ref> Il y a eu bien des
+                  changemens au <placeName>Jardin du Roi</placeName>, situé <placeName>rue S.
+                     Victor</placeName>, par rapport aux Sçavans, qui ont la direction des plantes,
+                  ou qui sont chargés d’y faire des démonstrations. Tout ce qui est dit dans cet
+                  endroit peut être rectifié sur l’Almanach Royal.</p>
+               <p><ref><hi rend="italic"><abbr>Pag.</abbr></hi> 399.</ref> à l’occasion de la mort
+                  du fameux <persName><gap quantity="1" unit="word" reason="illegible"
+                  /></persName><!-- TODO voir un autre exemplaire -->, l’Éditeur des premiers
+                  volumes de cette édition a rapporté une liste de plusieurs <pb/><fw
+                     type="runningHead" rend="smallCapitals">Avertissement.</fw><fw type="pageNum"
+                     >xv</fw> Sçavans morts à <placeName>Paris</placeName> dans la plus grande
+                  nécessité, &amp; il ajoûte que <q><persName>Germain Brice</persName>, qui avoit
+                     ébauché cette liste, doit avec justice être mis au nombre des Sçavans
+                     disgraciés de la fortune, &amp; que sans la généreuse libéralité de
+                        <persName>quelques Princes d’Allemagne</persName>, ausquels il avoit dédié
+                     plusieurs éditions de son Ouvrage, il auroit manqué des choses les plus
+                     nécessaires à la vie, tant par les malheurs de ces derniers tems, que par le
+                     peu de bienveillance que ceux qui sont en pouvoir témoignent trop souvent pour
+                     les personnes studieuses.</q> On a sçu que Germain Brice, n’a cependant jamais
+                  été dans le cas de manquer du nécessaire. Il avoit réussi de bonne heure à se
+                  faire environ mille écus de rente. Les leçons qu’il donnoit aux Étrangers &amp;
+                  les voyages qu’il faisoit avec eux, tant à <placeName>Paris</placeName> que dans
+                  les différens endroits du dehors, où il y avoit <pb/><fw type="pageNum"
+                     >xvj</fw><fw type="runningHead" rend="smallCapitals">Avertissement.</fw>
+                  quelque chose de curieux à voir, occasionnoient de la part de ces Seigneurs des
+                  reconnoissances utiles, qui augmentoient encore l’aisance dont il jouissoit. De
+                  sorte, qeu l’on ne peut pas dire que <persName>Germain Brice</persName> ait jamais
+                  été menacé de tomber dans l’indigence. Il vivoit d’une façon très-honnête, &amp; a
+                  toujours eu un domestique pour le servir ; c’est ce que nous assurons d’après le
+                  témoignage d’un de ses neveux
+                        <!-- TODO astérisque comme appel de note --><note><p>Le
+                              <persName><abbr>R.</abbr>
+                           <abbr>P.</abbr> Dom Brice</persName>, Religieux de l’<orgName>Abbaye de
+                              <abbr>S.</abbr>
+                        Germain-des-Prés</orgName>.<!-- Traiter le placeName dans l’index ? --></p></note>,
+                  connu &amp; estimé des Sçavans, qui par son mérite, ses talens, &amp; son
+                  assiduité au travail, contribue à soutenir la réputation d’une Congrégation
+                  célèbre, qui s’est toujours distinguée par les grands hommes qu’elle a
+                  produits.</p>
+               <p><rs>Le même Éditeur</rs> continuant de parler du peu d’aisance de
+                     <persName>Germain Brice</persName>, ajoûte que s’il n’avoit pas été obligé pour
+                  vivre de sacri<pb/><fw type="pageNum">xvij</fw><fw type="runningHead"
+                     rend="smallCapitals">Avertissement.</fw>
+               </p>
+               <p>
+                  <ref>Tome III. <hi rend="italic"><abbr>Pag.</abbr></hi> 31.</ref>
+               </p>
+               <p>
+                  <ref><hi rend="italic"><abbr>Pag.</abbr></hi> 53.</ref>
+               </p>
+               <p>
+                  <ref><hi rend="italic"><abbr>Pag.</abbr></hi> 209.</ref>
+               </p>
+               <p>
+                  <ref><hi rend="italic"><abbr>Pag.</abbr></hi> 234.</ref>
+               </p>
+               <p>
+                  <ref><hi rend="italic"><abbr>Pag.</abbr></hi> 364.</ref>
+               </p>
+               <p>
+                  <ref><hi rend="italic"><abbr>Pag.</abbr></hi> 412.</ref>
+               </p>
+               <p>Nous ne ferons point d’observations sur le quatrième Volume, parce qu’il n’est
+                  point arrivé de changemens considérables pendant le cours de l’impression. Il y a
+                  seulement quelqeus fautes à corriger, mais elles sont de peu de conséquence, &amp;
+                  il n’y a pas à craindre qu’elles puissent arrêter le Lecteur.</p>
+            </div>
+            <div type="toc">
+               <gap reason="sampling"/>
+            </div>
+            <div type="preface">
+               <gap reason="sampling"/>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div xml:lang="fre"/>
+      </body>
+      <back>
+         <div xml:lang="fre"/>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/gdpSchemaTEI.rng" 
+            type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    Guides de Paris, Jacques Du Breul, 1612
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fre" type="main">Jacques Du Breul, 1612</title>
+                <principal>
+                    <persName ref="#MCL">
+                        <forename>Marianne</forename>
+                        <surname>Cojannot-Le Blanc</surname>
+                        <affiliation>
+                            <orgName>Histoire des Arts &amp; Représentations</orgName>
+                            <orgName type="acronym">HAR</orgName>
+                            <orgName type="alt">EA 4414</orgName>
+                            <roleName>responsable scientifique</roleName>
+                        </affiliation>
+                        <affiliation>
+                            <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
+                            <orgName type="alt">Paris 10</orgName>
+                            <roleName>Professeur d'histoire de l'art</roleName>
+                        </affiliation>
+                    </persName>
+                </principal>
+                <funder>
+                    <orgName>Labex Les Passés dans le Présent</orgName>
+                    <date from="2013" to="2018">2013-2018</date>
+                </funder>
+                <respStmt>
+                    <resp key="prg">modélisation XML-TEI</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">encodage</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">première édition électronique, <date from="2013" to="2018"
+                    >2013-2018</date></edition>
+            </editionStmt>
+            <extent><!-- TODO : taille du fichier en octet --></extent>
+            <publicationStmt>
+                <date when="2013">2013</date>
+                <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
+                <idno>ark</idno>
+                <!-- responsable de la publication -->
+                <publisher>
+                    <orgName>Histoire des Arts et Représentations</orgName>
+                    <orgName type="acronym">HAR</orgName>
+                    <address>
+                        <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                        <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                        <addrLine>200, Avenue de la République</addrLine>
+                        <addrLine>92001 Nanterre Cedex</addrLine>
+                        <addrLine>France</addrLine>
+                        <addrLine>http://har.u-paris10.fr</addrLine>
+                        <addrLine>harparisouest@gmail.com</addrLine>
+                    </address>
+                </publisher>
+                <availability status="restricted" xml:id="gdpDuBreul1612Licence">
+                    <!-- TODO : <licence> à ajouter partout -->
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+                        <p>Texte de la licence</p>
+                        <graphic url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"/>
+                    </licence>
+                    <p>Texte de la licence choisie.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="fre" type="main">Les Guides de Paris</title>
+                <title xml:lang="fre" type="sub">Les historiens des arts et les corpus numériques</title>
+                <idno type="URI">http://www.guidesdeparis.net</idno>
+            </seriesStmt>
+            <!--<notesStmt>
+                <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
+                <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
+            </notesStmt>-->
+            <!-- description de la source -->
+            <sourceDesc xml:id="gdpDuBreul1612">
+                <bibl copyOf="#duBreul1612"/>
+                <!-- TODO remplacer avec les références intégrales pour le partage -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <stdVals>
+                    <p>On utilise...</p>
+                </stdVals>
+                <!-- TODO revoir -->
+            </editorialDecl>
+            <!-- déclaration concernant la méthode d'établissement du corpus (sélection) -->
+            <refsDecl>
+                <p>Description du système de référence canonique.</p>
+                <!-- TODO revoir -->
+            </refsDecl>
+        </encodingDesc>
+        <!-- présentation du profil de fichier -->
+        <profileDesc>
+            <creation when="2013">2013</creation>
+            <langUsage>
+                <language ident="fre" usage="100">Français (langue principale du corpus)</language>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="fre" scheme="http://data.bnf.fr/liste-rameau">
+                    <term>18e siècle</term>
+                    <term>France</term>
+                </keywords>
+                <keywords xml:lang="eng" scheme="http://id.loc.gov/authorities/about.html#lcsh">
+                    <term>17th-18th centuries</term>
+                    <term>France</term>
+                </keywords>
+                <classCode scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
+                    <term>Text</term>
+                    <!-- TODO qualifier -->
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-02-04" who="#EC">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage xml:lang="fre" corresp="#duBreul1612">
+                <docTitle>
+                    <titlePart rend="capital">Le <lb/>Théâtre <lb/>des <lb/>antiquitez <lb/>de
+                        Paris.</titlePart>
+                </docTitle>
+                <argument>
+                    <p>Où est traicté de la fondation des Eglises &amp; Chapelles de la Cité, Université,
+                        Ville, &amp; Diocèse de Paris : comme aussi de l'institution du Parlement, fondation
+                        de l'Université &amp; Colleges, &amp; autres choses remarquables</p>
+                    <p rend="capital">Divisé en quatre livres</p>
+                </argument>
+                <byline rend="italic">Par le <hi rend="capital regular">R. P. F. <docAuthor>Jacques du
+                            Breul</docAuthor></hi> Parisien, <lb/>Religieux de Sainct Germain des
+                    Prez.</byline>
+                <epigraph>
+                    <p rend="capital">Spe labor levis.</p>
+                </epigraph>
+                <metamark rend="arms"/>
+                <!-- TODO vérifier -->
+                <docImprint>
+                    <pubPlace>A Paris,</pubPlace>
+                    <publisher>Chez <hi rend="capital">Claude de la Tour</hi> au mont S. Hilaire, à l'enseigne
+                        Sainct Hilaire</publisher>
+                    <docDate when="1639">M. DC. XII.</docDate>
+                </docImprint>
+                <imprimatur rend="capital italic">Avec privilege du Roy.</imprimatur>
+            </titlePage>
+            <!-- TODO reprendre la page de titre pour les effets typographiques -->
+            <div xml:lang="fre"/>
+        </front>
+        <body>
+            <div xml:lang="fre">
+                <gap reason="sampling"/>
+                <pb/>
+                <fw>806</fw>
+                <div type="part">
+                    <head rend="italic alignCenter">De l’Eglise Parroichiale de Sainct Gervais, <lb/>Et Sainct
+                        Prothais.</head>
+                    <p><persName><hi rend="capital"><hi rend="initial">F</hi>o</hi>rtunatus Evesque de
+                            Poictiers</persName>, lequel a escrit la vie de <persName>sainct Germain Evesque
+                            de Paris</persName>, entre plusieurs miracles faicts à l’intercession dudit
+                        Sainct, au chapitre 67 rapporte celuy cy vrayement digne de memoire et bien
+                        remarquable. C’est qu’estant un jour en volonté d’aller faire ses prieres en
+                            l’<placeName>Eglise de sainct Gervais et saint Protais à Paris</placeName>,
+                        ausquels Saincts il avoit vne particuliere devotion, comme il tesmoigne au 57
+                        chapitre, il trouva les portes fermées. Mais ayant demandé les clefs et voyant
+                        qu’elles ne pouvoient aucunement ouvrir le pesle de la serrure qui les tenoit fermées,
+                        il fit dessus le signe de la Croix et aussitost miraculeusement se deferma le peste et
+                        les portes furent ouvertes, à quoy ledit Fortunatus adioust avoir esté present. Telles
+                        sont les paroles. <quote xml:lang="lat">Item cum Parisiis ad basilicam sanctorum
+                            Gervasii et Protasii orandi causa processisset, ianuis obseratis, ingressus illi
+                            negatus est. Tunc requisitis clauibus, nectamen ipsis aperientibus, sicille
+                            reserauit pessulum facto signaculo crucis. Stupor namque animos inuasit praesenti
+                            miraculo, aperiri scilicet potuisse de virtute, quod claui duce non potuit. Hac
+                            quoque veneranda, praesente me, gesta sunt.</quote> Ce qui demonstre
+                                <choice><abbr>clairemēt</abbr><expan>clairement</expan></choice> que ceste
+                        Eglise estoit fondée et dediée en l’honneur des susdits martyrs devant l’an 578 car en
+                        icelle année deceda ledict sainct Germain.</p>
+                    <p><date when="1141">En l’an 1141</date>, <persName>Galeran Comte de Mellen ou
+                            Meulan</persName> (distant de Paris de neuf lieues) voulut veoir tous les tiltres
+                        et enseignemens du Prioré conventuel de S. Nicaise, <persName>Archevesque de Rouen et
+                            martyr</persName>, fondé audict Meulan par ses predecesseurs Comtes et regi par
+                        les religieux de l’Abbaye du Bec en Normandie. Et les donations mentionnées esdicts
+                        tiltres, il reduit en vne carte fort ample signée de sa main et sellée de son grand
+                        seel, laquelle commence par ces mots. <quote xml:lang="lat">Saepe contingere solet, vt
+                            bene gesta paretum perturbet succescio filioram : dum de rebus ecclesiae Dei
+                            collatis minus sussiciens adbibe<pb/><fw>807</fw>tur testium cautela, vel non
+                            superest carta viuacior. Hoc attendens ego Galeranus Comes Mellenti videre et
+                            relegere volui cartas et munitiones quas habebant monachi apud Mellentum in
+                            Ecclesia Beati Nicasii Martyris diuinis excubys insistentes, super beneficys idem
+                            monasterio tam per me quam per patrem meum, velper alios antecessores meos
+                            diuersis temporibus collatas. Concedo igitur in nomine Christi Iesu et perpetuo
+                            iure confirmo possidendum Beato Nicasio et Beccensibus monachis in ipsius ecclesia
+                            Deo famulantibus teloneum etc.</quote> Et apres avoir exprimé plusieurs donations,
+                        il s’enfuit. <quote xml:lang="lat">Concedo nihilominus et sigilli mei munitione
+                            confirmo Deo et ecclesiae Beati Nicasii Martyris, Ecclesias S. Geruasii et S.
+                            Ioannis, que sunt Parisius in vico qui dicitur Greua.</quote> Il n’est point fait
+                        mention de l’Abbaye du Bec, toutesfois la nomination et
+                                <choice><abbr>presentatiõ</abbr><expan>presentation</expan></choice> des Curez
+                        esdictes deux Eglises appartenoit conjoinctement aux Abbé et convent du Bec et aux
+                        Prieur et convent de S. Nicaise de Meulan : comme il se verifie par les lettres de R.
+                        Pere en Dieu Pierre Camb. 72 Evesque de Paris : lequel du consentement des susdits
+                        erigea en parroisse ladite Eglise S. Jean qui n’estoit au paravant que chapelle,
+                        membre et secours de celle de S. Gervais. Ceste separation fut faite 71 an apres la
+                        datte des lettres du susdit Comte de Meulan à sçavoir en l’an 1212.<lb/>L’an 1274,
+                        l’Eglise de sainct Gervais et sainct Prothais fut vollée de nuit et entre autres
+                        choses vn larron emporta le sacré vase dans lequel reposoit la saincte hostie et
+                        s’enfuiant vers S. Denys quand il fut au champ du Lendit il commença à rompre ce sacré
+                        vase et incontinent la saincte hostie s’envolla, voltigeant en l’air apres le larron.
+                        Ce qu’estant aperçeu par quelques passants jugerent que c’estoit quelque action divine
+                        et aprehenderent le larron, qui avoit ce vase. Dequoy adverty l’Abbé de sainct Denys,
+                        il y vint avec quelque nombre de ses Religieux où il vid la saincte hostie
+                        incessamment voltiger en l’air, au mesme lieu où le larron avoit esté arresté. <note
+                            place="comment" resp="Amandine_Girardet">Note dans la marge droite: Hostie sacrée
+                            miraculeusement esleuée en l’air longue espace de temps</note> Lequel il fit
+                        emprisonner et peu apres pendre et estrangler au gibet de sainct Denys. Il n’obmit
+                        aussi à en advertir l’Evesque de Paris, lequel admiré d’vn si grand merveille, y vint
+                        en procession avec son Clergé, où se trouva aussi ledit Abbé avec ses religieux. Et
+                        apres plusieurs hymnes et louanges chantées en l’honneur du sainct
+                                <choice><abbr>Sacremēt</abbr><expan>Sacrement</expan></choice>, com[p. 808]me
+                        les processions passoient chacune par ordre dans le
+                                <choice><abbr>chãp</abbr><expan>Champ</expan></choice> du Lendit, ladite
+                        hostie suspendue en l’air, vint à descendre miraculeusement entre les mains du Curé de
+                        S. Gervais et sainct Prothais, non sans grande admiration d’vne multitude infinie de
+                        personnes qui estoient persens. Or il se meut contention entre l’Abbé et l’Evesque, à
+                        qui auroit ladicte hostie. L’Abbé la vouloit avoir, comme ayant esté recouverte sur sa
+                        terre. L’Evesque pretendoit l’avoir comme ayant esté prise dans sa ville. Finablement
+                        fut accordé entre eux qu’elle demeureroit au Curé de sainct Gervais comme à luy
+                        appartenant, d’autant qu’il l’avoit consacrée. A la charge qu’il celebreroit ou feroit
+                        celebrer tous les vendredis de l’an vne Messe haute du sainct Sacrement et que tous
+                        les ans, le premier jour de septembre (auquel jour ladicte hostie avoit esté
+                        retrouvée), il se feroit, dans le chœur d’icelle Eglise, l’office solennel du sainct
+                        Sacrement et procession à l’entour de l’Eglise. En laquelle le sainct Sacrement seroit
+                        porté avec tout honneur et reverence ; ce qui s’observe encore pour le jourd’huy. Car
+                        l’on chante tous les vendredis en icelle Eglise la Messe du sainct Sacrement au lieu
+                        qu’és autres Eglises on la dit le jeudy. Et le premier de septembre l’on fait tous les
+                        ans l’office comme dessus. L’histoire dudit Miracle est naifvement depeinte en vne
+                        vitre de la Chapelle sainct Pierre d’icelle Eglise où sont aussi quelques vers
+                        françois, contenans partie d’icelle histoire.<lb/>Maintenant l’Abbé du Bec pourvoit
+                        seul tant au Prioré de sainct Nicaise de Meulan qu’aux Cures de S. Gervais et de
+                        sainct Jean en Greve, vacation occurrente et en est en possession de temps
+                        immemorial.<lb/>La dedicace de l’Eglise sainct Gervais et sainct Prothais est le 26 octobre.<lb/>
+                        <hi rend="italic">Institution de la Confrairie de sainct Eutrope et sainct</hi>
+                        <lb/>
+                        <hi rend="italic">Quentin, en l’Eglise de sainct Gervais et<lb/>sainct Prothais.</hi>
+                    </p>
+                </div>
+                <div>
+                    <head/>
+                    <p><hi rend="capital"><hi rend="initial">P</hi>o</hi>ur sçavoir l’origine de ladicte
+                        Confrairie, est necessaire d’entendre qu’anciennement il y avoit en l’Eglise de sainct
+                        Gervais vn Autel fondé en l’honneur et reverence de sainct Eutrope et sainct Quentin
+                        et devant iceluy vne habitation ou maison, en laquelle estoient receus tous malades
+                            <pb/><fw>809</fw> entachez de la maladie dont on requiert lesdits saincts. Et là
+                        venants faire leur neufvaine y estoient logez bien honorablement, tant pauvres que
+                        riches, lesquels en la fin des neuf jours ordinairement guarissoient ou alloient de
+                        vie à trespas. A raison dequoy les Marguilliers et parroissiens en l’<date when="1400"
+                            >an 1400</date> par la permission du Roy Charles 6, le 21 <note place="comment"
+                            resp="Amandine_Girardet">Année dans la marge: 1400</note> de son regne
+                        instituerent et fonderent vne Confrairie en l’honneur et reverence desdits saincts et
+                        vne Messe solennelle qui se diroit tous les ans audit autel le jour de leur feste. A
+                        la charge que le Roy, la Royne et leurs enfans seroient participants aux prieres,
+                        oraisons et bien faicts de la dicte Confrairie et que en icelle seroient receus toutes
+                        personnes qui y auroient devotion.</p>
+                    <p>Par les mesmes lettres, il est permis ausdicts confreres de s’assembler chacun an vne
+                        fois à leur commodité pour adviser aux saincts concernans ladicte confrairie. Et en
+                        outre qu’ils puissent elire trois ou quatre personnes notables et suffisans pour
+                        gouverner et garder les droits et appartenances d’icelle confrairie. Lesquels
+                        toutefois seroient tenus en rendre compte comme il a accoustumé d’estre fait és autres
+                        confrairies de la ville de Paris.<lb/>L’an de grace 1402<hi
+                            rend="annotation_reference">
+                            <note place="comment" resp="Amandine_Girardet">
+                                <date when="2014-03-21T11:59:00Z"/>Rappel de la date dans la marge 1402</note>
+                        </hi>, les Marguillers de l’Eglise S.<hi rend="annotation_reference">
+                            <note place="comment" resp="Amandine_Girardet">
+                                <date when="2014-04-03T13:44:00Z"/>Abréviation Saint</note>
+                        </hi> Gervais, sous ombre que lesdictes lettres avoient esté obtenues à leur requeste,
+                        voulurent avoir le gouvernement de ladicte confairie, en percevoir les fruicts et
+                        revenus et les appliquer où bon leur sembleroit.<lb/>A raison dequoy le Roy, à la
+                        requeste et supplication des freres et sœurs de ladicte confrairie, voulut et ordonna
+                        qu’icelle fut gouvernée par des maistres et gouverneurs eleuz et choisis en la maniere
+                        ordinaire et les proufits tournez et convertis au au proufit d’icelle confrairie pour
+                        le divin service estre fait et celebré en ladicte Eglise selon et par la forme et
+                        maniere que sont les autres confrairies de la ville de Paris.<lb/>Le mesme Roy
+                        (d’autant que luy, la Royne, le Dauphin et tous ses enfans et plusieurs autres du sang
+                        royal estoient d’icelle confrairie) confirma encores ce que dessus par vne lettre du
+                        cacher du 3 may qu’il envoya ausdits Marguillers par vn Huissier d’armes, leur
+                        commandant expressement de n’y faire faute et d’obeir au contenu de ses lettres
+                        patentes [p. 810] données en faveur de ses susdicts confreres<lb/>
+                        <hi rend="italic">Fondation de la chapelle de Messieurs de Pacy, en </hi>
+                    </p>
+                    <p>
+                        <hi rend="italic">l’ eglise de sainct Gervais.</hi>
+                    </p>
+                    <p>
+                        <hi rend="annotation_reference">
+                            <note place="comment" resp="Amandine_Girardet">
+                                <date when="2014-03-21T12:07:00Z"/>Centré</note>
+                        </hi>L’an 1349, par contract passé du 21 may, les Marguillers de l’Eglise de sainct
+                        Gervais baillerent et delaisserent à honorables et discretes personnes Jean de Pacy,
+                        seigneur de Bon sur Marne, Jacques de Pacy, seigneur de Villemirant freres,
+                        parroissiens de ladicte Eglise, en consideration de la devotion et grande affection
+                        qu’ils avoient en icelle, vne place seant du costé devers l’hostel Dieu sainct
+                        Gervais, appelé <hi rend="italic">Le petit Cimetiere</hi>, joignant à l’Eglise et la
+                        maison du costé qui estoit sur l’allée de la porte Bauldoier appartenant à l’œuvre et
+                        à la Marguillerie d’icelle : pour en ce lieu faire edifier et construire vne Chapelle
+                        et en icelle faire chanter et prier pour les ames d’eux et de leurs amis où ils
+                        auroient leur sepulture à tousiours pour eux et pour leur lignée et non pour autre,
+                        sans en payer ausdits Marguillers aucune redevance, telle qu’elle fut. Et n’y
+                        pourroient lesdits Marguillers, ny leur successeurs, ny autres, fors lesdits freres et
+                        les issus d’eux et qui des issus d’eux isteront. Et au cas que leur lignée vint à
+                        faillir, les plus prochains du lignage apres successivement faire enterrer, ny avoir
+                        droict de faire enterrer aucunes personnes. Et avec ce, ne pourront lesdits
+                        Marguillers, ne nul autre, empescher à faire le service divin, ny autres choses que
+                        lesdits freres et dessus dits et leurs gēs<hi rend="annotation_reference">
+                            <note place="comment" resp="Amandine_Girardet">
+                                <date when="2014-04-03T14:03:00Z"/>Contraction Gens</note>
+                        </hi> voudroient faire en ladicte Chapelle. A la charge que lesdits freres doivent
+                        asseoir cent sols parisis de rente admortie à l’œuvre de ladicte Eglise, tant en
+                        recompense de la maison qui seroit abbatue, comme pour la place où ladicte Chapelle
+                        seroit edifiée et pour icelle soustenir à tousiours de toutes choses requises et
+                        necessaires. Et en outre, s’obligeroient lesdits freres de faire bastir ladicte
+                        Chapelle en la forme et maniere qu’il avoit esté advisé par les Marguillers et anciens
+                        de ladicte parroisse.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
