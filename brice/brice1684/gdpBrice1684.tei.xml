@@ -12,6 +12,9 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="fre" type="main">Germain Brice 1684</title>
+            <author>
+               <persName full="yes">Brice, Germain (1653?-1727)</persName>
+            </author>
             <principal>
                <persName ref="#MCL" full="yes">
                   <forename full="yes">Marianne</forename>
@@ -559,7 +562,7 @@
                            <p xml:id="gdpBrice1684T01BodyFr01.004.001.p001">
                               <label>
                                  <placeName full="yes">L’hôtel de Créqui</placeName>
-                              </label>, où demeure l’illustre maréchal de ce nom. Au dehors il ne paroît pas beaucoup, cependant les dedans sont fort propres &amp; l’ surtout est d’un très beau dessein. Dans <placeName full="yes">la rue de Saint-Thomas-du-Louvre</placeName> est :</p>
+                              </label>, où demeure l’illustre maréchal de ce nom. Au dehors il ne paroît pas beaucoup, cependant les dedans sont fort propres &amp; l’escalier surtout est d’un très beau dessein. Dans <placeName full="yes">la rue de Saint-Thomas-du-Louvre</placeName> est :</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr01.004.002" type="section">
                            <p xml:id="gdpBrice1684T01BodyFr01.004.002.p001">

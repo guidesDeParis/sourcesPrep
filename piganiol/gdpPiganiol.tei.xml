@@ -4,10 +4,10 @@
             schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- 
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-   Guides de Paris, corpus de Le Maire
+   Guides de Paris, corpus de Piganiol
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
 -->
-<!-- RMQ : fichier principal qui contient toutes les éditions de Sauval -->
+<!-- RMQ : fichier principal qui contient toutes les éditions de Piganiol -->
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -199,8 +199,8 @@
         </revisionDesc>
     </teiHeader>
     <!-- Inclusion du fichier TEI de Piganiol 1742 -->
-    <xi:include href="piganiol1742/piganiol1742.tei.xml" parse="xml">
-        <xi:fallback>Fichier de Le Marie 1685 non trouvé</xi:fallback>
+    <xi:include href="piganiol1742/gdpPiganiol1742.tei.xml" parse="xml">
+        <xi:fallback>Fichier de Piganiol 1742 non trouvé</xi:fallback>
     </xi:include>
     <!-- TODO : ajouter les autres éditions -->
 </teiCorpus>

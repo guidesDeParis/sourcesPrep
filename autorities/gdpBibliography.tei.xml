@@ -1256,6 +1256,58 @@
                             </listRelation>
                         </biblStruct>
                     </listBibl>
+                    <listBibl xml:id="piganiolBiblio">
+                        <head>Jean-Aymar Piganiol de La Force, Description de Paris,...</head>
+                        <bibl xml:id="piganiolWork" type="work">
+                            <author>
+                                <persName ref="#piganiolDeLaForceJeanAymar">
+                                    <forename>Jean-Aymar</forename>
+                                    <surname>Piganiol de la Force</surname>
+                                </persName>
+                            </author>
+                            <title level="m">Description de Paris, de Versailles de Marly, de Meudon de S. Cloud, de Fontainebleau, et de toutes les autres belles maisons et châteaux des environs de Paris</title>
+                        </bibl>
+                            <biblStruct xml:id="piganiolExpression" type="expression">
+                                <monogr>
+                                    <author>
+                                        <persName ref="#piganiolDeLaForceJeanAymar">
+                                            <forename>Jean-Aymar</forename>
+                                            <surname>Piganiol de la Force</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m"
+                                        >Description de Paris, de Versailles de Marly, de Meudon de S. Cloud, de Fontainebleau, et de toutes les autres belles maisons et châteaux des environs de Paris</title>
+                                </monogr>
+                                <listRelation>
+                                    <relation type="work" corresp="#piganiolWork"/>
+                                </listRelation>
+                            </biblStruct>
+                            <biblStruct xml:id="piganiol1742Manifestation" type="manifestation">
+                                <monogr>
+                                    <author>
+                                        <persName ref="#piganiolDeLaForceJeanAymar">
+                                            <forename>Jean-Aymar</forename>
+                                            <surname>Piganiol de la Force</surname>
+                                        </persName>
+                                    </author>
+                                    <title level="m"
+                                        >Description de Paris, de Versailles de Marly, de Meudon de S. Cloud, de Fontainebleau, et de toutes les autres belles maisons et châteaux des environs de Paris</title>
+                                    <imprint>
+                                        <pubPlace>À Paris</pubPlace>
+                                        <publisher>T. Legras</publisher>
+                                        <date when="1724">1742</date>
+                                    </imprint>
+                                    <extent>
+                                        <dim type="format" extent="in-fol">In-8°</dim><!-- @todo vérifier --> 
+                                        <dim
+                                        unit="volumes" quantity="8">8</dim> </extent>
+                                </monogr>
+                                <idno type="catBnf">https://catalogue.bnf.fr/ark:/12148/cb36025177p</idno>
+                                <listRelation>
+                                    <relation type="work" corresp="#piganiolExpression"/>
+                                </listRelation>
+                            </biblStruct>
+                    </listBibl>
                     <listBibl xml:id="sauvalBiblio">
                         <head>Henri Sauval, Histoire et recherches des antiquités de la ville de Paris, …</head>
                         <bibl xml:id="sauvalWork" type="work"> <author> <persName ref="#sauvalHenri"

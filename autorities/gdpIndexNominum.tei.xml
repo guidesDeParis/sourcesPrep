@@ -373,7 +373,7 @@
                     <persName full="yes">Le Comte, Florent</persName>
                 </person>
                 <person xml:id="leMaireCharles">
-                    <persName full="yes">Le Maire, Charles</persName>
+                    <persName full="yes">Le Maire, Charles (16..-16..)</persName>
                     <persName>
                         <forename>Charles</forename>
                         <surname>Le Maire</surname>
@@ -640,12 +640,12 @@
             </listPerson>
 
             <!-- Organisations et personnes morales -->
-            <orgList>
+            <listOrg>
                 <head>Index des personnes morales</head>
                 <org/>
                 <!-- Exemple d’encodage d’une organisation -->
                 <!-- <org xml:id="inOrg001"> <orgName type="full"></orgName> <idno/> </org> -->
-            </orgList>
+            </listOrg>
         </body>
     </text>
 </TEI>

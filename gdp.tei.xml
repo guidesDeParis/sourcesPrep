@@ -367,16 +367,6 @@
         </revisionDesc>
     </teiHeader>
 
-    <!-- Inclusion du fichier teiCorpus de Brice (gdpBrice) -->
-    <xi:include href="brice/gdpBrice.tei.xml" parse="xml">
-        <xi:fallback>Fichier teiCorpus de Brice non trouvé</xi:fallback>
-    </xi:include>
-
-    <!-- Inclusion du fichier teiCorpus de Jaillot (gdpJaillot) -->
-    <xi:include href="jaillot/gdpJaillot.tei.xml" parse="xml">
-        <xi:fallback>Fichier teiCorpus de Jaillot non trouvé</xi:fallback>
-    </xi:include>
-
     <!-- Inclusion du fichier teiCorpus de Sauval (gdpSauval) -->
     <xi:include href="sauval/gdpSauval.tei.xml" parse="xml">
         <xi:fallback>Fichier teiCorpus de Sauval non trouvé</xi:fallback>
@@ -385,6 +375,21 @@
     <!-- Inclusion du fichier teiCorpus de Le Maire (gdpLeMaire) -->
     <xi:include href="leMaire/gdpLeMaire.tei.xml" parse="xml">
         <xi:fallback>Fichier teiCorpus de Le Maire non trouvé</xi:fallback>
+    </xi:include>
+    
+    <!-- Inclusion du fichier teiCorpus de Brice (gdpBrice) -->
+    <xi:include href="brice/gdpBrice.tei.xml" parse="xml">
+        <xi:fallback>Fichier teiCorpus de Brice non trouvé</xi:fallback>
+    </xi:include>
+    
+    <!-- Inclusion du fichier teiCorpus de Piganiol (gdpBrice) -->
+    <xi:include href="piganiol/gdpPiganiol.tei.xml" parse="xml">
+        <xi:fallback>Fichier teiCorpus de Piganiol non trouvé</xi:fallback>
+    </xi:include>
+    
+    <!-- Inclusion du fichier teiCorpus de Jaillot (gdpJaillot) -->
+    <xi:include href="jaillot/gdpJaillot.tei.xml" parse="xml">
+        <xi:fallback>Fichier teiCorpus de Jaillot non trouvé</xi:fallback>
     </xi:include>
 
     <!-- TODO rassembler les éléments globaux du corpus dans un teiCorpus ? -->
