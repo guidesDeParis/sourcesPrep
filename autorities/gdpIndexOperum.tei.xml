@@ -209,194 +209,234 @@
                <object xml:id="d1e228">
                   <objectName full="yes">Origine de Paris</objectName>
                   <num>page 1</num>
-                  <relation ref="gdpBrice1684T01BodyFr.p001"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr.p001"/>
                </object>
                <object xml:id="d1e234">
                   <objectName full="yes">Accroissemens de Paris</objectName>
                   <num>6</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr.p003"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr.p003"/>
                </object>
                <object xml:id="d1e240">
                   <objectName full="yes">Louvre (le)</objectName>
                   <num>11</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr01"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr01"/>
+                  <relation type="locus" ref="#gdpPiganiol1742T08Back.01.012.p123"/>
                </object>
                <object xml:id="d1e246">
                   <objectName full="yes">Cabinet des tableaux</objectName>
                   <num>15</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr01.001"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr01.001"/>
                </object>
                <object xml:id="d1e252">
                   <objectName full="yes">Attelier de Monsieur Girardon</objectName>
                   <num>16</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr01.001.001"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr01.001.001"/>
                </object>
                <object xml:id="d1e258">
                   <objectName full="yes">Attelier de Monsieur de Mercy</objectName>
                   <num>17</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr01.001.002"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr01.001.002"/>
                </object>
                <object xml:id="d1e264">
                   <objectName full="yes">Académie Françoise et le nom des académiciens</objectName>
                   <num>17</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr01.001.003"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr01.001.003"/>
                </object>
                <object xml:id="d1e270">
                   <objectName full="yes">Modèles du grand escalier du Louvre</objectName>
                   <num>21</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr01.001.004"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr01.001.004"/>
                </object>
                <object xml:id="d1e276">
                   <objectName full="yes">Modèle de la statue du roi à cheval de Monsieur Girardon</objectName>
                   <num>22</num>
-                  <relation type="locus" ref="gdpBrice1684T01BodyFr01.001.005"/>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr01.001.005.p001"/>
                </object>
                <object xml:id="d1e283">
                   <objectName full="yes">Cabinet du Garde-Meuble</objectName>
                   <num>23</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.002"/>
                </object>
                <object xml:id="d1e288">
                   <objectName full="yes">Palais des Tuilleries</objectName>
                   <num>27</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003"/>
                </object>
                <object xml:id="d1e293">
                   <objectName full="yes">Chapelle [du Palais du Louvre]</objectName>
+                  <!-- @todo Tuilleries ? -->
                   <num>30</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.001"/>
                </object>
                <object xml:id="d1e298">
                   <objectName full="yes">Théâtre [du Palais du Louvre]</objectName>
+                  <!-- @todo Tuilleries ? -->
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.001"/>
                   <num>30</num>
                </object>
                <object xml:id="d1e303">
                   <objectName full="yes">Jardin des Tuileries</objectName>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.002"/>
                   <num>31</num>
                </object>
                <object xml:id="d1e308">
                   <objectName full="yes">Cabinet de Monsieur Le Nostre</objectName>
                   <num>32</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.002.p001"/>
+               </object>
+               <object xml:id="d1e309">
+                  <objectName full="yes">Grande gallerie du Louvre</objectName>
+                  <num>32-33</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.003"/>
                </object>
                <object xml:id="d1e313">
                   <objectName full="yes">Salle des antiques</objectName>
                   <num>33</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.004"/>
                </object>
                <object xml:id="d1e318">
                   <objectName full="yes">Imprimerie royale</objectName>
                   <num>34</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.005"/>
                </object>
                <object xml:id="d1e323">
                   <objectName full="yes">Illustres qui demeurent sous la galerie</objectName>
                   <num>34</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.006"/>
                </object>
                <object xml:id="d1e328">
                   <objectName full="yes">Balancier du roi</objectName>
                   <num>35</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.007"/>
                </object>
                <object xml:id="d1e333">
                   <objectName full="yes">Saint-Germain-l’Auxerrois</objectName>
                   <num>36</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.004"/>
                </object>
                <object xml:id="d1e339">
                   <objectName full="yes">Hôtel de Crequi</objectName>
                   <num>36</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.004.001"/>
                </object>
                <object xml:id="d1e344">
                   <objectName full="yes">Hôtel de Longueville</objectName>
-                  <num>Ibid.</num>
+                  <num>36</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.004.002"/>
                </object>
                <object xml:id="d1e349">
                   <objectName full="yes">Maison de Monsieur de Guitry</objectName>
                   <num>40</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.004.003"/>
                </object>
                <object xml:id="d1e354">
                   <objectName full="yes">Hôtel de Mautauzier</objectName>
                   <num>40</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr01.004.004"/>
                </object>
                <place xml:id="locQuartierSaintHonoré">
                   <placeName full="yes">Quartier Saint-Honoré</placeName>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02"/>
                </place>
                <object xml:id="d1e362">
                   <objectName full="yes">Cimetière des Saints-Innocents</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.001"/>
                   <num>page 41</num>
                </object>
                <object xml:id="d1e368">
-                  <objectName full="yes">Croix du tiroir</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <objectName full="yes">Croix du Trahoir</objectName>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>42</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.002"/>
                </object>
                <object xml:id="d1e374">
                   <objectName full="yes">Pères de L’oratoire</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>43</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.003"/>
                </object>
                <object xml:id="d1e380">
                   <objectName full="yes">Palais Cardinal</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>46</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.004"/>
                </object>
                <object xml:id="d1e386">
                   <objectName full="yes">Cabinet de Monsieur le Chevalier Loraine</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>48</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.005"/>
                </object>
                <object xml:id="d1e392">
                   <objectName full="yes">Théâtre de l’Opéra</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
-                  <num>Ibid.</num>
+                  <relation ref="#locQuartierSaintHonoré"/>
+                  <num>48</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.006"/>
                </object>
                <object xml:id="d1e399">
                   <objectName full="yes">Hôpital des Quinze-Vingts</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>49</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.007"/>
                </object>
                <object xml:id="d1e405">
                   <objectName full="yes">Saint-Roch</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
-                  <num>Ibid.</num>
+                  <relation ref="#locQuartierSaintHonoré"/>
+                  <num>49</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.008"/>
                </object>
                <object xml:id="d1e411">
                   <objectName full="yes">Couvent des Jacobins</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
-                  <num>Ibid.</num>
+                  <relation ref="#locQuartierSaintHonoré"/>
+                  <num>49</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.009"/>
                </object>
                <object xml:id="d1e417">
                   <objectName full="yes">Maison de Monsieur Pussort</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>50</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.009.001"/>
                </object>
                <object xml:id="d1e423">
                   <objectName full="yes">Couvent des Feuillants</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
-                  <num>Ibid.</num>
+                  <relation ref="#locQuartierSaintHonoré"/>
+                  <num>50</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.010"/>
                </object>
                <object xml:id="d1e429">
                   <objectName full="yes">Filles de l’Assomption (les)</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>52</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.011"/>
                </object>
                <object xml:id="d1e435">
                   <objectName full="yes">Pépinière (la)</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>54</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.011.001"/>
                </object>
                <object xml:id="d1e441">
                   <objectName full="yes">Hôtel de Luxembourg</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>55</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.012"/>
                </object>
                <object xml:id="d1e447">
                   <objectName full="yes">Capucines (les)</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>55</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.013"/>
                </object>
                <object xml:id="d1e453">
                   <objectName full="yes">Inscription de la fontaine proche la porte du monastère des Capucines</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>55</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.014"/>
                </object>
                <object xml:id="d1e459">
-                  <objectName full="yes">Hôtel de Vendosme</objectName>
-                  <relation ref="locQuartierSaintHonoré"/>
+                  <objectName full="yes">Hôtel de Vendôme</objectName>
+                  <relation ref="#locQuartierSaintHonoré"/>
                   <num>55</num>
                </object>
                <place xml:id="locQuartierDeLaButteSaintRoch">
@@ -404,72 +444,72 @@
                </place>
                <object xml:id="d1e469">
                   <objectName full="yes">Palais Brion</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>57</num>
                </object>
                <object xml:id="d1e475">
                   <objectName full="yes">Académie des peintres</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>58</num>
                </object>
                <object xml:id="d1e481">
                   <objectName full="yes">Statues antiques</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>64</num>
                </object>
                <object xml:id="d1e487">
                   <objectName full="yes">Académie d’architecture</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>65</num>
                </object>
                <object xml:id="d1e493">
                   <objectName full="yes">Cheval de bronze</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>66</num>
                </object>
                <object xml:id="d1e499">
                   <objectName full="yes">Inscription de la fontaine de la rue de Richelieu</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>67</num>
                </object>
                <object xml:id="d1e505">
                   <objectName full="yes">Hôtel de Jarz</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>Ibid.</num>
                </object>
                <object xml:id="d1e511">
                   <objectName full="yes">Hôtel de Louvois</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>68</num>
                </object>
                <object xml:id="d1e517">
                   <objectName full="yes">Galerie du palais Mazarin</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>69</num>
                </object>
                <object xml:id="d1e523">
                   <objectName full="yes">Maison du sieur Douilly</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>70</num>
                </object>
                <object xml:id="d1e530">
                   <objectName full="yes">Hôtel de Gramont</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>70</num>
                </object>
                <object xml:id="d1e536">
                   <objectName full="yes">Hôtel de Grancey</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>71</num>
                </object>
                <object xml:id="d1e542">
                   <objectName full="yes">Maison du sieur Cotte-Blanche</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>Ibid.</num>
                </object>
                <object xml:id="d1e548">
                   <objectName full="yes">Maison de Monsieur de Bois-Franc</objectName>
-                  <relation ref="locQuartierDeLaButteSaintRoch"/>
+                  <relation ref="#locQuartierDeLaButteSaintRoch"/>
                   <num>72</num>
                </object>
                <place xml:id="locRueVivien">
@@ -478,12 +518,12 @@
                </place>
                <object xml:id="d1e559">
                   <objectName full="yes">Cabinet et Bibliothèque du Roi</objectName>
-                  <relation ref="locRueVivien"/>
+                  <relation ref="#locRueVivien"/>
                   <num>page 73</num>
                </object>
                <object xml:id="d1e565">
                   <objectName full="yes">Académie des sciences</objectName>
-                  <relation ref="locRueVivien"/>
+                  <relation ref="#locRueVivien"/>
                   <num>82</num>
                </object>
                <place xml:id="locQuartierRueDesPetitsChamps">
@@ -491,52 +531,52 @@
                </place>
                <object xml:id="d1e574">
                   <objectName full="yes">Hôtel de la Vrillière</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>85</num>
                </object>
                <object xml:id="d1e580">
                   <objectName full="yes">Hôtel d’Emery</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>86</num>
                </object>
                <object xml:id="d1e586">
                   <objectName full="yes">Hôtel de Seneterre</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>86</num>
                </object>
                <object xml:id="d1e593">
                   <objectName full="yes">Hôtel Colbert</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>86</num>
                </object>
                <object xml:id="d1e599">
                   <objectName full="yes">Hôtel de Bouillon La Mark</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>88</num>
                </object>
                <object xml:id="d1e605">
                   <objectName full="yes">Maison de Monsieur de Ménars</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>89</num>
                </object>
                <object xml:id="d1e611">
                   <objectName full="yes">Palais Mazarin</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>90</num>
                </object>
                <object xml:id="d1e617">
                   <objectName full="yes">Maison de Monsieur de Saint-Pouange</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>93</num>
                </object>
                <object xml:id="d1e623">
                   <objectName full="yes">Hôtel de Lionne</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>93</num>
                </object>
                <object xml:id="d1e629">
                   <objectName full="yes">Maison du sieur de Lully</objectName>
-                  <relation ref="locQuartierRueDesPetitsChamps"/>
+                  <relation ref="#locQuartierRueDesPetitsChamps"/>
                   <num>94</num>
                </object>
                <place xml:id="locQuartierRueSaintAnne">
@@ -544,82 +584,82 @@
                </place>
                <object xml:id="d1e638">
                   <objectName full="yes">Couvent des Petits-Pères</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>pag. 95</num>
                </object>
                <object xml:id="d1e644">
                   <objectName full="yes">Inscription de la fontaine proche la porte du couvent des Petits-Pères</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>96</num>
                </object>
                <object xml:id="d1e650">
                   <objectName full="yes">Hôtel de Pomponne</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>96</num>
                </object>
                <object xml:id="d1e657">
                   <objectName full="yes">Hôtel de Soissons</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>96</num>
                </object>
                <object xml:id="d1e663">
                   <objectName full="yes">Hôtel Séguier</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>97</num>
                </object>
                <object xml:id="d1e669">
                   <objectName full="yes">Hôtel de Bullion</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>101</num>
                </object>
                <object xml:id="d1e675">
                   <objectName full="yes">Hôtel d’Herval</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>101</num>
                </object>
                <object xml:id="d1e681">
                   <objectName full="yes">Hôtel de Gesvres</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>102</num>
                </object>
                <object xml:id="d1e687">
                   <objectName full="yes">Maison du sieur Monginot</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>102</num>
                </object>
                <object xml:id="d1e693">
                   <objectName full="yes">Église Saint-Eustache</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>103</num>
                </object>
                <object xml:id="d1e699">
                   <objectName full="yes">L’épitaphe de Monsieur de La Chambre</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>105</num>
                </object>
                <object xml:id="d1e705">
                   <objectName full="yes">Maison de Monsieur Berrier</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>106</num>
                </object>
                <object xml:id="d1e711">
                   <objectName full="yes">Chapelle</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>106</num>
                </object>
                <object xml:id="d1e717">
                   <objectName full="yes">Hôtel de Bourgogne</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>108</num>
                </object>
                <object xml:id="d1e724">
                   <objectName full="yes">Maison de Monsieur Berthelot</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>110</num>
                </object>
                <object xml:id="d1e730">
                   <objectName full="yes">Maison du sieur Roland</objectName>
-                  <relation ref="locQuartierRueSaintAnne"/>
+                  <relation ref="#locQuartierRueSaintAnne"/>
                   <num>110</num>
                </object>
                <place xml:id="locQuartierRueSaintDenis">
@@ -627,82 +667,82 @@
                </place>
                <object xml:id="d1e739">
                   <objectName full="yes">Grand Châtelet</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>111</num>
                </object>
                <object xml:id="d1e745">
                   <objectName full="yes">Grande boucherie</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>111</num>
                </object>
                <object xml:id="d1e751">
                   <objectName full="yes">Hôpital des Filles-de-Sainte-Catherine</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>112</num>
                </object>
                <object xml:id="d1e757">
                   <objectName full="yes">Église de Sainte-Opportune</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>112</num>
                </object>
                <object xml:id="d1e763">
                   <objectName full="yes">Fontaine des Saints-Innocens</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>113</num>
                </object>
                <object xml:id="d1e769">
                   <objectName full="yes">Église du Sépulcre</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>114</num>
                </object>
                <object xml:id="d1e775">
                   <objectName full="yes">Église Saint-Leu-Saint-Gilles</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>114</num>
                </object>
                <object xml:id="d1e781">
                   <objectName full="yes">Hôpital de Saint-Jacques</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>115</num>
                </object>
                <object xml:id="d1e788">
                   <objectName full="yes">Hôpital de la Trinité</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>115</num>
                </object>
                <object xml:id="d1e794">
                   <objectName full="yes">Église Saint-Sauveur</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>115</num>
                </object>
                <object xml:id="d1e800">
                   <objectName full="yes">Filles-Dieu</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>115</num>
                </object>
                <object xml:id="d1e806">
                   <objectName full="yes">Statue de roi dans l’hôtel de Saint-Chaumont</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>115</num>
                </object>
                <object xml:id="d1e812">
                   <objectName full="yes">Hôtel de Saint-Chaumont</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>115</num>
                </object>
                <object xml:id="d1e818">
                   <objectName full="yes">Inscription de la fontaine de la porte Saint-Denis</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>119</num>
                </object>
                <object xml:id="d1e824">
                   <objectName full="yes">Porte Saint-Denis</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>119</num>
                </object>
                <object xml:id="d1e830">
                   <objectName full="yes">Pères de Saint-Lazare</objectName>
-                  <relation ref="locQuartierRueSaintDenis"/>
+                  <relation ref="#locQuartierRueSaintDenis"/>
                   <num>121</num>
                </object>
                <place xml:id="locQuartierRueSaintMartin">
@@ -710,67 +750,67 @@
                </place>
                <object xml:id="d1e839">
                   <objectName full="yes">Église Saint-Jacques-de-la-Boucherie</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>122</num>
                </object>
                <object xml:id="d1e845">
                   <objectName full="yes">Église Saint-Médéric</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>123</num>
                </object>
                <object xml:id="d1e852">
                   <objectName full="yes">Saint-Julien-des-Menestriers</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>123</num>
                </object>
                <object xml:id="d1e858">
                   <objectName full="yes">Bureau des Indes</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>124</num>
                </object>
                <object xml:id="d1e864">
                   <objectName full="yes">Hôtel de Vic</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>124</num>
                </object>
                <object xml:id="d1e870">
                   <objectName full="yes">Saint-Nicolas-des-Champs</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>124</num>
                </object>
                <object xml:id="d1e876">
                   <objectName full="yes">Saint-Martin-des-Champs</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>125</num>
                </object>
                <object xml:id="d1e882">
                   <objectName full="yes">Porte de Saint-Martin</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>125</num>
                </object>
                <object xml:id="d1e888">
                   <objectName full="yes">Église de Saint-Laurent</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>128</num>
                </object>
                <object xml:id="d1e894">
                   <objectName full="yes">Foire de Saint-Laurent</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>128</num>
                </object>
                <object xml:id="d1e900">
                   <objectName full="yes">Couvent des Recolets</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>128</num>
                </object>
                <object xml:id="d1e906">
                   <objectName full="yes">Hôpital de Saint-Louis</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>129</num>
                </object>
                <object xml:id="d1e912">
                   <objectName full="yes">Montfaucon</objectName>
-                  <relation ref="locQuartierRueSaintMartin"/>
+                  <relation ref="#locQuartierRueSaintMartin"/>
                   <num>129</num>
                </object>
                <place xml:id="locQuartierRueSaintAvoye">
@@ -778,42 +818,42 @@
                </place>
                <object xml:id="d1e922">
                   <objectName full="yes">Maison du sieur Jaba</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>130</num>
                </object>
                <object xml:id="d1e928">
                   <objectName full="yes">Maison de Monsieur de Marillac</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>131</num>
                </object>
                <object xml:id="d1e934">
                   <objectName full="yes">Hôtel de Montmorency</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>132</num>
                </object>
                <object xml:id="d1e940">
                   <objectName full="yes">Hôtel d’Avaux</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>132</num>
                </object>
                <object xml:id="d1e946">
                   <objectName full="yes">Attelier du sieur Bertrand, sculpteur</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>133</num>
                </object>
                <object xml:id="d1e952">
                   <objectName full="yes">Temple (le)</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>133</num>
                </object>
                <object xml:id="d1e958">
                   <objectName full="yes">Maison de Monsieur Fremont d’Ablancourt</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>136</num>
                </object>
                <object xml:id="d1e964">
                   <objectName full="yes">Religieuses de Sainte-Élisabeth</objectName>
-                  <relation ref="locQuartierRueSaintAvoye"/>
+                  <relation ref="#locQuartierRueSaintAvoye"/>
                   <num>137</num>
                </object>
                <place xml:id="locQuartierRueDuGrandChantier">
@@ -821,37 +861,37 @@
                </place>
                <object xml:id="d1e973">
                   <objectName full="yes">Maison du sieur Prevost dans la rue des Deux-Portes</objectName>
-                  <relation ref="locQuartierRueDuGrandChantier"/>
+                  <relation ref="#locQuartierRueDuGrandChantier"/>
                   <num>138</num>
                </object>
                <object xml:id="d1e980">
                   <objectName full="yes">Carmes Billetes (les)</objectName>
-                  <relation ref="locQuartierRueDuGrandChantier"/>
+                  <relation ref="#locQuartierRueDuGrandChantier"/>
                   <num>139</num>
                </object>
                <object xml:id="d1e986">
                   <objectName full="yes">Sainte-Croix-de-la-Bretonnerie</objectName>
-                  <relation ref="locQuartierRueDuGrandChantier"/>
+                  <relation ref="#locQuartierRueDuGrandChantier"/>
                   <num>140</num>
                </object>
                <object xml:id="d1e992">
                   <objectName full="yes">Hôtel de Guise</objectName>
-                  <relation ref="locQuartierRueDuGrandChantier"/>
+                  <relation ref="#locQuartierRueDuGrandChantier"/>
                   <num>141</num>
                </object>
                <object xml:id="d1e998">
                   <objectName full="yes">Pères de la Mercy</objectName>
-                  <relation ref="locQuartierRueDuGrandChantier"/>
+                  <relation ref="#locQuartierRueDuGrandChantier"/>
                   <num>142</num>
                </object>
                <object xml:id="d1e1004">
                   <objectName full="yes">Hôpital des Enfans-Rouges</objectName>
-                  <relation ref="locQuartierRueDuGrandChantier"/>
+                  <relation ref="#locQuartierRueDuGrandChantier"/>
                   <num>142</num>
                </object>
                <object xml:id="d1e1010">
                   <objectName full="yes">Maison de Monsieur Penotier, du dessein de Mansard, au coin de la rue des Quatre-Fils</objectName>
-                  <relation ref="locQuartierRueDuGrandChantier"/>
+                  <relation ref="#locQuartierRueDuGrandChantier"/>
                   <num>143</num>
                </object>
                <place xml:id="locQuartierRueVieilleDuTemple">
@@ -859,72 +899,72 @@
                </place>
                <object xml:id="d1e1019">
                   <objectName full="yes">Hôtel d’Effiat</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>144</num>
                </object>
                <object xml:id="d1e1025">
                   <objectName full="yes">Maison de Monsieur Amelot de Biseüil</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>144</num>
                </object>
                <object xml:id="d1e1031">
                   <objectName full="yes">Hôtel d’O</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>150</num>
                </object>
                <object xml:id="d1e1037">
                   <objectName full="yes">Blancs-Manteaux (les)</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>150</num>
                </object>
                <object xml:id="d1e1044">
                   <objectName full="yes">Hôtel d’Estrées</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>151</num>
                </object>
                <object xml:id="d1e1050">
                   <objectName full="yes">Perspective dans le Jardin du sieur Turmeny</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>151</num>
                </object>
                <object xml:id="d1e1056">
                   <objectName full="yes">Inscription de la fontaine de la rue de Poitou</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>152</num>
                </object>
                <object xml:id="d1e1062">
                   <objectName full="yes">Fontaine de la rue de Poitou</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>152</num>
                </object>
                <object xml:id="d1e1068">
                   <objectName full="yes">Maison du sieur Aubert</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>152</num>
                </object>
                <object xml:id="d1e1074">
                   <objectName full="yes">Religieuses du Calvaire (les)</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>153</num>
                </object>
                <object xml:id="d1e1080">
                   <objectName full="yes">Hôtel du Cardinal de Boüillon</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>153</num>
                </object>
                <object xml:id="d1e1086">
                   <objectName full="yes">Hôtel de Guénégaud</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>153</num>
                </object>
                <object xml:id="d1e1092">
                   <objectName full="yes">Inscription de la fontaine de la rue Saint-Louis</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>154</num>
                </object>
                <object xml:id="d1e1098">
                   <objectName full="yes">Fontaine de la rue Saint-Louis</objectName>
-                  <relation ref="locQuartierRueVieilleDuTemple"/>
+                  <relation ref="#locQuartierRueVieilleDuTemple"/>
                   <num>154</num>
                </object>
                <place xml:id="locQuartierPlaceRoyale">
@@ -932,32 +972,32 @@
                </place>
                <object xml:id="d1e1108">
                   <objectName full="yes">Statue de Louis XIII</objectName>
-                  <relation ref="locQuartierPlaceRoyale"/>
+                  <relation ref="#locQuartierPlaceRoyale"/>
                   <num>156</num>
                </object>
                <object xml:id="d1e1114">
                   <objectName full="yes">Hôtel de Richelieu</objectName>
-                  <relation ref="locQuartierPlaceRoyale"/>
+                  <relation ref="#locQuartierPlaceRoyale"/>
                   <num>160</num>
                </object>
                <object xml:id="d1e1120">
                   <objectName full="yes">Maison du marquis d’Angeau</objectName>
-                  <relation ref="locQuartierPlaceRoyale"/>
+                  <relation ref="#locQuartierPlaceRoyale"/>
                   <num>161</num>
                </object>
                <object xml:id="d1e1126">
                   <objectName full="yes">Hôtel des Chaunes</objectName>
-                  <relation ref="locQuartierPlaceRoyale"/>
+                  <relation ref="#locQuartierPlaceRoyale"/>
                   <num>161</num>
                </object>
                <object xml:id="d1e1132">
                   <objectName full="yes">Couvent des Minimes</objectName>
-                  <relation ref="locQuartierPlaceRoyale"/>
+                  <relation ref="#locQuartierPlaceRoyale"/>
                   <num>162</num>
                </object>
                <object xml:id="d1e1138">
                   <objectName full="yes">Épitaphe de Monsieur de Launoy</objectName>
-                  <relation ref="locQuartierPlaceRoyale"/>
+                  <relation ref="#locQuartierPlaceRoyale"/>
                   <num>164</num>
                </object>
                <place xml:id="locQuartierRueSaintAntoine">
@@ -965,62 +1005,62 @@
                </place>
                <object xml:id="d1e1147">
                   <objectName full="yes">Grève (la)</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>168</num>
                </object>
                <object xml:id="d1e1153">
                   <objectName full="yes">Hôtel de ville</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>168</num>
                </object>
                <object xml:id="d1e1159">
                   <objectName full="yes">Quai Pelletier</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>171</num>
                </object>
                <object xml:id="d1e1165">
                   <objectName full="yes">Inscription à l’entrée du quai Pelletier</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>172</num>
                </object>
                <object xml:id="d1e1172">
                   <objectName full="yes">Église de Saint-Jean</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>172</num>
                </object>
                <object xml:id="d1e1178">
                   <objectName full="yes">Église de Saint-Gervais</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>173</num>
                </object>
                <object xml:id="d1e1184">
                   <objectName full="yes">Cimetière Saint-Jean</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>176</num>
                </object>
                <object xml:id="d1e1190">
                   <objectName full="yes">Hôtel de Beauvais</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>177</num>
                </object>
                <object xml:id="d1e1196">
                   <objectName full="yes">Église du Petit-Saint-Antoine</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>178</num>
                </object>
                <object xml:id="d1e1202">
                   <objectName full="yes">Hôtel de Saint-Pol</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>179</num>
                </object>
                <object xml:id="d1e1208">
                   <objectName full="yes">Grands Jésuites</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>181</num>
                </object>
                <object xml:id="d1e1214">
                   <objectName full="yes">Inscription de la fontaine devant les Grands Jésuites</objectName>
-                  <relation ref="locQuartierRueSaintAntoine"/>
+                  <relation ref="#locQuartierRueSaintAntoine"/>
                   <num>191</num>
                </object>
                <place xml:id="locQuartierRueCultureSainteCatherine">
@@ -1028,142 +1068,142 @@
                </place>
                <object xml:id="d1e1223">
                   <objectName full="yes">Église de Sainte-Catherine</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>191</num>
                </object>
                <object xml:id="d1e1229">
                   <objectName full="yes">Hôtel de Carnavalet</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>193</num>
                </object>
                <object xml:id="d1e1236">
                   <objectName full="yes">Hôtel d’Angoulême</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>193</num>
                </object>
                <object xml:id="d1e1242">
                   <objectName full="yes">Maison du sieur de Ville</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>194</num>
                </object>
                <object xml:id="d1e1248">
                   <objectName full="yes">Hôtel de Sully</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>194</num>
                </object>
                <object xml:id="d1e1254">
                   <objectName full="yes">Filles de Sainte-Marie (les)</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>195</num>
                </object>
                <object xml:id="d1e1260">
                   <objectName full="yes">Bastille (la)</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>196</num>
                </object>
                <object xml:id="d1e1266">
                   <objectName full="yes">Porte Saint-Antoine</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>197</num>
                </object>
                <object xml:id="d1e1272">
                   <objectName full="yes">Hôpital des Enfans-Trouvés</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>202</num>
                </object>
                <object xml:id="d1e1278">
                   <objectName full="yes">Abbaye Saint-Antoine</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>202</num>
                </object>
                <object xml:id="d1e1284">
                   <objectName full="yes">Manufacture des glaces de miroirs</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>203</num>
                </object>
                <object xml:id="d1e1290">
                   <objectName full="yes">Arc de triomphe</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>205</num>
                </object>
                <object xml:id="d1e1296">
                   <objectName full="yes">Château de Vincennes</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>207</num>
                </object>
                <object xml:id="d1e1303">
                   <objectName full="yes">Ménagerie de Vincennes</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>209</num>
                </object>
                <object xml:id="d1e1309">
                   <objectName full="yes">Piquepuces (les)</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>210</num>
                </object>
                <object xml:id="d1e1315">
                   <objectName full="yes">Rambouillet</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>210</num>
                </object>
                <object xml:id="d1e1321">
                   <objectName full="yes">Cabinet de Monsieur de Chantelou à Reuilly</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>211</num>
                </object>
                <object xml:id="d1e1327">
                   <objectName full="yes">Maison du sieur Titon</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>211</num>
                </object>
                <object xml:id="d1e1333">
                   <objectName full="yes">Maison de Monsieur de Folleville</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>212</num>
                </object>
                <object xml:id="d1e1339">
                   <objectName full="yes">Arsenal (l’)</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>213</num>
                </object>
                <object xml:id="d1e1345">
                   <objectName full="yes">Hôtel de L’Ediguières</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>214</num>
                </object>
                <object xml:id="d1e1351">
                   <objectName full="yes">Célestins (les)</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>214</num>
                </object>
                <object xml:id="d1e1357">
                   <objectName full="yes">Hôtel de Fieubet</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>227</num>
                </object>
                <object xml:id="d1e1363">
                   <objectName full="yes">Hôtel de la Vieville</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>228</num>
                </object>
                <object xml:id="d1e1370">
                   <objectName full="yes">Église de Saint-Paul</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>228</num>
                </object>
                <object xml:id="d1e1376">
                   <objectName full="yes">Couvent des religieuses de l’Ave-Maria</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>229</num>
                </object>
                <object xml:id="d1e1382">
                   <objectName full="yes">Hôtel de Sens</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>231</num>
                </object>
                <object xml:id="d1e1388">
                   <objectName full="yes">Pont Marie</objectName>
-                  <relation ref="locQuartierRueCultureSainteCatherine"/>
+                  <relation ref="#locQuartierRueCultureSainteCatherine"/>
                   <num>231</num>
                </object>
                <place xml:id="locQuartierIleNotreDame">
@@ -1171,72 +1211,72 @@
                </place>
                <object xml:id="d1e1397">
                   <objectName full="yes">Maison de Monsieur de Grand-Maison</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>233</num>
                </object>
                <object xml:id="d1e1403">
                   <objectName full="yes">Maison de Monsieur Lambert de Torigny</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>233</num>
                </object>
                <object xml:id="d1e1409">
                   <objectName full="yes">Maison de Monsieur de Bretonvilliers</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>237</num>
                </object>
                <object xml:id="d1e1415">
                   <objectName full="yes">Maison de Monsieur l’abbé de Sainte-Croix</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>239</num>
                </object>
                <object xml:id="d1e1421">
                   <objectName full="yes">Maison de Monsieur Roullier</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>240</num>
                </object>
                <object xml:id="d1e1427">
                   <objectName full="yes">Église de Saint-Louis</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>Ibid.</num>
                </object>
                <object xml:id="d1e1434">
                   <objectName full="yes">Pont de la Tournelle</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>241</num>
                </object>
                <object xml:id="d1e1440">
                   <objectName full="yes">Porte de Saint-Bernard</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>Ibid.</num>
                </object>
                <object xml:id="d1e1446">
                   <objectName full="yes">Saint-Victor</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>243</num>
                </object>
                <object xml:id="d1e1452">
                   <objectName full="yes">Hôpital de la Pitié</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>246</num>
                </object>
                <object xml:id="d1e1458">
                   <objectName full="yes">Jardin du roi</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>247</num>
                </object>
                <object xml:id="d1e1464">
                   <objectName full="yes">Cabinet de dissection de M. Du Vernay</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>248</num>
                </object>
                <object xml:id="d1e1470">
                   <objectName full="yes">Hôpital général</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>249</num>
                </object>
                <object xml:id="d1e1476">
                   <objectName full="yes">Gobelins (les)</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>251</num>
                </object>
                <object xml:id="d1e1482">
@@ -1245,32 +1285,32 @@
                </object>
                <object xml:id="d1e1487">
                   <objectName full="yes">Épitaphe de Pierre Lombard</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <desc>église de Saint-Marcel</desc>
                </object>
                <object xml:id="d1e1493">
                   <objectName full="yes">Cordelières (les)</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>264</num>
                </object>
                <object xml:id="d1e1500">
                   <objectName full="yes">Saint-Médard</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>265</num>
                </object>
                <object xml:id="d1e1506">
                   <objectName full="yes">Vieille maison proche Sainte-Hypolite</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>266</num>
                </object>
                <object xml:id="d1e1512">
                   <objectName full="yes">Porte Saint-Victor</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>268</num>
                </object>
                <object xml:id="d1e1518">
                   <objectName full="yes">Cabinet du sieur de Troyes, peintre</objectName>
-                  <relation ref="locQuartierIleNotreDame"/>
+                  <relation ref="#locQuartierIleNotreDame"/>
                   <num>269</num>
                </object>
                <!-- Brice, table du second volume -->
@@ -1280,78 +1320,78 @@
                <place xml:id=""/>
                <org>
                   <orgName full="yes">Université (L’)</orgName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <desc>p. 1</desc>
                </org>
                <!-- @todo -->
                <org>
                   <orgName xml:id="orgColleges" full="yes">Collèges</orgName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <desc>5</desc>
                </org>
                <place>
                   <placeName full="yes">Quai de la Tournelle</placeName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>9</num>
                </place>
                <place>
                   <objectName full="yes">Maison de la communauté des filles de sainte Geneviève</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>9</num>
                </place>
                <object xml:id="d1e1555">
                   <objectName full="yes">Hôtel de Nesmond</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>ibid.</num>
                </object>
                <place>
                   <placeName full="yes">Rue des Bernardins</placeName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>10</num>
                </place>
                <object xml:id="d1e1567">
                   <objectName full="yes">collège des Bernardins</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>ibid.</num>
                </object>
                <object xml:id="d1e1573">
                   <objectName full="yes">église de Saint-Nicolas-du-Chardonnet</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>12</num>
                </object>
                <object xml:id="d1e1579">
                   <objectName full="yes">Carmes de la place Maubert (les)</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>13</num>
                </object>
                <object xml:id="d1e1585">
                   <objectName full="yes">Collège de Navarre</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>15</num>
                </object>
                <object xml:id="d1e1591">
                   <objectName full="yes">Église de Saint-Étienne-du-Mont</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>18</num>
                </object>
                <object xml:id="d1e1597">
                   <objectName full="yes">Église de Sainte-Geneviève-du-Mont</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>18</num>
                </object>
                <object xml:id="d1e1603">
                   <objectName full="yes">Épitaphe de Descartes</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>28</num>
                </object>
                <object xml:id="d1e1609">
                   <objectName full="yes">Collège de Montaigu</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>39</num>
                </object>
                <object xml:id="d1e1616">
                   <objectName full="yes">Petit Châtelet</objectName>
-                  <relation ref="locQuartierUniversité"/>
+                  <relation ref="#locQuartierUniversité"/>
                   <num>39</num>
                </object>
                <place xml:id="locQuartierRueSaintJacques">
@@ -1360,169 +1400,169 @@
                </place>
                <object xml:id="d1e1627">
                   <objectName full="yes">Église de Saint-Séverin</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>
                      <sic>4</sic>
                   </num>
                </object>
                <object xml:id="d1e1634">
                   <objectName full="yes">Église de Saint-Julien-le-Pauvre</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>44</num>
                </object>
                <object xml:id="d1e1640">
                   <objectName full="yes">Église de Saint-Yves</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>46</num>
                </object>
                <place>
                   <placeName full="yes">Rue des Noyers</placeName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>46</num>
                </place>
                <object xml:id="d1e1652">
                   <objectName full="yes">Mathurins (les)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>46</num>
                </object>
                <object xml:id="d1e1658">
                   <objectName full="yes">Église de saint Benoist</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>51</num>
                </object>
                <place>
                   <placeName full="yes">Terre de Cambray</placeName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>52</num>
                </place>
                <object xml:id="d1e1670">
                   <objectName full="yes">Collège royal</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>52</num>
                </object>
                <object xml:id="d1e1676">
                   <objectName full="yes">Commanderie de Saint-Jean-de-Latran</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>57</num>
                </object>
                <object xml:id="d1e1683">
                   <objectName full="yes">Collège du Plessis</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>58</num>
                </object>
                <object xml:id="d1e1689">
                   <objectName full="yes">Collège de Clermont</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>59</num>
                </object>
                <object xml:id="d1e1695">
                   <objectName full="yes">Église de Saint-Étienne-des-Grecs</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>67</num>
                </object>
                <object xml:id="d1e1701">
                   <objectName full="yes">Couvent des Jacobins</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>68</num>
                </object>
                <object xml:id="d1e1707">
                   <objectName full="yes">Couvent des filles de la Visitation</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>75</num>
                </object>
                <object xml:id="d1e1713">
                   <objectName full="yes">Église paroissiale de Saint-Jacques</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>57</num>
                </object>
                <object xml:id="d1e1719">
                   <objectName full="yes">Séminaire de Saint-Magloire</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>76</num>
                </object>
                <object xml:id="d1e1725">
                   <objectName full="yes">Ursulines (les)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>77</num>
                </object>
                <object xml:id="d1e1731">
                   <objectName full="yes">Les Feuillantines (les)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>77</num>
                </object>
                <object xml:id="d1e1737">
                   <objectName full="yes">Bénédictins anglois (les)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>78</num>
                </object>
                <object xml:id="d1e1743">
                   <objectName full="yes">Carmélites (les)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>79</num>
                </object>
                <object xml:id="d1e1750">
                   <objectName full="yes">Val-de-Grâce (le)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>87</num>
                </object>
                <object xml:id="d1e1756">
                   <objectName full="yes">Couvent des Capucins</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>97</num>
                </object>
                <object xml:id="d1e1762">
                   <objectName full="yes">Port royal</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>98</num>
                </object>
                <object xml:id="d1e1768">
                   <objectName full="yes">Observatoire royal</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>99</num>
                </object>
                <object xml:id="d1e1774">
                   <objectName full="yes">Maison des eaux</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>103</num>
                </object>
                <object xml:id="d1e1780">
                   <objectName full="yes">Maison de l’institution</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>104</num>
                </object>
                <object xml:id="d1e1786">
                   <objectName full="yes">Couvent des Chartreux</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>104</num>
                </object>
                <object xml:id="d1e1792">
                   <objectName full="yes">Feuillans de l’Ange-gardien (les)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>109</num>
                </object>
                <object xml:id="d1e1798">
                   <objectName full="yes">Fontaine de la porte Saint-Michel</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>ibid.</num>
                </object>
                <object xml:id="d1e1804">
                   <objectName full="yes">Sorbonne (la)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>110</num>
                </object>
                <object xml:id="d1e1810">
                   <objectName full="yes">Collège d’Harcourt</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>120</num>
                </object>
                <object xml:id="d1e1817">
                   <objectName full="yes">Collège de Justice</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>120</num>
                </object>
                <object xml:id="d1e1823">
                   <objectName full="yes">Église de Saint-Cosme</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>120</num>
                </object>
                <object xml:id="d1e1829">
@@ -1531,63 +1571,63 @@
                </object>
                <object xml:id="d1e1834">
                   <objectName full="yes">Thermes de Paris</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>122</num>
                </object>
                <object xml:id="d1e1840">
                   <objectName full="yes">Statue de Jean Le Clerc</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
-                  <relation ref="locRueDeLaVieilleBoucherie"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
+                  <relation ref="#locRueDeLaVieilleBoucherie"/>
                   <num>123</num>
                   <desc> au bout de la rue de la Vielle-Boucherie</desc>
                </object>
                <place xml:id="locRueDeLaVieilleBoucherie">
                   <placeName full="yes">rue de la vielle-Boucherie</placeName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                </place>
                <place>
                   <placeName full="yes">Rue Saint-André-des-Arts</placeName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>124</num>
                </place>
                <object xml:id="d1e1859">
                   <objectName full="yes">Église Saint-André-des-Arcs</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>124</num>
                </object>
                <object xml:id="d1e1865">
                   <objectName full="yes">Hôtel de Thou</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>128</num>
                </object>
                <object xml:id="d1e1871">
                   <objectName full="yes">Hôtel de Mesgrigny</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>129</num>
                </object>
                <object xml:id="d1e1877">
                   <objectName full="yes">Collège de Prémonté</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>129</num>
                </object>
                <object xml:id="d1e1884">
                   <objectName full="yes">Cordeliers (les)</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>130</num>
                </object>
                <object xml:id="d1e1890">
                   <objectName full="yes">Porte Saint-Germain</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>133</num>
                </object>
                <object xml:id="d1e1896">
                   <objectName full="yes">Inscription de la fontaine de la porte Saint-Germain</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>133</num>
                </object>
                <object xml:id="d1e1902">
                   <objectName full="yes">Porte Saint-Germain</objectName>
-                  <relation ref="locQuartierRueSaintJacques"/>
+                  <relation ref="#locQuartierRueSaintJacques"/>
                   <num>133</num>
                </object>
                <place xml:id="locFaubourgSaintGermain">
@@ -1596,197 +1636,197 @@
                </place>
                <object xml:id="d1e1913">
                   <objectName full="yes">Académies (les)</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>page 135</num>
                </object>
                <object xml:id="d1e1919">
                   <objectName full="yes">Abbaye Saint-Germain</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>136</num>
                </object>
                <object xml:id="d1e1925">
                   <objectName full="yes">Palais d’Orléans ou palais Luxembourg</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>156</num>
                </object>
                <object xml:id="d1e1931">
                   <objectName full="yes">Hôtel de Condé</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>162</num>
                </object>
                <object xml:id="d1e1937">
                   <objectName full="yes">Petit hôtel de Bourbon</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>163</num>
                </object>
                <object xml:id="d1e1943">
                   <objectName full="yes">Religieuse du Calvaire (les)</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>164</num>
                </object>
                <object xml:id="d1e1950">
                   <objectName full="yes">Couvent des Carmes déchaussez</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>164</num>
                </object>
                <object xml:id="d1e1956">
                   <objectName full="yes">Belle maison de la rue du Regard</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>168</num>
                </object>
                <object xml:id="d1e1962">
                   <objectName full="yes">Fort de Bernardi</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>168</num>
                </object>
                <object xml:id="d1e1968">
                   <objectName full="yes">Monastère des filles du Saint-Sacrement dans la rue Cassette</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>169</num>
                </object>
                <object xml:id="d1e1974">
                   <objectName full="yes">Église de Saint-Sulpice</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>173</num>
                   <!--RMQ la pagination est bonne mais les deux lignes ont été inversée (le noviciat précède Saint-Sulpice)-->
                </object>
                <object xml:id="d1e1981">
                   <objectName full="yes">Noviciat des Jésuites</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>169</num>
                </object>
                <object xml:id="d1e1987">
                   <objectName full="yes">Épitaphe de M. l’abbé de Marolles</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>175</num>
                </object>
                <object xml:id="d1e1993">
                   <objectName full="yes">Maison du séminaire de Saint-Sulpice</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>176</num>
                </object>
                <object xml:id="d1e1999">
                   <objectName full="yes">Foire Saint-Germain</objectName>
                   <num>176</num>
                </object>
-               <relation ref="locFaubourgSaintGermain"/>
+               <relation ref="#locFaubourgSaintGermain"/>
                <object xml:id="d1e2005">
                   <objectName full="yes">Les conférence de M. l’abbé Bourdelot</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>177</num>
                </object>
                <object xml:id="d1e2012">
                   <objectName full="yes">Hôtel de Léon</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>177</num>
                </object>
                <object xml:id="d1e2018">
                   <objectName full="yes">Prémontrez (les)</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>177</num>
                </object>
                <object xml:id="d1e2024">
                   <objectName full="yes">Abbaye aux Bois</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>178</num>
                </object>
                <object xml:id="d1e2030">
                   <objectName full="yes">Hôpital des Petites-Maisons</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>178</num>
                </object>
                <object xml:id="d1e2036">
                   <objectName full="yes">Hôpital des Incurables</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>178</num>
                </object>
                <object xml:id="d1e2042">
                   <objectName full="yes">Hôtel d’Auvergne</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>
                      <sic>127</sic>
                   </num>
                </object>
                <object xml:id="d1e2049">
                   <objectName full="yes">Attelier de l’élève de Wanobstal, sculpteur</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>127</num>
                </object>
                <object xml:id="d1e2055">
                   <objectName full="yes">Hôtel de Navailles</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>180</num>
                </object>
                <object xml:id="d1e2061">
                   <objectName full="yes">Maison du sieur Roland</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>180</num>
                </object>
                <object xml:id="d1e2067">
                   <objectName full="yes">Invalides (les)</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>181</num>
                </object>
                <object xml:id="d1e2073">
                   <objectName full="yes">Hôtel du commandeur Hautefeuille</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>185</num>
                </object>
                <object xml:id="d1e2080">
                   <objectName full="yes">Séminaire des Missions étrangères</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>ibid.</num>
                </object>
                <object xml:id="d1e2086">
                   <objectName full="yes">Noviciat des Jacobins réformez</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>186</num>
                </object>
                <object xml:id="d1e2092">
                   <objectName full="yes">Hôtel de Luynes</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>186</num>
                </object>
                <object xml:id="d1e2098">
                   <objectName full="yes">Belle maison de l’hôtel-Dieu de la rue Saint-Dominique</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>187</num>
                </object>
                <object xml:id="d1e2104">
                   <objectName full="yes">Maison où demeure M. Talon, avocat générale</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>187</num>
                </object>
                <object xml:id="d1e2110">
                   <objectName full="yes">Hôpital de la Charité</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>188</num>
                </object>
                <object xml:id="d1e2116">
                   <objectName full="yes">Inscription de la fontaine de la Charité</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <num>
                      <sic>109</sic>
                   </num>
                </object>
                <object xml:id="d1e2123">
                   <objectName full="yes">Hôtel de Brissac</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <sic>109</sic>
                </object>
                <object xml:id="d1e2129">
                   <objectName full="yes">Hôtel de Saint-Simon</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <sic>109</sic>
                </object>
                <object xml:id="d1e2135">
                   <objectName full="yes">Maison où demeure madame la princesse de Wirtemberg</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <sic>109</sic>
                </object>
                <object xml:id="d1e2141">
                   <objectName full="yes">Perspective d’une maison de la rue de Taranne</objectName>
-                  <relation ref="locFaubourgSaintGermain"/>
+                  <relation ref="#locFaubourgSaintGermain"/>
                   <sic>109</sic>
                </object>
                <place xml:id="locQuartierRueDeLUniversité">
@@ -1794,122 +1834,122 @@
                </place>
                <object xml:id="d1e2151">
                   <objectName full="yes">Le cabinet de M. Blondel</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>page 190</num>
                </object>
                <!--<object>
       <objectName>Le nom de ceux qui composent l’Académie des architectes</objectName>
-      <relation ref="locQuartierRueDeLUniversité" />
+      <relation ref="#locQuartierRueDeLUniversité" />
       <num>192</num>
     </object>-->
                <object xml:id="d1e2158">
                   <objectName full="yes">Hôtel de Tambonneau</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>201</num>
                </object>
                <object xml:id="d1e2164">
                   <objectName full="yes">Maison du sieur Laugeois</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>202</num>
                </object>
                <object xml:id="d1e2170">
                   <objectName full="yes">Cabinet de Monsieur de Petitot</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>ibid.</num>
                </object>
                <object xml:id="d1e2176">
                   <objectName full="yes">Miroir d’acier (le)</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>203</num>
                </object>
                <object xml:id="d1e2182">
                   <objectName full="yes">Petits Augustins (les)</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>203</num>
                </object>
                <object xml:id="d1e2188">
                   <objectName full="yes">Hôtel de la Rochefoucault</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>206</num>
                </object>
                <object xml:id="d1e2194">
                   <objectName full="yes">Théâtre de la Comédie françoise</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>206</num>
                </object>
                <object xml:id="d1e2200">
                   <objectName full="yes">Conférences de M. l’abbé de La Roque, auteur du Journal des sçavans</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>208</num>
                </object>
                <object xml:id="d1e2207">
                   <objectName full="yes">Couvent de Grands Augustins</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>209</num>
                </object>
                <object xml:id="d1e2213">
                   <objectName full="yes">Épitaphe de M. de Sainte-Beuve</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>214</num>
                </object>
                <place>
                   <placeName full="yes">Rue Dauphine</placeName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>217</num>
                </place>
                <object xml:id="d1e2225">
                   <objectName full="yes">Hôtel de Conti</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>127</num>
                </object>
                <object xml:id="d1e2231">
                   <objectName full="yes">Cabinet de Monsieur l’abbé de La Chambre</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>219</num>
                </object>
                <object xml:id="d1e2237">
                   <objectName full="yes">Collège des Quatre-Nations</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>220</num>
                </object>
                <object xml:id="d1e2243">
                   <objectName full="yes">Inscription du quay Malaquai, ou des Quatre-nations</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>225</num>
                </object>
                <object xml:id="d1e2249">
                   <objectName full="yes">Hôtel de Crequi</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>225</num>
                </object>
                <object xml:id="d1e2255">
                   <objectName full="yes">Hôtel de Bouillon</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>225</num>
                </object>
                <object xml:id="d1e2261">
                   <objectName full="yes">Maison du coin de la rue des Saints-Pères, où demeure Monsieur le maréchal d’Humières</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>225</num>
                </object>
                <object xml:id="d1e2267">
                   <objectName full="yes">Maison du président Perault</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>226</num>
                </object>
                <object xml:id="d1e2274">
                   <objectName full="yes">Théatins (les)</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>227</num>
                </object>
                <object xml:id="d1e2280">
                   <objectName full="yes">Hôtel de Mailly</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>228</num>
                </object>
                <object xml:id="d1e2286">
                   <objectName full="yes">Cour de la Reine</objectName>
-                  <relation ref="locQuartierRueDeLUniversité"/>
+                  <relation ref="#locQuartierRueDeLUniversité"/>
                   <num>228</num>
                </object>
                <place xml:id="locIleDuPalais">
@@ -1917,241 +1957,270 @@
                </place>
                <object xml:id="d1e2295">
                   <objectName full="yes">Église de Nostre-Dame</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>page 231</num>
                </object>
                <object xml:id="d1e2301">
                   <objectName full="yes">Ouvrages que Monsieur Joli à composez</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>235</num>
                </object>
                <object xml:id="d1e2307">
                   <objectName full="yes">Bust du cardinal de Richelieu</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>242</num>
                </object>
                <object xml:id="d1e2313">
                   <objectName full="yes">Palais archiépiscopal</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>242</num>
                </object>
                <object xml:id="d1e2319">
                   <objectName full="yes">Saint-Denis-du-Pas</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>243</num>
                </object>
                <object xml:id="d1e2325">
                   <objectName full="yes">Le cloître de Nostre-Dame</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>243</num>
                </object>
                <object xml:id="d1e2331">
                   <objectName full="yes">Conférences de Monsieur Ménage (les)</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>243</num>
                </object>
                <object xml:id="d1e2338">
                   <objectName full="yes">Hôtel-Dieu (l’)</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>244</num>
                </object>
                <object xml:id="d1e2344">
                   <objectName full="yes">La statue à l’entrée du parvis de Nostre-Dame</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>247</num>
                </object>
                <object xml:id="d1e2350">
                   <objectName full="yes">L’inscription de la fontaine du parvis de Nostre-Dame</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>248</num>
                </object>
                <object xml:id="d1e2356">
                   <objectName full="yes">Saint-Jean-le-Rond</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>248</num>
                </object>
                <object xml:id="d1e2362">
                   <objectName full="yes">Saint-Christophe</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>248</num>
                </object>
                <object xml:id="d1e2368">
                   <objectName full="yes">Sainte-Geneviève-des-Ardens</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>248</num>
                </object>
                <object xml:id="d1e2374">
                   <objectName full="yes">Saint-Pierre-aux-Bœufs</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>249</num>
                </object>
                <object xml:id="d1e2380">
                   <objectName full="yes">Sainte-Marine</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>249</num>
                </object>
                <object xml:id="d1e2386">
                   <objectName full="yes">Saint-Landry</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>249</num>
                </object>
                <object xml:id="d1e2392">
                   <objectName full="yes">Saint-Simphorien</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>249</num>
                </object>
                <object xml:id="d1e2398">
                   <objectName full="yes">Saint-Denis-de-la-Chartre</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>249</num>
                </object>
                <object xml:id="d1e2405">
                   <objectName full="yes">Sainte-Magdelaine</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>250</num>
                </object>
                <object xml:id="d1e2411">
                   <objectName full="yes">Sainte-Croix</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>250</num>
                </object>
                <object xml:id="d1e2417">
                   <objectName full="yes">Saint-Pierre-des-Arcis</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>251</num>
                </object>
                <object xml:id="d1e2423">
                   <objectName full="yes">Saint-Marcial</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>251</num>
+                  <!-- @todo pb dans le fichier brice -->
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr05.001.021"/>
                </object>
                <object xml:id="d1e2429">
                   <objectName full="yes">Saint-Germain-le-Vieux</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>251</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr05.001.022"/>
                </object>
                <object xml:id="d1e2435">
                   <objectName full="yes">Barnabites (les)</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>251</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr05.001.023"/>
                </object>
                <object xml:id="d1e2441">
                   <objectName full="yes">Saint-Barthélemi</objectName>
-                  <relation ref="locIleDuPalais"/>
+                  <relation ref="#locIleDuPalais"/>
                   <num>252</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr05.001.024"/>
                </object>
                <place xml:id="locPalaisDuLouvre">
                   <placeName full="yes">Quartier du Palais du Louvre</placeName>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr05.001.024"/>
                </place>
                <object xml:id="d1e2450">
                   <objectName full="yes">Grande salle du Palais (la)</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>page 255</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.001"/>
                </object>
                <object xml:id="d1e2456">
                   <objectName full="yes">Chapelle et l’horloge à un des bouts de la grande salle</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>256</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.002"/>
                </object>
                <object xml:id="d1e2462">
                   <objectName full="yes">Grande Chambre</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>257</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.003"/>
                </object>
                <object xml:id="d1e2469">
-                  <objectName full="yes">Cour des aydes</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <objectName full="yes">Cour des aides</objectName>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>258</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.004"/>
                </object>
                <object xml:id="d1e2475">
                   <objectName full="yes">Sainte-Chapelle</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>259</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.005"/>
                </object>
                <object xml:id="d1e2481">
                   <objectName full="yes">Chambre des comptes</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>266</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.006"/>
                </object>
                <object xml:id="d1e2487">
                   <objectName full="yes">Ouvrages de Monsieur Du Change</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <objectType>biblio</objectType>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>267</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.006.001"/>
                </object>
                <object xml:id="d1e2493">
                   <objectName full="yes">Cour des monnoyes</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>270</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.006.002"/>
                </object>
                <object xml:id="d1e2499">
                   <objectName full="yes">Belles traduction de Monsieur le président Cousin</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
-                  <num>ibid.</num>
+                  <objectType>biblio</objectType>
+                  <relation ref="#locPalaisDuLouvre"/>
+                  <num>270</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.006.003"/>
                </object>
                <object xml:id="d1e2505">
                   <objectName full="yes">Hôtel de Monsieur le premier président</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>271</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.006.004"/>
                </object>
                <object xml:id="d1e2511">
                   <objectName full="yes">La place Dauphine</objectName>
-                  <relation ref="locPalaisDuLouvre"/>
+                  <relation ref="#locPalaisDuLouvre"/>
                   <num>272</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr06.007"/>
                </object>
                <!-- Ponts de Paris -->
                <object xml:id="d1e2518">
                   <objectName full="yes">Pont de Notre-Dame</objectName>
                   <num>page 274</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.001"/>
                </object>
                <object xml:id="d1e2523">
                   <objectName full="yes">Inscription de la pompe du pont Notre-Dame</objectName>
                   <num>276</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.001.001"/>
                </object>
                <object xml:id="d1e2529">
                   <objectName full="yes">Pont au Change</objectName>
                   <num>277</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.002"/>
                </object>
                <object xml:id="d1e2534">
-                  <objectName full="yes">Quay de Gesvres</objectName>
+                  <objectName full="yes">Quai de Gesvres</objectName>
                   <num>278</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.002.001"/>
                </object>
                <object xml:id="d1e2539">
                   <objectName full="yes">Horloge du Palais</objectName>
                   <num>279</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.002.002"/>
                </object>
                <object xml:id="d1e2544">
                   <objectName full="yes">Pont Saint-Michel</objectName>
-                  <num>ibid.</num>
+                  <num>279</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.002.003"/>
                </object>
                <object xml:id="d1e2549">
                   <objectName full="yes">Petit Pont</objectName>
                   <num>280</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.002.004"/>
                </object>
                <object xml:id="d1e2554">
                   <objectName full="yes">Pont Neuf</objectName>
-                  <num>
-                     <sic>181</sic>
-                  </num>
+                  <num>281</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.003"/>
                </object>
                <object xml:id="d1e2560">
                   <objectName full="yes">Statue de Henri IV</objectName>
                   <num>284</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.003"/>
                </object>
                <object xml:id="d1e2565">
                   <objectName full="yes">Inscription qui son autour du piedestal de la statue d’Henri IV</objectName>
                   <num>
                      <sic>190</sic>
                   </num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.004"/>
                </object>
                <object xml:id="d1e2571">
                   <objectName full="yes">Samaritaine (la)</objectName>
                   <num>
                      <sic>194</sic>
                   </num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.005"/>
                </object>
                <object xml:id="d1e2577">
                   <objectName full="yes">Pont Rouge</objectName>
                   <num>295</num>
+                  <relation type="locus" rel="#gdpBrice1684T02BodyFr07.005.001"/>
                </object>
             </listObject>
          </div>
