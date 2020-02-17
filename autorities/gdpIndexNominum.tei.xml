@@ -4,7 +4,7 @@
   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
    Guides de Paris, Index Nominum 
   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
---> 
+-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -13,7 +13,7 @@
                 <principal>
                     <persName ref="#MCL">
                         <forename>Marianne</forename>
-                        <surname>Cojannot-Le Blanc</surname> 
+                        <surname>Cojannot-Le Blanc</surname>
                         <affiliation>
                             <orgName>Histoire des Arts &amp; Représentations</orgName>
                             <orgName type="acronym">HAR</orgName>
@@ -48,40 +48,44 @@
             </titleStmt>
             <editionStmt>
                 <edition n="1">première édition électronique, <date from="2013" to="2018"
-                    >2013-2018</date></edition>
+                        >2013-2018</date></edition>
             </editionStmt>
             <extent><!-- TODO : taille du fichier en octet --></extent>
             <publicationStmt>
-                <authority> <orgName>Histoire des Arts et Représentations</orgName> <orgName
-                    type="acronym">HAR</orgName> <address>
-                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
-                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
-                    <addrLine>200, Avenue de la République</addrLine>
-                    <addrLine>92001 Nanterre Cedex</addrLine>
-                    <addrLine>France</addrLine>
-                    <addrLine>http://har.u-paris10.fr</addrLine>
-                    <addrLine>harparisouest@gmail.com</addrLine>
-                    </address> </authority>
+                <authority>
+                    <orgName>Histoire des Arts et Représentations</orgName>
+                    <orgName type="acronym">HAR</orgName>
+                    <address>
+                        <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                        <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                        <addrLine>200, Avenue de la République</addrLine>
+                        <addrLine>92001 Nanterre Cedex</addrLine>
+                        <addrLine>France</addrLine>
+                        <addrLine>http://har.u-paris10.fr</addrLine>
+                        <addrLine>harparisouest@gmail.com</addrLine>
+                    </address>
+                </authority>
                 <date when="2013">2013</date>
                 <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
                 <idno>ark</idno>
                 <!-- responsable de la publication -->
-                <publisher> <orgName>Histoire des Arts et Représentations</orgName> <orgName
-                    type="acronym">HAR</orgName> <address>
-                    <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
-                    <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
-                    <addrLine>200, Avenue de la République</addrLine>
-                    <addrLine>92001 Nanterre Cedex</addrLine>
-                    <addrLine>France</addrLine>
-                    <addrLine>http://har.u-paris10.fr</addrLine>
-                    <addrLine>harparisouest@gmail.com</addrLine>
-                    </address> </publisher>
+                <publisher>
+                    <orgName>Histoire des Arts et Représentations</orgName>
+                    <orgName type="acronym">HAR</orgName>
+                    <address>
+                        <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                        <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                        <addrLine>200, Avenue de la République</addrLine>
+                        <addrLine>92001 Nanterre Cedex</addrLine>
+                        <addrLine>France</addrLine>
+                        <addrLine>http://har.u-paris10.fr</addrLine>
+                        <addrLine>harparisouest@gmail.com</addrLine>
+                    </address>
+                </publisher>
                 <availability status="restricted" xml:id="indexNominumTextLicence">
-                    <!-- TODO : <licence> à ajouter partout -->
-                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
-                        <p>Texte de la licence</p> <graphic
-                        url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"/> </licence>
-                    <p>Texte de la licence choisie.</p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>@todo Texte de la licence et image</p>
+                    </licence>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -126,7 +130,8 @@
                 </keywords>
                 <classCode scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
                     <term>Text</term>
-                    <!-- TODO qualifier --> </classCode>
+                    <!-- TODO qualifier -->
+                </classCode>
             </textClass>
         </profileDesc>
         <revisionDesc>
@@ -138,7 +143,7 @@
             <head>Index Nominum</head>
             <listPerson>
                 <head>Exemple</head>
-                <person xml:id="in000ex">
+                <person xml:id="nom000ex">
                     <!-- exemple -->
                     <persName full="yes"
                         >Münchhausen, Karl Hieronymus (1720-1797 ; baron von)</persName>
@@ -149,7 +154,9 @@
                         <nameLink>von</nameLink><!-- if needed -->
                         <surname>Münchhausen</surname>
                         <genName>Junior</genName>
-                        <roleName type="nobility">baron</roleName><!-- possible values for @type military, nobility, office, epithet --> </persName>
+                        <roleName type="nobility"
+                        >baron</roleName><!-- possible values for @type military, nobility, office, epithet -->
+                    </persName>
                     <birth>
                         <date when="1720-05-11">11 mai 1720</date>
                         <placeName>noWhere</placeName>
@@ -166,33 +173,291 @@
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb119462100</idno>
                     <!-- possible values for @type : agorah, akl, dataBnf, idRef, isni, ulan, viaf, wikidata, wbis"-->
                 </person>
-                <person xml:id="louisXIV">
-                    <persName>Louis XIV (roi de France ; 1638-1715)</persName>
+            </listPerson>
+            <!-- gdpBrice1684T01BodyFr06 -->
+            <listPerson>
+                <head>Personnes historiques</head>
+                <person xml:id="nomRichelieu">
+                    <persName>Richelieu, Armand Jean du Plessis (1585-1642 ; cardinal duc de) </persName>
+                    <sex value="1">male</sex>
                     <birth>
-                        <date when="1638-09-05">5 septembre 1638</date>
-                        <placeName>Saint-Germain-en-Laye (Yvelines)</placeName>
+                        <placeName>Paris</placeName>
+                        <date when="1585-09-05">5 septembre 1585</date>
                     </birth>
                     <death>
-                        <date when="1715-09-01">1er septembre 1715</date>
+                        <placeName>Paris</placeName>
+                        <date when="1642-12-04">4 décembre 1642</date>
+                    </death>
+                    <occupation>cardinal</occupation>
+                    <idno type="dataBnf" />
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb11921894w</idno>
+                    <idno type="isni">http://isni.org/isni/0000000123198599</idno>
+                </person> 
+                <person xml:id="nomDucsDeBourgogne">
+                    <persName>Ducs de Bourgogne</persName>
+                    <occupation>duc</occupation>
+                </person>
+                <person xml:id="nomMonsieurBerthelot">
+                    <persName>Monsieur Berthelot</persName>
+                    <sex value="1">male</sex>
+                    <note>
+                        <p>intendant de la maison de madame la Dauphine</p>
+                    </note>
+                </person>
+                <person xml:id="nomSieurRoland">
+                    <persName />
+                    <sex value="1">male</sex>
+                </person>
+            </listPerson>
+            <listPerson>
+                <head>Souverains de la couronne de France</head>
+                <person xml:id="nomMarieTherese">
+                    <persName>Marie-Thérèse d’Autriche (reine de France, 1638-1683)</persName>
+                    <persName>
+                        <forename>Marie-Thérèse</forename>
+                        <surname />
+                    </persName>
+                    <sex value="2">female</sex>
+                    <birth>
+                        <date when="1672-06-12">12 juin 1672</date>
+                        <placeName>Madrid (Espagne)</placeName>
+                    </birth>
+                    <death>
+                        <date when="1672-08-13">13 août 1672</date>
                         <placeName>Versailles</placeName>
                     </death>
-                    <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb11913463s</idno>
-                    <idno type="isni">http://www.isni.org/0000000108030835</idno>
+                    <idno type="isni">http://www.isni.org/isni/0000000050760084</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/fr/12186343/marie-therese/</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q152549</idno>
+                </person>
+                <person xml:id="nomHenriIV">
+                    <persName full="yes">Henri IV (1553-1610 ; roi de France)</persName>
+                    <persName>le Grand</persName>
+                    <persName>le Vert-Galant</persName>
+                    <sex value="1">male</sex>
+                    <birth>
+                        <date when="1553-12-13">13 décembre 1553</date>
+                        <placeName>Pau (Pyrénées-Atlantiques)</placeName>
+                    </birth>
+                    <death>
+                        <date when="1610-05-14">14 mai 1610</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <occupation>
+                        <term>Roi de France et de Navarre</term>
+                        <date from="1589-08-02" to="1610-05-14">2 août 1589 au 14 mai 1610</date>
+                    </occupation>
+                    <idno type="isni">http://www.isni.org/isni/0000000121348311</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q936976</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb120154019</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb120154019</idno>
+                    <idno type="agorah">https://agorha.inha.fr/inhaprod/ark:/54721/00246023</idno>
+                    <listRelation>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e327 #gdpLeMaire1685d1e15582"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e22518 #gdpPiganiol1742d1e27693 #gdpPiganiol1742d1e28030 #gdpPiganiol1742d1e28314 #gdpPiganiol1742d1e28459 #gdpPiganiol1742d1e28526 #gdpPiganiol1742d1e28554 #gdpPiganiol1742d1e28855 #gdpPiganiol1742d1e28859"/>
+                    </listRelation>
+                </person>
+                <person xml:id="nomLouisXIII">
+                    <persName full="yes">Louis XIII (1601-1643 ; roi de France)</persName>
+                    <persName>le Juste</persName>
+                    <sex value="1">male</sex>
+                    <birth>
+                        <date when="1601-09-27">27 septembre 1601</date>
+                        <placeName>Fontainebleau</placeName>
+                    </birth>
+                    <death>
+                        <date when="1643-05-14">14 mai 1643</date>
+                        <placeName>Saint-Germain-en-Laye</placeName>
+                    </death>
+                    <occupation>
+                        <term>Roi de France et de Navarre</term>
+                        <date from="1610-05-14" to="1643-05-14">14 mai 1610 au 14 mai 1643</date>
+                    </occupation>
+                    <idno type="isni">http://www.isni.org/isni/0000000121018654</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb11913462f</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q737533</idno>
+                    <idno type="agorah">https://agorha.inha.fr/inhaprod/ark:/54721/00246065</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb11913462f</idno>
+                    <listRelation>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e747 #gdpBrice1684d1e1854 #gdpBrice1684d1e3990 #gdpBrice1684d1e5382 #gdpBrice1684d1e5611 #gdpBrice1684d1e5911 #gdpBrice1684d1e5928 #gdpBrice1684d1e5998 #gdpBrice1684d1e6556 #gdpBrice1684d1e6568 #gdpBrice1684d1e6722 #gdpBrice1684d1e6930 #gdpBrice1684d1e11976 #gdpBrice1684d1e12928 #gdpBrice1684d1e14748 #gdpBrice1684d1e15013 #gdpBrice1684d1e16369 #gdpBrice1684d1e16547 #gdpBrice1684d1e16549 #gdpBrice1684d1e18212 #gdpBrice1684d1e18362 #gdpBrice1684d1e18434 #gdpBrice1684d1e18600 #gdpBrice1684d1e18641 #gdpBrice1684d1e18670 #gdpBrice1684d1e18723 #gdpBrice1684d1e18999 #gdpBrice1684d1e19111"/>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e5128 #gdpLeMaire1685d1e4653 #gdpLeMaire1685d1e15584"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e29878 #gdpPiganiol1742d1e2714 #gdpPiganiol1742d1e2915 #gdpPiganiol1742d1e3508 #gdpPiganiol1742d1e3804 #gdpPiganiol1742d1e5592 #gdpPiganiol1742d1e6862 #gdpPiganiol1742d1e9491 #gdpPiganiol1742d1e12116 #gdpPiganiol1742d1e12609 #gdpPiganiol1742d1e14511 #gdpPiganiol1742d1e17281 #gdpPiganiol1742d1e18477 #gdpPiganiol1742d1e18597 #gdpPiganiol1742d1e18603 #gdpPiganiol1742d1e18864 #gdpPiganiol1742d1e19014 #gdpPiganiol1742d1e19539 #gdpPiganiol1742d1e19555 #gdpPiganiol1742d1e19589 #gdpPiganiol1742d1e20022 #gdpPiganiol1742d1e20388 #gdpPiganiol1742d1e21536 #gdpPiganiol1742d1e21629 #gdpPiganiol1742d1e25805 #gdpPiganiol1742d1e28320"/>
+                    </listRelation>
+                </person>
+                <person xml:id="nomLouisXIV">
+                    <persName full="yes">Louis XIV (1638-1715 ; roi de France)</persName>
+                    <persName>le Grand</persName>
+                    <persName>le Roi-Soleil</persName>
+                    <sex value="1">male</sex>
+                    <birth>
+                        <date when="1638-09-05">5 septembre 1638</date>
+                        <placeName>Saint-Germain-en-Laye</placeName>
+                    </birth>
+                    <death>
+                        <date when="1715-09-01">1<hi rend="superscript">er</hi> septembre 1715</date>
+                        <placeName>Versailles</placeName>
+                    </death>
+                    <occupation>
+                        <term>Roi de France et de Navarre</term>
+                        <date from="1643-05-14" to="1715-09-01">14 mai 1643 au 1<hi rend="superscript">er</hi> septembre 1715</date>
+                    </occupation>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb11913463s</idno>
+                    <idno type="isni">http://www.isni.org/isni/0000000392870208</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb11913463s</idno>
+                    <idno type="agorha">https://agorha.inha.fr/inhaprod/ark:/54721/00246109</idno>
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q7742</idno>
+                    <listRelation>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e1234"/>
+                    </listRelation>
                 </person>
-                <person xml:id="marieTherese">
-                    <persName>Marie-Thérèse d’Autriche</persName>
+                <person xml:id="nomLouisXV">
+                    <persName full="yes">Louis XV (1710-1774 ; roi de France)</persName>
+                    <persName>le Bien-Aimé</persName>
+                    <sex value="1">male</sex>
+                    <birth>
+                        <date when="1710-02-15">15 février 1710</date>
+                        <placeName>Versailles</placeName>
+                    </birth>
+                    <death>
+                        <date when="1774-05-10">10 mai 1774</date>
+                        <placeName>Versailles</placeName>
+                    </death>
+                    <occupation>
+                        <term>Roi de France et de Navarre</term>
+                        <date from="1715-09-01" to="1774-05-10">1<hi rend="superscript">er</hi> septembre 1715 au 10 mai 1774</date>
+                    </occupation>
+                    <idno type="isni">http://www.isni.org/isni/0000000121173013</idno>
+                    <idno type="agorah">https://agorha.inha.fr/inhaprod/ark:/54721/00246492</idno>
+                    <idno type="catBnf">https://catalogue.bnf.fr/ark:/12148/cb12282451x</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb12282451x</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q7738</idno>
+                    <idno type="ulan">http://vocab.getty.edu/ulan/500122354</idno>
                 </person>
-                <!-- relations -->
-                <!-- cf. http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-relation.html -->
+                <person xml:id="nomLouisXVI">
+                    <persName full="yes">Louis XVI (1754-1793 ; roi de France)</persName>
+                    <sex value="1">male</sex>
+                    <birth>
+                        <date when="1754-08-23">23 août 1754</date>
+                        <placeName>Versailles</placeName>
+                    </birth>
+                    <death>
+                        <date when="1793-01-21">21 janvier 1793</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <occupation>
+                        <term>Roi de France et de Navarre</term>
+                        <date from="1774-05-10" to="1792-09-21">10 mai 1774 au 21 septembre 1792</date>
+                    </occupation>
+                    <idno type="isni">http://www.isni.org/0000000358861922</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q7732</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb120081657</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb120081657</idno>
+                </person>
+                <!-- ex relations -->
                 <listRelation>
                     <relation from="1660-06-09" to="1683-06-30" type="personal" name="spouse"
-                        mutual="#louisXIV #marieTherese">
-                        <desc>Marié à...</desc>
+                        mutual="#nomLouisXIV #nomMarieTherese">
+                        <desc>Marié à ...</desc>
                     </relation>
                 </listRelation>
             </listPerson>
-            
+            <listPerson>
+                <head>Artistes</head>
+                <person xml:id="nomChampagnePhilippeDe">
+                    <persName full="yes">Champaigne, Philippe de (1602-1674)</persName>
+                    <persName>
+                        <forename>Philippe</forename>
+                        <surname>Champaigne</surname>
+                        <nameLink>de</nameLink>
+                    </persName>
+                    <birth>
+                        <date when="1602">1602</date>
+                        <placeName>Bruxelles (Belgique)</placeName>
+                    </birth>
+                    <death>
+                        <date when="1674-08-12">12 août 1674</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <occupation>peintre</occupation>
+                    <idno type="isni">http://www.isni.org/isni/0000000121184193</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q314814</idno>
+                    <idno type="agorah">https://agorha.inha.fr/inhaprod/ark:/54721/0023097</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb12263241w</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb12263241w</idno>
+                    <listRelation>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6501 #gdpBrice1684d1e8383 #gdpBrice1684d1e12782 #gdpBrice1684d1e13135"/>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e18636"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15517 #gdpPiganiol1742d1e17275 #gdpPiganiol1742d1e21545 #gdpPiganiol1742d1e21545 #gdpPiganiol1742d1e34974 #gdpPiganiol1742d1e39419 #gdpPiganiol1742d1e40157 #gdpPiganiol1742d1e40902 #gdpPiganiol1742d1e40945 #gdpPiganiol1742d1e40968 gdpPiganiol1742d1e41154 #gdpPiganiol1742d1e41184 #gdpPiganiol1742d1e64857 #gdpPiganiol1742d1e84153 #gdpPiganiol1742d1e84385 #gdpPiganiol1742d1e133860 #gdpPiganiol1742d1e137220 #gdpPiganiol1742d1e137231 #gdpPiganiol1742d1e137231 #gdpPiganiol1742d1e137681 #gdpPiganiol1742d1e141224 #gdpPiganiol1742d1e145823 #gdpPiganiol1742d1e155349 #gdpPiganiol1742d1e159763 #gdpPiganiol1742d1e160518 #gdpPiganiol1742d1e161524 #gdpPiganiol1742d1e163480"></relation>
+                    </listRelation>
+                </person>
+                <person xml:id="nomDesarguesGirard">
+                    <persName>Desargues, Girard (1591-1661)</persName>
+                    <birth>
+                        <placeName>Lyon</placeName>
+                        <date when="1591-03-02">2 mars 1591</date>
+                    </birth>
+                    <death>
+                        <placeName>Lyon</placeName>
+                        <date when="1661-10">octobre 1661</date>
+                    </death>
+                    <occupation>architecte</occupation>
+                    <occupation>mathématicien</occupation>
+                    <occupation>ingénieur</occupation>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb11899746z</idno>
+                    <idno type="isni">http://isni.org/isni/0000000116907596</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q152817</idno>
+                    <idno type="ulan">http://vocab.getty.edu/page/ulan/500106146</idno>
+                    <listRelation>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e4479 #gdpBrice1684d1e5822"/>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26364 #gdpLeMaire1685d1e26672"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e40928 #gdpPiganiol1742d1e97690 #gdpPiganiol1742d1e137227 #gdpPiganiol1742d1e13235"></relation>
+                    </listRelation>
+                </person>
+                <person xml:id="nomPoussinNicolas">
+                    <persName full="yes">Poussin, Nicolas (1594-1665)</persName>
+                    <sex value="1">male</sex>
+                    <birth>
+                        <date when="1594-06-15">15 juin 1594</date>
+                        <placeName>Les Andelys (Eure) </placeName>
+                    </birth>
+                    <death>
+                        <date when="1665-11-19">19 novembre 1665</date>
+                        <placeName>Rome (Italie)</placeName>
+                    </death>
+                    <occupation>peintre</occupation>
+                    <idno type="isni">http://www.isni.org/isni/0000000120999120</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q41554</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb119204967</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb119204967</idno>
+                    <idno type="ulan">http://vocab.getty.edu/page/ulan/500005036</idno>
+                    <listRelation>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6486 #gdpBrice1684d1e7645 #gdpBrice1684d1e8733 #gdpBrice1684d1e8881 #gdpBrice1684d1e15061 #gdpBrice1684d1e15850 #gdpBrice1684d1e15869 #gdpBrice1684d1e16642 #gdpBrice1684d1e16843 #gdpBrice1684d1e17020 #gdpBrice1684d1e1441 #gdpBrice1684d1e802"/>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e24958 #gdpLeMaire1685d1e24985 #gdpLeMaire1685d1e26842 #gdpLeMaire1685d1e26902"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15748 #gdpPiganiol1742d1e31572 #gdpPiganiol1742d1e37964 #gdpPiganiol1742d1e37983 #gdpPiganiol1742d1e41703 #gdpPiganiol1742d1e65258 #gdpPiganiol1742d1e65275 #gdpPiganiol1742d1e162468 #gdpPiganiol1742d1e163371 #gdpPiganiol1742d1e163386 #gdpPiganiol1742d1e163395 #gdpPiganiol1742d1e163404 #gdpPiganiol1742d1e163417 #gdpPiganiol1742d1e163419 #gdpPiganiol1742d1e174751 #gdpPiganiol1742d1e202126"/>
+                    </listRelation>
+                </person>
+                <person xml:id="nomLeSueurEustache">
+                    <persName>Le Sueur, Eustache (1617-1655)</persName>
+                    <birth>
+                        <date when="1617">1617</date>
+                    </birth>
+                    <death>
+                        <date when=" 1655-04-30">30 avril 1655</date>
+                    </death>
+                    <occupation>peintre</occupation>
+                    <idno type="isni">http://www.isni.org/isni/0000000083388549</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1378723</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb13965157t</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb13965157t</idno>
+                    <idno type="agorah">https://agorha.inha.fr/inhaprod/ark:/54721/0027201</idno>
+                    <idno type="ulan">http://vocab.getty.edu/page/ulan/500002273</idno>
+                    <listRelation>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e1554 #gdpBrice1684d1e6482 #gdpBrice1684d1e8266 #gdpBrice1684d1e11095 #gdpBrice1684d1e13328 #gdpBrice1684d1e17009"/>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26591 #gdpLeMaire1685d1e5083"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e17786 #gdpPiganiol1742d1e83487 #gdpPiganiol1742d1e84147 #gdpPiganiol1742d1e84252 #gdpPiganiol1742d1e84258 #gdpPiganiol1742d1e134575 #gdpPiganiol1742d1e134597 #gdpPiganiol1742d1e134600 #gdpPiganiol1742d1e134748 #gdpPiganiol1742d1e160222 #gdpPiganiol1742d1e160484 #gdpPiganiol1742d1e160525 #gdpPiganiol1742d1e203960 #gdpPiganiol1742d1e12839 #gdpPiganiol1742d1e12978 #gdpPiganiol1742d1e13295 #gdpPiganiol1742d1e15656 #gdpPiganiol1742d1e15666 #gdpPiganiol1742d1e15683 #gdpPiganiol1742d1e15688 #gdpPiganiol1742d1e15701 #gdpPiganiol1742d1e15710"/>
+                    </listRelation>
+                </person>
+            </listPerson>
             <listPerson>
                 <head>Index des auteurs</head>
                 <person xml:id="antoniniAnnibale">
@@ -256,7 +521,9 @@
                         <p>Gendre en secondes noces (mai 1571) du libraire <persName>Jean I Ruelle</persName>, il était encore en activité en 1618. Il décéda à Paris en mars 1626 et sa veuve <persName>Catherine Ruelle</persName> dès le 14 juin suivant.</p>
                     </note>
                     <note type="mark">
-                        <p>La marque de Nicolas Bonfons était constituée des « quatre Vertus, la Foy, l’Esperance, la Charité &amp; la Force, avec un cœur dans le milieu, pour faire allusion à son nom, en signifiant qu’un cœur soûtenu de ces quatre vertus à un bon fond, avec ce Passage de David <q xml:lang="lat">Proba me Deus &amp; Scito cor meum</q> (Psaume 139:23). Il signe souvent par N. B. Parisien.</p>
+                        <p>La marque de Nicolas Bonfons était constituée des « quatre Vertus, la Foy, l’Esperance, la Charité &amp; la Force, avec un cœur dans le milieu, pour faire allusion à son nom, en signifiant qu’un cœur soûtenu de ces quatre vertus à un bon fond, avec ce Passage de David <q
+                                xml:lang="lat"
+                            >Proba me Deus &amp; Scito cor meum</q> (Psaume 139:23). Il signe souvent par N. B. Parisien.</p>
                     </note>
                     <idno type="isni">http://isni.org/isni/0000000000513317</idno>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12238948t</idno>
@@ -277,7 +544,8 @@
                         <date notAfter="1699">16..</date>
                     </death>
                     <floruit from="1596" to="1608">1596-1608 ?</floruit>
-                    <residence from="1596" to="1608">(Rue Neuve-Notre-Dame et) Au quatrième pilier de la grand-salle du Palais</residence>
+                    <residence from="1596" to="1608"
+                        >(Rue Neuve-Notre-Dame et) Au quatrième pilier de la grand-salle du Palais</residence>
                     <note>
                         <p>Fils de Nicolas Bonfons, il quitta la profession vers 1607-1608 et devint contrôleur du Grenier à sel de Pontoise. Il était généralement associé à son père, le libraire <persName>Nicolas Bonfons</persName>.</p>
                     </note>
@@ -320,12 +588,16 @@
                     </death>
                     <occupation>imprimeur, écrivain</occupation>
                     <floruit from="1535" to="1568">1535-1568</floruit>
-                    <residence from="1535" to="1568">En la grand-salle du Palais (, du côté de la chapelle de Messieurs ; près la chambre des Consultations) (ou : Au Palais).</residence>
-                    <residence when="1549">Rue de la Vieille-Draperie, près l’église Sainte-Croix (, en la Cité)</residence>
+                    <residence from="1535" to="1568"
+                        >En la grand-salle du Palais (, du côté de la chapelle de Messieurs ; près la chambre des Consultations) (ou : Au Palais).</residence>
+                    <residence when="1549"
+                        >Rue de la Vieille-Draperie, près l’église Sainte-Croix (, en la Cité)</residence>
                     <residence when="1554">Rue de la Juiverie, À l’enseigne du Château</residence>
                     <note>
                         <p>Libraire, natif de Paris il fut aussi poète et historien. Auteur, entre autres, de <title>La Fleur des antiquitez… de Paris</title> en 1532, des <title>Antiques Érections des Gaules</title> en 1535 et du <title>Thresor des histoires de France</title>, publié à titre posthume en 1583. Petit-fils du libraire parisien <persName>Pierre Le Brodeur</persName> qui aurait contribué à son établissement en 1535. Décédé à Paris en juillet 1568.</p>
-                        <p>Sa marque (une rose dans un cœur accompagnée de cette devise tirée du livre des <title>Proverbes</title> : <q xml:lang="lat">In corde prudentis requiescit sapientia</q>) se retrouve sur de nombreux textes importants de l’époque par <persName>Clément Marot</persName>, <persName>Pierre de Ronsard</persName>, <persName>Joachim du Bellay</persName>, <persName>Pierre Belon</persName>.</p>
+                        <p>Sa marque (une rose dans un cœur accompagnée de cette devise tirée du livre des <title>Proverbes</title> : <q
+                                xml:lang="lat"
+                                >In corde prudentis requiescit sapientia</q>) se retrouve sur de nombreux textes importants de l’époque par <persName>Clément Marot</persName>, <persName>Pierre de Ronsard</persName>, <persName>Joachim du Bellay</persName>, <persName>Pierre Belon</persName>.</p>
                         <p>autre devise, <q xml:lang="lat">Labore conscendimus altum</q></p>
                     </note>
                     <idno type="isni">http://isni.org/isni/0000000121007605</idno>
@@ -334,8 +606,9 @@
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q3106164</idno>
                 </person>
                 <person xml:id="dezallierDArgenvilleAntoineNicolas">
-                    <persName full="yes">Dezallier d’Argenville, Antoine-Nicolas (1723-1796)</persName>
-                    <idno type="isni"/>
+                    <persName full="yes"
+                        >Dezallier d’Argenville, Antoine-Nicolas (1723-1796)</persName>
+                    <idno type="isni" />
                     <!-- @todo vérifier -->
                 </person>
                 <person xml:id="duBreulJacques">
@@ -404,13 +677,14 @@
                         <date when="1653">1653 ?</date>
                     </death>
                     <note>
-                        <p>Auteur de plusieurs ouvrages historiques</p> <list>
-                        <item>Les <title>Annales générales de la ville de Paris</title>, représentant tout ce que l’histoire a peu remarquer de ce qui s’est passé de plus mémorable en icelle, depuis sa première fondation jusques à présent. Le tout par l’ordre des années et des règnes de nos rois de France…</item>
-                        <item><title>Les Antiquités de la ville de Paris</title>, contenant la recherche nouvelle des fondations et établissements des églises, chapelles, monastères, hôpitaux, hôtels, maisons remarquables, fontaines, regards, quais, ponts, et autres ouvrages curieux… Le tout extrait de plusieurs titres et archives, cabinets… Enrichies de plusieurs belles figures . (Signé : Claude Malingre.)</item>
-                        <item>Entrée magnifique du Roy, faicte en sa ville d’Orléans, le mardy huictiesme juillet 1614, avec l’ordre et cérémonies observées en icelle . Par Claude Malingre</item>
-                        <item>Histoire du règne de Louys XIII. Roy de France et de Navarre. Prise du jour de sa naissance jusques à sa mort… Par S. M. C. </item>
-                        <item>Trésor de l’histoire de France, réduit par tiltres et lieux communs, divisé en deux parties : la première, composée par G. C. (Corrozet) ; la deuxiesme est une nouvelle augmentation, illustrée et enrichie de plusieurs curieuses recherches et pièces autentiques importantes à la gloire de nos roys… avec l’histoire des roys de France et leurs portraicts contenus en la deuxiesme page, par C. M. H. D. F. (Claude Malingre, historiographe de France.)</item>
-                        <item>et diverses chroniques</item>
+                        <p>Auteur de plusieurs ouvrages historiques</p>
+                        <list>
+                            <item>Les <title>Annales générales de la ville de Paris</title>, représentant tout ce que l’histoire a peu remarquer de ce qui s’est passé de plus mémorable en icelle, depuis sa première fondation jusques à présent. Le tout par l’ordre des années et des règnes de nos rois de France…</item>
+                            <item><title>Les Antiquités de la ville de Paris</title>, contenant la recherche nouvelle des fondations et établissements des églises, chapelles, monastères, hôpitaux, hôtels, maisons remarquables, fontaines, regards, quais, ponts, et autres ouvrages curieux… Le tout extrait de plusieurs titres et archives, cabinets… Enrichies de plusieurs belles figures . (Signé : Claude Malingre.)</item>
+                            <item>Entrée magnifique du Roy, faicte en sa ville d’Orléans, le mardy huictiesme juillet 1614, avec l’ordre et cérémonies observées en icelle . Par Claude Malingre</item>
+                            <item>Histoire du règne de Louys XIII. Roy de France et de Navarre. Prise du jour de sa naissance jusques à sa mort… Par S. M. C. </item>
+                            <item>Trésor de l’histoire de France, réduit par tiltres et lieux communs, divisé en deux parties : la première, composée par G. C. (Corrozet) ; la deuxiesme est une nouvelle augmentation, illustrée et enrichie de plusieurs curieuses recherches et pièces autentiques importantes à la gloire de nos roys… avec l’histoire des roys de France et leurs portraicts contenus en la deuxiesme page, par C. M. H. D. F. (Claude Malingre, historiographe de France.)</item>
+                            <item>et diverses chroniques</item>
                         </list>
                     </note>
                     <idno type="isni">http://isni.org/isni/0000000061355121</idno>
@@ -493,7 +767,6 @@
                 <!-- a priori exclus du corpus 1716 Georges-Louis Le Rouge Les Curiositez de Paris, de Versailles, de Marly, de Vincennes, de Saint-Cloud et des environs, par M. L. R., Paris, Saugrain l’aîné, 1716, INHA 12 i 99 1719, 2 vol. (plein cuir, sélectionné, à confirmer pour NUMM) Puis 1723, 1760, 1771, 1778 1779 Hurtaut et Magny Dictionnaire historique de la Ville de Paris et de ses environs, Paris, Moutard, 1779, ? vol 1766 : Hébert, Dictionnaire pittoresque et historique ou description d’Architecture, Peinture, Sculpture, Gravure, Histoire naturelle, etc, Paris, 1766, 2 tomes ; Genève, Minkoff reprint, 1972.-->
                 <!-- Exemple de notices d’autorités <person xml:id=""> <persName full="yes"><!-\- forme normalisée -\-></persName> <idno type="dataBnf" /> <idno type="isni" ></idno> <idno type="viaf" ></idno> <idno type="autBnf" ></idno> <idno type="idRef" ></idno> <idno type="wbis" ></idno> <idno type="akl" ></idno> <idno type="agorah" ></idno> <idno type="dbPedia" ></idno> <idno type="ulan" ></idno> </person> -->
             </listPerson>
-
             <listPerson>
                 <head>Index des éditeurs</head>
                 <person xml:id="bordeletMarc">
@@ -505,7 +778,8 @@
                     <persName full="yes">Gissey, Henri-Simon-Pierre (1691?-1761)</persName>
                     <idno type="isni">http://www.isni.org/isni/0000000070332140</idno>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb135306628</idno>
-                    <idno type="dataBnf">http://data.bnf.fr/13530662/henri-simon-pierre_gissey/</idno>
+                    <idno type="dataBnf"
+                        >http://data.bnf.fr/13530662/henri-simon-pierre_gissey/</idno>
                 </person>
                 <person xml:id="henriWorle">
                     <persName full="yes">Henri, Worle (16..?-1747)</persName>
@@ -523,7 +797,8 @@
                     <persName full="yes">Lacroix, Paul (1806-1884)</persName>
                     <birth>
                         <date when="1806-02-27">1806-02-27</date>
-                        <placeName>Paris</placeName> </birth>
+                        <placeName>Paris</placeName>
+                    </birth>
                     <death>
                         <date when="1884-10-19">1806-02-27</date>
                         <placeName>Paris</placeName>
@@ -537,12 +812,16 @@
                     <death when="1774-09-11">1774-09-11</death>
                     <floruit from="1714" to="1750">1714-1750</floruit>
                     <occupation>Auteur, Imprimeur libraire (Texte imprimé)</occupation>
-                    <note> <p>Devise(s) : Haec meta laborum</p>
-                        <p>Autre(s) graphie(s) : Mariette fils. - Imprimeur-libraire ; imprimeur de la police ; graveur. - Fils du libraire parisien Jean Mariette. Libraire dès le 20 avril 1714, il n’est reçu imprimeur que le 14 avril 1722. En nov. 1750, revend son fonds de librairie à six libraires parisiens (pour 150 000 l.), son fonds d’estampes à Charles-Antoine Jombert et se démet de son imprimerie qu’il vend à Louis-François Delatour. En 1752, achète une charge de secrétaire du Roi et contrôleur général de l’audience de la Chancellerie de France pour les mois d’octobre, novembre et décembre. Se retire une partie de l’année à Croissy (Yvelines). Également amateur, collectionneur et critique d’art. A rédigé des catalogues et des ouvrages sur l’art. Associé honoraire de l’Académie royale de peinture et de sculpture (1750) et de l’Académie de Florence (1733). Décédé à Paris en sept. 1774</p> </note>
                     <note>
-                        <p>Adresse : Paris : 1714-1750. - Rue Saint-Jacques. - Enseigne(s) : Aux Colonnes d’Hercule</p> </note>
+                        <p>Devise(s) : Haec meta laborum</p>
+                        <p>Autre(s) graphie(s) : Mariette fils. - Imprimeur-libraire ; imprimeur de la police ; graveur. - Fils du libraire parisien Jean Mariette. Libraire dès le 20 avril 1714, il n’est reçu imprimeur que le 14 avril 1722. En nov. 1750, revend son fonds de librairie à six libraires parisiens (pour 150 000 l.), son fonds d’estampes à Charles-Antoine Jombert et se démet de son imprimerie qu’il vend à Louis-François Delatour. En 1752, achète une charge de secrétaire du Roi et contrôleur général de l’audience de la Chancellerie de France pour les mois d’octobre, novembre et décembre. Se retire une partie de l’année à Croissy (Yvelines). Également amateur, collectionneur et critique d’art. A rédigé des catalogues et des ouvrages sur l’art. Associé honoraire de l’Académie royale de peinture et de sculpture (1750) et de l’Académie de Florence (1733). Décédé à Paris en sept. 1774</p>
+                    </note>
                     <note>
-                        <p>Forme(s) associée(s) : Source(s) : Lottin. - Hoefer. - Delalain, Marques. - Thieme, Becker. - Grente, 18 s.. - Bénézit Consultée(s) en vain : Dict. des éd. d’estampes</p> </note>
+                        <p>Adresse : Paris : 1714-1750. - Rue Saint-Jacques. - Enseigne(s) : Aux Colonnes d’Hercule</p>
+                    </note>
+                    <note>
+                        <p>Forme(s) associée(s) : Source(s) : Lottin. - Hoefer. - Delalain, Marques. - Thieme, Becker. - Grente, 18 s.. - Bénézit Consultée(s) en vain : Dict. des éd. d’estampes</p>
+                    </note>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb119145759/</idno>
                     <idno type="isni">http://isni.org/isni/0000000121347984</idno>
                     <idno type="idRef">http://www.idref.fr/027010007</idno>
@@ -567,11 +846,18 @@
                 </person>
                 <person xml:id="perauGabrielLouis">
                     <persName full="yes">Pérau, Gabriel-Louis (1700-1767)</persName>
-                    <birth> <date when="1700">1700</date> <placeName>Semur (Côte d’Or)</placeName> </birth>
-                    <death> <date when="1767-03-31">1767-03-31</date> <placeName>Paris</placeName> </death>
+                    <birth>
+                        <date when="1700">1700</date>
+                        <placeName>Semur (Côte d’Or)</placeName>
+                    </birth>
+                    <death>
+                        <date when="1767-03-31">1767-03-31</date>
+                        <placeName>Paris</placeName>
+                    </death>
                     <note>
                         <p>Prieur de Sorbonne (mais cet ecclésiastique n’a jamais été ordonné prêtre)</p>
-                        <p>On attribue généralement à G.-L. Pérau « L’Ordre des francs-maçons trahi, et le secret des Mopses révélé » : voir ce titre (avec ses variantes) dans le fichier des titres conventionnels</p> </note>
+                        <p>On attribue généralement à G.-L. Pérau « L’Ordre des francs-maçons trahi, et le secret des Mopses révélé » : voir ce titre (avec ses variantes) dans le fichier des titres conventionnels</p>
+                    </note>
                     <note>Forme(s) associée(s) : Source(s) : Description historique de l’hôtel royal des Invalides / abbé Gabriel Pérau ; [préf. de Bertrand Jestaz], 1974 Quérard. - Michaud. - Hoefer. - Larousse XIXe s.. - Manuel bibliograpgique des sciences psychiques ou occultes / Albert L. Caillet, t. III, 1912, p. 257-259 BN Cat. gén. : PÉRAU (abbé Gabriel-Louis Calabre) Consultée(s) en vain : GDEL </note>
                     <idno type="isni">http://isni.org/isni/0000000110211475</idno>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb11919082d/</idno>
@@ -606,8 +892,10 @@
                     </death>
                     <floruit from="1710" to="1733">1710-1733</floruit>
                     <occupation>Libraire</occupation>
-                    <residence from="1715" to="1728">Paris : 1710-1733. - Au Palais (, vis-à-vis la Grand-Chambre). Enseigne(s) : À l’Ange gardien</residence>
-                    <residence from="1730" to="1733">(Au milieu du) Quai de Gesvres. Enseigne(s) : À la Croix blanche</residence>
+                    <residence from="1715" to="1728"
+                        >Paris : 1710-1733. - Au Palais (, vis-à-vis la Grand-Chambre). Enseigne(s) : À l’Ange gardien</residence>
+                    <residence from="1730" to="1733"
+                        >(Au milieu du) Quai de Gesvres. Enseigne(s) : À la Croix blanche</residence>
                     <note>
                         <p>Troisième fils du libraire parisien <persName>Guillaume I Saugrain</persName>. Reçu maître le 25 juin 1710. Décédé en juillet 1733. Sa veuve <persName>Anne-Barbe Knapen (169.?-1768)</persName>, veuve en premières noces de l’apothicaire <persName>Joseph Alary</persName>, lui succède, avant de se remarier en 1735 au libraire <persName>Jean Rouy (1707?-1749)</persName></p>
                     </note>
@@ -638,14 +926,23 @@
                     <idno type="idRef">http://www.idref.fr/028443047</idno>
                 </person>
             </listPerson>
-
             <!-- Organisations et personnes morales -->
             <listOrg>
                 <head>Index des personnes morales</head>
-                <org/>
-                <!-- Exemple d’encodage d’une organisation -->
                 <!-- <org xml:id="inOrg001"> <orgName type="full"></orgName> <idno/> </org> -->
+                <org xml:id="orgConfrerieDeLaPassion">
+                    <orgName>Confrérie de la Passion</orgName>
+                </org>
+                <org xml:id="orgComedieItalienne">
+                    <orgName>Comédie-Italienne (1716-1780)</orgName>
+                    <idno type="dataBnf"
+                        >https://data.bnf.fr/fr/12274966/comedie-italienne_paris_1716-1780/</idno>
+                </org>
+                <org xml:id="orgPelerinsDuSaintSepulcreDeJerusalem">
+                    <persName>Pèlerins du Saint-Sépulcre de Jérusalem</persName>
+                </org>
             </listOrg>
+            <!--gdpBrice1684d1e747-->
         </body>
     </text>
 </TEI>
