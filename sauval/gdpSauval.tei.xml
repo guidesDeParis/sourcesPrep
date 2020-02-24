@@ -15,7 +15,9 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fre" type="main">Corpus de Sauval</title>
+                <author><persName full="yes">Sauval, Henri (1620?-1676)</persName></author>
                 <principal>
+                    <persName full="yes">Cojannot-Le Blanc, Marianne</persName>
                     <persName ref="#MCL">
                         <forename>Marianne</forename>
                         <surname>Cojannot-Le Blanc</surname>

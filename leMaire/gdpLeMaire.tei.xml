@@ -15,7 +15,9 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fre" type="main">Corpus de Le Maire</title>
+                <author><persName full="yes">Le Maire, Charles (16..-16..)</persName></author>
                 <principal>
+                    <persName full="yes">Cojannot-Le Blanc, Marianne</persName>
                     <persName ref="#MCL">
                         <forename>Marianne</forename>
                         <surname>Cojannot-Le Blanc</surname>
