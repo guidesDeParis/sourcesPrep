@@ -1726,7 +1726,7 @@
                <relation name="owned" active="#nomMonsieurBerthelot"
                   passive="#opMaisonDeMonsieurBerthelot" />
             </listRelation>
-            <listObject>
+            <listObject type="toc>
                <!-- Brice, table du premier volume -->
                <object xml:id="d1e228">
                   <objectName full="yes">Origine de Paris</objectName>
@@ -1953,11 +1953,10 @@
                   <relation type="locus" rel="#gdpBrice1684T01BodyFr02.013" />
                </object>
                <object xml:id="d1e453">
-                  <objectName full="yes"
-                     >Inscription de la fontaine proche la porte du monastère des Capucines</objectName>
+                  <objectName full="yes">Inscription de la fontaine proche la porte du monastère des Capucines</objectName>
                   <relation ref="#locQuartierSaintHonoré" />
                   <num>55</num>
-                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.014" />
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr02.013" />
                </object>
                <object xml:id="d1e459">
                   <objectName full="yes">Hôtel de Vendôme</objectName>
@@ -1966,11 +1965,13 @@
                </object>
                <place xml:id="locQuartierDeLaButteSaintRoch">
                   <placeName full="yes">Quartier de la Bute Saint-Roch</placeName>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr03"/>
                </place>
                <object xml:id="d1e469">
                   <objectName full="yes">Palais Brion</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>57</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr03.001"/>
                </object>
                <object xml:id="d1e475">
                   <objectName full="yes">Académie des peintres</objectName>
@@ -1981,124 +1982,149 @@
                   <objectName full="yes">Statues antiques</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>64</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr03.001.001"/>
                </object>
                <object xml:id="d1e487">
                   <objectName full="yes">Académie d’architecture</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr03.001.002"/>
                   <num>65</num>
                </object>
                <object xml:id="d1e493">
                   <objectName full="yes">Cheval de bronze</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>66</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.003"/>
                </object>
                <object xml:id="d1e499">
                   <objectName full="yes"
                      >Inscription de la fontaine de la rue de Richelieu</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>67</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.003.p003"/>
                </object>
                <object xml:id="d1e505">
                   <objectName full="yes">Hôtel de Jarz</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
-                  <num>Ibid.</num>
+                  <num>67</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.004"/>
                </object>
                <object xml:id="d1e511">
                   <objectName full="yes">Hôtel de Louvois</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>68</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.005"/>
                </object>
                <object xml:id="d1e517">
                   <objectName full="yes">Galerie du palais Mazarin</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>69</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.006"/>
                </object>
                <object xml:id="d1e523">
                   <objectName full="yes">Maison du sieur Douilly</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>70</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.007"/>
                </object>
                <object xml:id="d1e530">
                   <objectName full="yes">Hôtel de Gramont</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>70</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.008"/>
                </object>
                <object xml:id="d1e536">
                   <objectName full="yes">Hôtel de Grancey</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>71</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.009"/>
                </object>
                <object xml:id="d1e542">
                   <objectName full="yes">Maison du sieur Cotte-Blanche</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>71</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.010"/>
                </object>
                <object xml:id="d1e548">
                   <objectName full="yes">Maison de Monsieur de Bois-Franc</objectName>
                   <relation ref="#locQuartierDeLaButteSaintRoch" />
                   <num>72</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr03.001.011"/>
                </object>
                <place xml:id="locRueVivien">
                   <placeName full="yes">Rue Vivien</placeName>
                   <num>72</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr04"/>
                </place>
                <object xml:id="d1e559">
                   <objectName full="yes">Cabinet et Bibliothèque du Roi</objectName>
                   <relation ref="#locRueVivien" />
                   <num>73</num>
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr04.001"/>
                </object>
                <object xml:id="d1e565">
                   <objectName full="yes">Académie des sciences</objectName>
                   <relation ref="#locRueVivien" />
                   <num>82</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr04.001.001"/>
                </object>
                <place xml:id="locQuartierRueDesPetitsChamps">
                   <placeName full="yes">Rue des Petits-Champs</placeName>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05"/>
                </place>
                <object xml:id="d1e574">
                   <objectName full="yes">Hôtel de la Vrillière</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>85</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.001"/>
                </object>
                <object xml:id="d1e580">
                   <objectName full="yes">Hôtel d’Emery</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>86</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.002"/>
                </object>
                <object xml:id="d1e586">
                   <objectName full="yes">Hôtel de Seneterre</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>86</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.003"/>
                </object>
                <object xml:id="d1e593">
                   <objectName full="yes">Hôtel Colbert</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>86</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.004"/>
                </object>
                <object xml:id="d1e599">
                   <objectName full="yes">Hôtel de Bouillon La Mark</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>88</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.005"/>
                </object>
                <object xml:id="d1e605">
                   <objectName full="yes">Maison de Monsieur de Ménars</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>89</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.006"/>
                </object>
                <object xml:id="d1e611">
                   <objectName full="yes">Palais Mazarin</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>90</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.007"/>
                </object>
                <object xml:id="d1e617">
                   <objectName full="yes">Maison de Monsieur de Saint-Pouange</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>93</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.008"/>
                </object>
                <object xml:id="d1e623">
                   <objectName full="yes">Hôtel de Lionne</objectName>
                   <relation ref="#locQuartierRueDesPetitsChamps" />
                   <num>93</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.009"/>
                </object>
                <object xml:id="d1e629">
                   <objectName full="yes">Maison du sieur de Lully</objectName>
@@ -2107,72 +2133,99 @@
                </object>
                <place xml:id="locQuartierRueSaintAnne">
                   <placeName full="yes">Quartier de la rue Sainte-Anne</placeName>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.010"/>
                </place>
                <object xml:id="d1e638">
                   <objectName full="yes">Couvent des Petits-Pères</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>pag. 95</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr05.010"/>
                </object>
                <object xml:id="d1e644">
                   <objectName full="yes"
                      >Inscription de la fontaine proche la porte du couvent des Petits-Pères</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr06.001.p001"
                   <num>96</num>
                </object>
                <object xml:id="d1e650">
                   <objectName full="yes">Hôtel de Pomponne</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>96</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.002"/>
                </object>
                <object xml:id="d1e657">
                   <objectName full="yes">Hôtel de Soissons</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>96</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.003"/>
                </object>
                <object xml:id="d1e663">
                   <objectName full="yes">Hôtel Séguier</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>97</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.004"/>
                </object>
                <object xml:id="d1e669">
                   <objectName full="yes">Hôtel de Bullion</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>101</num>
                </object>
+               <place xml:id="locRuePlatriere">
+                  <placeName>Rue platrière</placeName>
+                  <ref type="locus" ref="#locQuartierRueSaintAnne"
+               </place>
                <object xml:id="d1e675">
                   <objectName full="yes">Hôtel d’Herval</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>101</num>
+                  <relation ref="#locRuePlatriere" />
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.005"/>
                </object>
                <object xml:id="d1e681">
                   <objectName full="yes">Hôtel de Gesvres</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>102</num>
+                  <relation ref="#locRuePlatriere" />
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.006"/>
                </object>
                <object xml:id="d1e687">
                   <objectName full="yes">Maison du sieur Monginot</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>102</num>
+                  <relation ref="#locRuePlatriere" />
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.007"/>
                </object>
                <object xml:id="d1e693">
                   <objectName full="yes">Église Saint-Eustache</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>103</num>
+                  <relation ref="#locRuePlatriere" />
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.008"/>
                </object>
                <object xml:id="d1e699">
                   <objectName full="yes">L’épitaphe de Monsieur de La Chambre</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>105</num>
+                  <relation ref="#locRuePlatriere" />
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.008.p001"/>
                </object>
                <object xml:id="d1e705">
                   <objectName full="yes">Maison de Monsieur Berrier</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>106</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.009"/>
                </object>
+               <place xml:id="locRueMontmartre">
+                  <placeName>Rue Montmartre</placeName>
+                  <relation ref="#locQuartierRueSaintAnne"/>
+               </place>
                <object xml:id="d1e711">
                   <objectName full="yes">Chapelle</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
                   <num>106</num>
+                  <relation type="locus" ref="#gdpBrice1684T01BodyFr06.010"/>
+                  <relation ref="#locRueMontmartre"/>
                </object>
                <object xml:id="d1e717">
                   <objectName full="yes">Hôtel de Bourgogne</objectName>
