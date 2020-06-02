@@ -388,10 +388,10 @@
         <xi:fallback>Fichier teiCorpus de Piganiol non trouvé</xi:fallback>
     </xi:include>
     
-    <!-- Inclusion du fichier teiCorpus de Jaillot (gdpJaillot) -->
+    <!--<!-\- Inclusion du fichier teiCorpus de Jaillot (gdpJaillot) -\->
     <xi:include href="jaillot/gdpJaillot.tei.xml" parse="xml">
         <xi:fallback>Fichier teiCorpus de Jaillot non trouvé</xi:fallback>
-    </xi:include>
+    </xi:include>-->
 
     <!-- TODO rassembler les éléments globaux du corpus dans un teiCorpus ? -->
 

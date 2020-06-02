@@ -145,7 +145,7 @@
          -->
             <!-- description de la source -->
             <sourceDesc xml:id="gdpBrice">
-                <p>Fichier nativement numérique.</p>
+              <bibl copyOf="#briceExpression"/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>

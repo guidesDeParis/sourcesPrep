@@ -12,6 +12,9 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="fre" type="main">Germain Brice 1752</title>
+            <author>
+               <persName full="yes">Brice, Germain (1653?-1727)</persName>
+            </author>
             <principal>
                <persName ref="#MCL">
                   <forename>Marianne</forename>
