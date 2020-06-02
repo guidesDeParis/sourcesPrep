@@ -97,7 +97,7 @@
                   <addrLine>harparisouest@gmail.com</addrLine>
                </address>
             </publisher>
-            <availability status="restricted" xml:id="indexNominumTextLicence">
+            <availability status="restricted" xml:id="indexOperumTextLicence">
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>@todo Texte de la licence et image</p>
                </licence>
@@ -1726,7 +1726,7 @@
                <relation name="owned" active="#nomMonsieurBerthelot"
                   passive="#opMaisonDeMonsieurBerthelot" />
             </listRelation>
-            <listObject type="toc>
+            <listObject type="toc">
                <!-- Brice, table du premier volume -->
                <object xml:id="d1e228">
                   <objectName full="yes">Origine de Paris</objectName>
@@ -2145,7 +2145,7 @@
                   <objectName full="yes"
                      >Inscription de la fontaine proche la porte du couvent des Petits-Pères</objectName>
                   <relation ref="#locQuartierRueSaintAnne" />
-                  <relation type="locus" rel="#gdpBrice1684T01BodyFr06.001.p001"
+                  <relation type="locus" rel="#gdpBrice1684T01BodyFr06.001.p001"/>
                   <num>96</num>
                </object>
                <object xml:id="d1e650">
@@ -2173,7 +2173,7 @@
                </object>
                <place xml:id="locRuePlatriere">
                   <placeName>Rue platrière</placeName>
-                  <ref type="locus" ref="#locQuartierRueSaintAnne"
+                  <ref type="locus" ref="#locQuartierRueSaintAnne"/>
                </place>
                <object xml:id="d1e675">
                   <objectName full="yes">Hôtel d’Herval</objectName>
@@ -2981,7 +2981,7 @@
                   <relation ref="#locQuartierUniversité" />
                   <num>39</num>
                </object>
-               <place xml:id="locQuartierRueSaintJacques">
+               <place xml:id="locoQuartierRueSaintJacques">
                   <placeName full="yes">Quartier de la rue Saint-Jacques</placeName>
                   <num>40 et suiv</num>
                </place>
