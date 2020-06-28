@@ -4,6 +4,8 @@
    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     Guides de Paris, Le Maire édition de 1685
    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+   @todo revoir l’accentuations
+   @todo vérifier utilisation de seg dans les citation
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader type="text">
@@ -206,12 +208,11 @@
                   <metamark rend="typographicalPiece"/>
                   <docImprint>
                      <pubPlace>A Paris,</pubPlace>
-                     <lb/>
-                     <publisher>Chez Michel Vaugon, sur le Pont au <lb/>Change, à l’Image Saint Michel</publisher>.<metamark rend="simpleLine"/>
-                     <lb/>
-                     <docDate when="1742">M. DC. LXXXV.</docDate>.</docImprint>
-                  <imprimatur>
-                     <hi rend="italic">Avec privilège du roy</hi>.</imprimatur>
+                     <publisher>Chez Michel Vaugon, sur le Pont au <lb/>Change, à l’Image Saint Michel.</publisher>
+                     <metamark rend="simpleLine"/>
+                     <docDate when="1742">M. DC. LXXXV.</docDate>
+                  </docImprint>
+                  <imprimatur rend="italic">Avec privilège du roy.</imprimatur>
                </titlePage>
                <div xml:id="gdpLeMaire1685T01Front.01"
                     type="dedicace"
@@ -219,7 +220,7 @@
                     n="1">
                   <metamark rend="headpiece"/>
                   <head>À messire <lb/>
-                     <persName xml:id="gdpLeMaire1685d1e296">Henry de Fourcy</persName>, <lb/>chevalier, <lb/>comte de Chessy,<lb/>conseiller du roy en ses conseils, <lb/>président aux enquestes <lb/>de son parlement, <lb/>et prevost des marchands.</head>
+                     <persName xml:id="gdpLeMaire1685d1e296">Henry de Fourcy</persName>, <lb/>chevalier, <lb/>comte de Chessy, <lb/>conseiller du roy en ses conseils, <lb/>président aux enquestes <lb/>de son parlement, <lb/>et prevost des marchands.</head>
                   <p xml:id="gdpLeMaire1685T01Front.01.p001">
                      <seg rend="initial">M</seg>onseigneur,</p>
                   <p xml:id="gdpLeMaire1685T01Front.01.p002">Ce recueil des ornemens anciens &amp; nouveaux de la ville de Paris vous appar<pb/>
@@ -252,9 +253,9 @@
                      <hi rend="initial">P</hi>age 20, lig. 6. Fulvien, lisez Fuscien.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p003">Page 46. ligne 13. ces , lisez ses.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p004">Pag. 49. lig. 20. Vaudetar, lisez Vautedar.</p>
-                  <p xml:id="gdpLeMaire1685T01Front.03.p005">Pag. 52. lig 3. de la ville, lisez de l’église.</p>
+                  <p xml:id="gdpLeMaire1685T01Front.03.p005">Pag. 52. lig. 3. de la ville, lisez de l’église.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p006">Pag. 58. lig. 9. Saques, lisez Jacques.</p>
-                  <p xml:id="gdpLeMaire1685T01Front.03.p007">Pag. 163. lig 2. Claustras, liiez Claustrales.</p>
+                  <p xml:id="gdpLeMaire1685T01Front.03.p007">Pag. 163. lig. 2. Claustras, liiez Claustrales.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p008">Pag. 168. lig. 6. Augusto, lisez Augusti.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p009">Pag. 208. lig. 12. lisez. il y a.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p010">Pag. 220. au chiffre, ôtez 226.</p>
@@ -263,12 +264,12 @@
                   <p xml:id="gdpLeMaire1685T01Front.03.p013">Pag. 264. lig. 11. summis, lisez summus.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p014">Pag. 272. lig. 22. Guibert Nogent, lisez Guibert de Nogent.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p015">Pag. 289. lig. 1. negando, lisez rogando.</p>
-                  <p xml:id="gdpLeMaire1685T01Front.03.p016">Pag 296. lig 3. femme de messire Michel le Tellier, chancelier de France, lisez mère de madame de Louvois.</p>
+                  <p xml:id="gdpLeMaire1685T01Front.03.p016">Pag. 296. lig. 3. femme de messire Michel le Tellier, chancelier de France, lisez mère de madame de Louvois.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p017">Pag. 371. lig. 47. au fauxbourg Saint-Jacques, lisez des Champs à six lieues de Paris.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p018">Pag. 377. lig. 11. 1684, lisez 1484.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p019">Pag. 383. lig. 24. Nicolas, lisez Théodore.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p020">Pag. 439. lig. 3. ducisique, liiez ducisque.</p>
-                  <p xml:id="gdpLeMaire1685T01Front.03.p021">Pag. 490. lig 2. elaberatum, lisez elaboratum.</p>
+                  <p xml:id="gdpLeMaire1685T01Front.03.p021">Pag. 490. lig. 2. elaberatum, lisez elaboratum.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p022">Pag. 508. lig. 17. obéissance, lisez obédience.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p023" rend="italic alignCenter">Du second Tome.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p024">
@@ -298,8 +299,8 @@
                   <p xml:id="gdpLeMaire1685T01Front.03.p045">Pag. 406. lig. 4. puissance, lisez jouissance.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p046">Pag. 448. lig. 17. bastion, lisez bâton.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p047">Pag.454. au chiffre 354. lisez, 454.</p>
-                  <p xml:id="gdpLeMaire1685T01Front.03.p048">Pag. 462. lig 18. sont, lisez sous.</p>
-                  <p xml:id="gdpLeMaire1685T01Front.03.p049">Pag. 480. lig 22. quatre, lisez. cinq.</p>
+                  <p xml:id="gdpLeMaire1685T01Front.03.p048">Pag. 462. lig. 18. sont, lisez sous.</p>
+                  <p xml:id="gdpLeMaire1685T01Front.03.p049">Pag. 480. lig. 22. quatre, lisez. cinq.</p>
                   <p xml:id="gdpLeMaire1685T01Front.03.p050">Pag. 601. l. 10. filii, lisez filia.</p>
                </div>
                <div xml:id="gdpLeMaire1685T01Front.04" type="toc">
@@ -1078,7 +1079,7 @@
                         <pb/>
                         <fw type="pageNum">59</fw>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p013">Le frontispice qui est au dessous du côté de <placeName xml:id="gdpLeMaire1685d1e4425">la Nef</placeName> est embelli de piliers de bois entre-lacés de chaînettes, de feuillages dorés, &amp; le dessus est couvert d’un chapiteau d’art de menuiserie doré &amp; fort bien travaillé, &amp; dans une table azurée est cette inscription.</p>
-                        <quote xml:lang="lat" rend="ig italic alignCenter">Attendite<lb/>&amp;<lb/>Videte</quote>
+                        <quote xml:lang="lat" rend="ig italic alignCenter">Attendite <lb/>&amp; <lb/>Videte</quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p014">Et au bas est l’<objectName xml:id="gdpLeMaire1685d1e4436">Image en relief d’or</objectName> d’une Vierge tenant entre ses bras un Christ mort.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p015">Les chapelles dressées aux deux croisées de la nef sont d’une tres belle menuiserie, enrichie de brodures, cizelures, feuillages, chaînettes &amp; autres inventions de l’art richement dorées, &amp; dans le fond des autels il y a de bons tableaux.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p016">La plus celebre de toutes ces chapelles est celle qui est proche la grande porte du chœur vers la croisée de midy, qu’on nomme <placeName xml:id="gdpLeMaire1685d1e4443">la Chapelle de la <persName>Vierge</persName>
@@ -1125,8 +1126,8 @@
                               <expan cert="medium">Monsieur</expan> le Chantre</persName> est enterré <persName xml:id="gdpLeMaire1685d1e4730">Jean Baptiste du Chatelier</persName>, évesque de Mucini, &amp; nonce du <persName xml:id="gdpLeMaire1685d1e4733">Pape Grégoire XIII</persName> en France, sous le regne de <persName xml:id="gdpLeMaire1685d1e4736">Henry III</persName>. Il mourut à l’<placeName xml:id="gdpLeMaire1685d1e4739">hôtel de Sens</placeName> l’an <date when="1583">1583</date> &amp; fut enterré le <date when="1583-08-26">26ͤ du mois d’aoust</date>. Trois jour après le roy luy fit faire un beau service, où assiterent trois cardinaux, plusieurs archevesques &amp; évesques, les Cours souveraines, les Corps de la ville, les Ducs de Guise, &amp; du Maine. La ville y envoya 24 torches. Il y avoit aussi 80 pauvres habillés tout de neuf.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p032">A l’endroit où les Officians font les inclinations, lors qu’ils entrent au chœur, ou lors qu’ils en sortent, il y a une <objectName xml:id="gdpLeMaire1685d1e4751">tombe de marbre noir</objectName> sur laquelle est gravé.</p>
                         <quote xml:lang="lat">
-                           <seg rend="big">D.O.M.<lb/>&amp; æternæ memoriæ.</seg>
-                           <lb/>Viri immortalitate dignissimi Reginaldi de Baune, qui sex Christianissimis Regibus Francisco I. HenricoII. Fran<pb/>
+                           <seg rend="big">D.O.M.<lb/> &amp; æternæ memoriæ.</seg>
+                           <lb/> Viri immortalitate dignissimi Reginaldi de Baune, qui sex Christianissimis Regibus Francisco I. HenricoII. Fran<pb/>
                            <fw type="pageNum">66</fw>ciscoII. Carolo IX. Henrico III. Henrico IV. fidelem strenuamque navavit operam, Francisci Andium &amp; Allenconii Ducis Cancellarius, in aula Palatinus, in Senatu Parisiensi sanctiorique Consilio Senator, in Sacerdotum Conventu, primum Mimatensis Episcopus, deinde Bituricensis Patriarcha Archiepiscopus, Aquitaniæ Primas Magnusque Franciæ Eleemosinarius, plenus honoribus &amp; annis animam scientiis omnibus &amp; virtutibus decoratam Domino reddidit anno ætatis 79.1606.</quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p033">C’est par les instructions, &amp; entre les mains de ce prélat qu’<persName xml:id="gdpLeMaire1685d1e4768">Henry IV</persName> abjura son heresie dans l’<placeName xml:id="gdpLeMaire1685d1e4771">église <expan>Saint</expan>-Denis</placeName>.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p034">Hors le chœur, dans la <objectName xml:id="gdpLeMaire1685d1e4779">chapelle de <persName>Saint Remy</persName>
@@ -1137,8 +1138,8 @@
                            </objectName>, vis-à-vis la statue de marbre blanc élevée sur un magnifique <objectName xml:id="gdpLeMaire1685d1e4813">tombeau de marbre noir de <persName>Pierre de Gondi</persName>
                            </objectName>, cardinal et évesque de <pb/>
                            <fw type="pageNum">67</fw>Paris, dont j’ay parlé en son rang, il y a encore un <objectName xml:id="gdpLeMaire1685d1e4822">tombeau</objectName> &amp; une <objectName xml:id="gdpLeMaire1685d1e4825">statue</objectName> de mesme matiere d’un homme revétu d’un manteau ducal, ayant par dessus le cordon de l’ordre du <expan>Saint</expan> Esprit, &amp; au bas est écrit.</p>
-                        <quote xml:lang="lat">Æternæ memoriæ Illustrissimi ac generosissimi Alberti de Gondi Ducis Retzii, Marchionis Bellinsulæ, Paris Franciæ, equitum Magistri Regg : trirem : Præfecti, duorum Regum Christianissimorum Caroli noni &amp; Henrici III. Cubicularii, utriusque militiæ regio torque donati, quinque Regibus mostris, quibus trium masimarum Provinciarum Prorex octiesque exercituum Regiorum cum Imperio ductor, quinque præliis permultisque obsidionibus egregiam operam navavit, ob industriam &amp; fidem pergrati, gravissimis &amp; difficillimis legationibus omnibusque belli ac pacis muneribus summa cum integratis laude perfuncti.<seg rend="center">
-                              <lb/>Frater, uxor, filii, nepotes posuere.<lb/>1602.</seg>
+                        <quote xml:lang="lat">Æternæ memoriæ Illustrissimi ac generosissimi Alberti de Gondi Ducis Retzii, Marchionis Bellinsulæ, Paris Franciæ, equitum Magistri Regg : trirem : Præfecti, duorum Regum Christianissimorum Caroli noni &amp; Henrici III. Cubicularii, utriusque militiæ regio torque donati, quinque Regibus mostris, quibus trium masimarum Provinciarum Prorex octiesque exercituum Regiorum cum Imperio ductor, quinque præliis permultisque obsidionibus egregiam operam navavit, ob industriam &amp; fidem pergrati, gravissimis &amp; difficillimis legationibus omnibusque belli ac pacis muneribus summa cum integratis laude perfuncti. <seg rend="center">
+                              <lb/>Frater, uxor, filii, nepotes posuere.<lb/> 1602.</seg>
                         </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.002.p036">
                            <persName xml:id="gdpLeMaire1685d1e4840">Albert de Gondi</persName> representa la personne du connêtable au Sacre d’<persName xml:id="gdpLeMaire1685d1e4843">Henry III</persName> &amp; à celuy de <persName xml:id="gdpLeMaire1685d1e4846">Henry IV</persName>, le <persName xml:id="gdpLeMaire1685d1e4849">Comte de Toloze</persName>. Il<fw type="catchword">F ij</fw>
@@ -1252,7 +1253,7 @@
                            <persName xml:id="gdpLeMaire1685d1e5224">Pape Boniface VIII</persName> dont la copie est cy-après, à une étroite résidence au service de l’Église, &amp; en font mesme le serment à leur réception</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.003.p003">Le Chantre, <persName xml:id="gdpLeMaire1685d1e5229">
                               <expan cert="medium">Monsieur</expan> Joly</persName>, qui est pourvu de cette Dignité ne peut estre assez loué de son exactitude sans pareille à assister à l’Office divin, qui se celebre pendant la nuit sans y manquer, nonobstant son âge fort avancé, &amp; ses autres serieuses occupations.</p>
-                        <p xml:id="gdpLeMaire1685T01BodyFr02.003.p004">L’archidiacre de Paris : il porte au chœur aussi bien que le Doyen &amp; le Chantre aux festes solennelles la sottane rouge. Dans les Titres &amp; Actes anciens, l’archidiacre de Paris est appellé grand archidiacre tout court à la difference des deux autres.<lb/>L’archidiacre de Josas.<lb/>L’archidiacre de Brie.<lb/>Il n’est pas inutile de remarquer icy sur les archidiacres, qu’autrefois c’estoit une chose assez ordinaire qu’ils troublassent leurs évesques, à cause de la trop grande autorité qu’ils avoient prise dans l’administration des diocèses, de sorte que les évesques venans à deceder, ils estoient le plus souvent élus en leur place, par le moyen de ceux dont ils avoient gagné les suffrages, ou bien s’ils n’avoient pas réussi dans leurs desseins, ils ne manquoient pas de susciter des affaires à leurs évesques, comme fit <persName xml:id="gdpLeMaire1685d1e5242">Liziard archi<pb/>
+                        <p xml:id="gdpLeMaire1685T01BodyFr02.003.p004">L’archidiacre de Paris : il porte au chœur aussi bien que le Doyen &amp; le Chantre aux festes solennelles la sottane rouge. Dans les Titres &amp; Actes anciens, l’archidiacre de Paris est appellé grand archidiacre tout court à la difference des deux autres. <lb/>L’archidiacre de Josas. <lb/>L’archidiacre de Brie. <lb/>Il n’est pas inutile de remarquer icy sur les archidiacres, qu’autrefois c’estoit une chose assez ordinaire qu’ils troublassent leurs évesques, à cause de la trop grande autorité qu’ils avoient prise dans l’administration des diocèses, de sorte que les évesques venans à deceder, ils estoient le plus souvent élus en leur place, par le moyen de ceux dont ils avoient gagné les suffrages, ou bien s’ils n’avoient pas réussi dans leurs desseins, ils ne manquoient pas de susciter des affaires à leurs évesques, comme fit <persName xml:id="gdpLeMaire1685d1e5242">Liziard archi<pb/>
                               <fw type="pageNum">77</fw>diacre</persName> de Paris à <persName xml:id="gdpLeMaire1685d1e5249">Franco</persName> ; &amp; <persName xml:id="gdpLeMaire1685d1e5253">Tibaut de Noteret archidiacre de Brie</persName> à <persName xml:id="gdpLeMaire1685d1e5256">Estienne de Senlis</persName>, tous deux évesques de Paris, comme j’ay remarqué cy-devant, en parlant d’eux dans la liste des évesques. Mais cette ancienne juridiction des archidiacres de l’église de Paris est maintenant beaucoup diminuée. Elle fut mesme reglée par un arrest du Parlement, rendu à la requeste de <persName xml:id="gdpLeMaire1685d1e5259">Pierre de Gondi</persName> évesque de Paris, dont voicy la teneur. Dit a esté, <q>Que faisant droit sur les demandes respectivement faites par les <unclear>parties</unclear> a fait inhibitions &amp; défenses ausdits Archidiacres de Paris, <persName xml:id="gdpLeMaire1685d1e5267">Josas</persName>, &amp; de Brie, &amp; à leurs Officiaux de prendre aucune connoissance des causes matrimoniales, circonstances &amp; dépendances, decerner monitoires ou absolutions sans permission expresse dudit évesque de Paris, ni mesme connoitre des causes civiles, qui seront de consequence, ainsi leur a permis de connoistre seulement des causes civiles, qui seront pour choses legeres, &amp; dont la connoissance peut apparetenir aux Juges ecclesiastiques, &amp; pour le regard des causes criminelles, ladite Cour a pareillement fait défenses ausdits archidiacres, &amp; à leurs officiaux d’en prendre aucune Cour, ni Juridiction, si ce n’est qu’en faisant se presentent quelques causes de riotte &amp; chaleur, pour injures ou excez,<fw type="catchword">G iij</fw>
                               <pb/>
                               <fw type="pageNum">78</fw> qui se puissent juger promptement, par quelque amande ou peine pecuniaire, reprehension, ou legere correction, &amp; enjoint ausdits Archidiacres à l’issue desdites visitations rapporter leurs Procez verbaux au Greffe de l’Officialité de Paris, charges &amp; informations, si aucunes ont esté faites ausdits cours de visitations sans dépens, prononcé le <date when="1609-01-09">9 Janvier 1609</date>.</q>Signé, <persName xml:id="gdpLeMaire1685d1e5280">Voisin</persName>.</p>
@@ -1282,7 +1283,7 @@
                         <fw type="pageNum">81</fw>
                         <metamark rend="headpiece"/>
                         <head rend="center">
-                           <seg>Nom des Papes</seg> qui on esté Chanoines de Paris<lb/>
+                           <seg>Nom des Papes</seg> qui on esté Chanoines de Paris <lb/>
                            <seg rend="italic">Le Necrologe de <placeName xml:id="gdpLeMaire1685d1e5407">Notre-Dame de Paris</placeName> fait mention de six Papes, qui en ont esté Chanoines.</seg>
                         </head>
                         <div xml:id="gdpLeMaire1685T01BodyFr02.004.001">
@@ -1338,7 +1339,7 @@
                         <metamark rend="headpiece"/>
                         <head rend="big">
                            <seg>Noms des cardinaux</seg>
-                           <lb/> qui ont esté chanoines, archidiacres, ou doyens, dans l’église de Notre-Dame de Paris.<lb/>
+                           <lb/> qui ont esté chanoines, archidiacres, ou doyens, dans l’église de Notre-Dame de Paris. <lb/>
                            <seg>Par ordre chronologique</seg>. </head>
                         <div xml:id="gdpLeMaire1685T01BodyFr02.005.001">
                            <p xml:id="gdpLeMaire1685T01BodyFr02.005.001.p001">1. <persName xml:id="gdpLeMaire1685d1e5637">Robert de Curson; Curchon, Carseon, Curton, ou Corchon</persName> anglois de nation, chancelier &amp; chanoine de Paris, cardinal du titre de <expan>Saint</expan> Estienne <foreign xml:lang="lat">in Cælio monte</foreign>, ayant esté envoyé legat du Saint Siege en Orient, il mourut à <placeName xml:id="gdpLeMaire1685d1e5646">Damiette</placeName> l’an <date when="1218">1218</date>. On luy attribue divers ouvrages, comme <title xml:lang="lat">Summa Theologiæ ; lecturæ solennes. an Origines salvus sit ; de septem septenis, &amp;c</title>.</p>
@@ -1486,9 +1487,9 @@
                         <metamark rend="headpiece"/>
                         <head rend="center">
                            <seg rend="big">
-                              <seg>Nom des chanoines</seg>,<lb/> des archidiacres, &amp; des doyens de l’église de Paris, lesquels ont esté faits archevesques <lb/>
+                              <seg>Nom des chanoines</seg>, <lb/> des archidiacres, &amp; des doyens de l’église de Paris, lesquels ont esté faits archevesques <lb/>
                            </seg>
-                           <seg>Par orbre alphabetique<lb/>des archeveschez</seg>
+                           <seg>Par orbre alphabetique <lb/>des archeveschez</seg>
                         </head>
                         <div xml:id="gdpLeMaire1685T01BodyFr02.006.001">
                            <head rend="capitals center italic">Ambrun.</head>
@@ -2573,7 +2574,7 @@
                      <div xml:id="gdpLeMaire1685T01BodyFr02.011">
                         <metamark rend="headpiece"/>
                         <head rend="big center">
-                           <seg>conciles<lb/>Provinciaux<lb/>et Assemblees<lb/>Synodales<lb/>
+                           <seg>conciles <lb/>Provinciaux <lb/>et Assemblees <lb/>Synodales <lb/>
                            </seg>tenues à Paris.</head>
                         <p xml:id="gdpLeMaire1685T01BodyFr02.011.p001">Le premier concile pronvincial de Paris, fut tenu l’an <date when="0362">362</date> par les soins de <persName xml:id="gdpLeMaire1685d1e10408">
                               <expan>Saint</expan> Hilaire</persName> évesque de Poitiers pour rétablir la foy orthodoxe contre les Arriens, touchant la Consubstantialité du Fils avec son Pere. On trouve ce concile dans les Fragmens de <persName xml:id="gdpLeMaire1685d1e10413">
@@ -2945,26 +2946,26 @@
                         </lg>
                      </quote>
                      <p xml:id="gdpLeMaire1685T01BodyFr03.p022">La <objectName xml:id="gdpLeMaire1685d1e11896">tombe qui est à gauche</objectName> contient ces mots.</p>
-                     <quote xml:lang="lat" rend="center">Hic jacet<lb/>Reverendissimu pater<lb/>Franciscus Blanchart,<lb/>Abbas hujus Ecclesiæ,<lb/>&amp; Canon. Regul. Congreg. Gallicanæ :<lb/>tertius præpositus généralis.<lb/>Vir corporis dignitate, mentis præstantiâ<lb/>vitæ æquabilitate,<lb/>morum innocentiâ,<lb/>&amp; sermonis gratiâ excellens :<lb/>In tractandis rebus prudentiâ,<lb/>regendis animis dexteritate,<lb/>complectendis suis,<lb/>quotquot erant, charitate,<lb/>
+                     <quote xml:lang="lat" rend="center">Hic jacet <lb/>Reverendissimu pater <lb/>Franciscus Blanchart, <lb/>Abbas hujus Ecclesiæ, <lb/>&amp; Canon. Regul. Congreg. Gallicanæ : <lb/>tertius præpositus généralis. <lb/>Vir corporis dignitate, mentis præstantiâ <lb/>vitæ æquabilitate, <lb/>morum innocentiâ, <lb/>&amp; sermonis gratiâ excellens : <lb/>In tractandis rebus prudentiâ, <lb/>regendis animis dexteritate, <lb/>complectendis suis, <lb/>quotquot erant, charitate, <lb/>
                         <pb/>
-                        <fw type="pageNum">221</fw>&amp; divinorum affectu singularis,<lb/>qui nonum Abbas,<lb/>&amp; præpositus généralis electus,<lb/>dum hanc domum 27. annos<lb/>pia, &amp; assidua sollicitudine<lb/>regit, ornat, amplificat ;<lb/>ac mira quadam summæ lenitatis,<lb/>&amp; auctoritatis moderatione,<lb/>auctam à se 50.<lb/>Monasteriis Congregationem,<lb/>concilat, fovet,<lb/>promovet ;<lb/>quæ semper providerat spriritu magno<lb/>vidit ultima,<lb/>atque per totos sexdecim menses<lb/>acerbissimis morbi crucitibus probatus,<lb/>&amp; Deo dignus inventus,<lb/>in spe<lb/>immortalitatis plena,<lb/>Obiit<lb/>7. Idus Februarii<lb/>An : 1675.<lb/>Ætatis 69. profess. 49. </quote>
+                        <fw type="pageNum">221</fw>&amp; divinorum affectu singularis, <lb/>qui nonum Abbas, <lb/>&amp; præpositus généralis electus, <lb/>dum hanc domum 27. annos <lb/>pia, &amp; assidua sollicitudine <lb/>regit, ornat, amplificat ; <lb/>ac mira quadam summæ lenitatis, <lb/>&amp; auctoritatis moderatione, <lb/>auctam à se 50. <lb/>Monasteriis Congregationem, <lb/>concilat, fovet,<lb/>promovet ; <lb/>quæ semper providerat spriritu magno <lb/>vidit ultima, <lb/>atque per totos sexdecim menses <lb/>acerbissimis morbi crucitibus probatus, <lb/>&amp; Deo dignus inventus, <lb/>in spe <lb/>immortalitatis plena, <lb/>Obiit <lb/>7. Idus Februarii <lb/>An : 1675. <lb/>Ætatis 69. profess. 49. </quote>
                      <metamark rend="typographicalPiece"/>
                      <fw type="catchword">T iij</fw>
                      <pb/>
                      <fw type="pageNum">222</fw>
                      <p xml:id="gdpLeMaire1685T01BodyFr03.p023">On lit cette épitaphe sur une petite tombe qui est tout proche.</p>
-                     <quote xml:lang="lat" rend="center">Hic jacet<lb/>Reverendus pater,<lb/>Petrus Lallemant,<lb/>Prior hujus Ecclesiæ<lb/>ejusdemque,<lb/>ac Universatis Parisiensis<lb/>Cancellarius.<lb/>Obiit 1673.<lb/>Feb. 18.<lb/>Ætatis 51. professionis 17. </quote>
+                     <quote xml:lang="lat" rend="center">Hic jacet <lb/>Reverendus pater, <lb/>Petrus Lallemant, <lb/>Prior hujus Ecclesiæ <lb/>ejusdemque, <lb/>ac Universatis Parisiensis <lb/>Cancellarius. <lb/>Obiit 1673. <lb/>Feb. 18. <lb/>Ætatis 51. professionis 17. </quote>
                      <p xml:id="gdpLeMaire1685T01BodyFr03.p024">Le <persName xml:id="gdpLeMaire1685d1e12014">
                            <expan>Pere</expan> Lallemant</persName> s’estoit acquis beaucoup de reputation par sa doctrine. Il estoit bachelier en théologie, &amp; avoit esté recteur de l’Université de Paris, &amp; professeur de rhetorique dans la mesme Université, avant qu’il embrassa l’ordre de <expan>Saint</expan> Augustin. Nous avons de luy divers ouvrages en latin et françois. Ceux qui ont pour titre, <title>La mort des Justes</title>, &amp; <title>les Saints desirs de la mort</title>, sont pleins de pensées sublimes, &amp; la lecture en est tres touchante.</p>
                      <pb/>
                      <fw type="pageNum">223</fw>
                      <p xml:id="gdpLeMaire1685T01BodyFr03.p025">On entre du Cloistre dans la Chapelle de Nostre-Dame de misericorde, on y voit un <objectName xml:id="gdpLeMaire1685d1e12033">tombeau élevé</objectName> &amp; la <objectName xml:id="gdpLeMaire1685d1e12036">figure en bronze d’un prélat</objectName> revêtu de ses habits pontificaux, avec cette inscription.</p>
-                     <quote xml:lang="lat" rend="center">Hic jacet<lb/>Fr. Joseph Foulon,<lb/>Hujus Ecclesiæ Canonicus,<lb/>qui An. Domini 1557.<lb/>in Abbatem Dei grattia electus,<lb/>ita sapienter vitam instituit,<lb/>ut omnibus,<lb/>duris licet temporibus,<lb/>gratus charusque esset.<lb/>Cujus anima in pace quiescat.<lb/>Amen.<lb/>Obiit<lb/>7. Aug. 1607.</quote>
+                     <quote xml:lang="lat" rend="center">Hic jacet <lb/>Fr. Joseph Foulon, <lb/>Hujus Ecclesiæ Canonicus, <lb/>qui An. Domini 1557. <lb/>in Abbatem Dei grattia electus, <lb/>ita sapienter vitam instituit, <lb/>ut omnibus, <lb/>duris licet temporibus, <lb/>gratus charusque esset. <lb/>Cujus anima in pace quiescat. <lb/>Amen. <lb/>Obiit <lb/>7. Aug. 1607.</quote>
                      <p xml:id="gdpLeMaire1685T01BodyFr03.p026">Autour du mesme <objectName xml:id="gdpLeMaire1685d1e12069">tombeau</objectName>, on lit encore cette épitaphe</p>
-                     <quote xml:lang="lat" rend="center">Hoc eodem componitur tumulo<lb/>Dominus Benjamin<lb/> De Brichanteau,<lb/>Episcopus,<lb/>
+                     <quote xml:lang="lat" rend="center">Hoc eodem componitur tumulo <lb/>Dominus Benjamin <lb/> De Brichanteau, <lb/>Episcopus, <lb/>
                         <fw type="catchword">T iiij</fw>
                         <pb/>
-                        <fw type="pageNum">224</fw>&amp; Dux Laudunensis,<lb/>Comes d’Anissy,<lb/>&amp; Par Franciæ ;<lb/>Abbas &amp; Religiosis professus<lb/>hujus Monasterii ;<lb/>qui nobilitate sic pietate<lb/>clarus<lb/>Obiit<lb/>An. 1619.<lb/>3. Idus. Julii. </quote>
+                        <fw type="pageNum">224</fw>&amp; Dux Laudunensis, <lb/>Comes d’Anissy, <lb/>&amp; Par Franciæ ; <lb/>Abbas &amp; Religiosis professus <lb/>hujus Monasterii ; <lb/>qui nobilitate sic pietate <lb/>clarus <lb/>Obiit <lb/>An. 1619. <lb/>3. Idus. Julii. </quote>
                      <p xml:id="gdpLeMaire1685T01BodyFr03.p027">Proche cette chapelle est le nouveau <placeName xml:id="gdpLeMaire1685d1e12109">Cloistre</placeName> que l’on a basti depuis environ dix ans. D’un côté il est soutenu de colonnes doriques, qui font un espece de portique d’une fort belle ordonnance.</p>
                      <p xml:id="gdpLeMaire1685T01BodyFr03.p028">Delà on peut monter à <placeName xml:id="gdpLeMaire1685d1e12114">la Bibliotheque</placeName>, qui est tres belle, tant pour son vaisseau que pour le nombre des livres qui y sont. Elle a trente toises de longueur sur quatre de largeur. Elle est éclairée de fenestres des quatre costez, ornée de tablettes de menuiserie &amp; sculpture de fort belle architecture. Les pilastres au nombre de trente-six ont chacun un buste de philopsophe ou de quelque ancien auteur, posé sur son scabellon, &amp; tous de la main de <persName xml:id="gdpLeMaire1685d1e12117">François Girardon de Troyes</persName>, sculpteur. Elle contient environ dix-huit mille volumes, bien conditionnez<pb/>
                         <fw type="pageNum">225</fw> sans les manuscrits, les livres d’estampes, de figures &amp; de desseins qui sont en grand nombre.</p>
@@ -3001,7 +3002,7 @@
                   <div xml:id="gdpLeMaire1685T01BodyFr04" type="part" n="4">
                      <metamark rend="typographicalPiece"/>
                      <head rend="italic center big">
-                        <seg>L’abbaye<lb/>royale<lb/>de Saint Germain</seg>
+                        <seg>L’abbaye <lb/>royale <lb/>de Saint Germain</seg> 
                         <lb/>des Prez</head>
                      <div xml:id="gdpLeMaire1685T01BodyFr04.001">
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p001">
@@ -3062,9 +3063,9 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p010">L’on compte dans cette abbaye, depuis sa fondation jusqu’à present, soixante-seize abbez, tant reguliers que seculiers ou comendataires. Les auteurs ne s’accordent pas touchant celuy qui a esté le premier de tous, du temps mesme de <persName xml:id="gdpLeMaire1685d1e12756">Childebert</persName>. <persName xml:id="gdpLeMaire1685d1e12759">Gislemar</persName>, religieux de cette abbaye, qui vivoit dans le neuviéme siecle, assure que ce fut <persName xml:id="gdpLeMaire1685d1e12762">
                               <expan>Saint</expan> Droctouée</persName>, qui avoit esté disciple de <persName xml:id="gdpLeMaire1685d1e12767">Saint Germain</persName>, dans l’<placeName xml:id="gdpLeMaire1685d1e12770">abbaye d’Au<pb/>
                               <fw type="pageNum">243</fw>thun</placeName>, &amp; dont on voit l’éloge dans <persName xml:id="gdpLeMaire1685d1e12778">Venantius Fortunatus</persName>. Il paroist au contraire par les anciens Titres, qu’un nommé <persName xml:id="gdpLeMaire1685d1e12781">Autharius</persName> en fut le premier abbé ; &amp; ces Titres ne mettent qu’un abbé de ce nom. Cependant comme il est certain qu’au commencement du 8ͤ siecle, il y a eu un abbé nommé <persName xml:id="gdpLeMaire1685d1e12784">Autharius</persName>, il faut nécessairement croire, ou qu’il y a eu deux abbez du mesme nom, ou, s’il n’y en a eu qu’un, il faut le dire, qu’il n’a pas esté le premier, mais le treiziéme abbé de <expan>Saint</expan>-Germain.</p>
-                        <p xml:id="gdpLeMaire1685T01BodyFr04.001.p011">Il y a eu trois anciens abbez commendataires de l’<placeName xml:id="gdpLeMaire1685d1e12792">abbaye <expan>Saint</expan>-Germain</placeName> tres considerables ; sçavoir,<lb/>
-                           <persName xml:id="gdpLeMaire1685d1e12799">Robert Comte</persName>.<lb/>
-                           <persName xml:id="gdpLeMaire1685d1e12803">Hugue le Grand</persName>.<lb/>
+                        <p xml:id="gdpLeMaire1685T01BodyFr04.001.p011">Il y a eu trois anciens abbez commendataires de l’<placeName xml:id="gdpLeMaire1685d1e12792">abbaye <expan>Saint</expan>-Germain</placeName> tres considerables ; sçavoir, <lb/>
+                           <persName xml:id="gdpLeMaire1685d1e12799">Robert Comte</persName>. <lb/>
+                           <persName xml:id="gdpLeMaire1685d1e12803">Hugue le Grand</persName>. <lb/>
                            <persName xml:id="gdpLeMaire1685d1e12807">Hugue Capet</persName> son fils, qui fut ensuite roy de France, &amp; le premier de la troisiéme Race de nos Rois.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p012">
                            <persName xml:id="gdpLeMaire1685d1e12811">Geoffroy Floreau</persName> fut le 68ͤ abbé de <expan>Saint</expan>-Germain, &amp; le dernier des abbez reguliers : il mourut le <date when="1503-08-30">30 aoust 1503</date>.</p>
@@ -3107,7 +3108,8 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p029">La <objectName xml:id="gdpLeMaire1685d1e12987">Chasse de <expan>Saint</expan> Droctouée</objectName>, abbé de <expan>Saint</expan> Germain.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p030">Le corps de <persName xml:id="gdpLeMaire1685d1e12998">Saint Amand</persName> évesque, que l’on trouva sous l<placeName xml:id="gdpLeMaire1685d1e13001">’Autel de Saint Thuriave</placeName> l’an <date when="1267">1267</date>.<pb/>
                            <fw type="pageNum">247</fw>
-                           <lb/>Les Reliques de Saint Venant.<lb/>Les Reliques de Saint Vincent.<lb/>Ue partie de la Couronne d’épine de Nôtre Seigneur, que Saint Germain receut de Palestine, avec le bras de Saint George martyr, &amp; la jambe d’un des Saints Innocens.</p>
+                           <!-- @todo sous-division ? -->
+                           <lb/>Les Reliques de Saint Venant. <lb/>Les Reliques de Saint Vincent. <lb/>Ue partie de la Couronne d’épine de Nôtre Seigneur, que Saint Germain receut de Palestine, avec le bras de Saint George martyr, &amp; la jambe d’un des Saints Innocens.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p031">Le doigt de <persName xml:id="gdpLeMaire1685d1e13019">Saint Pierre Apôtre</persName>.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p032">Le menton de <persName xml:id="gdpLeMaire1685d1e13024">Sainte Marguerite</persName>, Vierge &amp; Martyre, enchassé dans le pied de son <objectName xml:id="gdpLeMaire1685d1e13027">Image d’argent</objectName>, donnée par <persName xml:id="gdpLeMaire1685d1e13030">Marie de Medicis</persName>.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p033">L’on voit la plus grande partie des femmes grosses de Paris aller faire leur devotion dans cette église, pendant l’octave de cette Sainte, où l’on les entoure d’une ceinture, que l’on nomme la ceinture de Sainte Marguerite, enrichie de Reliques, &amp; de plusieurs pierreries. Pour ce qui est de la tunique de Saint Vincent, &amp; des autres coprs Saints, que <persName xml:id="gdpLeMaire1685d1e13035">Childebert</persName> apporta d’Espagne, comme l’on a esté obligé de les cacher sous terre, pour les conserver des infideles. On ne sçait presentement l’endroit où on les a mis.</p>
@@ -3130,21 +3132,21 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p037">Au milieu du Chœur, entre les chaises des religieux, on en voit un élevé d’environ quatre pieds, sur lequel est la <objectName xml:id="gdpLeMaire1685d1e13108">Statue</objectName> d’un homme qui a une couronne sur la teste, &amp; tient d’une main un sceptre, &amp; de<pb/>
                            <fw type="pageNum">249</fw> l’autre une église, avec cette inscription au costé droit.</p>
                         <quote xml:lang="lat" rend="center">
-                           <seg rend="roman">Regi sæculorum</seg>
-                           <lb/>Francorum Rector, præclarus in agmine ductor ;<lb/>Cujus &amp; Allobroges metuebant solvere leges,<lb/>Dacus &amp; Arvernus, Britonum Rex, Gothus, Iberus,<lb/>Hic situs est, dictus Rex <seg rend="roman">Childebertus</seg> honestus,<lb/>Condidit hanc aulam Vincenti nomine claram ;<lb/>Vir pietate cluens, probitatis munere pollens ;<lb/>Amplectens humiles, prosternens mente rebelles :<lb/>Templa Dei ditans ; gaudebat dona repensans :<lb/>Millia mendicis solidorum dans &amp; egenis,<lb/>Gazarum cumulos satagebat condere cœlo.<lb/>
+                           <seg rend="roman">Regi sæculorum</seg> 
+                           <lb/>Francorum Rector, præclarus in agmine ductor ; <lb/>Cujus &amp; Allobroges metuebant solvere leges, <lb/>Dacus &amp; Arvernus, Britonum Rex, Gothus, Iberus, <lb/>Hic situs est, dictus Rex <seg rend="roman">Childebertus</seg> honestus, <lb/>Condidit hanc aulam Vincenti nomine claram ; <lb/>Vir pietate cluens, probitatis munere pollens ; <lb/>Amplectens humiles, prosternens mente rebelles : <lb/>Templa Dei ditans ; gaudebat dona repensans : <lb/>Millia mendicis solidorum dans &amp; egenis, <lb/>Gazarum cumulos satagebat condere cœlo. <lb/>
                            <seg rend="roman">Ex vetust. prisci sepulcri inscript. apud Aimonium de gest. Francorum l. 2. c. 29.</seg>
                         </quote>
                         <pb/>
                         <fw type="pageNum">250</fw>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p038">De l’autre costé est cette Inscription.</p>
                         <quote xml:lang="lat" rend="center">
-                           <seg rend="roman">Æternitati.<lb/>Ultrogotha Childeberti</seg> Christianissimi Regis conjux,<lb/>Nutrix orphanorum, consolatrix afflictorum,<lb/>Pauperum, &amp; Dei servorum sustentatrix ;<lb/>Atque fidelium adjutrix Monachorum. ex vita S. Bathild. c. 5.<lb/>Hic cum charissimo conjuge diem illum expectat,<lb/>quo laudabunt eos in portis opera eorum :<lb/>Ambob. opt. fundatoribus ex humili situ cum<lb/>lap. sepulchri translatis<lb/>Fideliss. alumni hujus Regalis Abbatiæ Ascetæ Benedictini post restitut : in meliorem formam basilicam &amp; chrorum ornatius monumentum posuerunt ; an. Domini 1656. 10. Kal. Ianuar. quiete ipsorum anniversaria.<lb/>Absunt à sepulchro paterni <seg rend="roman">Crodesindis &amp; Croberga</seg> regiæ Virgines, quæ<pb/>
+                           <seg rend="roman">Æternitati. <lb/>Ultrogotha Childeberti</seg> Christianissimi Regis conjux, <lb/>Nutrix orphanorum, consolatrix afflictorum, <lb/>Pauperum, &amp; Dei servorum sustentatrix ; <lb/>Atque fidelium adjutrix Monachorum. ex vita S. Bathild. c. 5. <lb/>Hic cum charissimo conjuge diem illum expectat, <lb/>quo laudabunt eos in portis opera eorum : <lb/>Ambob. opt. fundatoribus ex humili situ cum <lb/>lap. sepulchri translatis <lb/>Fideliss. alumni hujus Regalis Abbatiæ Ascetæ Benedictini post restitut : in meliorem formam basilicam &amp; chrorum ornatius monumentum posuerunt ; an. Domini 1656. 10. Kal. Ianuar. quiete ipsorum anniversaria.<lb/>Absunt à sepulchro paterni <seg rend="roman">Crodesindis &amp; Croberga</seg> regiæ Virgines, quæ<pb/>
                            <fw type="pageNum">251</fw> in eadem basilica sed ignotis quiescunt loculis, ne tamen sepeliat oblivio, quibus immortalitem peperit incorruptio, vivat hic quoque cum piissimis parentibus dulcissimæ sobolis augustum nomen &amp; perennis memoria.</quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p039">Au deux costez de l’Autel, dans le Chœur, il a <objectName xml:id="gdpLeMaire1685d1e13187">six Tombeaux de pierre</objectName> de mesme hauteur, d’environ trois pieds, au tour de celuy du milieu à droite est écrit en lettres gothiques.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p040"
                            xml:lang="lat"
                            rend="center">
-                           <seg>Chilpericus</seg>
+                           <seg>Chilpericus</seg> 
                            <lb/>
                            <seg rend="italic">hoc tegitur lapide</seg>
                         </p>
@@ -3152,16 +3154,16 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p042"
                            xml:lang="lat"
                            rend="center">
-                           <seg>Fredegundis</seg>
+                           <seg>Fredegundis</seg> 
                            <lb/>
                            <seg rend="italic">Regina uxor Chilperci Regis</seg>
                         </p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p043">Sur celuy qui est au milieu de l’autre costé est gravé</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p044"
                            xml:lang="lat"
-                           rend="center">Hic jacet<lb/>
+                           rend="center">Hic jacet<lb/> 
                            <seg>Clotarius II</seg>
-                           <lb/>
+                           <lb/> 
                            <seg rend="italic">Francorum Rex</seg>
                         </p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p045">Sur celuy qui est tout proche du costé de la Nef est écrit,</p>
@@ -3171,14 +3173,14 @@
                            xml:lang="lat"
                            rend="center">
                            <seg>Bertrudis</seg>
-                           <lb/>
+                           <lb/> 
                            <seg rend="italic">Regina uxor</seg>Clotari II</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p047">Sur celuy qui est de l’autre costé vers la Nef est écrit</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p048"
                            xml:lang="lat"
-                           rend="alignCenter">Hic jacet<lb/>
+                           rend="alignCenter">Hic jacet<lb/> 
                            <seg>Childericus II</seg>
-                           <lb/>
+                           <lb/> 
                            <seg rend="italic">Francorum Rex</seg>
                         </p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p049">Sur le premier de ceux qui sont de l’autre costé est écrit,</p>
@@ -3186,7 +3188,7 @@
                            xml:lang="lat"
                            rend="alignCenter">
                            <seg>Blitildis</seg>
-                           <lb/>
+                           <lb/> 
                            <seg rend="italic">Regina uxor</seg>Childerici II</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p051">L’on trouva les corps de <persName xml:id="gdpLeMaire1685d1e13248">Childeric II</persName> &amp; de <persName xml:id="gdpLeMaire1685d1e13251">Blitilde</persName> sa femme l’an <date when="1656">1656</date>, comme on creusoit pour faire un nouvel autel. L’on trouva aussi alors la biere d’un enfant dans le <objectName xml:id="gdpLeMaire1685d1e13257">Tombeau de Blitilde</objectName>. Cét enfant estoit fils de <persName xml:id="gdpLeMaire1685d1e13260">Childeric</persName> &amp; de <persName xml:id="gdpLeMaire1685d1e13264">Blitilde</persName>, nommé <persName xml:id="gdpLeMaire1685d1e13267">Dagobert</persName>, qui fut tué avec son pere &amp; sa mere dans <placeName xml:id="gdpLeMaire1685d1e13270">la forest de Chelles</placeName> par <persName xml:id="gdpLeMaire1685d1e13273">Bodon ou Bodile</persName>, gentilhomme de <placeName xml:id="gdpLeMaire1685d1e13276">Liege</placeName>, que <persName xml:id="gdpLeMaire1685d1e13279">Childeric</persName> avoit fait fouter, sans avoir égard à sa qualité.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p052">
@@ -3207,15 +3209,15 @@
                               <expan>Pere</expan> Mabillon</persName>, religieux de cette abbaye.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p059"
                            xml:lang="lat"
-                           rend="alignCenter">Serenissimo Principi,<lb/>
-                           <seg>Henrico Borbonio</seg>,<lb/>Duci Vernoliensi,<lb/>Cujus cor hoc loco pasitum est,<lb/>Optimo quondam patrono suo<lb/>Benedictina religio,<lb/>Quam vivens semper in corde habuit,<lb/>Cui moriens cor suum commendavit,<lb/>Hunc titulum posuit<lb/>anno 1682.</p>
+                           rend="alignCenter">Serenissimo Principi, <lb/>
+                           <seg>Henrico Borbonio</seg>, <lb/>Duci Vernoliensi, <lb/>Cujus cor hoc loco pasitum est, <lb/>Optimo quondam patrono suo <lb/>Benedictina religio,<lb/>Quam vivens semper in corde habuit, <lb/>Cui moriens cor suum commendavit, <lb/>Hunc titulum posuit <lb/>anno 1682.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p060">Aux pieds du mesme <objectName xml:id="gdpLeMaire1685d1e13428">Tombeau de Childebert</objectName>, il y a une autre <objectName xml:id="gdpLeMaire1685d1e13431">Tombe plate aussi de marbre</objectName>
                            <sic>blanc</sic>, &amp; dessus est écrit.</p>
                         <pb/>
                         <fw type="pageNum">255</fw>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p061"
                            xml:lang="lat"
-                           rend="alignCenter">D. O. M.<lb/>Hic<lb/>Expectat resurrectionem<lb/>Quam firma supra ætatem fide<lb/>Speravit<lb/>Serenissimus princeps<lb/>Ludovicus Cæar<lb/>Borbonius,<lb/>Comes Veliocassium,<lb/>Lur. Magni,<lb/>Filius ;<lb/>Qui consummatus in brevi<lb/>Explevit tempora multa ;<lb/>Vixit<lb/>Annos 10. menses 6. dies 22.<lb/>Obiit<lb/>Die 10. Ianuarii an. 1683.<lb/>Raptus est,<lb/>Ne malitia mutaret intellectum ejus.<lb/>Ut veroo amantissimi filii perennet<lb/>memoria ;<lb/>Ludovicus Magnus,<lb/>Anniversarium solemne<lb/>Cum privatis missis decem<lb/>Instituit.</p>
+                           rend="alignCenter">D. O. M. <lb/>Hic <lb/>Expectat resurrectionem <lb/>Quam firma supra ætatem fide <lb/>Speravit <lb/>Serenissimus princeps <lb/>Ludovicus Cæar <lb/>Borbonius, <lb/>Comes Veliocassium, <lb/>Lur. Magni, <lb/>Filius ; <lb/>Qui consummatus in brevi <lb/>Explevit tempora multa ; <lb/>Vixit<lb/>Annos 10. menses 6. dies 22. <lb/>Obiit <lb/>Die 10. Ianuarii an. 1683. <lb/>Raptus est, <lb/>Ne malitia mutaret intellectum ejus. <lb/>Ut veroo amantissimi filii perennet <lb/>memoria ; <lb/>Ludovicus Magnus, <lb/>Anniversarium solemne <lb/>Cum privatis missis decem <lb/>Instituit.</p>
                         <pb/>
                         <fw type="pageNum">256</fw>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p062">
@@ -3287,15 +3289,15 @@
                            <p>
                               <seg rend="roman">Guillelmus Marchio Douglassius</seg> fratrique optimo dilectissimoque <seg rend="roman">Archibaldus Douglassius</seg> Augusiæ Comes vigesimus, mæsti posuere.</p>
                            <p>
-                              <seg rend="roman">Douglasidum</seg> nova spes, patriæ lux, Regibus orte<lb/>Gallo-Scotigenum, Dux Iacobe jaces !</p>
-                           <p>Dum longa innumeros laguenti pace triumphos<lb/>Majorum recolis dignaque Marte geris,</p>
-                           <p>Armaque dum proavum redivivo è funere tractas<lb/>Heu cadis in media dia propago via:</p>
-                           <p>Scilicet hau poterat Mars exuperare tuorum,<lb/>Scandere nec te vult inclita facta patrum</p>
+                              <seg rend="roman">Douglasidum</seg> nova spes, patriæ lux, Regibus orte <lb/>Gallo-Scotigenum, Dux Iacobe jaces !</p>
+                           <p>Dum longa innumeros laguenti pace triumphos <lb/>Majorum recolis dignaque Marte geris,</p>
+                           <p>Armaque dum proavum redivivo è funere tractas <lb/>Heu cadis in media dia propago via:</p>
+                           <p>Scilicet hau poterat Mars exuperare tuorum, <lb/>Scandere nec te vult inclita facta patrum</p>
                         </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p068">Et au milieu de la chapelle sur une <objectName xml:id="gdpLeMaire1685d1e13749">tombe plate</objectName> est écrit.</p>
-                        <quote xml:lang="lat" rend="alignCenter">Hic jacet<lb/>
-                           <seg>Guillelmus<lb/>Douglassius,</seg>
-                           <lb/>Augusiæ Comes<lb/>Scotus. </quote>
+                        <quote xml:lang="lat" rend="alignCenter">Hic jacet <lb/>
+                           <seg>Guillelmus <lb/>Douglassius,</seg> 
+                           <lb/>Augusiæ Comes <lb/>Scotus. </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p069">La <objectName xml:id="gdpLeMaire1685d1e13765">Chapelle de Saint Casimire</objectName> a esté bâtie<pb/>
                            <fw type="pageNum">263</fw> depuis quelques années à costé de la croisée de cette église. Elle est à l’extérieur de la même forme que celle de <objectName xml:id="gdpLeMaire1685d1e13772">Sainte-Marguerite</objectName>, qui est de l’autre costé, &amp; dont on parlera incontinent. Mais le dedans est quarré où l’on a posé le <objectName xml:id="gdpLeMaire1685d1e13775">tableau de Saint Casimire</objectName> fait par <persName xml:id="gdpLeMaire1685d1e13778">Vendek</persName>, &amp; dans le ceintre au dessus il y a une <objectName xml:id="gdpLeMaire1685d1e13782">gloire en bas relief</objectName> avec une descente du Saint Esprit. Les reste est semblable à la <objectName xml:id="gdpLeMaire1685d1e13785">chapelle de Sainte Marguerite</objectName>, dont on a suivi la cimetrie autant qu’on l’a pû faire en s’accomodant au <objectName xml:id="gdpLeMaire1685d1e13788">Tableau</objectName>, &amp; aux autres choses qui doivent estre singulieres à cette chapelle, qui a esté bastie d’une partie des deniers que les officiers de <persName xml:id="gdpLeMaire1685d1e13791">Casimire roy de Pologne</persName>, &amp; abbé de Saint-Germain ont donné pour la fondation de son anniversaire. Proche cette chapelle à gauche on voit un riche <objectName xml:id="gdpLeMaire1685d1e13794">Mausolée de marbre, &amp; de bronze</objectName>, sur lequel est une <objectName xml:id="gdpLeMaire1685d1e13797">figure à genou de marbre blanc</objectName> qui offre un sceptre &amp; une couronne à <persName xml:id="gdpLeMaire1685d1e13801">Saint Casimire</persName>, qui est représenté dans le <objectName xml:id="gdpLeMaire1685d1e13804">Tableau</objectName> au dessus de l’<objectName xml:id="gdpLeMaire1685d1e13807">Autel</objectName>. Au haut sont deux anges accolans une crosse &amp; une mître, &amp; dessous dans un <objectName xml:id="gdpLeMaire1685d1e13810">bas relief</objectName>, sont representez divers combats &amp; batailles ; &amp; au milieu un écusson de bronze à couronne fermée, où sont des armoiries ; &amp; aux costez sont deux esclaves plus grands que nature. Au dessous de l’écu dans une Table de marbre noir on lit en lettres d’or<pb/>
                            <fw type="pageNum">264</fw> cette inscription, fait par <persName xml:id="gdpLeMaire1685d1e13818">Dom François Delfau</persName>, religieux de cette abbaye.</p>
@@ -3310,15 +3312,15 @@
                            </p>
                            <p>
                               <seg rend="roman">
-                                 <seg>Joannes Casimirus,</seg>
+                                 <seg>Joannes Casimirus,</seg> 
                                  <lb/>Poloniæ ac Sueviæ Rex,</seg>
-                              <lb/>alto è Iagellonidum sanguine,<lb/>familia Vastensi<lb/>postremus, quia summis litteris,<lb/>armis, pietate,<lb/>multarum gentium linguas addidicit,<lb/>quo illas porpensius sibi devinciret :<lb/>septemdecim præliis collatis<lb/>cum hoste signis,<lb/>totidem uno minus victi<lb/>semper invictus ;<lb/>Moscovitas, suecos, Brandeburgenses,<lb/>Tartaros, Germanos armis<lb/>Cosacos aliosque rebelles gratiâ,<lb/>ac beneficiis expugnavit,<lb/>victoriâ Regem eis se præbens,<lb/>clementiâ patrem :<fw type="catchword">dumqu</fw>
+                              <lb/>alto è Iagellonidum sanguine, <lb/>familia Vastensi <lb/>postremus, quia summis litteris, <lb/>armis, pietate, <lb/>multarum gentium linguas addidicit, <lb/>quo illas porpensius sibi devinciret : <lb/>septemdecim præliis collatis <lb/>cum hoste signis, <lb/>totidem uno minus victi <lb/>semper invictus ; <lb/>Moscovitas, suecos, Brandeburgenses, <lb/>Tartaros, Germanos armis <lb/>Cosacos aliosque rebelles gratiâ, <lb/>ac beneficiis expugnavit, <lb/>victoriâ Regem eis se præbens, <lb/>clementiâ patrem :<fw type="catchword">dumqu</fw>
                               <pb/>
-                              <fw type="pageNum">265</fw>
-                              <lb/>dumaque totis viginti imperii<lb/>annis, fortunam virtute vincens<lb/>aulam habuit in castris,<lb/>palatia in tentoriis, spectacula<lb/>in triumphis :<lb/>liberos ex legitimo connubio<lb/>suscepit quêis postea orbatus est,<lb/>ne si se majorem reliquisset,<lb/>non esset ipse maximus ;<lb/>sin minorem, stirps degeneraret.<lb/>Par ei ad fortitudinem religio fuit,<lb/>nec segnius cælo militavit quàm solo :<lb/>hinc extructa Monasteria,<lb/>&amp; Nosocomia Varsaviæ ;<lb/>Calvinianorum fana in Lithuania excisa :<lb/>Sociniani regno pulsi,<lb/>ne Casimirum haberent Regem<lb/>qui Christum Deum non haberent ;<lb/>Senatus à variis sectis ad Catholicæ<lb/>fidei Communionem adductus,<lb/>ut Ecclesiæ legibus continerentur<lb/>qui jura populis dicerent,<lb/>unde illi præclarum Orthodoxi<lb/>nomen ab Alexandro VII. inditum<lb/>humane denique gloriæ fastigium<lb/>prætergressus,<lb/>
+                              <fw type="pageNum">265</fw> 
+                              <lb/>dumaque totis viginti imperii <lb/>annis, fortunam virtute vincens <lb/>aulam habuit in castris, <lb/>palatia in tentoriis, spectacula <lb/>in triumphis : <lb/>liberos ex legitimo connubio <lb/>suscepit quêis postea orbatus est, <lb/>ne si se majorem reliquisset, <lb/>non esset ipse maximus ; <lb/>sin minorem, stirps degeneraret. <lb/>Par ei ad fortitudinem religio fuit, <lb/>nec segnius cælo militavit quàm solo : <lb/>hinc extructa Monasteria, <lb/>&amp; Nosocomia Varsaviæ ; <lb/>Calvinianorum fana in Lithuania excisa : <lb/>Sociniani regno pulsi,<lb/>ne Casimirum haberent Regem <lb/>qui Christum Deum non haberent ; <lb/>Senatus à variis sectis ad Catholicæ <lb/>fidei Communionem adductus, <lb/>ut Ecclesiæ legibus continerentur <lb/>qui jura populis dicerent, <lb/>unde illi præclarum Orthodoxi <lb/>nomen ab Alexandro VII. inditum <lb/>humane denique gloriæ fastigium <lb/>prætergressus, <lb/>
                               <fw type="catchword">Z</fw>
                               <pb/>
-                              <fw type="pageNum">266</fw>cum nihil præclarius agere posset,<lb/>Imperium sponte abdicavit,<lb/>anno 1668.<lb/>tum porro lachrymæ, quas nulli<lb/>regnans excusserat,<lb/>omnium oculis manarunt,<lb/>qui abeuntem Regem,<lb/>non secus atque obeuntem patrem,<lb/>luxêre ;<lb/>vitæ reliquum in pietatis officiis<lb/>cùm exegisset,<lb/>tandem audita Kameneciæ expugnatione,<lb/>ne tantæ cladi superesset,<lb/>Caritate patriæ vulneratus,<lb/>occubit 17. Cal. Ian. 1672.<lb/>Regium cor Monachis hujus Cænobii,<lb/>cui Abbas præfuerat,<lb/>amoris pignus reliquit ;<lb/>quod illi isthoc tumulo mœrentes<lb/>condiderunt.</p>
+                              <fw type="pageNum">266</fw>cum nihil præclarius agere posset, <lb/>Imperium sponte abdicavit, <lb/>anno 1668. <lb/>tum porro lachrymæ, quas nulli <lb/>regnans excusserat, <lb/>omnium oculis manarunt, <lb/>qui abeuntem Regem, <lb/>non secus atque obeuntem patrem, <lb/>luxêre ; <lb/>vitæ reliquum in pietatis officiis <lb/>cùm exegisset, <lb/>tandem audita Kameneciæ expugnatione, <lb/>ne tantæ cladi superesset, <lb/>Caritate patriæ vulneratus, <lb/>occubit 17. Cal. Ian. 1672. <lb/>Regium cor Monachis hujus Cænobii, <lb/>cui Abbas præfuerat, <lb/>amoris pignus reliquit ; <lb/>quod illi isthoc tumulo mœrentes <lb/>condiderunt.</p>
                         </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p070">C’est <persName xml:id="gdpLeMaire1685d1e13985">Mercy</persName> sculpteur qui a fait ce superbe <objectName xml:id="gdpLeMaire1685d1e13988">Mausolée</objectName>.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p071">La <objectName xml:id="gdpLeMaire1685d1e13993">Chapelle de Sainte Marguerite</objectName> est à costé de la croisée en entrant. Elle a la forme d’une grande niche, composée de quatre colonnes de marbre jaspé, &amp; de six pilastres de mesme, le tout d’ordre composite.<pb/>
@@ -3326,27 +3328,27 @@
                            <pb/>
                            <fw type="pageNum">268</fw>lonne il y a une urne, &amp; aux deux costez des <objectName xml:id="gdpLeMaire1685d1e14032">figures</objectName>, dont l’une represente la Foy, &amp; l’autre la Valeur, de grandeur naturelle, qui tiennent des Portraits en leurs mains, le tout très bien travaillé, par <persName xml:id="gdpLeMaire1685d1e14035">François Girardon de Troyes</persName>. Et au bas, sur une Table de marbre noir sont ces inscriptions de la façon du <persName xml:id="gdpLeMaire1685d1e14038">
                               <expan>Père</expan> Dom Mabillon</persName>, religieux de cette abbaye.</p>
-                        <quote xml:lang="lat" rend="alignCenter">Quisquis hic sistis,<lb/>non minus Religionis &amp; pietatis,<lb/>quàm virtutis bellicæ monumentum<lb/>vides ;<lb/>quod amantissimis suis parenti<lb/>&amp; fratri<lb/>
-                           <seg>Olivario et Ludovico<lb/>de Castellan</seg>
-                           <lb/>Carolus Abbas testamento F.C.<lb/>quorum alter pro Rege, &amp; patriâ ;<lb/>alter etiam in Christi causâ<lb/>gloriosè occubit,<lb/>quippe Olivarius nobilissimus eques<lb/>post præcipua militiæ sub<lb/>
-                           <seg>Ludovico Justo,</seg>
-                           <lb/>præludia<lb/>duplicis cohortis dein summus<lb/>in castris celerum<lb/>
+                        <quote xml:lang="lat" rend="alignCenter">Quisquis hic sistis, <lb/>non minus Religionis &amp; pietatis, <lb/>quàm virtutis bellicæ monumentum <lb/>vides ; <lb/>quod amantissimis suis parenti <lb/>&amp; fratri <lb/>
+                           <seg>Olivario et Ludovico <lb/>de Castellan</seg> 
+                           <lb/>Carolus Abbas testamento F.C. <lb/>quorum alter pro Rege, &amp; patriâ ; <lb/>alter etiam in Christi causâ <lb/>gloriosè occubit, <lb/>quippe Olivarius nobilissimus eques <lb/>post præcipua militiæ sub <lb/>
+                           <seg>Ludovico Justo,</seg> 
+                           <lb/>præludia <lb/>duplicis cohortis dein summus <lb/>in castris celerum <lb/>
                            <pb/>
-                           <fw type="pageNum">269</fw>equitum trans Alpes Præfectus<lb/>Italico in bello factis illustris,<lb/>demum in Catalanico Ducis officium<lb/>strenuè agens<lb/>ad Terraconem infesta pila<lb/>trajectus interiit<lb/>anno salutis 1644. </quote>
+                           <fw type="pageNum">269</fw>equitum trans Alpes Præfectus <lb/>Italico in bello factis illustris, <lb/>demum in Catalanico Ducis officium <lb/>strenuè agens <lb/>ad Terraconem infesta pila <lb/>trajectus interiit <lb/>anno salutis 1644. </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p072">Et dans une autre Table de marbre, posée plus bas est écrit.</p>
                         <quote xml:lang="lat" rend="alignCenter">
                            <p>
-                              <seg>Ludovicus Olivarii<lb/>Filius</seg>
-                              <lb/>codem ardore à teneris miles, pari conditione Dux,<lb/>primo uni Prætoriæ cohorti Præfectus,<lb/>tum ipsius legionis major ;<lb/>tandem pedestrium copiarum,<lb/>quas <seg>Ludovicus Magnus</seg>
-                              <lb/>in Cretæ subsidium misit, Tribunus,<lb/>eruptione in Ottomanos facta<lb/>ferali globulo extinctus est.<lb/>Iulii die 10. an. 1669. ætat. 37.</p>
+                              <seg>Ludovicus Olivarii <lb/>Filius</seg> 
+                              <lb/>codem ardore à teneris miles, pari conditione Dux, <lb/>primo uni Prætoriæ cohorti Præfectus, <lb/>tum ipsius legionis major ; <lb/>tandem pedestrium copiarum, <lb/>quas <seg>Ludovicus Magnus</seg> 
+                              <lb/>in Cretæ subsidium misit, Tribunus,<lb/>eruptione in Ottomanos facta <lb/>ferali globulo extinctus est. <lb/>Iulii die 10. an. 1669. ætat. 37.</p>
                            <p>
-                              <seg>Carolus Olivarii</seg>
-                              <lb/>item <seg>Filius</seg>
-                              <lb/>S. Apri &amp; Sylvæ majoris Abbas,<lb/>
+                              <seg>Carolus Olivarii</seg> 
+                              <lb/>item <seg>Filius</seg> 
+                              <lb/>S. Apri &amp; Sylvæ majoris Abbas, <lb/>
                               <fw type="catchword">Z iij</fw>
                               <pb/>
-                              <fw type="pageNum">270</fw>eorum in memoriam hæc marmori<lb/>inscribi curavit ; &amp; in isto Mausolæo à se erecto,<lb/>sub quo &amp; ipse jacet,<lb/>corda optimi parentis,<lb/>ac fratris concludi præcepit ;<lb/>mortuus die 28. Novem. an. 1667.</p>
-                           <p>His corpus suum adjungi optavit<lb/>Franciscus Caroli fratruelis,<lb/>atque ex asse hæres,<lb/>&amp; ipse militaribus pro Rege officiis<lb/> maxime in Turcas<lb/>insignis<lb/>qui obiit 8. Ianuarii an. 1683.</p>
+                              <fw type="pageNum">270</fw>eorum in memoriam hæc marmori <lb/>inscribi curavit ; &amp; in isto Mausolæo à se erecto, <lb/>sub quo &amp; ipse jacet, <lb/>corda optimi parentis, <lb/>ac fratris concludi præcepit ; <lb/>mortuus die 28. Novem. an. 1667.</p>
+                           <p>His corpus suum adjungi optavit <lb/>Franciscus Caroli fratruelis, <lb/>atque ex asse hæres, <lb/>&amp; ipse militaribus pro Rege officiis <lb/> maxime in Turcas  <lb/>insignis <lb/>qui obiit 8. Ianuarii an. 1683.</p>
                         </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p073">La <objectName xml:id="gdpLeMaire1685d1e14175">Chapelle de la Vierge</objectName> où les Religieux disent l’Office, lors que leur cheour est occupé, fut commencée l’an <date when="1245">1245</date> par <persName xml:id="gdpLeMaire1685d1e14181">Hugues d’Issy</persName> 52ͤ Abbé de <expan>Saint</expan>-Germain, &amp; achevée par <persName xml:id="gdpLeMaire1685d1e14187">Thomas de Mauleon</persName> son successeur. Ils y sont enterrez tous deux. Cette chapelle fut dediée le <date when="1251-03-26">26 mars l’an 1251</date>, &amp; son principal <objectName xml:id="gdpLeMaire1685d1e14194">Autel</objectName> fut derechef consacré le <date when="1636-07-02">2 juillet 1636</date>. Le mesme architecte de ce monastère, a aussi construit cette chapelle, dans laquelle il fut enterré avec sa femme <persName xml:id="gdpLeMaire1685d1e14200">Agnes</persName>, <persName xml:id="gdpLeMaire1685d1e14203">François de Tour</persName>
                            <pb/>
@@ -3384,7 +3386,7 @@
                               <expan>Saint</expan> Germain</persName>, &amp; qui fut apporté par <persName xml:id="gdpLeMaire1685d1e14397">Childebert I</persName> vers l’an <date when="0542">542</date> avec d’autres dépouilles de la ville de <placeName xml:id="gdpLeMaire1685d1e14403">Tolede</placeName> en <placeName xml:id="gdpLeMaire1685d1e14406">Espagne</placeName>. Les lettres y sont couchées à fond d’argent, sur du velin de couleur pourpre ; &amp; ces mots <foreign xml:lang="lat">Deus &amp; Dominus</foreign>, sont par tout écrits en lettres d’or, aussi bien que le titre de chaque Pseaume. Ce livre est le plus ancien de tous ceux qui sont dans cette biblioteque.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p086">On conserve encore au mesme endroit un Psautier en notes, c’est-à-dire d’une espece d’écriture, où l’on ne met qu’une lettre pour signifier un mot. C’est ce que nous voyons avoir esté en usage, parmi les Romains, &amp; <persName xml:id="gdpLeMaire1685d1e14416">Ciceron</persName> s’en sert dans ses Épistres ; &amp; nous mesmes quelquefois nous ne mettons aussi qu’une lettre, une L, par<pb/>
                            <fw type="pageNum">275</fw> exemple, pour signifier cinquante, &amp; ainsi des autres. Il est à croire que les Anciens ont inventé cette maniere d’écrire, ou pour ne pas donner la connoissance de leurs sentiments à d’autres qu’à ceux ausquels ils écrivoient ; ou pour écrire plus promptement, de mesme que nous en voyons encore aujourd’huy, qui écrivent de la sorte les sermons dans les églises, à la vive voix des Predicateurs, &amp; ausquels l’on peut assez bien appliquer ce Distique de <persName xml:id="gdpLeMaire1685d1e14423">Martial</persName>.</p>
-                        <quote xml:lang="lat" rend="alignCenter">Currant verba licet, manus est velocior illis ;<lb/>Nondum lingua suum, dextra peregit opus. </quote>
+                        <quote xml:lang="lat" rend="alignCenter">Currant verba licet, manus est velocior illis ; <lb/>Nondum lingua suum, dextra peregit opus. </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p087">Il y a encore dans cette armoire un livre, où sont presque tous les Evangiles de <persName xml:id="gdpLeMaire1685d1e14432">
                               <expan>Saint</expan> Mathieu</persName> &amp; de <persName xml:id="gdpLeMaire1685d1e14437">
                               <expan>Saint</expan> Marc</persName>, écrits en lettres à fond d’or, sur du velin couleur de pourpre.</p>
@@ -3406,8 +3408,8 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p094">Les Religieux de<placeName xml:id="gdpLeMaire1685d1e14523">
                               <expan>Saint</expan>-Germain</placeName> avoient aussi un forte <placeName xml:id="gdpLeMaire1685d1e14528">Prison</placeName>, que l’on voit encore, avec cette inscription par dehors, du costé du Marché, qu’on appelle <placeName xml:id="gdpLeMaire1685d1e14531">le petit Marché de <expan>Saint</expan>-Germain</placeName>.</p>
                         <quote xml:lang="lat" rend="alignCenter">
-                           <seg>Iustitia</seg>
-                           <lb/>elevat gentem<lb/>
+                           <seg>Iustitia</seg> 
+                           <lb/>elevat gentem <lb/>
                            <seg rend="roman">Proverb.14.</seg>
                         </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr04.001.p095">Au dessus de cette prison on a basti depuis quelques années plusieurs petites chambres en deux étages, pour y enfermer les enfans libertins, vagabonds, desobeissans à leurs parens, &amp; incorrigibles, en payant pension : auparavant on les enfermoit dans l’Officialité.</p>
@@ -3436,7 +3438,7 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr05.001.p006">Dans le Chœur, au premier pilier à main droite, joignant la porte proche de l’<objectName xml:id="gdpLeMaire1685d1e14660">Autel</objectName>, on voit <objectName xml:id="gdpLeMaire1685d1e14663">Tombeau</objectName>, qui entoure le pilier, ayant au milieu une <objectName xml:id="gdpLeMaire1685d1e14666">figure en demi relief</objectName>, qui represente par ses attributs la Foy, l’Esperance, &amp; la Charité ; les ornemens qui y sont conviennent au sujet, le reste est d’architecture, le tout de marbre blanc, à la reserve d’une urne posée au haut, &amp; quelques festons qui sont de bronze doré ; &amp; au dessous ces mots sont écrits en let<fw type="catchword">tres</fw>
                            <pb/>
                            <fw type="pageNum">281</fw>tres noires sur une Table aussi de marbre blanc.</p>
-                        <quote rend="alignCenter big capitals">A la gloire de Dieu,<lb/> et a la mémoire eternelle<lb/> d’<persName xml:id="gdpLeMaire1685d1e14681">Anne Marie<lb/> Martinozzi</persName>,<lb/> princesse de Conty. </quote>
+                        <quote rend="alignCenter big capitals">A la gloire de Dieu, <lb/> et a la mémoire eternelle <lb/> d’<persName xml:id="gdpLeMaire1685d1e14681">Anne Marie <lb/> Martinozzi</persName>, <lb/> princesse de Conty. </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr05.001.p007">Qui détrompée du monde dés l’âge de 19 ans vendit toutes ses pierreries pour nourrir durant la famine de <date when="1662">1662</date> le pauvres de <placeName xml:id="gdpLeMaire1685d1e14693">Berry</placeName>, de <placeName xml:id="gdpLeMaire1685d1e14696">Champagne</placeName>, &amp; de <placeName xml:id="gdpLeMaire1685d1e14699">Picardie</placeName>, pratiqua toutes les austeritez, que sa santé pût souffrir, demeura veuve à l’âge de 29 ans ; consacra le reste de sa vie à élever en princes Chrestiens les princes ses enfans, &amp; à maintenir les Loix temporelles, &amp; ecclesiastiques dans ses terres, se reduisit à une dépense très modeste ; restitua tous les biens, dont l’acquisition luy fut suspecte,<fw type="catchword">A a</fw>
                            <pb/>
                            <fw type="pageNum">282</fw> jusqu’à la somme de huit cens mille livres, distribua toute son épargne aux pauvres dans ses terres, &amp; dans toutes les parties du monde, &amp; passa soudainement à l’eternité, après 16 ans de perseverance, le <date when="1672-02-04">4 fevrier 1672</date> âgée de 35 ans.</p>
@@ -3448,14 +3450,14 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr05.001.p011">Dans <placeName xml:id="gdpLeMaire1685d1e14743">la Chapelle de Saint-Christophe</placeName>, l’on voit vis-à-vis l’<objectName xml:id="gdpLeMaire1685d1e14746">Autel</objectName> un <objectName xml:id="gdpLeMaire1685d1e14749">Chef de marbre blanc</objectName>, posé sur un pied-d’estal de marbre noir, au dessus sont deux Vertus assises, qui tiennent dans leurs mains des couron<pb/>
                            <fw type="pageNum">283</fw>nes de lauriers &amp; des palmes ; &amp; au dessous sont deux petits amours, avec des cornes d’abondance, d’où sortent des fruits &amp; des fleurs. Et plus bas cette épitaphe est gravée en marbre.</p>
                         <quote xml:lang="lat">
-                           <seg rend="alignCenter">D.O.M</seg>.<lb/>Christophoro Thuano August. F. Iac. equiti qui omnibus togæ muneribus summa cum eruditionis, integritatis, prudentiæ laude perfunctus, amplissimosque honores sub Francisco I. Henrico II. Regibus consecutus, Senatus Paris. Præses, deinde princeps, sacri consitorii consiliarius, mox Henrici tunc Aurel. ac demum Francisci Andegavium Duci Cancellarius, tandem cum de judiciario ordine emendando, quæstura regno, fraudibus ac rapinis vindicando, &amp; Scholarum disciplina restituenda cogitaret, nulla inclinatæ ætatis incommoda antea expertus, ex improvisa febri decessit ; uxor liberique mœrentes posuere. Vixit annos 74. dies 5. obiit anno Sal. 1582. Cal. Novemb. </quote>
+                           <seg rend="alignCenter">D.O.M</seg>. <lb/>Christophoro Thuano August. F. Iac. equiti qui omnibus togæ muneribus summa cum eruditionis, integritatis, prudentiæ laude perfunctus, amplissimosque honores sub Francisco I. Henrico II. Regibus consecutus, Senatus Paris. Præses, deinde princeps, sacri consitorii consiliarius, mox Henrici tunc Aurel. ac demum Francisci Andegavium Duci Cancellarius, tandem cum de judiciario ordine emendando, quæstura regno, fraudibus ac rapinis vindicando, &amp; Scholarum disciplina restituenda cogitaret, nulla inclinatæ ætatis incommoda antea expertus, ex improvisa febri decessit ; uxor liberique mœrentes posuere. Vixit annos 74. dies 5. obiit anno Sal. 1582. Cal. Novemb. </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr05.001.p012">Les historiens de ce temps-là remarquent de <persName xml:id="gdpLeMaire1685d1e14764">
                               <expan>Monsieur</expan> de Thou</persName> fut le premier d’entre les <fw type="catchword">Aa ij</fw>
                            <pb/>
                            <fw type="pageNum">284</fw>personnes de la Robe, qui eut carosse à Paris, &amp; que mesme il ne s’en servoit pas, lors qu’il alloit au <placeName xml:id="gdpLeMaire1685d1e14775">palais</placeName>, ou au <placeName xml:id="gdpLeMaire1685d1e14778">Louvre</placeName>, quand il y estoit mandé.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr05.001.p013">Dans la mesme chapelle, vis-à-vis la porte, il y a un riche <objectName xml:id="gdpLeMaire1685d1e14783">tombeau de marbre noir</objectName>, sur lequel est la <objectName xml:id="gdpLeMaire1685d1e14786">statue d’un homme à genou</objectName>, revestu d’un grand manteau de drap d’écarlate fourré d’hermine &amp; retroussé sur l’épaule. Au dessous dans un <objectName xml:id="gdpLeMaire1685d1e14789">bas relief</objectName> sont en bronze plusieurs Amours, tenans divers instrumens propres aux arts &amp; aux sciences. Celuy du milieu tient la figure d’un livre, sur lequel est gravé, <q xml:lang="lat">Iacobi Augusti Thuani historiarum sui temporis libri 138.</q> Et plus bas, sur une Table de marbre noir, est écrit en lettre d’or.</p>
                         <quote xml:lang="lat">
-                           <seg rend="big alignCenter">ɑ ☧ ω</seg>
+                           <seg rend="big alignCenter">ɑ ☧ ω</seg> 
                            <lb/>Iacobo Augusto Thuano Christophori filio in regni consiliis Assessori, amplissimi Senatus Præsidi, litterarum, quæ res divinas &amp; humanas amplectuntur, magno honorum &amp; eruditorum consensu peritissimo, variis legationibus summa<pb/>
                            <fw type="pageNum">285</fw> sinceritate ac prudentia functo, viris principibus ævo suo laudatissimis eximiè culto, historiarum scriptori quod ipsæ passim loquuntur celeberrimo, Christianæ pietatis antiquæ retinentissimo. Vixit an. 63. menses 6. dies 29. obiit Lutetiæ Parisiorum, nonis Maii 1617 parcissimè censuisse videtur, qui tali viro sæculum defuisse dixit. </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr05.001.p014">Ce magnifique <objectName xml:id="gdpLeMaire1685d1e14806">Tombeau</objectName> a esté fait par <persName xml:id="gdpLeMaire1685d1e14809">François Anguiere</persName> sculpteur.</p>
@@ -3492,7 +3494,7 @@
                   <fw type="pageNum">288</fw>
                   <div xml:id="gdpLeMaire1685T01BodyFr06" type="part" n="6">
                      <metamark rend="typographicalPiece"/>
-                     <head rend="big alignCenter capitals">L’église<lb/>Saint-Agnan</head>
+                     <head rend="big alignCenter capitals">L’église <lb/>Saint-Agnan</head>
                      <div xml:id="gdpLeMaire1685T01BodyFr06.001">
                         <p xml:id="gdpLeMaire1685T01BodyFr06.001.p001">Cette église est située proche Notre-Dame, il y a deux chanoines, &amp; deux vicaires perpetuelles. Les Chanoines prennent la qualité de Chanoine semiprebendés dans l’église de Paris, &amp; jouissent de plusieurs droits et privilèges dont jouissent les Chanoines de Notre-Dame. Ils reçoivent comme eux les distributions de l’église quand ils assistent à l’Office. Cette église fut fondée par <persName xml:id="gdpLeMaire1685d1e14954">Estienne</persName> archidiacre de Paris, en l’honneur de <persName xml:id="gdpLeMaire1685d1e14957">Saint Agnan</persName> évesque d’Orléans, du consentement de <persName xml:id="gdpLeMaire1685d1e14960">Gilbert</persName>, 64ͤ évesque de Paris, &amp; du Chapitre, qui luy permirent à cét effet de diviser sa chanoinie, pour en revestir deux ecclesiastiques, comme l’on peut voir plus au long dans les lettres de <persName xml:id="gdpLeMaire1685d1e14963">Gilbert</persName>, en ces termes : <q xml:lang="lat">In nomine sanctæ &amp; individuæ Trinitatis. Gilbertus Parisiorum Episcopus tam præsentibus quam futuris : scire volumnus omnes tam præsentes quam futuros, quod Stephanus Archidiaconnus noster aures nostræ parvitatis sæpe pulsaveris<pb/>
                               <fw type="pageNum">289</fw> averit, negando &amp; supplicando, quatenus præbendam suam duobuis Presbyteris habendam concederemus, &amp; duos canonicos Beatæ Mariæ inde faceremus ; proposuerat enim idem Stephanus, quod in Ecclesia, quam domibus suis contiguam ædificaverat, ministros Sacerdotalis ordinis constitueret, qui tam pro remissione peccatorum suorum quam pro falute antecessorum suorum Deo ibi ministrarent, &amp; memoriam fratrum sanctæ matris Ecclesia debitis horis celebarent. Fuit etiam in ejus voto, &amp; petitione quatenus in electione &amp; impositione Presbyterorum ibi ministrantium, &amp; in investitura prædicta Præbenda capitulo Beatæ Mariæ vices nostras ex integro concederemus, &amp; Episcopali auctoritate in perpetuum firmaremus, omnesque qui pro investitura illa pecuniam, pastum, vel aliquid ullo tempore promitterent, darent, vel acciperent, sub perpetuo anathemate poneremus. Voluit etiam ut nos de Presbyteris illis hoc ordinaremus quatenus &amp; in claustro, &amp; in capitulo, &amp; in choro, &amp; in altaris servitio, &amp; in omnibus aliis, sicut &amp; cæteri Canonici irrefragabiliter haberentur ; pariteque &amp; alternatim per singulas septimanans, tam in matre Ecclesia sicut integri Canonici, quanim prædicta capella Deo ministrarent. Nos igitur justam &amp; honestam in omnibus petitionem ejus considerantes moti tam ratione quam Ec<fw type="catchword">B b</fw>
@@ -3505,7 +3507,7 @@
                   </div>
                   <div xml:id="gdpLeMaire1685T01BodyFr07">
                      <metamark rend="typographicalPiece"/>
-                     <head rend="alignCenter big capitals">Les religieux<lb/>benedictins<lb/>anglois</head>
+                     <head rend="alignCenter big capitals">Les religieux <lb/>benedictins <lb/>anglois</head>
                      <div xml:id="gdpLeMaire1685T01BodyFr07.001">
                         <p xml:id="gdpLeMaire1685T01BodyFr07.001.p001">Les Religieux benedictins reconnoissent pour leur instituteur et patriarche <persName xml:id="gdpLeMaire1685d1e15004">Saint Benoist</persName>, natif d’<placeName xml:id="gdpLeMaire1685d1e15007">Umbrie</placeName>, qui composa sa regle sur <placeName xml:id="gdpLeMaire1685d1e15010">le mont Cassin</placeName>, environ l’an <date when="0529">529</date>, qui fut ensuite approuvée par <persName xml:id="gdpLeMaire1685d1e15016">Saint Grégoire le Grand</persName>, dans le concile tenu à <placeName xml:id="gdpLeMaire1685d1e15020">Rome</placeName> l’an <date when="0595">595</date>. Cét ordre est des plus peuplez, &amp; des plus nombreux qui soit dans l’église. l’on y<pb/>
                            <fw type="pageNum">291</fw> comptoit mesme du temps du concile de Constance, jusqu’à cinquante-cinq mille quatre cens soixante Saints, trente-cinq Papes, deux cens Cardinaux, onze cens soixante-quatre Archevesques, tois mille cinq cens douze Évesques, &amp; quinze cens Abbez.</p>
@@ -3519,9 +3521,9 @@
                   <div xml:id="gdpLeMaire1685T01BodyFr08" type="part" n="7">
                      <metamark rend="typographicalPiece"/>
                      <head rend="capitals alignCenter">
-                        <seg rend="bigger">Les religieuses</seg>
+                        <seg rend="bigger">Les religieuses</seg> 
                         <lb/>
-                        <seg rend="big">angloises du faux</seg>
+                        <seg rend="big">angloises du faux</seg> 
                         <lb/>-bourg <expan>Saint</expan>-Marcel.</head>
                      <div xml:id="gdpLeMaire1685T01BodyFr08.001">
                         <p xml:id="gdpLeMaire1685T01BodyFr08.001.p001">
@@ -3532,9 +3534,9 @@
                   <div xml:id="gdpLeMaire1685T01BodyFr09" type="part" n="8">
                      <metamark rend="typographicalPiece"/>
                      <head rend="alignCenter italic">
-                        <seg rend="bigger alignCenter">Les religieuses</seg>
+                        <seg rend="bigger alignCenter">Les religieuses</seg> 
                         <lb/>
-                        <seg rend="big">Angloises sur les Fossez</seg>
+                        <seg rend="big">Angloises sur les Fossez</seg> 
                         <lb/>Saint Victor</head>
                      <div xml:id="gdpLeMaire1685T01BodyFr09.001">
                         <p xml:id="gdpLeMaire1685T01BodyFr09.001.p001">
@@ -3607,8 +3609,8 @@
                   <div xml:id="gdpLeMaire1685T01BodyFr10" type="part" n="9">
                      <metamark rend="typographicalPiece"/>
                      <head rend="capitals italic">
-                        <seg rend="big capitals">Les religieuses</seg>
-                        <lb/>Angloises, ou les Filles de la<lb/>Conception du Fauxbourg<lb/>Saint-Antoine</head>
+                        <seg rend="big capitals">Les religieuses</seg> 
+                        <lb/>Angloises, ou les Filles de la <lb/>Conception du Fauxbourg <lb/>Saint-Antoine</head>
                      <div xml:id="gdpLeMaire1685T01BodyFr10.001">
                         <p xml:id="gdpLeMaire1685T01BodyFr10.001.p001">
                            <seg>
@@ -3636,7 +3638,7 @@
                      <div xml:id="gdpLeMaire1685T01BodyFr11.002">
                         <metamark rend="typographicalPiece"/>
                         <head rend="italic">
-                           <hi rend="capital">Les Grands-Augustins <lb/> ou <lb/>Les Augustins</hi>- <lb/>du-pont-Neuf</head>
+                           <hi rend="capital">Les Grands-Augustins <lb/> ou <lb/>Les Augustins</hi>-<lb/>du-pont-Neuf</head>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p001">
                            <hi rend="capital">
                               <hi rend="initial">L</hi>e</hi>s <persName xml:id="gdpLeMaire1685d1e15430">Freres hermites</persName>, ou <persName xml:id="gdpLeMaire1685d1e15433">Religieux mendians de l’ordre de <expan>Saint</expan>-Augustin</persName>,ont eu diverses maisons à Paris. Leur premiere demeure fut vers <placeName xml:id="gdpLeMaire1685d1e15439">la porte Montmartre</placeName>, dans la ruë qui se nomme encore aujourd’huy <placeName xml:id="gdpLeMaire1685d1e15442">la ruë des Vieux Augustins</placeName>. Ils allerent ensuite demeurer l’<date when="1285">an 1285</date> proche <placeName xml:id="gdpLeMaire1685d1e15449">la porte <expan>Saint</expan>-Victor</placeName>, en un lieu qu’on nommoit <placeName xml:id="gdpLeMaire1685d1e15455">Chardonnet <soCalled>à Carduis</soCalled>
@@ -3672,14 +3674,13 @@
                         <fw type="pageNum">323</fw>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p014">
                            <quote xml:lang="lat">
-                              <seg rend="roman">Tumulus Vidi Fabri Pibrachii</seg>
+                              <seg rend="roman">Tumulus Vidi Fabri Pibrachii</seg> 
                               <!-- A corriger, je ne suis pas sure du tout -->
                               <lb/>Hic teguntur cineres tantum, &amp; ossa Vidi Fabri Pibrachii, nomen ejus, virtusque spirat in ore &amp; admiratione populorum omnium, quos non solum orbis Christianus, sed oriens, &amp; intima Scytharum ora videt: genus illi à stirpe veterum Fabrorum, que neminem habuit, in tam longa serie annorum plusquam trecentorum, qui non aut ex ordine senatorio in toga illustri, aut inter fortes rei militaris ac bellicae gloriâ famâque infignis fuerit; ipfse qui nasci ab illis fortuitum neque ultra duxit, cum per omnes iret dignitatum &amp; honorum gradus, tribunal emptum nummario pretio, nec insedit, nec appetivit unquam; virtute non censu; meritorum aestimatione, non divitiarum magnitudine ratus censeri munus, &amp; Religionem judicantium. Sub Carolo IX. primum ex praetura Tolosana accitus in urbem &amp; missus Tridentum, (quo tum sanadis, formandisque rebus Ecclesiae adversus furentem impietatem Sectariorum convene<pb/>
                               <fw type="pageNum">324</fw>rant lecta regnorum &amp; Provinciarum nominis Christani lumina) sic renuntiavit summam imperate legationis, sic gallici nominis praerogativam, regisque sui jus, ac dignitatem fandi prudentia &amp; urbatate asseruit, ut cum gratiae causa nihil diceret, omnia tamen essent illic omnibus grata quae diceret. Illinc reversum, non in prioris Provinciae praetura &amp; magistratu ocium, sed altior honos ad negotia traxit, evectum ad Regiae advocationis munus in augustiore, &amp; primario Galliae totius Senatu, ubi cum auctior fama virtutum in dies cresceret &amp; triumpharet ejus oratio, raptus est velut in selectiorem &amp; sanctiorem illum ordinem, qui arcana regni &amp; tacitas Principis meditationes cognoscit ac regit, &amp; mox deinde Henrico III. quem tunc Poloni publico, solenni, comitiorum ordinumque regni sui decreto Regem sibi renuntiarant, datus omnium autor ac princeps Consiliorum, quae sic temperavit arte, judicio, sapientiaque, ut brevi praeter spem omnium, in tanta rerum difficultate avito eum Galliarum Regno<pb/>
                               <fw type="pageNum">325</fw>tuendo rurfas incolumem &amp; salvum reddiderit; &amp; quaerentes nihilominus per secessionem Poloniae proceres, cui se, regnique jura permitterent, aliquamdiu interim in prioris sacramenti side, &amp; Regis obsequio continuerit; tum his perfunctum &amp; redditum sibi excepit rursum Senatus, sed inter praesides suos, otiumque fecit, in quo patriis verbis tetrasticis numeris ea suis vitae praecepta composuit, quae propter eximiam vim sapientie populorum omnium sermone versa terunrur, non fine praecipua autoris sui apud Turcas, etiam &amp; Barbaros veneratione. Ad extremum quoque Francisco Henrici Regis fratri minori, quem inferioris Germaniae populi Ducem, ac Principem sibi dixerant, à rege quaestor sacri Palatii, &amp; Cancellarius serò missus (quia rebus jam desperatis ac pene eversis) cum inde redisset, morbo diem suum gloriae plenus feliciter clausit. an. 1584. 2. Maii. <lb/>Et annis postea sex ac viginti, secuta virum è Vasconia citeriore conjux, femina illustris Ioanna de Custos à Tara<pb/>
                               <fw type="pageNum">326</fw>bel, hic idem sibi, quod viro moriens fatale conditorium, fecit. <lb/>an. 1612 <lb/>Michael faber Pibrachius ejusdem vidi Fabri filius natu maximus, regis in sacri Consistorii ordine Consiliarius, moerens monumentum posuit.an.1627.</quote>
                         </p>
-                        <lb/>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p015">Aux deux costez de ce <objectName xml:id="gdpLeMaire1685d1e15741">tombeau</objectName>, il y a des petites tables de marbre noir; sur celle du costé gauche est écrit.</p>
                         <quote>
                            <lg>
@@ -3706,9 +3707,7 @@
                            <l>Quoy que ce soit &amp; susse aux ennemies,</l>
                            <l>De l’accomplir en devoir te faut mettre.</l>
                         </lg>
-                        <lb/>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p017">Et de l’autre côté de cette épitaphe il y a encore une autre table de marbre, sur laquelle sont gravés ces quatre vers.</p>
-                        <lb/>
                         <lg>
                            <l>
                               <persName xml:id="gdpLeMaire1685d1e15790">Pibrac</persName>, dont l’honneur &amp; la gloire</l>
@@ -3729,7 +3728,6 @@
                            <l>Luy-mesme a basti son Tombeau,</l>
                            <l>Dedans ses pierres precieuses.</l>
                         </lg>
-                        <lb/>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p020">Dans la premiere <objectName xml:id="gdpLeMaire1685d1e15843">chapelle</objectName> qui est à costé &amp; presque vis à vis la petite porte du choeur, l’on voit un <objectName xml:id="gdpLeMaire1685d1e15846">riche tombeau de marbre noir</objectName>, où sont deux bustes de marbre blanc, &amp; un Amour pleurant au milieu; le premier buste represente <persName xml:id="gdpLeMaire1685d1e15849">Honoré Barentin</persName>, conseiller du roy en ses Conseils d’Etat &amp; Privé, decedé <date when="1639-05-18">le 18 jour de may 1639</date>. Et l’autre est le portrait d’Anne du Hamel son épouse, decedée <date when="1639-11-20">le 20 jour de novembre de la mesme année</date>.</p>
                         <!-- objectName pour les bustes? -->
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p021">Dans la chapelle de saint-Charles, on voit un Chef de marbre blanc, soustenu d’un pied-d’estail de marbre noir, &amp; dessous est écrit en lettres d’or</p>
@@ -3737,9 +3735,7 @@
                         <pb/>
                         <fw type="pageNum">329</fw>
                         <quote xml:lang="lat">hic jacet Carolus Brulartus, à Leonio Comes Consistorianus, Petri Brularti à Scretis Augusti filius; qui quatuor ac viginti, tàm legationibus quàm mandatis Regiis perfunctus, omnibusque faeliciter gestis, nulla laborum merced, nec accepta, nec postulata; Bonis paternis, ac regia benignitate inter tot ingentes etatis sue fortunas contentus, integre ac liberaliter vixit, nec minus constanter obiit, huncque tumulum sibi morituro vivens extruendum curavit. Anno Domini 1649. die 25. Iulii aetatis suae anno 78.</quote>
-                        <lb/>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p022">Dans la chapelle qui est la derniere du mesme costé proche la porte de la croisée, il y a un tombeau de pierre élevé, au milieu est un ange de marbre blanc, tenant une teste de mort, au dessus sont deux statues à genoux, &amp; dessous est décrit.</p>
-                        <lb/>
                         <quote xml:lang="lat">Hieronimus Luillier, in sanct. regis consilio cons. &amp; in camera computorum Procurator généralis, vivus sibi.Et Elizabethe Dreux conjugi bene meritae posterisque posuit. Obiithaec 24 Aprilis 1619 ille 16.Ee</quote>
                         <!-- Comment mettre la mise en forme? quelles balises -->
                         <pb/>
@@ -3747,11 +3743,9 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p023">A la face du pilier, qui est vis à vis <placeName xml:id="gdpLeMaire1685d1e15880">la chapelle de la Vierge</placeName> dans la nef, on voit la statue d’un homme plus petite que le naturel, qui represente <persName xml:id="gdpLeMaire1685d1e15883">Jacques de la Fontaine</persName>, Chevalier Seigneur de Malgenestre, issu &amp; sorti de la maison des princes de la Romagne Malateste, en Italie, lequel deceda <date when="1652-10-02">le 2 octobre 1652</date> âgé de 60 ans.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p024">Dans <placeName xml:id="gdpLeMaire1685d1e15891">la chapelle de saint-Augustin</placeName>, il y a deux statues de marbre blanc à genou, l’une représente le <persName xml:id="gdpLeMaire1685d1e15894">Sieur Larchet</persName> Capitaine aux Gardes, qui fut tué au Siége de <placeName xml:id="gdpLeMaire1685d1e15897">Rouen</placeName>, sous <persName xml:id="gdpLeMaire1685d1e15900">Henri III</persName>. Et l’autre statue represente Diane de Vivone sa femme.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p025">Proche la <objectName xml:id="gdpLeMaire1685d1e15905">chaire du Predicateur</objectName> à gauche, est une table de marbre noir élevée sur laquelle ces mots sont gravez.</p>
-                        <quote xml:lang="lat">
-                           <lb/>D.O.M.S <p>Sulpice viator, &amp; stupesce; quisquises, fatebere me effari vera, si hoc unum audies; Eustatiu du Caurroy Bellovacensis hîc situs est, satis est protitulo, satis pro tumulo, satis superque cineri pio, modestoque, quem virum non Iberia, non Gallia, non Italia modo, sedominis Europa, musicorum principem invidiâ admirante confessa est; quem Carolus IX Henrici duo coluere, regioque musices sacello praefece<pb/>
+                        <quote xml:lang="lat">D.O.M.S <p>Sulpice viator, &amp; stupesce; quisquises, fatebere me effari vera, si hoc unum audies; Eustatiu du Caurroy Bellovacensis hîc situs est, satis est protitulo, satis pro tumulo, satis superque cineri pio, modestoque, quem virum non Iberia, non Gallia, non Italia modo, sedominis Europa, musicorum principem invidiâ admirante confessa est; quem Carolus IX Henrici duo coluere, regioque musices sacello praefece<pb/>
                               <fw type="pageNum">331</fw>re, quem harmoniam ipsam è caelo devocasse, &amp; in templa divum induxosse testantur ingenii monumenta; stupore, &amp; silentio venerandum negas? Tot bona, brevis urna non claudit, hospes, aeternitas haec sibi vindicat, non moriuntur mortales immortales famâ, oriuntur ut soles, etsi quotidie occidant, vale &amp; bene comprecare. Vixit 60. an. devixit and. 1609. <lb/>N. Formé Parisinus eidem regio muneri succedens. <lb/>H. M. F. C.</p>
                         </quote>
-                        <lb/>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p026">Il y a encore plusieurs autres personnes de consideration enterrées dans cette église, comme sont <persName xml:id="gdpLeMaire1685d1e15925">Philippes de Commine</persName> historiographe<!-- Majuscule aux "métiers" Historiographe, Sculpteur? -->, sous le regne de Louis XI. <persName xml:id="gdpLeMaire1685d1e15930">Monsieur de Broué</persName>, président aux Enquestes, dont on voit l’épitaphe dans le choeur, à costé de l’autel. <persName xml:id="gdpLeMaire1685d1e15933">Jean Baptiste de Gondy</persName> Florentin, dans la chapelle qui est dans le cloistre.</p>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.002.p027">C’est ordinairement dans ce convent, que s’assemblent les Estats Généraux du royaume. Le Parlement y a tenu aussi plusieurs fois ses seances, le Clergé s’y est pareillement assemblé l’<date when="1683">an 1683</date>.On y garde aussi les archives du mesme Clergé; les titres du grand Conseil, &amp; ceux de la maison de Ne-<pb/>
                            <fw type="pageNum">332</fw>mours, &amp; de Savoye.</p>
@@ -3773,10 +3767,9 @@
                      </div>
                      <div xml:id="gdpLeMaire1685T01BodyFr11.003">
                         <metamark rend="typographicalPiece"/>
-                        <head>DECLARATION <lb/>DU roy, <lb/>Concernant les Bastiment que font faire les Religieux Mendians</head>
+                        <head><hi rend="capital">Déclaration <lb/>du</hi> roy, <lb/>Concernant les Bastiment que font faire les Religieux Mendians</head>
                         <!-- quelles balises ici? -->
-                        <quote rend="italic">
-                           <lb/>Registrée en Parlement <date when="1684-09-07">le 7 septembre 1684</date>
+                        <quote rend="italic">Registrée en Parlement <date when="1684-09-07">le 7 septembre 1684</date>
                            <p>
                               <hi rend="capital">
                                  <hi rend="initial">L</hi>ouis</hi>par la grace de Dieu, roy de France &amp; de Navarre: A tous ceux qui ces presentes Lettres verront,<pb/>
@@ -3857,7 +3850,6 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr11.005.p004">Mais si ces religieux se sont vûs pour lors dépouillez d’une maison, qu’ils croyoient leur appartenir legitimement, Dieu qui ne manque pas au besoin, leur suscita de nou-<pb/>
                            <fw type="pageNum">349</fw>veaux moyens pour bâtir un autre convent vers <placeName xml:id="gdpLeMaire1685d1e16419">la porte Montmartre</placeName> où ils font à present; avec cét avantage qu’ils ont eu pour protecteur special, &amp; fondateur <persName xml:id="gdpLeMaire1685d1e16422">Louis XIII</persName> qui posa en personne, (ce qui n’arrive que rarement,) la premiere pierre à leur église, qu’il dedia à Dieu sous le titre de <objectName xml:id="gdpLeMaire1685d1e16425">Notre-Dame des Victoires</objectName>, en action de graces de toutes celles qu’il avoit remportées depuis le commencement de son regne, tant sur les ennemis de la Foy que sur ceux de ses Etats, &amp; orincipalement en mémoire de la derniere &amp; fameuse Victoire, qu’il venoit de remporter sur les Rochelois &amp; leurs Alliez, par la prise de <placeName xml:id="gdpLeMaire1685d1e16428">la Rochelle</placeName>, que les Heretiques regardoient comme un Boulevart imprenable. Cela paroist par l’inscription qui estoit gravée sur la pierre, en ces termes.</p>
                         <quote xml:lang="lat">
-                           <lb/>
                            <seg rend="capital">Ad majorem D.O.M. gloriam.</seg>
                            <p>Lud. XIII. Dei gratia Francorum &amp; Navarrae Rex christianissiumus, ubique victor, &amp; semper invictus, post tot insignes auxiliante deo reportatas Victorias, submissam inimicorum suorum superbiam, &amp; prostratam haeresis insolentiam, in perpetuum pietatis suae monumentum, hanc Ecclesiam Augustinia<pb/>
                               <fw type="pageNum">350</fw>norum discalcreatorum Conventus Parisiensis, sub titulo Dominae nostre de Victoriis fundavit. <lb/>Anno salutis 1629. die.29. Decembris <lb/>&amp; imperii sui 19.</p>
@@ -3875,8 +3867,7 @@
                         <p xml:id="gdpLeMaire1685T01BodyFr11.005.p010">Le grand tabernacle est aussi du dessein du sieur le Dic, representant le Temple de la Victoire, au milieu duquel est Nostre-Dame, laquelle est isolée pour estre vûë par les externes &amp; par les religieux au dedans de leur Choeur à chanter: les figures &amp; les ornemens de ce grand tabernacle sont de la main du sieur Jacquin sculpteur.<!-- S majuscule à Sieur? --></p>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.005.p011">Louis le Grand pour donner des marques de son estime &amp; de sa protection particuliere<pb/>
                            <fw type="pageNum">352</fw>envers cét ordre, en confirmant tous les privilèges &amp; Fondations de <persName xml:id="gdpLeMaire1685d1e16483">Louis XIII</persName> son pere, a bien voulu permettre <date when="1649-06-20">le 20 juin 1649</date> à ces religieux de porter dans leurs Armes générales d’honneur, l’écu d’azur, semé de fleurs de lys d’or, accompagné en coeur d’un petit écu d’or à trois coeurs de gueule, chargez de trois fleurs de lys d’or, deux &amp; une, entouré d’un chapellet d’or, marqué de croix patées de fable, chargée d’une petite Notre-Dame d’or, &amp; anglée de quatre petites fleurs de lys de mesme matiere, couronnée de l’ancienne Couronne de France, le tout orné d’un chapeau épiscopal, ayant pour suppost deux Peres de l’ordre, tenans chacun l’écu d’une main, &amp; de l’autre une crosse d’or semée de coeurs, &amp; de fleurs de lys de mesme, avec ces paroles gravées au tour.</p>
-                        <quote xml:lang="lat">
-                           <lb/>Sustentant lilia corda</quote>
+                        <quote xml:lang="lat">Sustentant lilia corda</quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.005.p012">Dans cette église il y a une confrérie tres devote de <placeName xml:id="gdpLeMaire1685d1e16494">Notre-Dame-de-Sept-Douleur</placeName>, érigée à un autel de mesme nom, qui est à costé gauche de cette église, pour la consolation des personnes affligées, dont la <persName xml:id="gdpLeMaire1685d1e16497">Reine Anne d’Autriche</persName> a bien voulu faire l’honneur à ces religieux de s’en rendre la Protectrice, le Chef &amp; la Regente Souveraine, ce sont là les propres termes qui sont <fw type="catchword">couchez</fw>
                            <pb/>
                            <fw type="pageNum">353</fw>couchez dans les Lettres Patentes, que cette princesse en fit delivrer <date when="1656-12-20">le 20 decembre 1656</date>.</p>
@@ -3965,8 +3956,7 @@
                            <persName xml:id="gdpLeMaire1685d1e16995">Le Curé de <expan>saint</expan>-Benoist</persName> en qualité de premier chapelain de la mesme église, est aussi en possession immemoriale de lever &amp; inhumer les corps de ses paroissiens decedez pendant la semaine qu’il fait l’Office à son tour au choeur, quoy que le chapitre de la mesme église y soit appellé; c’est ce que l’on peut voir par la lecture de l’arrest qui suit.</p>
                         <metamark rend="typographicalPiece"/>
                         <quote rend="italic">
-                           <hi rend="capital">Extrait des registres</hi>
-                           <lb/>du Parlement. <p>
+                           <hi rend="capital">Extrait des registres</hi> du Parlement. <p>
                               <hi rend="capital">
                                  <hi rend="initial">V</hi>e</hi>u par la Cour la requeste à elle presentée par <persName xml:id="gdpLeMaire1685d1e17013">Mesire Claude Grenet</persName> Prestre, Docteur en Sorbonne, &amp; curé de <persName xml:id="gdpLeMaire1685d1e17016">
                                  <expan>saint</expan>-Benoist</persName>, &amp; premier chapelain de la communauté de ladite église, à ce que pour les causes y contenues, il soit ordonné que le suppliant en ladite qualité de chapelain hebdomadaire levera le corps du nommé Clopejot, &amp; fera l’Office &amp; Service, qui sera celebré<pb/>
@@ -4024,8 +4014,7 @@
                         <fw type="pageNum">377</fw>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.010.p002">Cette chapelle n’a point d’autre fondation, &amp; n’est entrenuë que par les maçons &amp; charpentiers de Paris, qui y font chanter la grande messe tous les dimanches, &amp; les bonnes feste de l’année. Ils l’ont fait rebâtir en la presente <date when="1684">année 1684</date> comme l’on peut voir par l’inscription qu’ils ont fait poser au dessus de la porte, en ces termes.</p>
                         <quote rend="italic">
-                           <lb/>
-                           <hi rend="capital">Chapelle</hi>
+                           <hi rend="capital">Chapelle</hi> 
                            <lb/>De S. Blaise, de S. Louis, &amp; de S. Roch. <lb/>
                            <date when="1684">1684</date>
                         </quote>
@@ -4141,16 +4130,14 @@
                            <p>Ibi quoque condita est charissima conjux Susanna CHoart, Iacobi Choartii Illustris &amp; excelesae officiosissime coluisset, eumdem vita sunctum diutarna viduitate honestavit, pietate insignis, charitate erga miseros &amp; pauperes ferè impar, sacram hanc aediculam suis sumptibus extructam desideravit esse totius familiae conditorium obiit Ille 60. annos natus 6. ferbruarii an. 1618. Haec exactis 78. annis 19. Aprilis an. 15643. Superstites sacris &amp; regiis dignitatibus aucti pium hoc monumentum posuere.</p>
                         </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.014.p007">Aux costez de l’épitaphe que l’on vient de rapporter, il y en a deux autres. Voicy celle qui est à droite.</p>
-                        <quote xml:lang="lat">
-                           <lb/>D. O. M <p>Et gloriosis manibus Iacobi Talaei<fw type="catchword">Kk ij</fw>
+                        <quote xml:lang="lat">D. O. M <p>Et gloriosis manibus Iacobi Talaei<fw type="catchword">Kk ij</fw>
                               <pb/>
                               <fw type="pageNum">388</fw>Audomori &amp; Susannae Choartiae primogeniti, qui aetatis flore privatorum causis, mox advocatus généralis publicis regioque protrocinio in principe senatu annis 12 functus, in comitem consistorianum adscitus est; dein universas fereregniprovincia missus dominicus in se suscepit, terbatas composuit, pacatas placide rexit, cunctis quoque sacratissimi consilii Reique publicae negotiis occupatus mirum ingenii, integritatis, comitatisque fuit exemplar; sed praeclaras animi detes constans ejus pietas, indeficiensque tam erga suos quam erga miseros quosque charitas longe superavit, vir acri magnoque judicio, morum gravitate &amp; humilitate Chrisiana commendabilis: junc cita mors leni morbo trsti familiae cripuit beatiore vita remunerandum anno aetatis 60. 6. Maii 1648 praedecesserat an 1640. 19. Decemb. Catharina guessier uxorcharissima non impar virtutum: &amp; si radiis lucet mariti suosetiam habuit, quitus viro gratissima &amp; cunctis munificentissima extitit matrona nobilis in egenos adeo larga, ut nemini cesserit praeterquam viro.</p>
                         </quote>
                         <pb/>
                         <fw type="pageNum">389</fw>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.014.p008">L’épitaphe qui est au costé gauche, est conçeuë en ces termes.</p>
-                        <quote xml:lang="lat">
-                           <lb/>D. O. M. </quote>
+                        <quote xml:lang="lat">D. O. M. </quote>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.014.p009">Audomarus Talaeus Consistorianus Comes, &amp; in summo galliarum senatu Advocatus Regius, oratorum princeps in foro, patrum oraculum in curia, inter eruditos primus, improbis scopulus; miseris portus, regiae majestatis, autoritatis senatus, quietis publicae, formae judiciorum patriarum legum, religionis avitae, juris Ecclesiae Gallicanae vindex acerrimus, vir inivictae constantiae, integritatis incorruptae, cui unum idemque munus visum est Regis esse Advocatum &amp; populi civem optimum, qui Remp. difficillimo belli civilis tempore sapientissimis consiliis sustinuit Regi semper fidus, populo nunquam suspectus, hic situs est, sanctissimè obiit 29. Decembris an. 1652. aetatis suae 57. privatorum causas annis 15. regias 22. egit; Francisca Doujat marito incomparabili cum qou annis 27 suavissime vixit amoris luctusque sui monumentum fecit.</p>
                         <fw type="catchword">K k iij</fw>
                         <pb/>
@@ -4211,7 +4198,7 @@
                      <div xml:id="gdpLeMaire1685T01BodyFr11.017">
                         <head rend="italic">
                            <persName xml:id="gdpLeMaire1685d1e17866">
-                              <hi rend="capital">Les religieuses</hi>
+                              <hi rend="capital">Les religieuses</hi> 
                               <lb/>du Calvaire</persName>, au Fauxbourg <lb/>
                            <expan>saint</expan>-Germain</head>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.017.p001">
@@ -4225,7 +4212,7 @@
                      </div>
                      <div xml:id="gdpLeMaire1685T01BodyFr11.018">
                         <head rend="italic">
-                           <hi>Les religieuses</hi>
+                           <hi>Les religieuses</hi> 
                            <lb/>du Calvaire, au Marais</head>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.018.p001">
                            <hi rend="capital">
@@ -4236,9 +4223,7 @@
                         <head rend="italic">
                            <persName xml:id="gdpLeMaire1685d1e17968">
                               <hi rend="capital">Les Capucins,</hi>
-                           </persName>
-                           <lb/>
-                           <placeName xml:id="gdpLeMaire1685d1e17972">ruë <expan>saint</expan>-Honoré</placeName>
+                           </persName> <placeName xml:id="gdpLeMaire1685d1e17972">ruë <expan>saint</expan>-Honoré</placeName>
                         </head>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.019.p001">
                            <hi rend="capital">
@@ -4255,7 +4240,7 @@
                      <div xml:id="gdpLeMaire1685T01BodyFr11.020">
                         <metamark rend="typographicalPiece"/>
                         <head rend="italic">
-                           <hi rend="capital">Les Capucins</hi>
+                           <hi rend="capital">Les Capucins</hi> 
                            <lb/>du Fauxbourg <expan>saint</expan>-Jacques</head>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.020.p001">
                            <hi rend="capital">
@@ -4268,7 +4253,7 @@
                      <metamark rend="typographicalPiece"/>
                      <div xml:id="gdpLeMaire1685T01BodyFr11.021">
                         <head rend="italic">
-                           <hi rend="capital">Les Capucins</hi>
+                           <hi rend="capital">Les Capucins</hi> 
                            <lb/>du Marais</head>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.021.p001">
                            <hi rend="capital">
@@ -4280,7 +4265,7 @@
                      <div xml:id="gdpLeMaire1685T01BodyFr11.022">
                         <metamark rend="typographicalPiece"/>
                         <head rend="italic">
-                           <hi rend="capital">Les capucines</hi>
+                           <hi rend="capital">Les capucines</hi> 
                            <lb/>rue <expan>saint</expan>-Honoré</head>
                         <p xml:id="gdpLeMaire1685T01BodyFr11.022.p001">
                            <persName xml:id="gdpLeMaire1685d1e18119">
@@ -4466,10 +4451,10 @@
                      <fw type="pageNum">7</fw> d’avoir séance devant tous les premiers presidens des autres parlemens du royaume.</p>
                   <p xml:id="gdpLeMaire1685T03Body.03.p011">
                      <persName xml:id="gdpLeMaire1685d1e18744">Philippe le Long</persName> fit encore un autre reglement au Parlement l’an <date when="1319">1319</date> dont voicy la teneur.</p>
-                  <quote rend="italic"> Il est ordonné par le roy en son grand Conseil, sur l’état de son Parlement en la maniere qui s’ensuit.<lb/>
-                     <seg rend="roman">Premierement</seg>, il n’aura nuls prélats deputez en Parlement ; car le roy fait conscience de eux empescher au gouvernement de leurs spiritualitez.<lb/>
-                     <seg rend="roman">Item</seg>, en Parlement aura un baron ou deux, &amp; déjà le roy y met le <persName xml:id="gdpLeMaire1685d1e18760">Comte de Boulogne</persName>.<lb/>
-                     <seg rend="roman">Item</seg>, outre le chancelier &amp; l’abbé de Saint-Denis, y aura huit clercs &amp; douze laiz.<lb/> Es Enquestes y aura quatre personnes.<lb/>
+                  <quote rend="italic"> Il est ordonné par le roy en son grand Conseil, sur l’état de son Parlement en la maniere qui s’ensuit. <lb/> 
+                     <seg rend="roman">Premierement</seg>, il n’aura nuls prélats deputez en Parlement ; car le roy fait conscience de eux empescher au gouvernement de leurs spiritualitez. <lb/>
+                     <seg rend="roman">Item</seg>, en Parlement aura un baron ou deux, &amp; déjà le roy y met le <persName xml:id="gdpLeMaire1685d1e18760">Comte de Boulogne</persName>. <lb/>
+                     <seg rend="roman">Item</seg>, outre le chancelier &amp; l’abbé de Saint-Denis, y aura huit clercs &amp; douze laiz. <lb/> Es Enquestes y aura quatre personnes. <lb/>
                      <seg rend="roman">Item</seg>, aux Enquestes aura deux chambres, c’est à sçavoir une pour délivrer toutes les enquestes du temps passé jusqu’à aujourd’huy ; &amp; l’autre pour délivrer celles qui aviendront du jourd’huy en avant ; &amp; en celles deux <fw type="catchword">A iiij</fw>
                      <pb/>
                      <fw type="pageNum">8</fw> chambres aura huit clercs &amp; huit laiz jugeurs, &amp; vingt-quatre rapporteurs. </quote>
@@ -4896,7 +4881,7 @@
                <div xml:id="gdpLeMaire1685T03Body.13">
                   <metamark rend="typographicalPiece"/>
                   <head rend="italic alignCenter">
-                     <seg>La Jurisdiction</seg>
+                     <seg>La Jurisdiction</seg> 
                      <lb/> des Eaux &amp; Forests, &amp; Siege<lb/> des Grands Maistres, à la Table<lb/> de Marbre</head>
                   <p xml:id="gdpLeMaire1685T03Body.13.p001">
                      <seg>
@@ -4907,7 +4892,7 @@
                </div>
                <div xml:id="gdpLeMaire1685T03Body.14">
                   <metamark rend="typographicalPiece"/>
-                  <head rend="capitals italic alignCenter">Le Bailliage<lb/>du palais</head>
+                  <head rend="capitals italic alignCenter">Le Bailliage <lb/>du palais</head>
                   <p xml:id="gdpLeMaire1685T03Body.14.p001">
                      <seg>
                         <seg rend="initial">L</seg>’on</seg> a cy-devant remarqué en parlant du <objectName xml:id="gdpLeMaire1685d1e20817">Parlement</objectName>, qu’au temps que nos rois séjournoient en la ville de Paris, ils estoient presque toûjours logez au <placeName xml:id="gdpLeMaire1685d1e20820">palais</placeName>, situé au milieu de la ville. Ce <objectName xml:id="gdpLeMaire1685d1e20823">palais</objectName> aboutissoit de trois costez jusqu’à la rivière, sçavoir du costé du <placeName xml:id="gdpLeMaire1685d1e20826">quay des Morfondus</placeName>, du costé de <placeName xml:id="gdpLeMaire1685d1e20829">la rue neuve Sainte-Anne</placeName>, tirant vers <placeName xml:id="gdpLeMaire1685d1e20833">le quay aux Orfévres</placeName>, &amp; du costé du <placeName xml:id="gdpLeMaire1685d1e20836">pont-Neuf</placeName>, où estoit autrefois le jardin,<pb/>
@@ -4935,7 +4920,7 @@
                </div>
                <div xml:id="gdpLeMaire1685T03Body.16">
                   <metamark rend="typographicalPiece"/>
-                  <head rend="capitals italic alignCenter">La Prevosté<lb/>de l’Hostel</head>
+                  <head rend="capitals italic alignCenter">La Prevosté <lb/>de l’Hostel</head>
                   <p xml:id="gdpLeMaire1685T03Body.16.p001">
                      <seg>
                         <seg rend="initial">L</seg>e</seg> grand Prevost de l’Hostel connoist seul de toutes les causes &amp; matieres des marchands privilegiez suivans la Cour, que le vulgaire appelle, du grand Prevost ; &amp; il y a appel de ses sentences dans les causes civiles seulement, qui ressortissent au grand Conseil. Il connoist aussi sans appel de toutes matieres criminelles, crimes, delits, qui se commettent par ceux de la fuite de la Cour. Le grand Prevost a la faculté de donner des provisions d’officiers à un certain nombre de marchands, qu’on appelle privilegiez suivans la Cour, de toutes sortes d’arts &amp; marchandises. C’est aussi luy qui taxe le pain, le vin &amp; la viande, &amp; les autres denrées nécessaires pour la subsistance de la Cour.</p>
@@ -4968,8 +4953,8 @@
                   <metamark rend="simpleLine"/>
                   <quote rend="italic">
                      <seg rend="alignCenter">
-                        <seg>Edit du roy, pour</seg>
-                        <lb/> la réunion du Nouveau Châ-<lb/>telet à l’Ancien</seg>
+                        <seg>Edit du roy, pour</seg> 
+                        <lb/> la réunion du Nouveau Châ<lb/>telet à l’Ancien</seg>
                      <seg>
                         <seg rend="initial">L</seg>ouis</seg> par la grace de Dieu, roy de France &amp; de Navarre ; A tous presens &amp; à venir, salut. Les incommoditez que causoient aux habitans de nostre bonne ville de Paris, le grand nombre des justices subalternes, ausquelles selon la situation de leurs demeures, ils estoient obligez de répondre à raison des conflits que l’incertitude des limites desdites justices, &amp; la prévention des officiers de nostre Châtelet faisoient souvent naistre, &amp; pour autres bonnes &amp; importantes considerations : nous aurions par nostre édit du mois de <date when="1674-02">février 1674</date> registré où besoin a esté, réuni &amp; incorporé à la justice de nostredit Chastelet, &amp; où lesdites justices subalternes, tant du bailliage du palais que des seigneurs ;<pb/>
                      <fw type="pageNum">88</fw> &amp; en mesme temps pour faire promptement administrer la justice à nos sujets, en établissant un nombre considerable d’officiers, pour suppléer ceux dont les fonctions estoient cessées par ladite réunion ; nous aurions crée un second siege presidial, &amp; de la Prevosté &amp; Vicomté de Paris, lequel seroit composé entr’autres officiers d’un Prevost, d’un Lieutenant général civil, d’un Lieutenant général criminel, d’un Lieutenant particulier, d’un Procureur pour nous, d’un nombre considerable de conseillers &amp; d’autres officiers nécessaires, pour composer par lesdits officiers un seul &amp; mesme corps avec le siege, &amp; les officiers ja établis, &amp; jouir des mesmes dignitez, prérogatives, droits, pensions, vacations, &amp; émolumens dont jouissoient les officiers du chastelet, sans qu’il y eut aucune difference entre-eux, si ce n’est par la separation des territoires, dans lesquels lesdits sieges exerceroient la justice, &amp; que les lieutenans civils ancien &amp; nouveay, les lieutenans criminels &amp; particuliers, <fw type="catchword">nos</fw>
@@ -5107,7 +5092,7 @@
                <div xml:id="gdpLeMaire1685T03Body.20" type="part" n="3">
                   <fw type="pageNum">185</fw>
                   <metamark rend="headpiece"/>
-                  <head rend="capitals alignCenter">Les palais<lb/>et<lb/>les Hostels<lb/>de Paris</head>
+                  <head rend="capitals alignCenter">Les palais<lb/> et<lb/> les Hostels<lb/> de Paris</head>
                   <p xml:id="gdpLeMaire1685T03Body.20.p001">
                      <seg>
                         <seg rend="initial">Q</seg>uoy</seg> que l’on puisse juger facilement par tout ce que j’ay dit, que la ville de Paris est le sejour le plus agréable &amp; le plus charmant qui soit au monde, la retraite ou plûtost la demeure de toutes les Sciences &amp; des Beaux arts ; cependant afin d’en convaincre ceux qui en pourroient douter, l’on va encore la considerer dans la beauté de ses palais &amp; dans la magnificence des hostels les plus superbes qu’elle renferme.</p>
@@ -6428,14 +6413,12 @@
                   <p xml:id="gdpLeMaire1685T03Body.91.p001">
                      <seg>après</seg> avoir parlé des principaux hôtels qui sont dans Paris, l’on a crû estre obligé de dire un mot de quelques maisons particulieres, soit à cause qu’elles ont esté basties par d’habiles maistres &amp; que l’architecture y est observée plus regulierement que dans les autres ; ou bien parce qu’on y voit quelques pieces considerables de pein-<pb/>
                      <fw type="pageNum">298</fw> ture &amp; de sculpture, qui meritent d’estre remarquées.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p002">
                      <objectName xml:id="gdpLeMaire1685d1e26554">
                         <seg>
                            <seg rend="initial">L</seg>a</seg> maison où demeure <persName>Monsieur <seg>de Bretonvilliers</seg>
                         </persName>
                      </objectName>, président en la Chambre des comptes, est la maison la mieux située de tout Paris. Elle est à la pointe de l’<placeName xml:id="gdpLeMaire1685d1e26565">isle</placeName> &amp; a la rivière des deux costez. Cette maison est grande &amp; spacieuse &amp; peut fournir toutes les commoditez nécessaires pour loger un grand seigneur. Ce qu’on admire le plus en dedans, ce sont les peintures des chambres &amp; de la gallerie qui est à main gauche, elles sont de <persName xml:id="gdpLeMaire1685d1e26568">Monsieur le Brun</persName>. On y voit aussi des meubles magnifiques, des chenets, des tables, des miroirs, &amp; des garnitures de cheminées d’orfévrerie, des lits en broderie très riche, &amp; des tapisseries rehaussées d’or &amp; d’argent.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p003">
                      <objectName xml:id="gdpLeMaire1685d1e26573">
                         <seg>
@@ -6443,7 +6426,6 @@
                         </persName>
                      </objectName> aussi maistre des Comptes est proche celle de <persName xml:id="gdpLeMaire1685d1e26584">Monsieur de Bretonvilliers</persName>. Cette maison est très bien bastie &amp; rien n’y manque pour la rendre magnifique. Les corps de logis qui ont une face admirable du costé de la cour, sont ornez de grands pilastres joniques, qui prennent depuis le bas jusqu’au comble du bastiment avec des vases qui sont sur l’entablement. Les appartemens sont composez de plusieurs chambres de suite.<pb/>
                      <fw type="pageNum">299</fw> Dans celles du premier on voit des plafonds peints par <persName xml:id="gdpLeMaire1685d1e26591">le Sueur</persName>. Les <objectName xml:id="gdpLeMaire1685d1e26594">tableaux de l’alcove</objectName> où les muses sont representées avec les instrumens qui leur sont propres sont du mesme peintre ; il a fait aussi quelques tableaux au plafond qui est dans la <objectName xml:id="gdpLeMaire1685d1e26598">galerie</objectName>, que l’on distinguera facilement des autres, quoy qu’ils soient tous bien peints. Cette galerie est une des plus belles qui se puissent voir.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p004">
                      <objectName xml:id="gdpLeMaire1685d1e26603">
                         <seg>
@@ -6451,21 +6433,18 @@
                         </persName>
                      </objectName>, conseiller d’Etat ordinaire, &amp; chancelier de la feue Reine, a esté rebâtie depuis quatre à cinq ans. Elle est proche l’<placeName xml:id="gdpLeMaire1685d1e26614">Arsenal</placeName>. Les appartemens y sont très commodes, &amp; en enfilade : ce que les curieux y admirent les plus est <objectName xml:id="gdpLeMaire1685d1e26617">la Perspective</objectName> sur le mur voisin, peinte à fresque avec beaucoup d’imagination par <persName xml:id="gdpLeMaire1685d1e26620">Monsieur Rousseau</persName>. C’est une espece d’architecture, composée de deux arcades, avec des colonnes &amp; une statue entre deux. Au dessus il y a un quadran au soleil entouré de figures. Une femme entre autres arrache les plumes de la queue d’un coq pour marquer les heures sur une table &amp; le Temps est au dessus qui semble approuver ce qu’elle fait. Au dessus de la porte de la mesme maison l’on voit deux monstres très bien travaillez ; ils ont le visage d’une fille, le corps d’un chien, les griffes d’un<pb/>
                      <fw type="pageNum">300</fw> lion &amp; la queue d’un dragon. C’est la figure du monstre, à qui les poetes ont donné le nom de sphinx, qu’ils ont feint près de la ville de <placeName xml:id="gdpLeMaire1685d1e26628">Thebes</placeName>, où il proposoit des questions enigmatiques, &amp; devoroit ceux qui ne sçavoient deviner le sens de celle-cy, <q rend="italic"> Quel estoit l’animal qui avoit quatre pieds le matin, deux sur le midy, &amp; trois sur le soir </q>. <persName xml:id="gdpLeMaire1685d1e26634">Ædipe</persName> en vint a bout, &amp; fit connoistre que l’homme estoit cét animal qui se traînoit à quatre pieds avant qu’il sceut marcher, &amp; dans l’âge viril il se soûtenoit sur deux, &amp; enfin dans la vieillesse il avoit besoin d’un bâton, qui luy estoit un troisiéme pied. Le monstre de rage s’écrasa la teste contre un rocher.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p005">
                      <objectName xml:id="gdpLeMaire1685d1e26639">
                         <seg>
                            <seg rend="initial">L</seg>a</seg> maison du <persName>Sieur <seg>Jabac</seg>
                         </persName>
                      </objectName> est dans <placeName xml:id="gdpLeMaire1685d1e26650">la rue <expan>Saint</expan>-Merry</placeName>. Elle est considerable pour les bons tableaux qu’on y voit, &amp; le maistre si connoist des mieux de Paris.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p006">
                      <objectName xml:id="gdpLeMaire1685d1e26658">
                         <seg>
                            <seg rend="initial">L</seg>a</seg> maison où demeure <persName>Monsieur <seg>Roland</seg>
                         </persName>
                      </objectName>, <placeName xml:id="gdpLeMaire1685d1e26669">rue de Cleri</placeName> a esté bâtie sur les desseins de <persName xml:id="gdpLeMaire1685d1e26672">Monsieur des Argues</persName> architecte. Tout y est d’une grande apparence, ce qui fait juger qu’elle appartient à un homme de bon goust.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p007">
                      <objectName xml:id="gdpLeMaire1685d1e26678">
                         <seg>
@@ -6473,7 +6452,6 @@
                         </persName>
                      </objectName> sise, dans <placeName xml:id="gdpLeMaire1685d1e26689">la rue Conqueron</placeName> a esté bastie<pb/>
                      <fw type="pageNum">301</fw> depuis cinq ou six avec beaucoup de dépense. Ce qu’il y a de plus considerable ce sont les meubles magnifiques qui rendent cette maison une des plus propres de Paris.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p008">
                      <objectName xml:id="gdpLeMaire1685d1e26698">
                         <seg>
@@ -6481,14 +6459,12 @@
                               <expan>Saint</expan>-Pouange</seg>
                         </persName>
                      </objectName> est très bien bastie. Elle appartenoit auparavant à <persName xml:id="gdpLeMaire1685d1e26711">Monsieur de Bechamel</persName>, marquis de Nointel. Sur un des murs de la cour l’on voit <objectName xml:id="gdpLeMaire1685d1e26714">une belle perspective</objectName> peinte par le <persName xml:id="gdpLeMaire1685d1e26717">Sieur Rousseau</persName>, elle est estimée dans son genre pour la plus belle chose qu’on puisse voir, &amp; la magnifique architecture qui y est representée satisfait agréablement la vue de ceux qui la regardent.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p009">
                      <objectName xml:id="gdpLeMaire1685d1e26722">
                         <seg>
                            <seg rend="initial">L</seg>a</seg> maison de feu <persName>Monsieur le Marquis de <seg>Bonnœul</seg>
                         </persName>
                      </objectName>, introducteur des Ambassadeurs est dans <placeName xml:id="gdpLeMaire1685d1e26733">la rue Plastriere</placeName> : on doit y considerer une galerie remplie de tableaux du fameux <persName xml:id="gdpLeMaire1685d1e26736">Simon Vouet</persName>.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p010">
                      <objectName xml:id="gdpLeMaire1685d1e26741">
                         <seg>
@@ -6496,14 +6472,12 @@
                         </persName>
                      </objectName> est dans la mesme rue. Elle a conservé son nom de son ancien maistre feu <persName xml:id="gdpLeMaire1685d1e26752">Monsieur d’Herval</persName>, controlleur général des Finances ; c’est dans cette maison que l’on voit la plus belle chambre qui soit à Paris pour les peintures. Le sujet est sur <objectName xml:id="gdpLeMaire1685d1e26755">Apollon</objectName> ; dans le plafond le Parnasse est representé ; les figures y sont comme le naturel ; &amp; dans<pb/>
                      <fw type="pageNum">302</fw> la gorge du plafond il y a quatre tableaux peins sur des fonds d’or, &amp; deux sur les portes qui representent les principales actions du mesme dieu Apollon : les encogneures sont des groupes de figures qui conviennent au sujet faites par <persName xml:id="gdpLeMaire1685d1e26762">Monsieur Anguiere</persName> sculpteur ; c’est <persName xml:id="gdpLeMaire1685d1e26766">Monsieur Mignard</persName> qui a fait toutes les peintures de cette chambre. Il a aussi peint de sa main une chambre de la mesme maison, une antichambre &amp; plusieurs tableaux sur des cheminées, qui meritent d’estre vûs.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p011">
                      <objectName xml:id="gdpLeMaire1685d1e26771">
                         <seg>
                            <seg rend="initial">L</seg>a</seg> maison de <persName>Monsieur <seg>De Menars</seg>
                         </persName>
                      </objectName>, maistre des Requestes n’est pas bien éloignée de l’<placeName xml:id="gdpLeMaire1685d1e26782">Hostel Colbert</placeName>. Les sçavans peuvent y voir la biblioteque de <persName xml:id="gdpLeMaire1685d1e26785">Messieurs de Thou</persName> : comme les maistres à qui elle appartenoit autrefois estoient illustres par le rang qu’ils tenoient dans la robe &amp; dans la republique des lettres, l’on se persuade facilement qu’elle est nombreuse &amp; remplie de livres rares.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p012">
                      <objectName xml:id="gdpLeMaire1685d1e26791">
                         <seg>
@@ -6513,7 +6487,6 @@
                      <fw type="pageNum">303</fw> de plus rare à voir ; entr’autres trois busts en marbre faits par le <persName xml:id="gdpLeMaire1685d1e26812">Chevalier Bernin</persName>. Le premier est le <objectName xml:id="gdpLeMaire1685d1e26816">bust du <persName>Chevalier Bernin</persName>
                      </objectName> mesme, fait à <placeName xml:id="gdpLeMaire1685d1e26821">Rome</placeName> peu de temps avant sa mort. Le second est un <objectName xml:id="gdpLeMaire1685d1e26824">bust du Christ</objectName> ; &amp; <objectName xml:id="gdpLeMaire1685d1e26827">l’autre est de <persName>Monsieur de la Chambre Pere</persName>
                      </objectName>, dont j’ay parlé dans le chapitre de l’<placeName xml:id="gdpLeMaire1685d1e26832">église de <expan>Saint</expan>-Eustache</placeName>. Voyez la page 526 du premier tome. L’on voit encore chez <persName xml:id="gdpLeMaire1685d1e26838">Monsieur l’Abbé de la Chambre</persName> un grand nombre d’excellens livres &amp; des mieux choisis de toutes façons ; comme aussi des copies des plus belles pieces de <persName xml:id="gdpLeMaire1685d1e26842">Poussin</persName>, &amp; des modeles en cire de quelques statues de <persName xml:id="gdpLeMaire1685d1e26845">Bernin</persName>, avec plusieurs autres belles curiositez.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p013">
                      <objectName xml:id="gdpLeMaire1685d1e26850">
                         <seg>
@@ -6522,7 +6495,6 @@
                      </objectName>, intendant de la maison de feu <persName xml:id="gdpLeMaire1685d1e26861">Monsieur le prince</persName>, est sur <placeName xml:id="gdpLeMaire1685d1e26864">le quay Malaquest</placeName>, vis-à-vis <placeName xml:id="gdpLeMaire1685d1e26867">le Louvre</placeName>. Il faut y voir sur tout la gallerie qui donne sur la rivière, ornée de divers bons tableaux qui representent la derniere branche de la maison de Bourbon, qui commence par <objectName xml:id="gdpLeMaire1685d1e26870">Antoine roy de Navarre</objectName>, <objectName xml:id="gdpLeMaire1685d1e26873">Henry le Grand</objectName>, <objectName xml:id="gdpLeMaire1685d1e26877">Louis XIII</objectName>, <objectName xml:id="gdpLeMaire1685d1e26880">Louis XIV</objectName>
                      <objectName xml:id="gdpLeMaire1685d1e26882">Monseigneur le Dauphin</objectName>, <objectName xml:id="gdpLeMaire1685d1e26885">Monsieur</objectName>, <objectName xml:id="gdpLeMaire1685d1e26888">Monsieur le prince, son pere, son ayeul</objectName>, le <objectName xml:id="gdpLeMaire1685d1e26891">Duc d’Enguyen, &amp; ses enfans, avec les reines &amp; les princesses</objectName> qui sont tous d’excellens tableaux. Dans la chapelle de la mesme mai-<pb/>
                      <fw type="pageNum">304</fw> son, il y a un morceau de peinture representant <objectName xml:id="gdpLeMaire1685d1e26899">les sept sacremens</objectName>, du fameux <persName xml:id="gdpLeMaire1685d1e26902">Poussin</persName> ; l’<persName xml:id="gdpLeMaire1685d1e26905">Archiduc Leopold</persName> estant à Paris, voulut en donner mille pistoles ; on luy permit seulement de le faire copier. On y voit encore un tableau d’<persName xml:id="gdpLeMaire1685d1e26908">Albert Duret</persName>, fort estimé. Dans le jardin il y a <objectName xml:id="gdpLeMaire1685d1e26912">deux gladiateurs de bronze</objectName> de grandeur naturelle, <objectName xml:id="gdpLeMaire1685d1e26915">une Vénus</objectName>, <objectName xml:id="gdpLeMaire1685d1e26918">une Didon</objectName> qui se plonge un poignard dans le cœur, avec quantité d’urnes qui passent pour de très bonnes pieces.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p014">
                      <objectName xml:id="gdpLeMaire1685d1e26923">
                         <seg>
@@ -6531,7 +6503,6 @@
                               <expan>Monsieur</expan> Blondel</seg>
                         </persName>
                      </objectName> est dans <placeName xml:id="gdpLeMaire1685d1e26935">la rue de l’Université</placeName> au <placeName xml:id="gdpLeMaire1685d1e26938">fauxbourg Saint-Germain</placeName>. C’est un homme d’un merite singulier, &amp; il seroit assez difficile de dire quelque chose à son avantage que l’on ne sçache déja. Le roy persuadé de son exprerience &amp; de son profond sçavoir, l’a choisi pour enseigner les mathematiques à <persName xml:id="gdpLeMaire1685d1e26941">Monseigneur le Dauphin</persName>, &amp; l’a nommé Directeur de l’Academie royale d’Architecture, établie au <placeName xml:id="gdpLeMaire1685d1e26944">palais Brion</placeName>. Nous avons de luy quantité d’excellens ouvrages sur differente matiere, qui ont rendu le nom de leur auteur illustre dans le monde. Les curieux pourront voir chez luy des choses les plus rares qu’on puisse trouver dans Paris.</p>
-                  <lb/>
                   <p xml:id="gdpLeMaire1685T03Body.91.p015">
                      <seg>
                         <seg rend="initial">L</seg>e</seg> long de la rivière du costé de <placeName xml:id="gdpLeMaire1685d1e26954">la porte <expan>Saint</expan>-Bernard</placeName>, il y a une maison que le <fw type="catchword">Sieur</fw>
