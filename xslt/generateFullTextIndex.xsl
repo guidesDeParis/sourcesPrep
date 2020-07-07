@@ -13,7 +13,32 @@
   <xsl:output indent="yes" method="xml" encoding="UTF-8" />
   <xsl:strip-space elements="*"/>
   
-  <xsl:template match="tei:abbr | tei:bibl | tei:date | tei:emph | tei:expan | tei:foreign | tei:geo | tei:geoName | tei:hi | tei:item | tei:lg | tei:l | tei:list | tei:objectName | tei:persName | tei:placeName | tei:q | tei:quote | tei:ref | tei:rs | tei:seg | tei:sic | tei:soCalled | tei:supplied | tei:title | tei:unclear">
+  <xsl:template match="/">
+    <xsl:apply-templates mode="pass1"/>
+    <xsl:apply-templates mode="pass2"/>
+  </xsl:template>
+  
+  <xsl:template match="div[@type='item' or @type='section']">
+    <xsl:variable name="persons" select=".//tei:persName"/>
+    <xsl:variable name="places" select=".//tei:placeName"/>
+    <xsl:variable name="orgs" select=".//tei:orgName"/>
+    <xsl:variable name="objects" select=".//tei:objectName"/>
+    <xsl:apply-templates/>
+    <tei:div type="indexPersons">
+      <xsl:for-each select="$persons">
+        <xsl:call-template name="getOccurences">
+          <xsl:with-param name="id" select="."/>
+        </xsl:call-template>
+      </xsl:for-each>
+    </tei:div>
+    
+  
+  <xsl:template name="getOccurences">
+    <xsl:param name="id"/>
+    <tei:index ref="{$id}"></tei:index>
+  </xsl:template>
+  
+  <xsl:template match="tei:abbr | tei:bibl | tei:date | tei:emph | tei:expan | tei:foreign | tei:geo | tei:geogName | tei:hi | tei:item | tei:lg | tei:l | tei:list | tei:objectName | tei:orgName | tei:persName | tei:placeName | tei:q | tei:quote | tei:ref | tei:rs | tei:seg | tei:sic | tei:soCalled | tei:supplied | tei:title | tei:unclear" mode="pass2">
     <xsl:apply-templates />
   </xsl:template>
   

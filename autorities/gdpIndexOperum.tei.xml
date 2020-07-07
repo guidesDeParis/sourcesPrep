@@ -1656,6 +1656,15 @@
                </object>
             </listObject>
             <listObject>
+               <head>Palais du Louvre</head>
+               <object>
+                  <objectName>Grande galerie du Louvre</objectName>
+                  <listRelation>
+                     <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6539"/>
+                  </listRelation>
+               </object>
+            </listObject>
+            <listObject>
                <head>Bâtiments d’édilité</head>
                <object xml:id="opTheatreDeLHotelDeBourgogne">
                   <objectName>Théâtre de l’Hôtel de Bourgogne</objectName>

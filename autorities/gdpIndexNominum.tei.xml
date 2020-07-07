@@ -378,7 +378,9 @@
                         <date when="1674-08-12">12 août 1674</date>
                         <placeName>Paris</placeName>
                     </death>
+                    <sex value="1">male</sex>
                     <occupation>peintre</occupation>
+                    <note><p>test</p></note>
                     <idno type="isni">http://www.isni.org/isni/0000000121184193</idno>
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q314814</idno>
                     <idno type="agorah">https://agorha.inha.fr/inhaprod/ark:/54721/0023097</idno>
