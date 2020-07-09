@@ -405,7 +405,7 @@
         <xi:fallback>Fichier tei d’index des lieux non trouvé</xi:fallback>
     </xi:include>
     <!-- Inclusion du fichier tei des autorités -->
-    <xi:include href="autoritiegdpBrice1684d1e6486s/gdpIndexNominum.tei.xml" parse="xml">
+    <xi:include href="autoritiegdpBrice1684/gdpIndexNominum.tei.xml" parse="xml">
         <xi:fallback>Fichier tei d’index des personnes non trouvé</xi:fallback>
     </xi:include>
     <!-- Inclusion du fichier tei des autorités -->
