@@ -164,17 +164,17 @@
       <body>
          <div>
             <head>Index operum</head>
-            <listObject>
+            <!--<listObject>
                <head>test</head>
                <object xml:id="opTest">
                   <objectName type="preferred" xml:lang="fr">Cathédrale Notre-Dame (Paris)</objectName>
-                  <!-- lido:title/name Title / Name (mandatory) -->
+                  <!-\- lido:title/name Title / Name (mandatory) -\->
                   <classification>
                      <type>
                         <label>cathédrale</label>
                         <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-92</idno>
                      </type>
-                     <!-- lido: Objet / Work type (mandatory) -->
+                     <!-\- lido: Objet / Work type (mandatory) -\->
                      <category />
                   </classification>
                   <location>
@@ -202,9 +202,10 @@
                      </event>
                   </listEvent>
                </object>
-            </listObject>
+            </listObject>-->
             <listObject>
                <head>Édifices religieux</head>
+               <!--<head>Lieux de culte et édifices conventuels</head>-->
                <object xml:id="opNDAssomption">
                   <objectName>Église Notre-Dame-de-l’Assomption</objectName>
                   <classification>
@@ -279,6 +280,12 @@
                <head>Maisons et hôtels particuliers</head>
                <object>
                   <objectName>Communauté Sainte-Aure</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>29, rue Lhomond</addrLine>
@@ -288,6 +295,12 @@
                </object>
                <object>
                   <objectName>Hôtel des Abbés de Fécamp</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>5, rue de Hautefeuille</addrLine>
@@ -306,6 +319,12 @@
                </object>
                <object>
                   <objectName>Hôtel d’Aguesseau</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <note>
                      <p>Propriété de Henri François d’Aguesseau (1668-1751)</p>
                      <p> Au n° 18 de la rue Séguier se sont succédé un Hôtel d'Eu (1300), d'Artois (1352), de Nevers (1472), de l'Etoile (1536), d'Aguesseau (1635). </p>
@@ -329,6 +348,12 @@
                </object>
                <object>
                   <objectName>Hôtel d’Aiguillon</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>33, rue de Verneuil</addrLine>
@@ -344,6 +369,12 @@
                </object>
                <object>
                   <objectName>Hôtel Jeanne d’Albret</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>31, rue des Francs-Bourgeois</addrLine>
@@ -362,6 +393,12 @@
                   <objectName>Hôtel de Beauharnais</objectName>
                   <objectName>Hôtel d’Harlay</objectName>
                   <objectName>Hôtel de Maupéou</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <adress>
                         <addrLine>15, rue de l’Université</addrLine>
@@ -382,6 +419,12 @@
                   <objectName>Hôtel d’Almeyras</objectName>
                   <objectName>Hôtel d’Alméras</objectName>
                   <objectName>Hôtel de Fourcy</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>30, rue des Francs-Bourgeois</addrLine>
@@ -399,6 +442,12 @@
                <object>
                   <objectName>Hôtel des Ambassadeurs de Hollande</objectName>
                   <objectName>Hôtel Amelot de Bisseuil</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>47, rue Vieille-du-Temple</addrLine>
@@ -415,6 +464,12 @@
                <object>
                   <objectName>Hôtel d’Argenson</objectName>
                   <objectName>Chancellerie d’Orléans</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>19, rue des Bons-Enfants</addrLine>
@@ -432,6 +487,12 @@
                </object>
                <object>
                   <objectName>Hôtel d’Aubray</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>12, rue Charles V</addrLine>
@@ -447,6 +508,12 @@
                <object>
                   <objectName>Hôtel d’Armenonville</objectName>
                   <status>détruit</status>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>rue Plâtrière</addrLine>
@@ -463,6 +530,12 @@
                </object>
                <object>
                   <objectName> Hôtel d’Arvers</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>12, quai d'Orléans</addrLine>
@@ -478,6 +551,12 @@
                <object>
                   <objectName>Hôtel d’Asfeld</objectName>
                   <objectName>Hôtel Rochambeau</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>40, rue du Cherche-Midi</addrLine>
@@ -492,6 +571,12 @@
                </object>
                <object>
                   <objectName>Hôtel d'Asfeldt</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>16, place des Vosges</address>
                      <district type="arr">4</district>
@@ -653,7 +738,7 @@
                      >https://www.pop.culture.gouv.fr/notice/merimee/PA00086026</idno>
                   <idno type="wikidata">https://www.wikidata.org/wiki/Q60291383</idno>
                </object>
-               <object>
+               <object xml:id="opHotelDeBourienne">
                   <objectName>Hôtel de Bourienne</objectName>
                   <location>
                      <address>
@@ -662,7 +747,7 @@
                   </location>
                   <ref>Pillement 1945, I, 58, p. XXVI</ref>
                </object>
-               <object>
+               <object xml:id="opHotelDeBrancas">
                   <objectName>Hôtel de Brancas</objectName>
                   <location>
                      <address>
@@ -671,7 +756,7 @@
                   </location>
                   <ref>Pillement 1945, II, 8, p. XVIII</ref>
                </object>
-               <object>
+               <object xml:id="opHotelDeBraque">
                   <objectName>Hôtel de Braque</objectName>
                   <location>
                      <address>
@@ -680,7 +765,7 @@
                   </location>
                   <ref>Pillement 1945, I, 34, p. XXII</ref>
                </object>
-               <object>
+               <object xml:id="opHotelDeBreteuil">
                   <objectName>Hôtel de Breteuil</objectName>
                   <location>
                      <address>
@@ -690,7 +775,7 @@
                   </location>
                   <idno type="merimee">PA00086155</idno>
                </object>
-               <object>
+               <object xml:id="opHotelDeBroglie">
                   <objectName>Hôtel de Broglie</objectName>
                   <location>
                      <address>
@@ -699,7 +784,7 @@
                   </location>
                   <ref>Pillement 1945, II, 31, p. XXI-XXII</ref>
                </object>
-               <object>
+               <object xml:id="opHotelBruant">
                   <objectName>Hôtel Bruant</objectName>
                   <location>
                      <address>
@@ -708,7 +793,7 @@
                   </location>
                   <ref>Pillement 1945, I, 19, p. XX</ref>
                </object>
-               <object>
+               <object xml:id="opHotelCarnavalet">
                   <objectName>Hôtel Carnavalet</objectName>
                   <location>
                      <address>
@@ -717,7 +802,7 @@
                   </location>
                   <ref>Pillement 1945, I, 6, p. XVIII</ref>
                </object>
-               <object>
+               <object xml:id="opHotelCassini">
                   <objectName>Hôtel Cassini</objectName>
                   <location>
                      <address>
@@ -726,8 +811,14 @@
                   </location>
                   <ref>Pillement 1945, II, 17, p. XIX</ref>
                </object>
-               <object>
+               <object xml:id="opHotelDeCavoie">
                   <objectName>Hôtel de Cavoie</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>52, rue des Saints-Pères</addrLine>
@@ -1078,8 +1169,23 @@
                   </location>
                   <idno type="merimee">PA00086155</idno>
                </object>
-               <object>
+               <object xml:id="opHotelLambert">
                   <objectName>Hôtel Lambert</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
+                  <creation>
+                     <author ref="#nomLeVauLouis">
+                        <persName>
+                           <forename>Louis</forename>
+                           <surname>Le Vau</surname>
+                        </persName>
+                     </author>
+                     <date from="1640" to="1644">1640 à 1644</date>
+                  </creation>
                   <location>
                      <address>
                         <addrLine>2, rue Saint-Louis-en-l’Isle (Île Saint-Louis)</addrLine>
@@ -1089,6 +1195,12 @@
                   <ref>Pillement 1945, II, 51, p. XXV</ref>
                   <ref>Dictionnaire des monuments de Paris, 1995, p. 407-408</ref>
                   <idno type="rameau">https://catalogue.bnf.fr/ark:/12148/cb13321934j</idno>
+                  <idno type="wikidata">https://www.wikidata.org/wiki/Q1643082</idno>
+                  <listRelation>
+                     <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26573"/>
+                     <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8256"/>
+                     <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e175552 #gdpPiganiol1742d1e175555"/>
+                  </listRelation>
                </object>
                <object>
                   <objectName>Hôtel Lamoignon</objectName>
@@ -1321,8 +1433,14 @@
                   </location>
                   <ref>Pillement 1945, II, 37, p. XXII</ref>
                </object>
-               <object>
+               <object xml:id="opHotelDeRohan">
                   <objectName>Hôtel de Rohan</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>87, rue Vieille-du-Temple</addrLine>
@@ -1358,7 +1476,7 @@
                   </location>
                   <ref>Pillement 1945, I, 52, p. XXV</ref>
                </object>
-               <object>
+               <object xml:id="opHotelSale">
                   <objectName>Hôtel Salé</objectName>
                   <objectName>Hôtel de Juigné</objectName>
                   <location>
@@ -1384,8 +1502,14 @@
                   </location>
                   <ref>Pillement 1945, II, 19, p. XX</ref>
                </object>
-               <object>
+               <object xml:id="opHotelSoubise">
                   <objectName>Hôtel Soubise</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>60, rue des Francs-Bourgeois</addrLine>
@@ -1499,8 +1623,14 @@
                   </location>
                   <ref>Pillement 1945, II, 21, p. XX</ref>
                </object>
-               <object>
+               <object xml:id="opHotelDeSully">
                   <objectName>Hôtel de Sully</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>62, rue Saint-Antoine</addrLine>
@@ -1555,6 +1685,12 @@
                </object>
                <object>
                   <objectName>Hôtel de Villeroy</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>78, rue de Varenne</addrLine>
@@ -1564,6 +1700,12 @@
                </object>
                <object>
                   <objectName>Hôtel de la Vaupalière</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>85, rue du Faubourg-Saint-Honoré</addrLine>
@@ -1574,6 +1716,12 @@
                <object>
                   <objectName>Hôtel du Grand Veneur</objectName>
                   <objectName>Hôtel d’Ecquevilly</objectName>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
                   <location>
                      <address>
                         <addrLine>60, rue de Turenne</addrLine>
@@ -2814,10 +2962,38 @@
                   <relation ref="#locQuartierIleNotreDame" />
                   <num>233</num>
                </object>
-               <object xml:id="d1e1409">
-                  <objectName full="yes">Maison de Monsieur de Bretonvilliers</objectName>
+               <object xml:id="opHotelDeBretonvilliers">
+                  <objectName full="yes">Hôtel de Bretonvilliers</objectName>
+                  <creation>
+                     <author ref="#nomAndrouetDuCerceauJean">
+                        <persName>
+                           <forename>Jean</forename>
+                           <surname>Androuet du Cerceau</surname>
+                        </persName>
+                     </author>
+                     <date from="1637" to="1642">1637 à 1642</date>
+                  </creation>
+                  <location>
+                     <address>
+                        <addrLine>1, quai de Béthune</addrLine>
+                        <settlement>Paris</settlement>
+                     </address>
+                  </location>
+                  <classification>
+                     <type>
+                        <label>hôtel</label>
+                        <idno>http://data.culture.fr/thesaurus/page/ark:/67717/T96-517</idno>
+                     </type>
+                  </classification>
+                  <idno type="wikidata">https://www.wikidata.org/wiki/Q3145767</idno>
+                  <idno type="rameau">https://catalogue.bnf.fr/ark:/12148/cb15899735v</idno>
                   <relation ref="#locQuartierIleNotreDame" />
                   <num>237</num>
+                  <listRelation>
+                     <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26554"/>
+                     <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8303"/>
+                     <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15770 #gdpPiganiol1742d1e85302"/>
+                  </listRelation>
                </object>
                <object xml:id="d1e1415">
                   <objectName full="yes">Maison de Monsieur l’abbé de Sainte-Croix</objectName>
@@ -3810,7 +3986,7 @@
                   <relation type="locus" rel="#gdpBrice1684T02BodyFr07.003" />
                </object>
                <object xml:id="d1e2565">
-                  <objectName full="yes">Inscription qui sont autour du piedestal de la statue d’Henri IV</objectName>
+                  <objectName full="yes">Inscription qui sont autour du piédestal de la statue d’Henri IV</objectName>
                   <num>
                      <sic>190</sic>
                   </num>

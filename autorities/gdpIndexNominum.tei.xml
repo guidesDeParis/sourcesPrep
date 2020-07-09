@@ -208,6 +208,32 @@
                     <persName />
                     <sex value="1">male</sex>
                 </person>
+                <person xml:id="nom">
+                    <persName>madame de Locmaria</persName>
+                    <listRelation>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e175561"/>
+                    </listRelation>
+                </person>
+                <person xml:id="nomLambertDeThorigny">
+                    <persName>Lambert de Thorigny, Jean-Baptiste</persName>
+                    <listRelation>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e175558"></relation>
+                    </listRelation>
+                </person>
+                <person xml:id="nomLeRagoisDeBretonvilliersClaude">
+                    <persName>Le Ragois de Bretonvilliers, Claude (1582-1645)</persName>
+                    <occupation>Chevalier, conseiller d’État, receveur des finances de Limoges (1617), secrétaire du roi (1631), secrétaire du Conseil</occupation>
+                    <birth>
+                        <date when="1582">1582</date>
+                    </birth>
+                    <death>
+                        <date when="1645">1645</date>
+                    </death>
+                    <listRelation>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26584"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15731"/>
+                    </listRelation>
+                </person>
             </listPerson>
             <listPerson>
                 <head>Souverains de la couronne de France</head>
@@ -458,6 +484,56 @@
                         <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26591 #gdpLeMaire1685d1e5083"/>
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e17786 #gdpPiganiol1742d1e83487 #gdpPiganiol1742d1e84147 #gdpPiganiol1742d1e84252 #gdpPiganiol1742d1e84258 #gdpPiganiol1742d1e134575 #gdpPiganiol1742d1e134597 #gdpPiganiol1742d1e134600 #gdpPiganiol1742d1e134748 #gdpPiganiol1742d1e160222 #gdpPiganiol1742d1e160484 #gdpPiganiol1742d1e160525 #gdpPiganiol1742d1e203960 #gdpPiganiol1742d1e12839 #gdpPiganiol1742d1e12978 #gdpPiganiol1742d1e13295 #gdpPiganiol1742d1e15656 #gdpPiganiol1742d1e15666 #gdpPiganiol1742d1e15683 #gdpPiganiol1742d1e15688 #gdpPiganiol1742d1e15701 #gdpPiganiol1742d1e15710"/>
                     </listRelation>
+                </person>
+                <person>
+                    <persName>Le Brun, Charles (1619-1690)</persName>
+                    <birth>
+                        <date when=" 1619-02-24">24 février 1619</date>
+                        <placeName>Paris</placeName>
+                    </birth>
+                    <death>
+                        <date when=" 1690-02-12">12 février 1690</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <occupation>peintre</occupation>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb120282726</idno>
+                    <idno type="isni">http://isni.org/isni/0000000121016536</idno>
+                    <listRelation>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26568"/>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8322"/>
+                    </listRelation>
+                </person>
+                <person xml:id="nomAndrouetDuCerceauJean">
+                    <persName>Androuet du Cerceau, Jean (1585-1649)</persName>
+                    <persName>
+                        <forename>Jean</forename>
+                        <surname>Androuet du Cerceau</surname>
+                    </persName>
+                    <birth>
+                        <date when="1585">1585</date>
+                    </birth>
+                    <death>
+                        <date when="1649">1649</date>
+                    </death>
+                    <occupation>architecte</occupation>
+                    <idno type="viaf">https://viaf.org/processed/DNB%7C116232048</idno>
+                </person>
+                <person xml:id="nomLeVauLouis">
+                    <persName>Le Vau, Louis (1612-1670)</persName>
+                    <persName>
+                        <forename>Louis</forename>
+                        <surname>Le Vau</surname>
+                    </persName>
+                    <birth>
+                        <placeName>Paris</placeName>
+                        <date when="1612">1612</date>
+                    </birth>
+                    <death>
+                        <placeName>Paris</placeName>
+                        <date when="1670-10-11">11 octobre 1670</date>
+                    </death>
+                    <occupation>architecte</occupation>
+                    <idno type="isni">http://isni.org/isni/0000000083509195</idno>
                 </person>
             </listPerson>
             <listPerson>
