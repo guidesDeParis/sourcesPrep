@@ -6,6 +6,7 @@
    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
     Guides de Paris, Germain Brice, 1684 
    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+   @todo check empty label or empty supplied in label
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader type="text">
@@ -315,7 +316,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e812">L’attelier de M. Girardon</placeName>
                                  </supplied>
-                              </label>On travaille en sculpture en deux endroits différens du Louvre. <persName xml:id="gdpBrice1684d1e815">M. Girardon</persName> a son atelier sous le cabinet des tableaux, où l’on voit quelques statues que l’on achève pour <placeName xml:id="gdpBrice1684d1e818">Versailles</placeName>. C’est dans ce lieu que celles de la grotte ont été faites. L’on y remarquera <objectName xml:id="gdpBrice1684d1e821">le modelle du tombeau du cardinal de Richelieu</objectName>, qui <pb/>
+                              </label> On travaille en sculpture en deux endroits différens du Louvre. <persName xml:id="gdpBrice1684d1e815">M. Girardon</persName> a son atelier sous le cabinet des tableaux, où l’on voit quelques statues que l’on achève pour <placeName xml:id="gdpBrice1684d1e818">Versailles</placeName>. C’est dans ce lieu que celles de la grotte ont été faites. L’on y remarquera <objectName xml:id="gdpBrice1684d1e821">le modelle du tombeau du cardinal de Richelieu</objectName>, qui <pb/>
                               <fw type="pageNum">17</fw>doit estre placé dans <placeName xml:id="gdpBrice1684d1e829">l’église de la Sorbonne</placeName>.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr01.001.002" type="section">
@@ -333,7 +334,7 @@
                               <label>
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e871">L’Académie françoise</placeName> &amp; le nom des académiciens</supplied>
-                              </label>On ne doit pas surtout négliger de voir avant de sortir du Louvre la salle où s’assemble les messieurs de <orgName>l’Académie françoise</orgName>, que <pb/>
+                              </label> On ne doit pas surtout négliger de voir avant de sortir du Louvre la salle où s’assemble les messieurs de <orgName>l’Académie françoise</orgName>, que <pb/>
                               <fw type="pageNum">18</fw>le roy honore d’une protection si particulière qu’il a voulu qu’ils s’assemblassent dans son propre palais. Cette illustre académie est composée de personne sçavantes qui travaillent incessamment à perfectionner la langue françoise. Ils s’assemblent trois fois par semaine. Voicy les noms de ceux qui la composent à présent :</p>
                            <list>
                               <item>
@@ -429,7 +430,7 @@
                            <p xml:id="gdpBrice1684T01BodyFr01.001.004.p001">
                               <label>
                                  <supplied>Les modèles du grand escalier du Louvre</supplied>
-                              </label>Dans une salle au travers de laquelle il faut passer pour y aller, on voit deux modèles que l’on a fait pour le grand escalier du Louvre, dont le plus beau est du fameux <persName xml:id="gdpBrice1684d1e1093">Mansard</persName>, l’autre est de <persName xml:id="gdpBrice1684d1e1096">M. du Veau</persName>, ce<pb/>
+                              </label> Dans une salle au travers de laquelle il faut passer pour y aller, on voit deux modèles que l’on a fait pour le grand escalier du Louvre, dont le plus beau est du fameux <persName xml:id="gdpBrice1684d1e1093">Mansard</persName>, l’autre est de <persName xml:id="gdpBrice1684d1e1096">M. du Veau</persName>, ce<pb/>
                               <fw type="pageNum">22</fw>luy-là mesme qui a donné le dessein des nouveaux bâtimens de <placeName xml:id="gdpBrice1684d1e1103">Vincennes</placeName> ; mais celuy du premier l’emporte infiniment sur l’autre en grandeur de goût &amp; dans la hardiesse du dessein.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr01.001.005" type="section">
@@ -438,7 +439,7 @@
                                  <supplied>
                                     <objectName xml:id="gdpBrice1684d1e1110">Le modèle de la statue du roi à cheval de M. Girardon</objectName>
                                  </supplied>
-                              </label>Dans <placeName xml:id="gdpBrice1684d1e1113">le vieux jeu de paume</placeName> qui est resté au milieu de la cour, on travaille à <objectName xml:id="gdpBrice1684d1e1116">un modèle d’une statue du roy à cheval</objectName>, élevée sur un grand rocher, avec des ennemis abatus à ses pieds &amp; quatre fleuves dessus qui abandonnent leurs urnes, épouvanvez de voir ce grand monarque arrivé au sommet de sa gloire. On ne peut rien de plus grand que cet ouvrage, &amp; si on l’exécute de la mesme manière on ne verra point en Europe un plus magnifique monument. Il est du dessein de <persName xml:id="gdpBrice1684d1e1119">M. Girardon</persName>.</p>
+                              </label> Dans <placeName xml:id="gdpBrice1684d1e1113">le vieux jeu de paume</placeName> qui est resté au milieu de la cour, on travaille à <objectName xml:id="gdpBrice1684d1e1116">un modèle d’une statue du roy à cheval</objectName>, élevée sur un grand rocher, avec des ennemis abatus à ses pieds &amp; quatre fleuves dessus qui abandonnent leurs urnes, épouvanvez de voir ce grand monarque arrivé au sommet de sa gloire. On ne peut rien de plus grand que cet ouvrage, &amp; si on l’exécute de la mesme manière on ne verra point en Europe un plus magnifique monument. Il est du dessein de <persName xml:id="gdpBrice1684d1e1119">M. Girardon</persName>.</p>
                            <metamark rend="tailpiece"/>
                         </div>
                      </div>
@@ -536,7 +537,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e1465">Le balancier du roi</placeName>
                                  </supplied>
-                              </label>Le balancier du roy est aussi en cet endroit. C’est où l’on fait des médailles &amp; des jetons d’or, d’argent &amp; de cuivre. <persName xml:id="gdpBrice1684d1e1468">M. l’abbé Bizot</persName>, un des plus intelligens &amp; des plus habiles curieux de Paris, en a eu la direction autrefois, après <persName xml:id="gdpBrice1684d1e1471">le fameux <pb/>
+                              </label> Le balancier du roy est aussi en cet endroit. C’est où l’on fait des médailles &amp; des jetons d’or, d’argent &amp; de cuivre. <persName xml:id="gdpBrice1684d1e1468">M. l’abbé Bizot</persName>, un des plus intelligens &amp; des plus habiles curieux de Paris, en a eu la direction autrefois, après <persName xml:id="gdpBrice1684d1e1471">le fameux <pb/>
                                  <fw type="pageNum">36</fw>Varin</persName>. L’on ne peut rien désirer de plus curieux que son cabinet, qui est tout remply de tableaux, de médailles antiques et modernes, d’agates, de figures de bronze, de porcelaine &amp; de mille autres choses de cette sorte.</p>
                            <p xml:id="gdpBrice1684T01BodyFr01.003.007.p002">La petite écurie occupe le reste. Elle est très longue &amp; remplie de fort beaux chevaux.</p>
                         </div>
@@ -638,7 +639,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e1874">Le cabinet de M. le chevalier de Loraine</placeName>
                               </supplied>
-                           </label>Il ne faut pas oublier d’aller voir <placeName xml:id="gdpBrice1684d1e1877">le cabinet de monsieur le chevalier de Lorraine</placeName>, où il y a des tableaux très curieux des meilleurs maîtres. Il est proche du jardin, ce qui ne contribue pas peu à sa beauté.</p>
+                           </label> Il ne faut pas oublier d’aller voir <placeName xml:id="gdpBrice1684d1e1877">le cabinet de monsieur le chevalier de Lorraine</placeName>, où il y a des tableaux très curieux des meilleurs maîtres. Il est proche du jardin, ce qui ne contribue pas peu à sa beauté.</p>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr02.006" type="section">
                         <p xml:id="gdpBrice1684T01BodyFr02.006.p001">
@@ -646,7 +647,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e1884">Le théâtre de l’opéra</placeName>
                               </supplied>
-                           </label>Dans une salle de ce palais est <placeName xml:id="gdpBrice1684d1e1887">le théâtre</placeName> où l’on représente les opéra du fameux <persName xml:id="gdpBrice1684d1e1890">M. de Lully</persName>, qui attirent tous les jours une foule de personnes qui aiment la musique. On ne donne point en Europe de plus agréables spectacles, soit pour la dance, soit pour la symphonie, ou enfin pour la singularité des habits ; mais ce que l’on doit considérer davantage est l’accord merveilleux de la musique françoise avec l’italienne, qui avoit esté regardée auparavant comme une chose impossible &amp; ou cependant cet auteur a très bien réussi, aussi le goûst du siècle a sçu récompenser son génie extraordinaire, car il tire un très grand profit de la représen<pb/>
+                           </label> Dans une salle de ce palais est <placeName xml:id="gdpBrice1684d1e1887">le théâtre</placeName> où l’on représente les opéra du fameux <persName xml:id="gdpBrice1684d1e1890">M. de Lully</persName>, qui attirent tous les jours une foule de personnes qui aiment la musique. On ne donne point en Europe de plus agréables spectacles, soit pour la dance, soit pour la symphonie, ou enfin pour la singularité des habits ; mais ce que l’on doit considérer davantage est l’accord merveilleux de la musique françoise avec l’italienne, qui avoit esté regardée auparavant comme une chose impossible &amp; ou cependant cet auteur a très bien réussi, aussi le goûst du siècle a sçu récompenser son génie extraordinaire, car il tire un très grand profit de la représen<pb/>
                            <fw type="pageNum">49</fw>tation de ses pièces, dont les vers sont ordinairement de <persName xml:id="gdpBrice1684d1e1897">monsieur Quinault</persName>, de l’Académie françoise. <persName xml:id="gdpBrice1684d1e1901">Monsieur Corneille le Jeune</persName> y a aussi travaillé &amp; c’est luy qui a fait Bellorophon. En continuant son chemin, on trouve :</p>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr02.007" type="section">
@@ -673,7 +674,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e1942">La maison de M. Pussort</placeName>
                                  </supplied>
-                              </label>On pourra voir ensuite le portail d’ordre ionique de <placeName xml:id="gdpBrice1684d1e1945">la maison de monsieur Pussort</placeName>, conseiller d’Estat, bâti nouvellement, avec un attique au-dessus, dans lequel sont les armes du maître du logis. C’est un morceau d’architecture d’un très bon goûst. La maison au dedans est belle, surtout du côté du jardin, qui est très beau &amp; très agréable.</p>
+                              </label> On pourra voir ensuite le portail d’ordre ionique de <placeName xml:id="gdpBrice1684d1e1945">la maison de monsieur Pussort</placeName>, conseiller d’Estat, bâti nouvellement, avec un attique au-dessus, dans lequel sont les armes du maître du logis. C’est un morceau d’architecture d’un très bon goûst. La maison au dedans est belle, surtout du côté du jardin, qui est très beau &amp; très agréable.</p>
                         </div>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr02.010" type="section">
@@ -702,7 +703,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e2079">La pépinière</placeName>
                                  </supplied>
-                              </label>Après cette course, l’on ne doit pas aller plus loin, car il n’y a rien de considérable dans <placeName xml:id="gdpBrice1684d1e2082">le faux-bourg de Saint-Honoré</placeName>, si ce n’est <placeName xml:id="gdpBrice1684d1e2085">l’atelier de monsieur Anguerre</placeName>, où il y a quelques ouvrages de sculpture, &amp; <placeName xml:id="gdpBrice1684d1e2088">la pépinière</placeName>, où l’on voit au printemps de très belles fleurs. Elle appartient au roy, qui l’a fait faire afin de fournir aux <placeName xml:id="gdpBrice1684d1e2091">Tuileries</placeName> toutes les fleurs dont on a besoin pour garnir les parterres. Il y a aussi un <pb/>
+                              </label> Après cette course, l’on ne doit pas aller plus loin, car il n’y a rien de considérable dans <placeName xml:id="gdpBrice1684d1e2082">le faux-bourg de Saint-Honoré</placeName>, si ce n’est <placeName xml:id="gdpBrice1684d1e2085">l’atelier de monsieur Anguerre</placeName>, où il y a quelques ouvrages de sculpture, &amp; <placeName xml:id="gdpBrice1684d1e2088">la pépinière</placeName>, où l’on voit au printemps de très belles fleurs. Elle appartient au roy, qui l’a fait faire afin de fournir aux <placeName xml:id="gdpBrice1684d1e2091">Tuileries</placeName> toutes les fleurs dont on a besoin pour garnir les parterres. Il y a aussi un <pb/>
                               <fw type="pageNum">55</fw>grand nombre d’orangers qui sont très bien entretenus.</p>
                            <p xml:id="gdpBrice1684T01BodyFr02.011.001.p002">Devant <placeName xml:id="gdpBrice1684d1e2101">les filles de l’Assomption</placeName>, est :</p>
                         </div>
@@ -990,7 +991,7 @@
                                  <supplied>
                                     <objectName xml:id="gdpBrice1684d1e3015">Les statues antiques</objectName>
                                  </supplied>
-                              </label>Dans une galerie basse, l’on conserve quantité de <objectName xml:id="gdpBrice1684d1e3018">busts &amp; de statues antiques que le roy a fait venir d’Italie</objectName>. Il y en a un nombre très considérable, qui sont rangez sur des degrez en manière d’amphithéâtre. Dans le mesme lieu, il y a <objectName xml:id="gdpBrice1684d1e3021">un modèle en plâtre de la belle colonne que le sénat &amp; le peuple romain consacrèrent à la mémoire de l’empereur Trajan</objectName>, qui est le plus beau monument resté de l’ancienne grandeur de <geogName>Rome</geogName>, où l’on connoist le mieux la perfection où les Anciens avoient porté le dessein. Le roy l’a fait tirer avec une dépense très grande, &amp; il en a coûté prés de deux cens mille francs. <persName xml:id="gdpBrice1684d1e3027">François premier</persName> avoit fait la mesme chose dans le dessein d’en faire élever une de mesme à <placeName xml:id="gdpBrice1684d1e3030">Fontainebleau</placeName>. Mais la mort l’ayant prévenu, les creux furent si négligez que l’on s’en servit pour bâtir une écurie. <persName xml:id="gdpBrice1684d1e3034">M. Félibien</persName> a le soin de ces choses &amp; de les placer dans la situation qui leur convient. Per<pb/>
+                              </label> Dans une galerie basse, l’on conserve quantité de <objectName xml:id="gdpBrice1684d1e3018">busts &amp; de statues antiques que le roy a fait venir d’Italie</objectName>. Il y en a un nombre très considérable, qui sont rangez sur des degrez en manière d’amphithéâtre. Dans le mesme lieu, il y a <objectName xml:id="gdpBrice1684d1e3021">un modèle en plâtre de la belle colonne que le sénat &amp; le peuple romain consacrèrent à la mémoire de l’empereur Trajan</objectName>, qui est le plus beau monument resté de l’ancienne grandeur de <geogName>Rome</geogName>, où l’on connoist le mieux la perfection où les Anciens avoient porté le dessein. Le roy l’a fait tirer avec une dépense très grande, &amp; il en a coûté prés de deux cens mille francs. <persName xml:id="gdpBrice1684d1e3027">François premier</persName> avoit fait la mesme chose dans le dessein d’en faire élever une de mesme à <placeName xml:id="gdpBrice1684d1e3030">Fontainebleau</placeName>. Mais la mort l’ayant prévenu, les creux furent si négligez que l’on s’en servit pour bâtir une écurie. <persName xml:id="gdpBrice1684d1e3034">M. Félibien</persName> a le soin de ces choses &amp; de les placer dans la situation qui leur convient. Per<pb/>
                               <fw type="pageNum">65</fw>sonne ne s’y entend mieux que luy, comme on le peut connoître par les beaux ouvrages qu’il a donnez. On dira dans son lieu combien les sçavans luy sont obligez des livres dont il a enrichi la république des lettres, comme du dictionnaire des arts, de la vie des peintres, qu’il a fait faire en quatre volumes parfaitement bien écrits, sans lesquels on n’auroit presque rien sur ce sujet, &amp; plusieurs pièces détachées sur divers sujets d’architecture &amp; de peinture<!--RMQ bibl-->.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr03.001.002" type="section">
@@ -999,7 +1000,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e3047">L’’Académie d’architecture</placeName>
                                  </supplied>
-                              </label>La seconde académie logée dans <placeName xml:id="gdpBrice1684d1e3050">le palais Brion</placeName>, qui occupe les appartemens qui sont au fond de la cour, est celle d’architecture, que le roy a établie en <date when="1672">1672</date> &amp; qu’il a mise sous l’autorité du surintendant des bâtimens, dont l’illustre <persName xml:id="gdpBrice1684d1e3056">monsieur Blondel</persName> est le directeur, qui a eu l’honneur d’enseigner les mathématiques à <persName xml:id="gdpBrice1684d1e3059">monseigneur le Dauphin</persName>, &amp; duquel on parlera plus au long lorsqu’on fera la description de son<pb/>
+                              </label> La seconde académie logée dans <placeName xml:id="gdpBrice1684d1e3050">le palais Brion</placeName>, qui occupe les appartemens qui sont au fond de la cour, est celle d’architecture, que le roy a établie en <date when="1672">1672</date> &amp; qu’il a mise sous l’autorité du surintendant des bâtimens, dont l’illustre <persName xml:id="gdpBrice1684d1e3056">monsieur Blondel</persName> est le directeur, qui a eu l’honneur d’enseigner les mathématiques à <persName xml:id="gdpBrice1684d1e3059">monseigneur le Dauphin</persName>, &amp; duquel on parlera plus au long lorsqu’on fera la description de son<pb/>
                               <fw type="pageNum">66</fw> cabinet, qui est un des plus beaux de Paris. C’est aussi luy qui donne des leçons publiques d’architecture dans ce mesme lieu. La salle où s’assemblent ceux qui la composent est ornée de desseins curieux &amp; on y distinguera entre les autres le modèle que <persName xml:id="gdpBrice1684d1e3067">le cavalier Bernin</persName> fit du <placeName xml:id="gdpBrice1684d1e3070">Louvre</placeName>, lorsque le roy le fit venir exprès de <placeName xml:id="gdpBrice1684d1e3073">Rome</placeName> pour ce sujet.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr03.001.003" type="section">
@@ -1008,7 +1009,7 @@
                                  <supplied>
                                     <objectName xml:id="gdpBrice1684d1e3080">Le cheval de bronze</objectName>
                                  </supplied>
-                              </label>Au milieu de la cour, on a placé <objectName xml:id="gdpBrice1684d1e3083">un cheval de bronze</objectName> un peu plus grand que le naturel, que le roy a fait venir de <placeName xml:id="gdpBrice1684d1e3086">Nancy</placeName>. Il est élevé sur un pié-d’estal, en attendant qu’on le mette dans un lieu plus exposé à la veue du public.</p>
+                              </label> Au milieu de la cour, on a placé <objectName xml:id="gdpBrice1684d1e3083">un cheval de bronze</objectName> un peu plus grand que le naturel, que le roy a fait venir de <placeName xml:id="gdpBrice1684d1e3086">Nancy</placeName>. Il est élevé sur un pié-d’estal, en attendant qu’on le mette dans un lieu plus exposé à la veue du public.</p>
                            <p xml:id="gdpBrice1684T01BodyFr03.001.003.p002">En sortant de ce lieu, il faut aller chez <persName xml:id="gdpBrice1684d1e3091">monsieur de La Fosse</persName>, qui demeure vis-à-vis, où l’on verra des ouvrages de peinture de sa manière, que l’on estime beaucoup.</p>
                            <p xml:id="gdpBrice1684T01BodyFr03.001.003.p003"><!--RMQ label toc "L’inscription de la fontaine de la rue de Richelieu"-->Il faut remarquer en poursuivant son chemin que <placeName xml:id="gdpBrice1684d1e3097">la rue de Richelieu</placeName>, pour sa longueur &amp; pour la <pb/>
                               <fw type="pageNum">67</fw>beauté des maisons qui sont toutes bâties sur une mesme ligne, est une des plus belles &amp; des plus régulières de <placeName xml:id="gdpBrice1684d1e3104">Paris</placeName>. Elle prend son nom du grand <persName xml:id="gdpBrice1684d1e3107">cardinal de Richelieu</persName>, parce qu’il l’a fit augmenter sous son ministère considérablement, &amp; qu’il fit élever la porte du bout qui mène hors de la ville, du côté de <placeName xml:id="gdpBrice1684d1e3111">Montmartre</placeName>. Dans la mesme rue, ces vers sont gravez sur <placeName xml:id="gdpBrice1684d1e3114">une fontaine</placeName>, qui sont aussi de <persName xml:id="gdpBrice1684d1e3117">M. de Santeuil</persName>.</p>
@@ -1042,7 +1043,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e3165">La galerie du palais Mazarin</placeName>
                                  </supplied>
-                              </label>Vis-à-vis de cet hôtel est <placeName xml:id="gdpBrice1684d1e3168">une longue galerie où estoit autrefois la bibliothèque du cardinal Mazarin</placeName>, qui est à présent dans <placeName xml:id="gdpBrice1684d1e3171">le collège des Quatre-Nations</placeName>. L’écurie estoit dessous. <persName xml:id="gdpBrice1684d1e3174">Monsieur le duc de Nevers</persName> occupe des chambres qui sont à l’extrémité, où il y a quelques plafons assez bien peints. On a depuis peu rompu cette galerie pour faire place à une rue qui perce de <placeName xml:id="gdpBrice1684d1e3177">la rue Vivien</placeName> dans <placeName xml:id="gdpBrice1684d1e3180">celle de Richelieu</placeName>, à laquelle on a donné le nom de <persName xml:id="gdpBrice1684d1e3184">M. Colbert</persName>.</p>
+                              </label> Vis-à-vis de cet hôtel est <placeName xml:id="gdpBrice1684d1e3168">une longue galerie où estoit autrefois la bibliothèque du cardinal Mazarin</placeName>, qui est à présent dans <placeName xml:id="gdpBrice1684d1e3171">le collège des Quatre-Nations</placeName>. L’écurie estoit dessous. <persName xml:id="gdpBrice1684d1e3174">Monsieur le duc de Nevers</persName> occupe des chambres qui sont à l’extrémité, où il y a quelques plafons assez bien peints. On a depuis peu rompu cette galerie pour faire place à une rue qui perce de <placeName xml:id="gdpBrice1684d1e3177">la rue Vivien</placeName> dans <placeName xml:id="gdpBrice1684d1e3180">celle de Richelieu</placeName>, à laquelle on a donné le nom de <persName xml:id="gdpBrice1684d1e3184">M. Colbert</persName>.</p>
                            <p xml:id="gdpBrice1684T01BodyFr03.001.006.p002">Au bout de <placeName xml:id="gdpBrice1684d1e3189">la rue de Richelieu</placeName>, on entre dans <placeName xml:id="gdpBrice1684d1e3192">la rue de Saint-Augustin</placeName>, ainsi nommé du nom des religieux de ce saint, autrement ap<pb/>
                               <fw type="pageNum">70</fw>pellez <orgName>les Petits Pères</orgName>, qui sont au bout &amp; qui en occupent une partie.</p>
                         </div>
@@ -1052,7 +1053,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e3207">La maison du sieur Douilly</placeName>
                                  </supplied>
-                              </label>Il y a dans cette rue des très belles maisons. Vis-à-vis <placeName xml:id="gdpBrice1684d1e3210">les Filles-de-Saint-Thomas</placeName>, <persName xml:id="gdpBrice1684d1e3213">le sieur Douilly</persName>, receveur de la généralité de Poitiers, en a fait bâtir une depuis trois ou quatre ans où il a dépensé cent mille écus. On peut dire aussi qu’il n’y manque rien, qu’un peu d’étendue ; mais il estoit impossible de luy en donner davantage parce qu’elle se trouve enfermée entre <placeName xml:id="gdpBrice1684d1e3216">les Petits Pères</placeName> &amp; <placeName xml:id="gdpBrice1684d1e3219">la rue Vivien</placeName>. Au reste, tout en est beau : l’escalier est fort clair &amp; fort grand, &amp; la porte taillée en voussure est d’une très belle proportion. On ne dit rien des meubles, parce qu’il est facile de s’imaginer qu’une maison d’une si grande apparence en est suffisamment garnie &amp; que la beauté du dedans répond à celle du dehors. Dans la mesme rue est :</p>
+                              </label> Il y a dans cette rue des très belles maisons. Vis-à-vis <placeName xml:id="gdpBrice1684d1e3210">les Filles-de-Saint-Thomas</placeName>, <persName xml:id="gdpBrice1684d1e3213">le sieur Douilly</persName>, receveur de la généralité de Poitiers, en a fait bâtir une depuis trois ou quatre ans où il a dépensé cent mille écus. On peut dire aussi qu’il n’y manque rien, qu’un peu d’étendue ; mais il estoit impossible de luy en donner davantage parce qu’elle se trouve enfermée entre <placeName xml:id="gdpBrice1684d1e3216">les Petits Pères</placeName> &amp; <placeName xml:id="gdpBrice1684d1e3219">la rue Vivien</placeName>. Au reste, tout en est beau : l’escalier est fort clair &amp; fort grand, &amp; la porte taillée en voussure est d’une très belle proportion. On ne dit rien des meubles, parce qu’il est facile de s’imaginer qu’une maison d’une si grande apparence en est suffisamment garnie &amp; que la beauté du dedans répond à celle du dehors. Dans la mesme rue est :</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr03.001.008" type="section">
                            <p xml:id="gdpBrice1684T01BodyFr03.001.008.p001">
@@ -1366,7 +1367,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e4325">La maison de M. Berrier</placeName>
                               </supplied>
-                           </label>Dans <placeName xml:id="gdpBrice1684d1e4328">la rue Coquillière</placeName>, assez proche de <placeName xml:id="gdpBrice1684d1e4331">Saint-Eustache</placeName>, est <placeName xml:id="gdpBrice1684d1e4334">la maison de monsieur Berrier</placeName>, secrétaire du Conseil, dans le jardin de laquelle on a trouvé <objectName xml:id="gdpBrice1684d1e4337">le bust de Cybèle</objectName> dont on a parlé. La porte, qui n’a pas une grande apparence au dehors, est d’une beauté singulière au dedans, ornée de pillastres corinthiens d’un goût admirable. <persName xml:id="gdpBrice1684d1e4340">Le garde des sceaux de Chateau-Neuf</persName> y a demeuré.</p>
+                           </label> Dans <placeName xml:id="gdpBrice1684d1e4328">la rue Coquillière</placeName>, assez proche de <placeName xml:id="gdpBrice1684d1e4331">Saint-Eustache</placeName>, est <placeName xml:id="gdpBrice1684d1e4334">la maison de monsieur Berrier</placeName>, secrétaire du Conseil, dans le jardin de laquelle on a trouvé <objectName xml:id="gdpBrice1684d1e4337">le bust de Cybèle</objectName> dont on a parlé. La porte, qui n’a pas une grande apparence au dehors, est d’une beauté singulière au dedans, ornée de pillastres corinthiens d’un goût admirable. <persName xml:id="gdpBrice1684d1e4340">Le garde des sceaux de Chateau-Neuf</persName> y a demeuré.</p>
                         <p xml:id="gdpBrice1684T01BodyFr06.009.p002">Voilà les choses principales que l’on peut voir dans ce quartier.</p>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr06.010" type="section">
@@ -1572,7 +1573,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e4978">Le bureau des Indes</placeName>
                                  </supplied>
-                              </label>Vis-à-vis est la maison qui a servy de bureau à <orgName>la Compagnie des Indes orientales</orgName>, qui est remarquable par quelques figures qui sont sur la porte. Ensuite est :</p>
+                              </label> Vis-à-vis est la maison qui a servy de bureau à <orgName>la Compagnie des Indes orientales</orgName>, qui est remarquable par quelques figures qui sont sur la porte. Ensuite est :</p>
                         </div>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr08.004" type="section">
@@ -1676,7 +1677,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e5267">La maison de M. Marillac</placeName>
                                  </supplied>
-                              </label>Un peu plus haut &amp; proche <placeName xml:id="gdpBrice1684d1e5270">la fontaine</placeName>, dans une maison qui n’a aucune apparence, qui appartient à présent à <persName xml:id="gdpBrice1684d1e5273">M. de Marillac</persName>, il faut demander à voir l’escalier : la seule chose de tout le logis qui mérite que l’on s’y arreste. Si on l’examine comme il faut, l’on verra qu’il n’y a rien de mieux imaginé &amp; que la disposition en est tout à fait singulière. Tous les curieux conviennent qu’il y a peu de choses à Paris qui en approche, &amp; quoy qu’il ne soit que de plâtre, il ne laisse pas de surpasser ceux qui ont esté bâtis <pb/>
+                              </label> Un peu plus haut &amp; proche <placeName xml:id="gdpBrice1684d1e5270">la fontaine</placeName>, dans une maison qui n’a aucune apparence, qui appartient à présent à <persName xml:id="gdpBrice1684d1e5273">M. de Marillac</persName>, il faut demander à voir l’escalier : la seule chose de tout le logis qui mérite que l’on s’y arreste. Si on l’examine comme il faut, l’on verra qu’il n’y a rien de mieux imaginé &amp; que la disposition en est tout à fait singulière. Tous les curieux conviennent qu’il y a peu de choses à Paris qui en approche, &amp; quoy qu’il ne soit que de plâtre, il ne laisse pas de surpasser ceux qui ont esté bâtis <pb/>
                               <fw type="pageNum">132</fw>avec beaucoup de soins, d’une plus riche matière.</p>
                            <p xml:id="gdpBrice1684T01BodyFr09.001.001.p002">Plus avant &amp; du mesme côté est :</p>
                         </div>
@@ -1696,7 +1697,7 @@
                         <p xml:id="gdpBrice1684T01BodyFr09.004.p001">
                            <label>
                               <supplied>L’atellier du sieur Bertrand, sculpteur</supplied>
-                           </label>En allant plus avant, dans <placeName xml:id="gdpBrice1684d1e5309">la rue Michel-le-Comte</placeName> que l’on trouvera à main gauche, il y a un sculpteur nommé <persName xml:id="gdpBrice1684d1e5312">Bertrand</persName>, chez lequel on trouvera quelques morceaux assez bien dessinez. Il réussit en bas-relief de plâtre pour les cheminées &amp; il en a fait quelques-uns qui sont estimez. En reprenant <placeName xml:id="gdpBrice1684d1e5315">la rue de Sainte-Avoye</placeName>, au bout est :</p>
+                           </label> En allant plus avant, dans <placeName xml:id="gdpBrice1684d1e5309">la rue Michel-le-Comte</placeName> que l’on trouvera à main gauche, il y a un sculpteur nommé <persName xml:id="gdpBrice1684d1e5312">Bertrand</persName>, chez lequel on trouvera quelques morceaux assez bien dessinez. Il réussit en bas-relief de plâtre pour les cheminées &amp; il en a fait quelques-uns qui sont estimez. En reprenant <placeName xml:id="gdpBrice1684d1e5315">la rue de Sainte-Avoye</placeName>, au bout est :</p>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr09.005" type="section">
                         <head rend="alignCenter">
@@ -1836,7 +1837,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e5687">Les Blancs-Manteaux</placeName>
                                  </supplied>
-                              </label>À main gauche dans <placeName xml:id="gdpBrice1684d1e5690">la rue des Blancs-Manteaux</placeName>, on verra le couvent qui luy donne son nom, où il n’y a rien de singulier si ce n’est le pavé du chœur qui est tout de marbre. À présent ce sont des religieux de saint Benoist qui l’occupent. Autrefois, ils estoient nommez <orgName>Guillemins</orgName>, ayant esté fondez par <persName xml:id="gdpBrice1684d1e5696">saint Guilaume</persName>, qui leur avoit ordonné de porter un manteau blanc, qu’ils ont quitté depuis.</p>
+                              </label> À main gauche dans <placeName xml:id="gdpBrice1684d1e5690">la rue des Blancs-Manteaux</placeName>, on verra le couvent qui luy donne son nom, où il n’y a rien de singulier si ce n’est le pavé du chœur qui est tout de marbre. À présent ce sont des religieux de saint Benoist qui l’occupent. Autrefois, ils estoient nommez <orgName>Guillemins</orgName>, ayant esté fondez par <persName xml:id="gdpBrice1684d1e5696">saint Guilaume</persName>, qui leur avoit ordonné de porter un manteau blanc, qu’ils ont quitté depuis.</p>
                            <pb/>
                            <fw type="pageNum">151</fw>
                            <p xml:id="gdpBrice1684T01BodyFr11.003.001.p002">Le reste de <placeName xml:id="gdpBrice1684d1e5704">la vieille rue du Temple</placeName> ne fournit rien de considérable.</p>
@@ -1860,7 +1861,7 @@
                            <p xml:id="gdpBrice1684T01BodyFr11.004.002.p001">
                               <label>
                                  <supplied>L’inscription de la fontaine de la rue de Poitou</supplied>
-                              </label>Sur la fontaine de <placeName xml:id="gdpBrice1684d1e5755">la rue de Poi<pb/>
+                              </label> Sur la fontaine de <placeName xml:id="gdpBrice1684d1e5755">la rue de Poi<pb/>
                                  <fw type="pageNum">152</fw>tou</placeName> assez proche, on lit cette inscription :</p>
                            <quote xml:lang="lat">
                               <lg>
@@ -1931,7 +1932,7 @@
                               <supplied>
                                  <objectName xml:id="gdpBrice1684d1e5911">La statue de Louis XIII</objectName>
                               </supplied>
-                           </label>La place dont nous venons de parler est parfaitement quarrée, composée de trente-six pavillons élevez d’une mesme symétrie, dont la maçonnerie est de brique &amp; de pierres de taille sur une longue suite d’arcades, à la faveur desquelles on peut aller à couvert autour. Dans l’espace qui est au milieu, on a laissé un grand <pb/>
+                           </label> La place dont nous venons de parler est parfaitement quarrée, composée de trente-six pavillons élevez d’une mesme symétrie, dont la maçonnerie est de brique &amp; de pierres de taille sur une longue suite d’arcades, à la faveur desquelles on peut aller à couvert autour. Dans l’espace qui est au milieu, on a laissé un grand <pb/>
                            <fw type="pageNum">156</fw>préau que l’on travaille à présent à convertir en jardin, qui doit estre enfermé d’une palissade de fer, où personne n’entrera que ceux des maisons de la place qui en auront la clef. On dit qu’il en coûte cent pistoles à chaque maison, ce qu’on peut facilement croire à cause de la grande quantité de fer qu’il a falu employer. Au milieu de ce jardin est <objectName xml:id="gdpBrice1684d1e5918">la statue de bronze à cheval de Louis XIII</objectName>, élevée sur un grand pié-d’estal de marbre blanc, aux faces duquel on lit sur le devant ces inscriptions :</p>
                         <quote>
                            <p rend="alignCenter">Pour la glorieuse et immortelle mémoire <lb/>du <lb/>très grand et très invincible <persName xml:id="gdpBrice1684d1e5928">Louis le Juste</persName>
@@ -2071,7 +2072,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e6353">Le quay Pelletier</placeName>
                                  </supplied>
-                              </label>Pour rendre l’entrée de <placeName xml:id="gdpBrice1684d1e6356">la Grève</placeName> plus commode, depuis cinq ou six ans l’on a percé un chemin du <placeName xml:id="gdpBrice1684d1e6359">pont de Nostre-Dame</placeName> à cette place, le <pb/>
+                              </label> Pour rendre l’entrée de <placeName xml:id="gdpBrice1684d1e6356">la Grève</placeName> plus commode, depuis cinq ou six ans l’on a percé un chemin du <placeName xml:id="gdpBrice1684d1e6359">pont de Nostre-Dame</placeName> à cette place, le <pb/>
                               <fw type="pageNum">171</fw>long de la rivière, que l’on a revêtu d’un très beau quay de pierre de taille. On a bâti sur ce quay des maisons de mesme symétrie, qui sont occupées par des marchands. C’est sous la prévosté de <persName xml:id="gdpBrice1684d1e6366">monsieur Pelletier</persName>, à présent controlleur général des finances, que ce bel ouvrage a esté entrepris, &amp; tout ce qui a esté exécuté sous son administration a esté autant pour la commodité du public que pour la magnificence de la ville ; aussi le peuple, pour luy marquer une reconnoissance éternelle, l’a nommé de nouveau <placeName xml:id="gdpBrice1684d1e6370">le quay Pelletier</placeName>, quoique par une modestie qui a peu d’exemples il n’ait jamais voulu souffrir que son nom parût dans les ouvrages qui ont esté construits par ses ordres.<!--RMQ label toc L’inscription à l’entrée du quay Pelletier--> À l’entrée du côté du <placeName xml:id="gdpBrice1684d1e6375">pont de Nostre-Dame</placeName>, on trouve cette inscription sur un quadre de marbre noir, au-dessus duquel est <objectName xml:id="gdpBrice1684d1e6378">le portrait du roy en médaillon.</objectName> : </p>
                            <pb/>
                            <fw type="pageNum">172</fw>
@@ -2111,7 +2112,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e6575">Le cimetière Saint-Jean</placeName>
                                  </supplied>
-                              </label>Depuis <placeName xml:id="gdpBrice1684d1e6578">l’église Saint-Gervais</placeName> dont nous venons de parler jusqu’au milieu de <placeName xml:id="gdpBrice1684d1e6581">la rue Saint-Antoine</placeName>, il n’y a rien de considérable. On passe devant <placeName xml:id="gdpBrice1684d1e6584">le cimetière saint Jean</placeName>, qui<pb/>
+                              </label> Depuis <placeName xml:id="gdpBrice1684d1e6578">l’église Saint-Gervais</placeName> dont nous venons de parler jusqu’au milieu de <placeName xml:id="gdpBrice1684d1e6581">la rue Saint-Antoine</placeName>, il n’y a rien de considérable. On passe devant <placeName xml:id="gdpBrice1684d1e6584">le cimetière saint Jean</placeName>, qui<pb/>
                               <fw type="pageNum">177</fw> est à présent un marché, dans le mesme lieu où estoit autrefois <placeName xml:id="gdpBrice1684d1e6592">l’hôtel de Pierre de Craon</placeName>, qui assassina <persName xml:id="gdpBrice1684d1e6595">le connétable Olivier du Clisson</persName> sous <persName xml:id="gdpBrice1684d1e6598">Charles VI</persName>, dont la maison fut démolie &amp; rasée en <date when="1392">1392</date> en punition de cet attentat. Ensuite est :</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr14.001.006" type="section">
@@ -2201,7 +2202,7 @@
                            <p xml:id="gdpBrice1684T01BodyFr14.002.001.p001">
                               <label>
                                  <supplied>L’inscription de la fontaine devant les Grands Jesuites</supplied>
-                              </label>Dans la petite place qui est vis-à-vis, on a réparé la fontaine que l’on appeloit autrefois <placeName xml:id="gdpBrice1684d1e6986">la fontaine de Biragues</placeName>, où cette inscription est gravée :</p>
+                              </label> Dans la petite place qui est vis-à-vis, on a réparé la fontaine que l’on appeloit autrefois <placeName xml:id="gdpBrice1684d1e6986">la fontaine de Biragues</placeName>, où cette inscription est gravée :</p>
                            <pb/>
                            <fw type="pageNum">191</fw>
                            <quote rend="alignCenter Capitals">
@@ -2338,7 +2339,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7380">L’hôpital des Enfans-Trouvez</placeName>
                                  </supplied>
-                              </label>Tout <placeName xml:id="gdpBrice1684d1e7383">le faux-bourg Saint-Antoine</placeName> consiste seulement en trois longues rues, à sçavoir : <placeName xml:id="gdpBrice1684d1e7386">la grande rue de Saint-Antoine</placeName>, qui est au milieu ; <placeName xml:id="gdpBrice1684d1e7389">la rue de Charonne</placeName> ; &amp; <placeName xml:id="gdpBrice1684d1e7392">la rue de Charenton</placeName>. Dans celle du milieu, qui est la plus belle, on voit <placeName xml:id="gdpBrice1684d1e7395">le nouvel hôpital bâti pour les enfans trouvez</placeName>. Plusieurs personnes de piété ont contribué à cette belle charité, &amp; entre autres <persName xml:id="gdpBrice1684d1e7399">madame la chancelière d’Aligre</persName>, qui y a mesme un appartement. L’église &amp; les bâtiment de la maison ne sont pas encore achevez.</p>
+                              </label> Tout <placeName xml:id="gdpBrice1684d1e7383">le faux-bourg Saint-Antoine</placeName> consiste seulement en trois longues rues, à sçavoir : <placeName xml:id="gdpBrice1684d1e7386">la grande rue de Saint-Antoine</placeName>, qui est au milieu ; <placeName xml:id="gdpBrice1684d1e7389">la rue de Charonne</placeName> ; &amp; <placeName xml:id="gdpBrice1684d1e7392">la rue de Charenton</placeName>. Dans celle du milieu, qui est la plus belle, on voit <placeName xml:id="gdpBrice1684d1e7395">le nouvel hôpital bâti pour les enfans trouvez</placeName>. Plusieurs personnes de piété ont contribué à cette belle charité, &amp; entre autres <persName xml:id="gdpBrice1684d1e7399">madame la chancelière d’Aligre</persName>, qui y a mesme un appartement. L’église &amp; les bâtiment de la maison ne sont pas encore achevez.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr15.007.002" type="section">
                            <p xml:id="gdpBrice1684T01BodyFr15.007.002.p001">
@@ -2353,7 +2354,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7444">La manufacture des glaces de miroirs</placeName>
                                  </supplied>
-                              </label>À l’entrée de la rue au-dessus de cette abbaye est <placeName xml:id="gdpBrice1684d1e7447">la manufacture des glaces de miroirs</placeName>, qui venoient <pb/>
+                              </label> À l’entrée de la rue au-dessus de cette abbaye est <placeName xml:id="gdpBrice1684d1e7447">la manufacture des glaces de miroirs</placeName>, qui venoient <pb/>
                               <fw type="pageNum">204</fw>autrefois de <placeName xml:id="gdpBrice1684d1e7454">Venise</placeName>, mais <persName xml:id="gdpBrice1684d1e7457">monsieur Colbert</persName>, ayant observé que ce commerce faisoit sortir beaucoup d’argent hors du roïaume, a étably cette manufacture, qui a eu un très heureux succès, comme toutes les autres choses que ce ministre a entrepris. Il y a un grand nombre d’ouvriers qui travaillent incessament, les uns à polir les glaces avec du grez, les autres avec de l’émeri &amp; d’autres à faire les bizeaux. On ne s’en sert point d’autres à présent à Paris, &amp; ce qui sort de leurs mains est aussi beau que ce qui venoit autrefois de <placeName xml:id="gdpBrice1684d1e7461">Venise</placeName> avec des frais infiniment plus grands. Ces ouvriers sont rangez dans des galeries autour d’une grande cour quarrée &amp; on a fait faire exprès ce bâtiment qui a toutes les commoditez qu’il doit avoir.</p>
                         </div>
                      </div>
@@ -2383,7 +2384,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7581">La ménagerie de Vincennes</placeName>
                                  </supplied>
-                              </label>À l’entrée du parc est <placeName xml:id="gdpBrice1684d1e7584">la ménagerie</placeName>, où l’on <sic>nourit</sic> plusieurs bestes farouches que l’on fait battre sou<pb/>
+                              </label> À l’entrée du parc est <placeName xml:id="gdpBrice1684d1e7584">la ménagerie</placeName>, où l’on <sic>nourit</sic> plusieurs bestes farouches que l’on fait battre sou<pb/>
                               <fw type="pageNum">210</fw>vent les unes contre les autres dans une cour, autour de laquelle il y a des galeries qui servent à regarder ce spectacle en sûreté.</p>
                            <p xml:id="gdpBrice1684T01BodyFr15.009.001.p002">Derrière la ménagerie, vis-à-vis une des portes du parc, sont <placeName xml:id="gdpBrice1684d1e7596">les religieuse de Saint-Mandé</placeName>, qui estoient autrefois à <placeName xml:id="gdpBrice1684d1e7599">la Saussaïe au-delà de Villejuif</placeName>. Cette maison appartenoit autrefois à <persName xml:id="gdpBrice1684d1e7602">monsieur Fouquet</persName>.</p>
                         </div>
@@ -2393,7 +2394,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7609">Les Piquepuces</placeName>
                                  </supplied>
-                              </label>Voilà tout ce qu’on peut voir de ce côté. En rentrant dans le faux-bourg, on peut aller se promener dans <placeName xml:id="gdpBrice1684d1e7612">le jardin des Piquepuces</placeName>, qui est dans les premières maisons. Il y a des grottes de rocailles qui ne sont pas mal travaillées. Dans leur réfectoire, ils ont des <objectName xml:id="gdpBrice1684d1e7615">tableaux de Monsieur Le Brun</objectName> &amp; ce couvent est un des plus agréables de Paris, quoique ce ne soit qu’un ouvrage de ce siècle.</p>
+                              </label> Voilà tout ce qu’on peut voir de ce côté. En rentrant dans le faux-bourg, on peut aller se promener dans <placeName xml:id="gdpBrice1684d1e7612">le jardin des Piquepuces</placeName>, qui est dans les premières maisons. Il y a des grottes de rocailles qui ne sont pas mal travaillées. Dans leur réfectoire, ils ont des <objectName xml:id="gdpBrice1684d1e7615">tableaux de Monsieur Le Brun</objectName> &amp; ce couvent est un des plus agréables de Paris, quoique ce ne soit qu’un ouvrage de ce siècle.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr15.009.003" type="section">
                            <p xml:id="gdpBrice1684T01BodyFr15.009.003.p001">
@@ -2401,7 +2402,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7622">Rambouillet</placeName>
                                  </supplied>
-                              </label>De ce mesme côté, en prenant le chemin de la villes, on passera devant <placeName xml:id="gdpBrice1684d1e7625">Rambouillet</placeName>, dont le jardin est fort agréable, composé de <pb/>
+                              </label> De ce mesme côté, en prenant le chemin de la villes, on passera devant <placeName xml:id="gdpBrice1684d1e7625">Rambouillet</placeName>, dont le jardin est fort agréable, composé de <pb/>
                               <fw type="pageNum">211</fw>plusieurs allées de charmilles &amp; d’un grand parterre au milieu duquel il y a une fontaine.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr15.009.004" type="section">
@@ -2410,7 +2411,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7636">Le cabinet de monsieur de Chantelou à Reuilly</placeName>
                                  </supplied>
-                              </label>Tout proche de <placeName xml:id="gdpBrice1684d1e7639">Reuilli</placeName> est <placeName xml:id="gdpBrice1684d1e7642">la maison de Monsieur de Chantelou</placeName>, maistre d’hôtel du roy, qui a <objectName xml:id="gdpBrice1684d1e7645">les plus beaux tableaux de Poussin</objectName> que l’on puisse voir, entre autres <objectName xml:id="gdpBrice1684d1e7648">les Sept Sacremens</objectName>, dont on a fait tant de copies &amp; que <persName xml:id="gdpBrice1684d1e7651">le sieur Pesne</persName> a gravez à l’eau-forte<!--RMQ int-->. Tous les sçavans conviennent que ce sont sans contredit les plus beaux tableaux &amp; les mieux dessinez qu’il y ait au monde, si l’on en excepte les pièces de quelques maistres d’<placeName xml:id="gdpBrice1684d1e7657">Italie</placeName>.</p>
+                              </label> Tout proche de <placeName xml:id="gdpBrice1684d1e7639">Reuilli</placeName> est <placeName xml:id="gdpBrice1684d1e7642">la maison de Monsieur de Chantelou</placeName>, maistre d’hôtel du roy, qui a <objectName xml:id="gdpBrice1684d1e7645">les plus beaux tableaux de Poussin</objectName> que l’on puisse voir, entre autres <objectName xml:id="gdpBrice1684d1e7648">les Sept Sacremens</objectName>, dont on a fait tant de copies &amp; que <persName xml:id="gdpBrice1684d1e7651">le sieur Pesne</persName> a gravez à l’eau-forte<!--RMQ int-->. Tous les sçavans conviennent que ce sont sans contredit les plus beaux tableaux &amp; les mieux dessinez qu’il y ait au monde, si l’on en excepte les pièces de quelques maistres d’<placeName xml:id="gdpBrice1684d1e7657">Italie</placeName>.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr15.009.005" type="section">
                            <p xml:id="gdpBrice1684T01BodyFr15.009.005.p001">
@@ -2418,7 +2419,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7664">La maison du sieur Titon</placeName>
                                  </supplied>
-                              </label>De l’autre côté du faux-bourg on doit aller à <placeName xml:id="gdpBrice1684d1e7667">la maison du sieur Titon</placeName>, secrétaire du roi, dans <placeName xml:id="gdpBrice1684d1e7670">la rue de Montreuil</placeName>. Elle est une des plus jolies que l’on puisse voir, &amp; comme le maître à qui elle appartient est un homme riche &amp; de bon goûst, on peut s’imaginer que rien n’y manque, aussi est-elle très agréable. Du côté du jardin, aussi bien que du <pb/>
+                              </label> De l’autre côté du faux-bourg on doit aller à <placeName xml:id="gdpBrice1684d1e7667">la maison du sieur Titon</placeName>, secrétaire du roi, dans <placeName xml:id="gdpBrice1684d1e7670">la rue de Montreuil</placeName>. Elle est une des plus jolies que l’on puisse voir, &amp; comme le maître à qui elle appartient est un homme riche &amp; de bon goûst, on peut s’imaginer que rien n’y manque, aussi est-elle très agréable. Du côté du jardin, aussi bien que du <pb/>
                               <fw type="pageNum">212</fw>côté de la cour, les faces en sont très belles.</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr15.009.006" type="section">
@@ -2427,7 +2428,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e7681">La maison de M. Folleville</placeName>
                                  </supplied>
-                              </label>Dans <placeName xml:id="gdpBrice1684d1e7684">la rue de Charonne</placeName> on en trouvera aussi une autre qui appartient à <persName xml:id="gdpBrice1684d1e7687">monsieur de Folville</persName>, qui l’a fait bâtir depuis fort peu de temps. Le dessus est en terrasse à l’italienne, avec des vases &amp; des statues sur les entablemens. C’est une espèce de gros pavillon à quatre faces, au milieu duquel est un salon ouvert de quatre côtez, qui partage le logis en autant de parties. La beauté est pareille du côté du jardin &amp; du côté de la cour. Le jardin est assez grand &amp; entretenu fort soigneusement. Les étrangers ne doivent pas négliger d’aller voir ces deux maisons, car il est certain qu’on n’en peut guère voir de plus propres &amp; où les beautez de l’architecture moderne soient appliquées avec plus de soin &amp; plus d’agrément. Voilà tout ce qu’on peut remarquer de plus curieux dans <placeName xml:id="gdpBrice1684d1e7690">le faux-bourg saint Antoine</placeName>.</p>
+                              </label> Dans <placeName xml:id="gdpBrice1684d1e7684">la rue de Charonne</placeName> on en trouvera aussi une autre qui appartient à <persName xml:id="gdpBrice1684d1e7687">monsieur de Folville</persName>, qui l’a fait bâtir depuis fort peu de temps. Le dessus est en terrasse à l’italienne, avec des vases &amp; des statues sur les entablemens. C’est une espèce de gros pavillon à quatre faces, au milieu duquel est un salon ouvert de quatre côtez, qui partage le logis en autant de parties. La beauté est pareille du côté du jardin &amp; du côté de la cour. Le jardin est assez grand &amp; entretenu fort soigneusement. Les étrangers ne doivent pas négliger d’aller voir ces deux maisons, car il est certain qu’on n’en peut guère voir de plus propres &amp; où les beautez de l’architecture moderne soient appliquées avec plus de soin &amp; plus d’agrément. Voilà tout ce qu’on peut remarquer de plus curieux dans <placeName xml:id="gdpBrice1684d1e7690">le faux-bourg saint Antoine</placeName>.</p>
                            <p xml:id="gdpBrice1684T01BodyFr15.009.006.p002">La première chose que l’on peut <pb/>
                               <fw type="pageNum">213</fw>voir en rentrant dans la ville est :</p>
                         </div>
@@ -2525,7 +2526,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e8185">L’hôtel de Sens</placeName>
                                  </supplied>
-                              </label>Un peu plus avant est <placeName xml:id="gdpBrice1684d1e8188">l’hôtel de sens</placeName>, dont la porte est d’une assez belle gotique. Autrefois les archevêques de cette ville qui estoient métropolitain de Paris y tenoient leur siège, mais sous le pontificat du pape <persName xml:id="gdpBrice1684d1e8191">Urbain VIII</persName>, Paris aïant esté démembré de cet archevesché, cet hôtel a esté occupé par des particuliers qui en rendent les loïers à <persName xml:id="gdpBrice1684d1e8194">l’archevesque de Sens</persName>.</p>
+                              </label> Un peu plus avant est <placeName xml:id="gdpBrice1684d1e8188">l’hôtel de sens</placeName>, dont la porte est d’une assez belle gotique. Autrefois les archevêques de cette ville qui estoient métropolitain de Paris y tenoient leur siège, mais sous le pontificat du pape <persName xml:id="gdpBrice1684d1e8191">Urbain VIII</persName>, Paris aïant esté démembré de cet archevesché, cet hôtel a esté occupé par des particuliers qui en rendent les loïers à <persName xml:id="gdpBrice1684d1e8194">l’archevesque de Sens</persName>.</p>
                            <p xml:id="gdpBrice1684T01BodyFr15.010.005.p002">Ensuite il faut passer sur <placeName xml:id="gdpBrice1684d1e8199">le pont Marie</placeName> pour aller dans <placeName xml:id="gdpBrice1684d1e8202">l’isle Nostre-Dame</placeName>. On remarquera en passant que ce pont n’est pas rempli de mai<pb/>
                               <fw type="pageNum">232</fw>sons comme il le devroit estre, parce qu’en <date when="1657-03">l’année 1657, au mois de mars</date>, la rivière estant extraordinairement débordée emporta deux arches la nuit ; ce qui causa une perte très considérable de personnes &amp; de biens, qui périrent misérablement. On le nomme ainsi parce que l’entrepreneur qui conduisit l’ouvrage en <date when="1614">1614</date> s’appelloit <persName xml:id="gdpBrice1684d1e8216">Marie</persName>.</p>
                         </div>
@@ -2546,7 +2547,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e8244">La maison de M. de Grand-Maison</placeName>
                               </supplied>
-                           </label>La première maison que l’on doit voir en entrant du côté du <placeName xml:id="gdpBrice1684d1e8247">pont Marie</placeName> est <placeName xml:id="gdpBrice1684d1e8250">celle de monsieur de Grand-Maison</placeName>, qui paroist solidement bâtie &amp; dont les dedans sont très beaux. En allant plus avant on trouve :</p>
+                           </label> La première maison que l’on doit voir en entrant du côté du <placeName xml:id="gdpBrice1684d1e8247">pont Marie</placeName> est <placeName xml:id="gdpBrice1684d1e8250">celle de monsieur de Grand-Maison</placeName>, qui paroist solidement bâtie &amp; dont les dedans sont très beaux. En allant plus avant on trouve :</p>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr16.002" type="section">
                         <p xml:id="gdpBrice1684T01BodyFr16.002.p001">
@@ -2573,7 +2574,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e8336">La maison de M. l’abbé de Sainte-Croix</placeName>
                               </supplied>
-                           </label>En sortant, on doit prendre son chemin <placeName xml:id="gdpBrice1684d1e8339">le long du quai Dauphin</placeName>, autrement <placeName xml:id="gdpBrice1684d1e8342">le quay des Balcons</placeName>, dont les maisons ont presque toutes des balcons qui sortent des fenestres ; mais une entre les autres mérite d’estre considérée, qui est celle où demeure <persName xml:id="gdpBrice1684d1e8345">monsieur l’abbé de Sainte-Croix</persName>, maistre des requestes, que feu <persName xml:id="gdpBrice1684d1e8348">M. Hesselin</persName>, qui de son temps passoit pour un homme des plus curieux, a fait bâtir avec beaucoup de soin sur les desseins du <pb/>
+                           </label> En sortant, on doit prendre son chemin <placeName xml:id="gdpBrice1684d1e8339">le long du quai Dauphin</placeName>, autrement <placeName xml:id="gdpBrice1684d1e8342">le quay des Balcons</placeName>, dont les maisons ont presque toutes des balcons qui sortent des fenestres ; mais une entre les autres mérite d’estre considérée, qui est celle où demeure <persName xml:id="gdpBrice1684d1e8345">monsieur l’abbé de Sainte-Croix</persName>, maistre des requestes, que feu <persName xml:id="gdpBrice1684d1e8348">M. Hesselin</persName>, qui de son temps passoit pour un homme des plus curieux, a fait bâtir avec beaucoup de soin sur les desseins du <pb/>
                            <fw type="pageNum">240</fw>
                            <persName xml:id="gdpBrice1684d1e8355">sieur Le Vau</persName>. La face en est d’une très belle disposition, sans estre embarrassée d’ornemens inutile ; &amp; dans le dedans il y a des très beaux plafons, avec des cheminées des mieux travaillées. La cour est, à la vérité, un peu triste, mais ce défaut est avantageusement réparé par la symétrie du bâtiment de ce côté-là &amp; par la belle veue du devant.</p>
                      </div>
@@ -2597,7 +2598,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e8393">Le pont de la Tournelle</placeName>
                                  </supplied>
-                              </label>On doit sortir de <placeName xml:id="gdpBrice1684d1e8396">l’isle Nostre-Dame</placeName> par <placeName xml:id="gdpBrice1684d1e8399">le pont de la Tournelle</placeName>, bâti de pierre de taille sur le modèle du <placeName xml:id="gdpBrice1684d1e8402">pont Neuf</placeName>, avec deux levées de chaque côté pour la commodité des gens de pié. Ensuite à main gauche on verra :</p>
+                              </label> On doit sortir de <placeName xml:id="gdpBrice1684d1e8396">l’isle Nostre-Dame</placeName> par <placeName xml:id="gdpBrice1684d1e8399">le pont de la Tournelle</placeName>, bâti de pierre de taille sur le modèle du <placeName xml:id="gdpBrice1684d1e8402">pont Neuf</placeName>, avec deux levées de chaque côté pour la commodité des gens de pié. Ensuite à main gauche on verra :</p>
                         </div>
                      </div>
                      <div xml:id="gdpBrice1684T01BodyFr16.007" type="section">
@@ -2656,7 +2657,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e8565">La cabinet de dissection de M. Du Vernay</placeName>
                                  </supplied>
-                              </label>Mais ce qui est le plus curieux est <placeName xml:id="gdpBrice1684d1e8568">le cabinet de M. Du Vernay</placeName>, de l’Académie royale des sciences, un des premiers hommes du roïaume pour les dissections &amp; pour l’anatomie. Peu de gens ont esté plus avant que lui dans cette sorte d’opération, où il a fait un grand nombre de découvertes qui lui ont acquis une grande réputation. En hiver, il travaille publiquement dans la grande salle disposée en amphithéâtre, dans laquelle il peut tenir un grand nombre de personnes. <persName xml:id="gdpBrice1684d1e8571">M. Daquin</persName>, premier médecin du roi, a l’intendance &amp; l’administration de ce jardin. C’est lui qui nomme les docteurs en médecine &amp; en chirurgie qui doivent donner les leçons de chymie &amp; de dissection, &amp; il a une pension du roi pour ce sujet. Le surintendant des bâ<pb/>
+                              </label> Mais ce qui est le plus curieux est <placeName xml:id="gdpBrice1684d1e8568">le cabinet de M. Du Vernay</placeName>, de l’Académie royale des sciences, un des premiers hommes du roïaume pour les dissections &amp; pour l’anatomie. Peu de gens ont esté plus avant que lui dans cette sorte d’opération, où il a fait un grand nombre de découvertes qui lui ont acquis une grande réputation. En hiver, il travaille publiquement dans la grande salle disposée en amphithéâtre, dans laquelle il peut tenir un grand nombre de personnes. <persName xml:id="gdpBrice1684d1e8571">M. Daquin</persName>, premier médecin du roi, a l’intendance &amp; l’administration de ce jardin. C’est lui qui nomme les docteurs en médecine &amp; en chirurgie qui doivent donner les leçons de chymie &amp; de dissection, &amp; il a une pension du roi pour ce sujet. Le surintendant des bâ<pb/>
                               <fw type="pageNum">249</fw>timens est le maître absolu &amp; c’est sous son autorité que toutes ces choses s’y font. Au sortir de ce lieu on peut aller à :</p>
                         </div>
                         <div xml:id="gdpBrice1684T01BodyFr16.009.002" type="section">
@@ -2704,7 +2705,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e8896">L’église Saint-Marcel</placeName> &amp; l’épitaphe de <persName xml:id="gdpBrice1684d1e8899">Pierre Lombard</persName>
                                  </supplied>
-                              </label>Delà, on rentrera dans la ville par <geogName>le faux-bourg Saint-Marcel</geogName> &amp; l’on passera devant <placeName xml:id="gdpBrice1684d1e8905">l’église du mesme nom</placeName>, qui a esté fondée par <persName xml:id="gdpBrice1684d1e8908">Roland comte de Blaye</persName>, neveu de <persName xml:id="gdpBrice1684d1e8911">Charlemagne</persName>, qui y fit beaucoup de biens en donnant de grands privilèges aux chanoines qui la servoient. Autrefois cette église estoit sous le titre de <placeName xml:id="gdpBrice1684d1e8914">Saint-Clément</placeName>, mais le corps de <persName xml:id="gdpBrice1684d1e8918">saint Marcel évêque de Paris</persName> y aïant esté trouvé, elle en prit le nom, qu’elle a toujours conservé depuis. Le fameux <persName xml:id="gdpBrice1684d1e8921">Pierre Lombard</persName>, surnom<pb/>
+                              </label> Delà, on rentrera dans la ville par <geogName>le faux-bourg Saint-Marcel</geogName> &amp; l’on passera devant <placeName xml:id="gdpBrice1684d1e8905">l’église du mesme nom</placeName>, qui a esté fondée par <persName xml:id="gdpBrice1684d1e8908">Roland comte de Blaye</persName>, neveu de <persName xml:id="gdpBrice1684d1e8911">Charlemagne</persName>, qui y fit beaucoup de biens en donnant de grands privilèges aux chanoines qui la servoient. Autrefois cette église estoit sous le titre de <placeName xml:id="gdpBrice1684d1e8914">Saint-Clément</placeName>, mais le corps de <persName xml:id="gdpBrice1684d1e8918">saint Marcel évêque de Paris</persName> y aïant esté trouvé, elle en prit le nom, qu’elle a toujours conservé depuis. Le fameux <persName xml:id="gdpBrice1684d1e8921">Pierre Lombard</persName>, surnom<pb/>
                               <fw type="pageNum">264</fw>mé <emph>le maistre des sentences</emph>, y est enterré. Voici son épitaphe :</p>
                            <quote xml:lang="lat">
                               <p>Hic jacet <persName xml:id="gdpBrice1684d1e8934">Magister Petrus Lombardus</persName>, Parisiensis Episcopus, qui composit Librum Sententiarum, Glossas Psalmorum, &amp; Epistolarum ; cujus obitus dies est <date when="1164-07-20">13 Cal. Augusti Anno 1164</date>.</p>
@@ -2731,7 +2732,7 @@
                            <p xml:id="gdpBrice1684T01BodyFr16.010.004.p001">
                               <label>
                                  <placeName xml:id="gdpBrice1684d1e8997">La vieille maison proche Saint-Hypolite</placeName>
-                              </label>Dans le mesme quartier, proche <placeName xml:id="gdpBrice1684d1e9000">la petite église de Saint-Hypolite</placeName>, il y a une vieille maison bâtie du temps de <persName xml:id="gdpBrice1684d1e9003">
+                              </label> Dans le mesme quartier, proche <placeName xml:id="gdpBrice1684d1e9000">la petite église de Saint-Hypolite</placeName>, il y a une vieille maison bâtie du temps de <persName xml:id="gdpBrice1684d1e9003">
                                  <expan>saint</expan> Louis</persName>, qui n’est pas éloignée de <geogName>la rivière des Gobelins</geogName>, où ce bon roi alloit quelquefois passer des heures de solitude pour faire ses prières. On dit que sous <persName xml:id="gdpBrice1684d1e9011">Charles VI</persName> il y arriva un accident fâcheux qui fut en partie la cause de l’aliénation d’esprit dont ce prince fut affligé presque pendant tout son règne. Voici comme on raconte la chose : les Parisiens, qui ont toujours fait gloire d’aimer passionnément leur roi, voulurent régaler <persName xml:id="gdpBrice1684d1e9014">Charles VI</persName> d’un ballet dans cette mai <pb/>
                               <fw type="pageNum">267</fw>son au retour d’une grande victoire qu’il venoit de remporter contre les Flamans qui s’estoient révoltez contre leur prince. Le roi donc s’estant trouvé à cette fête avec beaucoup de seigneurs déguisez en sauvages &amp; vêtus de toille poissée, <sic>convertre</sic> de filasse, en forme de poil, &amp; si bien ajustée au corps qu’il sembloit que ce fût une peau naturelle ; comme le roi dançoit avec les jeunes seigneurs, un de la troupe approchant trop près d’un flambeau que tenoit un prince qui vouloit reconnoîstre le roi entre les autres, le feu prit à la filasse avec violence &amp; comme ils estoient tout attachez les uns aux autres, le roi n’en pût estre garanti qu’en se jettant, tout couvert de flames, entre les bras de <persName xml:id="gdpBrice1684d1e9025">la duchesse de Berry</persName>, qui se trouva la heureusement, qui étouffa le feu en l’envelopant dans sa grande robe. Tous ceux de la mesme bande furent étouffez ou rôtis &amp; moururent deux jour après. Le roi seul fut <pb/>
                               <fw type="pageNum">268</fw>sauvé &amp; <persName xml:id="gdpBrice1684d1e9032">Nantouillet</persName> qui se jetta dans une cuve pleine d’eau qui se trouva-là proche. Depuis ce funeste accident, <persName xml:id="gdpBrice1684d1e9036">Charles</persName> devint fort chagrin &amp; fort mélancolique, &amp; l’idée d’un si grand péril lui prépara le cerveau à la manie, qui lui prit proche <geogName>la ville du Mans</geogName>, ainsi que <persName xml:id="gdpBrice1684d1e9042">monsieur de Mezeray</persName> le raconte. Voilà tout ce qu’on peut voir dans ce faux-bourg.</p>
@@ -2742,7 +2743,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e9049">La porte Saint-Victor</placeName>
                                  </supplied>
-                              </label>Les portes par où l’on entre sont celles de Saint-Victor, proche de <placeName xml:id="gdpBrice1684d1e9052">l’abbaïe de ce nom</placeName> dont on a parlé. Elle a esté réparée depuis peu, mais non pas avec autant de dépence que les autres. On a seulement représenté en basse taille sur le cintre un grand vaisseau de guerre, que la ville prend pour ses armes, avec cette inscription au bas :</p>
+                              </label> Les portes par où l’on entre sont celles de Saint-Victor, proche de <placeName xml:id="gdpBrice1684d1e9052">l’abbaïe de ce nom</placeName> dont on a parlé. Elle a esté réparée depuis peu, mais non pas avec autant de dépence que les autres. On a seulement représenté en basse taille sur le cintre un grand vaisseau de guerre, que la ville prend pour ses armes, avec cette inscription au bas :</p>
                            <quote xml:lang="lat">
                               <p rend="alignCenter">Quæ non maria?</p>
                            </quote>
@@ -2752,7 +2753,7 @@
                            <p xml:id="gdpBrice1684T01BodyFr16.010.006.p001">
                               <label>
                                  <placeName xml:id="gdpBrice1684d1e9069">Le cabinet du sieur de Troye, peintre</placeName>
-                              </label>Tout proche sur le fossé entre les <pb/>
+                              </label> Tout proche sur le fossé entre les <pb/>
                               <fw type="pageNum">269</fw>deux portes, on ne doit pas manquer d’aller voir les tableaux du <persName xml:id="gdpBrice1684d1e9076">sieur de Troyes</persName>, que le roi envoya en <placeName xml:id="gdpBrice1684d1e9079">Bavière</placeName> pour faire <objectName xml:id="gdpBrice1684d1e9082">le portrait de madame la Dauphine</objectName>. Il est peu de peintres qui réussissent mieux que lui en portraits, ce qui lui attire la pratique de la plupart des personnes de qualité, qui se font tirer de sa main.</p>
                            <p xml:id="gdpBrice1684T01BodyFr16.010.006.p002">On ne dira rien du <placeName xml:id="gdpBrice1684d1e9087">couvent des religieuses anglaises</placeName>, ni de <placeName xml:id="gdpBrice1684d1e9090">la maison des pères de la Doctrine chrétienne</placeName>, qui sont aussi sur le mesme fossé, parce qu’il n’y a rien de curieux à y remarquer, sinon une des plus belles veues qu’on puisse découvrir, à cause de la situation élevée où ces deux maisons se trouvent.</p>
                            <p xml:id="gdpBrice1684T01BodyFr16.010.006.p003" rend="alignCenter">
@@ -3608,7 +3609,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e10747">Le quay de la Tournelle</placeName>
                               </supplied>
-                           </label>On peut commencer ce quartier par <placeName xml:id="gdpBrice1684d1e10750">le quay de la Tournelle</placeName>, ensuite on passera devant une maison que feu <persName xml:id="gdpBrice1684d1e10753">monsieur Martin</persName> a fait bâtir, où <persName xml:id="gdpBrice1684d1e10756">madame de Miramion</persName>, si connue des personnes de piété, a logé depuis huit ans une nouvelle communauté de filles qui vivent sous la Règle de saint Augustin, de la congrégation de sainte Geneviève<!--Q° MCLB Sainte-Geneviève-->, dont elle est la fondatrice. Cette maison est assez bien bâtie &amp; mérite qu’on l’aille voir. Tout proche est :</p>
+                           </label> On peut commencer ce quartier par <placeName xml:id="gdpBrice1684d1e10750">le quay de la Tournelle</placeName>, ensuite on passera devant une maison que feu <persName xml:id="gdpBrice1684d1e10753">monsieur Martin</persName> a fait bâtir, où <persName xml:id="gdpBrice1684d1e10756">madame de Miramion</persName>, si connue des personnes de piété, a logé depuis huit ans une nouvelle communauté de filles qui vivent sous la Règle de saint Augustin, de la congrégation de sainte Geneviève<!--Q° MCLB Sainte-Geneviève-->, dont elle est la fondatrice. Cette maison est assez bien bâtie &amp; mérite qu’on l’aille voir. Tout proche est :</p>
                      </div>
                      <div xml:id="gdpBrice1684T02BodyFr01.004" type="section">
                         <p xml:id="gdpBrice1684T02BodyFr01.004.p001">
@@ -3730,7 +3731,7 @@
                            <p xml:id="gdpBrice1684T02BodyFr01.007.003.p001">
                               <label>
                                  <supplied>L’épitaphe de Descartes</supplied>
-                              </label>Dans la nef, les étrangers, &amp; généralement tout ceux qui ont quelque respect ou sentimens d’estime pour les grands hommes, seront ravis de lire l’épitaphe du fameux <persName xml:id="gdpBrice1684d1e11272">René Descartes</persName>, un des plus sçavans &amp; des plus illustres philosophes de ces derniers siècles, que voici :</p>
+                              </label> Dans la nef, les étrangers, &amp; généralement tout ceux qui ont quelque respect ou sentimens d’estime pour les grands hommes, seront ravis de lire l’épitaphe du fameux <persName xml:id="gdpBrice1684d1e11272">René Descartes</persName>, un des plus sçavans &amp; des plus illustres philosophes de ces derniers siècles, que voici :</p>
                            <pb/>
                            <fw type="pageNum">28</fw>
                            <quote>
@@ -3890,7 +3891,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e11906">La terre de Cambray</placeName>
                                  </supplied>
-                              </label>De l’autre côté de <placeName xml:id="gdpBrice1684d1e11909">la rue Saint-Jacques</placeName>, vis-à-vis le derrière du chœur de cette église, est une petite place à l’entrée de laquelle il y a une fontaine qui en porte le nom. On nomme cette place <placeName xml:id="gdpBrice1684d1e11912">La terre de Cambray</placeName>, à cause d’un collège du mesme nom qui y est. L’on y voit aussi :</p>
+                              </label> De l’autre côté de <placeName xml:id="gdpBrice1684d1e11909">la rue Saint-Jacques</placeName>, vis-à-vis le derrière du chœur de cette église, est une petite place à l’entrée de laquelle il y a une fontaine qui en porte le nom. On nomme cette place <placeName xml:id="gdpBrice1684d1e11912">La terre de Cambray</placeName>, à cause d’un collège du mesme nom qui y est. L’on y voit aussi :</p>
                         </div>
                      </div>
                      <div xml:id="gdpBrice1684T02BodyFr02.006" type="section">
@@ -4140,7 +4141,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e13350">Les Feuillans-de-l’Ange-Gardien</placeName>
                                  </supplied>
-                              </label>Tout proche les Chartreux est <placeName xml:id="gdpBrice1684d1e13353">un petit couvent de Feuillans</placeName> qui n’a rien d’extraordinaire, mais dans une maison voisine, chez <persName xml:id="gdpBrice1684d1e13356">M. ***</persName>, il y a un jardin très propre du dessein de <persName xml:id="gdpBrice1684d1e13359">M. Le Nostre</persName>. </p>
+                              </label> Tout proche les Chartreux est <placeName xml:id="gdpBrice1684d1e13353">un petit couvent de Feuillans</placeName> qui n’a rien d’extraordinaire, mais dans une maison voisine, chez <persName xml:id="gdpBrice1684d1e13356">M. ***</persName>, il y a un jardin très propre du dessein de <persName xml:id="gdpBrice1684d1e13359">M. Le Nostre</persName>. </p>
                            <p xml:id="gdpBrice1684T02BodyFr02.013.001.p002">Delà, on doit descendre vers <placeName xml:id="gdpBrice1684d1e13364">la porte Saint-Michel</placeName>, qui a esté abatue depuis deux ans pour donner plus d’ouverture à ce quartier qui estoit fort serré auparavant.</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr02.013.002" type="section">
@@ -4149,7 +4150,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e13371">La fontaine de la porte Saint-Michel</placeName>
                                  </supplied>
-                              </label>Dans le lieu où estoit la porte, on a bâti une fontaine sous une grande arcade en manière de niche, avec un petit portique d’ordre dorique dessous dont les ornemens ne sont pas encore achevez. <placeName xml:id="gdpBrice1684d1e13374">La rue de la Harpe</placeName> se trouve en cet endroit &amp; tout d’une mesme suite on peut aller à :</p>
+                              </label> Dans le lieu où estoit la porte, on a bâti une fontaine sous une grande arcade en manière de niche, avec un petit portique d’ordre dorique dessous dont les ornemens ne sont pas encore achevez. <placeName xml:id="gdpBrice1684d1e13374">La rue de la Harpe</placeName> se trouve en cet endroit &amp; tout d’une mesme suite on peut aller à :</p>
                         </div>
                      </div>
                      <pb/>
@@ -4204,7 +4205,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e13585">Le collège de Justice</placeName>
                                  </supplied>
-                              </label>En descendant plus bas, on passera devant <placeName xml:id="gdpBrice1684d1e13588">les collèges de Justice, de Baïeux, de Narbonne</placeName> &amp; devant <placeName xml:id="gdpBrice1684d1e13591">celui de Séez</placeName>, où les écoles ont cessé depuis quelques années.</p>
+                              </label> En descendant plus bas, on passera devant <placeName xml:id="gdpBrice1684d1e13588">les collèges de Justice, de Baïeux, de Narbonne</placeName> &amp; devant <placeName xml:id="gdpBrice1684d1e13591">celui de Séez</placeName>, où les écoles ont cessé depuis quelques années.</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr02.014.003" type="section">
                            <p xml:id="gdpBrice1684T02BodyFr02.014.003.p001">
@@ -4236,7 +4237,7 @@
                                  <supplied>
                                     <objectName xml:id="gdpBrice1684d1e13659">La statue de Jean Le Clerc au bout de la rue de la Vielle-Boucherie</objectName>
                                  </supplied>
-                              </label>Voilà tout ce que l’on poura voir dans cette rue. Plus avant &amp; au bout de <placeName xml:id="gdpBrice1684d1e13662">la rue de la Vieille-Bouclerie</placeName>, qui se termine à la petite place à l’entrée du <placeName xml:id="gdpBrice1684d1e13665">pont Saint-Michel</placeName>, proche une maison qui fait presque le coin, on trouve une grosse pierre qui sert de borne, sur laquelle est la figure <pb/>
+                              </label> Voilà tout ce que l’on poura voir dans cette rue. Plus avant &amp; au bout de <placeName xml:id="gdpBrice1684d1e13662">la rue de la Vieille-Bouclerie</placeName>, qui se termine à la petite place à l’entrée du <placeName xml:id="gdpBrice1684d1e13665">pont Saint-Michel</placeName>, proche une maison qui fait presque le coin, on trouve une grosse pierre qui sert de borne, sur laquelle est la figure <pb/>
                               <fw type="pageNum">123</fw>assez mal formée d’un homme, mais dont on peut cependant facilement distinguer la teste. Les historiens disent que c’est la représentation d’un certain <persName xml:id="gdpBrice1684d1e13672">Jean Le Clerc</persName>, serrurier de profession &amp; portier de <placeName xml:id="gdpBrice1684d1e13676">la porte de Bussi</placeName>, qui dans le temps des troubles du règne de <persName xml:id="gdpBrice1684d1e13679">Charles VI</persName>, après que les Parisiens eurent chassé les Bourguignons de la ville où ils faisoient mille désordres, eut la perfidie de leur ouvrir la porte une nuit, ce qui mit tous les bourgeois en allarme. Ensuite de tant de désordres, les Parisiens aïant voulu poursuivre celui qui en estoit l’auteur, &amp; n’aïant pu le prendre à cause qu’il avoit pris la fuite, ils firent faire son effigie en pierre &amp; par sentence du prévost de Paris il fut ordonné que tous les habitans iroient luy jetter quelque chose au visage en détestation de sa perfidie, ce qui fut exécuté. L’on plaça depuis cette statue en cet endroit pour empescher que les roues des carrosses ou des charrettes n’endom<pb/>
                               <fw type="pageNum">124</fw>mageassent la maison contre laquelle elle est appuïée. À main gauche en tournant on entrera dans :</p>
                         </div>
@@ -4343,7 +4344,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e14008">Les académies</placeName>
                               </supplied>
-                           </label>Est sans contredit plus beau &amp; plus grand que les autres à cause de son étendue, du nombre de ses belles maisons &amp; de la quantité du peuple qui s’y trouve ; ce qui fait que l’on peut le comparer à quelques grandes villes qui font du bruit dans l’Europe, selon mesme le sentiment des étrangers, à qui la demeure en paroît si agréable qu’ils l’ont préférée à toutes les autres de la ville. Ce n’est pas sans raison, puisque toutes les commoditez y abondent &amp; que l’air y est très pur ; les maisons estant sé<pb/>
+                           </label> Est sans contredit plus beau &amp; plus grand que les autres à cause de son étendue, du nombre de ses belles maisons &amp; de la quantité du peuple qui s’y trouve ; ce qui fait que l’on peut le comparer à quelques grandes villes qui font du bruit dans l’Europe, selon mesme le sentiment des étrangers, à qui la demeure en paroît si agréable qu’ils l’ont préférée à toutes les autres de la ville. Ce n’est pas sans raison, puisque toutes les commoditez y abondent &amp; que l’air y est très pur ; les maisons estant sé<pb/>
                            <fw type="pageNum">135</fw>parées par plusieurs jardins. Outre ces avantages, tous les exercices s’y enseignent &amp; il n’est peut-estre aucune ville dans le monde où l’on puisse conter six académies comme dans ce quartier ; remplies la plupart de tout ce qu’il y a d’illustre jeunesse de France &amp; d’<placeName xml:id="gdpBrice1684d1e14015">Allemagne</placeName>, qui y viennent apprendre toutes les choses qui rendent un gentilhomme accompli &amp; capable d’acquérir de la réputation dans le monde. On a quelquefois conté dans un hyver douze princes étrangers &amp; plus de trois cens comtes ou barons, sans un bien plus grand nombre de simples gentilshommes, que la réputation de la France attiroit pour apprendre nostre langue avec un soin extrême &amp; pour faire des exercices que l’on n’enseigne point chez eux dans la mesme perfection. Les six académies portent le nom des principaux écuïers qui y montrent, qui sont :</p>
                         <p xml:id="gdpBrice1684T02BodyFr03.001.p002">
                            <placeName xml:id="gdpBrice1684d1e14019">M. Coulon, proche Saint-Sulpice</placeName> ;</p>
@@ -4517,7 +4518,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e14967">La belle maison de la rue du Regard</placeName>
                                  </supplied>
-                              </label>Dans une rue qui est au bout, que l’on nomme <placeName xml:id="gdpBrice1684d1e14970">la rue du Regard</placeName> à cause qu’autrefois il y en avoit un pour les fontaines voisines ; il y a une petite maison nouvellement bâtie dont les veues sont sur les jardins d’alentour, qui est fort jolie &amp; fort propre.</p>
+                              </label> Dans une rue qui est au bout, que l’on nomme <placeName xml:id="gdpBrice1684d1e14970">la rue du Regard</placeName> à cause qu’autrefois il y en avoit un pour les fontaines voisines ; il y a une petite maison nouvellement bâtie dont les veues sont sur les jardins d’alentour, qui est fort jolie &amp; fort propre.</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr03.005.002" type="section">
                            <p xml:id="gdpBrice1684T02BodyFr03.005.002.p001">
@@ -4525,7 +4526,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e14977">Le fort de Bernardi</placeName>
                                  </supplied>
-                              </label>Le fort où les académistes de <persName xml:id="gdpBrice1684d1e14980">M. Bernardi</persName> vont s’exercer n’en est pas éloigné. II est proche les murs du <placeName xml:id="gdpBrice1684d1e14983">palais d’Orléans</placeName>, enclos dans un petit espace qui ne sert qu’à cet usage. Il s’y fait des attaques aussi réglées qu’à la prise d’une place d’importance.</p>
+                              </label> Le fort où les académistes de <persName xml:id="gdpBrice1684d1e14980">M. Bernardi</persName> vont s’exercer n’en est pas éloigné. II est proche les murs du <placeName xml:id="gdpBrice1684d1e14983">palais d’Orléans</placeName>, enclos dans un petit espace qui ne sert qu’à cet usage. Il s’y fait des attaques aussi réglées qu’à la prise d’une place d’importance.</p>
                            <p xml:id="gdpBrice1684T02BodyFr03.005.002.p002">Dans <placeName xml:id="gdpBrice1684d1e14988">la rue Cassette</placeName>, proche les Carmes dont on vient de parler, est :</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr03.005.003" type="section">
@@ -4646,7 +4647,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e15347">L’attelier de l’élève de Vvanobstal</placeName>
                                  </supplied>
-                              </label>Plus avant est une grande maison qui fait le coin de <placeName xml:id="gdpBrice1684d1e15350">la rue du Bacq</placeName>, où a demeuré l’ambassadeur d’Espagne, qui est assez commode. II y a un sculpteur tout proche, chez lequel on voit des bas-reliefs qui ne sont pas d’un méchant dessein, qui sont de la manière d’un nommé <persName xml:id="gdpBrice1684d1e15353">Vanobstal</persName>, originaire de <placeName xml:id="gdpBrice1684d1e15356">Bruxelles</placeName>, qui le premier a donné le goût des bas-reliefs en France qu’il apporta d’<placeName xml:id="gdpBrice1684d1e15359">Italie</placeName>. II y en a à <placeName xml:id="gdpBrice1684d1e15362">Versailles</placeName> de lui <pb/>
+                              </label> Plus avant est une grande maison qui fait le coin de <placeName xml:id="gdpBrice1684d1e15350">la rue du Bacq</placeName>, où a demeuré l’ambassadeur d’Espagne, qui est assez commode. II y a un sculpteur tout proche, chez lequel on voit des bas-reliefs qui ne sont pas d’un méchant dessein, qui sont de la manière d’un nommé <persName xml:id="gdpBrice1684d1e15353">Vanobstal</persName>, originaire de <placeName xml:id="gdpBrice1684d1e15356">Bruxelles</placeName>, qui le premier a donné le goût des bas-reliefs en France qu’il apporta d’<placeName xml:id="gdpBrice1684d1e15359">Italie</placeName>. II y en a à <placeName xml:id="gdpBrice1684d1e15362">Versailles</placeName> de lui <pb/>
                               <fw type="pageNum">180</fw>que l’on estime beaucoup &amp; surtout ceux qui sont sur les portes de la grotte. Plus avant est :</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr03.006.012" type="section">
@@ -4709,7 +4710,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e15509">La belle maison de l’Hôtel-Dieu de la rue Saint-Dominique</placeName>
                                  </supplied>
-                              </label>Dans <placeName xml:id="gdpBrice1684d1e15512">la rue Saint-Dominique</placeName>, où ces choses se trouvent, on distinguera une maison neuve que <placeName xml:id="gdpBrice1684d1e15515">l’hôtel-Dieu</placeName> a fait bâtir, dont le vestibule est fort joli. Il est au fond de la cour, soutenu sur des colonnes doriques qui font un très bel effet en entrant. Toute cette maison est du dessein du <persName xml:id="gdpBrice1684d1e15518">sieur Le Duc</persName>.</p>
+                              </label> Dans <placeName xml:id="gdpBrice1684d1e15512">la rue Saint-Dominique</placeName>, où ces choses se trouvent, on distinguera une maison neuve que <placeName xml:id="gdpBrice1684d1e15515">l’hôtel-Dieu</placeName> a fait bâtir, dont le vestibule est fort joli. Il est au fond de la cour, soutenu sur des colonnes doriques qui font un très bel effet en entrant. Toute cette maison est du dessein du <persName xml:id="gdpBrice1684d1e15518">sieur Le Duc</persName>.</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr03.007.006" type="section">
                            <p xml:id="gdpBrice1684T02BodyFr03.007.006.p001">
@@ -4717,7 +4718,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e15525">La maison où demeure M. Talon, Avocat général</placeName>
                                  </supplied>
-                              </label>Dans la petite rue Guillaume fort proche, est une grande maison ou demeure <persName xml:id="gdpBrice1684d1e15528">monsieur Talon</persName>, avocat général, dont la structure est tout à fait belle. Les appartemens sont très agréables, aïant les veues tournées sur les jardins des maisons voisines. La cour est grande, &amp; enfin il paroît que cette maison a esté élevée avec beaucoup de dépence. Mais ce qui lui donne un merveilleux ornement est l’excellente bibliotèque qui y est, composée de tout ce qu’il y a de plus rare &amp; de plus recherché, <pb/>
+                              </label> Dans la petite rue Guillaume fort proche, est une grande maison ou demeure <persName xml:id="gdpBrice1684d1e15528">monsieur Talon</persName>, avocat général, dont la structure est tout à fait belle. Les appartemens sont très agréables, aïant les veues tournées sur les jardins des maisons voisines. La cour est grande, &amp; enfin il paroît que cette maison a esté élevée avec beaucoup de dépence. Mais ce qui lui donne un merveilleux ornement est l’excellente bibliotèque qui y est, composée de tout ce qu’il y a de plus rare &amp; de plus recherché, <pb/>
                               <fw type="pageNum">188</fw>soit pour les manuscrits ou pour les livres imprimez.</p>
                         </div>
                      </div>
@@ -4731,7 +4732,7 @@
                            <p xml:id="gdpBrice1684T02BodyFr03.008.001.p001">
                               <label>
                                  <supplied>L’inscription de la fontaine de la Charité</supplied>
-                              </label>Proche la porte de cette église, du côté de <placeName xml:id="gdpBrice1684d1e15564">la rue Tarane</placeName>, il y a une fontaine nouvellement bâtie, d’un fort joli dessein, où ces vers de <persName xml:id="gdpBrice1684d1e15567">M. de Santeuil</persName> sont gravez :</p>
+                              </label> Proche la porte de cette église, du côté de <placeName xml:id="gdpBrice1684d1e15564">la rue Tarane</placeName>, il y a une fontaine nouvellement bâtie, d’un fort joli dessein, où ces vers de <persName xml:id="gdpBrice1684d1e15567">M. de Santeuil</persName> sont gravez :</p>
                            <pb/>
                            <fw type="pageNum">
                               <sic>981</sic>
@@ -4769,7 +4770,7 @@
                                  <supplied>
                                     <objectName xml:id="gdpBrice1684d1e15621">La perspective d’une maison de la rue de Taranne</objectName>
                                  </supplied>
-                              </label>Presque vis-à-vis, dans une maison qui a fort peu d’apparence, on poura voir une perspective au fond de la <pb/>
+                              </label> Presque vis-à-vis, dans une maison qui a fort peu d’apparence, on poura voir une perspective au fond de la <pb/>
                               <fw type="pageNum">190</fw>cour assez bien peinte, où il y a dans l’éloignement un arc de triomphe à l’antique qui fait un fort bel effet quand on le regarde de loin.</p>
                            <metamark rend="typographicalPiece"/>
                         </div>
@@ -4882,7 +4883,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e16011">Le mirroir d’acier</placeName>
                                  </supplied>
-                              </label>Au bout de cette rue, dans une maison qui est assez proche de <placeName xml:id="gdpBrice1684d1e16014">l’hôtel des Mousquetaires</placeName>, on va voir un miroir d’acier qui fait des effets surprenans quand il est exposé au soleil, en dissolvant les corps les plus durs &amp; les plus incombustibles. Il est beaucoup plus grand que ceux que l’on a vu jusqu’à présent. Le pié sur lequel il est n’est pas moins singulier, estant aussi d’acier, travaillé avec beaucoup d’art &amp; de patience.</p>
+                              </label> Au bout de cette rue, dans une maison qui est assez proche de <placeName xml:id="gdpBrice1684d1e16014">l’hôtel des Mousquetaires</placeName>, on va voir un miroir d’acier qui fait des effets surprenans quand il est exposé au soleil, en dissolvant les corps les plus durs &amp; les plus incombustibles. Il est beaucoup plus grand que ceux que l’on a vu jusqu’à présent. Le pié sur lequel il est n’est pas moins singulier, estant aussi d’acier, travaillé avec beaucoup d’art &amp; de patience.</p>
                         </div>
                      </div>
                      <div xml:id="gdpBrice1684T02BodyFr04.002" type="section">
@@ -4919,7 +4920,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e16136">La théâtre de la Comédie françoise</placeName>
                                  </supplied>
-                              </label>Au milieu de cette rue est <placeName xml:id="gdpBrice1684d1e16139">le théâtre de la Comédie françoise</placeName>, vis-à-vis <placeName xml:id="gdpBrice1684d1e16142">la rue de Guénégaud</placeName>, &amp; seul endroit où l’on représente à présent des pièces françoises. Autrefois, il y en avoit trois à Paris où ces spe<pb/>
+                              </label> Au milieu de cette rue est <placeName xml:id="gdpBrice1684d1e16139">le théâtre de la Comédie françoise</placeName>, vis-à-vis <placeName xml:id="gdpBrice1684d1e16142">la rue de Guénégaud</placeName>, &amp; seul endroit où l’on représente à présent des pièces françoises. Autrefois, il y en avoit trois à Paris où ces spe<pb/>
                               <fw type="pageNum">207</fw>stacles se donnoient : au <placeName xml:id="gdpBrice1684d1e16149">Palais-Roïal</placeName>, au <placeName xml:id="gdpBrice1684d1e16153">Marais du Temple</placeName> &amp; à <placeName xml:id="gdpBrice1684d1e16156">l’hôtel de Bourgogne</placeName>, mais depuis l’invention des opéra ces choses ont esté changées &amp; la troupe qui représente sur <placeName xml:id="gdpBrice1684d1e16159">le théâtre de Guénégaud</placeName> est restée seule. On y représente souvent des pièces nouvelles qui sont fort agréables, mais qui ne sont pas de la beauté de celles de <persName xml:id="gdpBrice1684d1e16162">M. Corneille</persName> ni de <persName xml:id="gdpBrice1684d1e16165">M. Racine</persName> pour le sérieux, non plus que de celles du fameux <persName xml:id="gdpBrice1684d1e16168">Molière</persName> pour le comique. Tous les étrangers conviennent cependant que la scène françoise est la plus belle &amp; la plus magnifique de l’Europe, soit pour la décoration du théâtre, soit pour la beauté des pièces que l’on y représente ; les comédiens n’épargnant rien d’ailleurs pour satisfaire les spectateurs par la richesse des habits dont ils se parent. Il y en a mesme quelques-uns d’entre eux qui composent des pièces, ce qui fait qu’ils en sont beaucoup plus habiles &amp; qu’ils entrent bien mieux dans le caractère qu’ils représentent.</p>
                         </div>
                         <pb/>
@@ -5029,7 +5030,7 @@
                                  <supplied>
                                     <placeName xml:id="gdpBrice1684d1e16746">L’inscription du quay Malaquais ou des Quatre-Nation</placeName>
                                  </supplied>
-                              </label>Sur quay qui règne le long de la rivière, on a mis cette inscription sur un marbre noir qui regarde <placeName xml:id="gdpBrice1684d1e16749">le Louvre</placeName>. Elle est de <persName xml:id="gdpBrice1684d1e16752">M. Blondel</persName> :</p>
+                              </label> Sur quay qui règne le long de la rivière, on a mis cette inscription sur un marbre noir qui regarde <placeName xml:id="gdpBrice1684d1e16749">le Louvre</placeName>. Elle est de <persName xml:id="gdpBrice1684d1e16752">M. Blondel</persName> :</p>
                            <quote xml:lang="lat">
                               <p rend="alignCenter">
                                  <persName xml:id="gdpBrice1684d1e16757">Ludovico Magno</persName>
@@ -5179,7 +5180,7 @@
                                  <supplied>
                                     <objectName xml:id="gdpBrice1684d1e17291">Le bust du cardinal de Richelieu</objectName>
                                  </supplied>
-                              </label>Dans la sacristie on voit <objectName xml:id="gdpBrice1684d1e17294">un très beau bust du cardinal de Richelieu fait par le cavalier Bernin</objectName>, que <persName xml:id="gdpBrice1684d1e17297">la duchesse d’Aiguillon</persName> a donné par testament.</p>
+                              </label> Dans la sacristie on voit <objectName xml:id="gdpBrice1684d1e17294">un très beau bust du cardinal de Richelieu fait par le cavalier Bernin</objectName>, que <persName xml:id="gdpBrice1684d1e17297">la duchesse d’Aiguillon</persName> a donné par testament.</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr05.001.003" type="section">
                            <p xml:id="gdpBrice1684T02BodyFr05.001.003.p001">
@@ -5225,7 +5226,7 @@
                                  <supplied>
                                     <objectName xml:id="gdpBrice1684d1e17414">La statue à l’entrée du parvis de Nostre-Dame</objectName>
                                  </supplied>
-                              </label>On voit, vis-à-vis la principale porte à l’entrée du parvis de Nostre-Dame, <objectName xml:id="gdpBrice1684d1e17417">une grande statue de pierre fort haute qui représente un homme tenant une boëte à sa main &amp; un serpent à côté de lui</objectName>. On croit que c’est <objectName xml:id="gdpBrice1684d1e17420">la statue d’Esculape</objectName>, dieu des <pb/>
+                              </label> On voit, vis-à-vis la principale porte à l’entrée du parvis de Nostre-Dame, <objectName xml:id="gdpBrice1684d1e17417">une grande statue de pierre fort haute qui représente un homme tenant une boëte à sa main &amp; un serpent à côté de lui</objectName>. On croit que c’est <objectName xml:id="gdpBrice1684d1e17420">la statue d’Esculape</objectName>, dieu des <pb/>
                               <fw type="pageNum">248</fw>Médecins, que l’on présume avoir eu quelque temple en cet endroit.</p>
                         </div>
                         <div xml:id="gdpBrice1684T02BodyFr05.001.009" type="section">
@@ -5233,7 +5234,7 @@
                               <label>
                                  <supplied>L’inscription de <placeName xml:id="gdpBrice1684d1e17432">la fontaine du parvis de Nostre-Dame</placeName>
                                  </supplied>
-                              </label>Sur la fontaine qui est derrière cette statue, ces vers sont gravés :</p>
+                              </label> Sur la fontaine qui est derrière cette statue, ces vers sont gravés :</p>
                            <quote xml:lang="lat">
                               <lg>
                                  <l>Qui sitis, huc tendas desunt si forte liquores,</l>
@@ -5360,7 +5361,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e17738">La grande salle du Palais</placeName>
                               </supplied>
-                           </label>Ce qu’on doit remarquer dans ce grand bâtiment est premièrement la grande salle, que <persName xml:id="gdpBrice1684d1e17741">le cavalier Bernin</persName> admira comme une des plus belles choses de France. Elle est bâtie sur le plan d’une autre très ancienne, qui fut réduite en cendres au commencement de ce siècle &amp; dans laquelle <objectName xml:id="gdpBrice1684d1e17744">les statues de nos rois</objectName>, de grandeur naturelle, estoient placez tout autour. C’estoit dans cette salle où les rois recevoient les ambassadeurs, où ils donnoient des festins publics à certains jours de l’année &amp; où mesme se faisoient les noces des enfans de France. Au mariage d’<persName xml:id="gdpBrice1684d1e17747">Isabelle de France</persName> avec <persName xml:id="gdpBrice1684d1e17750">Richard second</persName>, roi d’Angleterre, il y eut un si grand concours de peuple que plusieurs personnes y furent étoufées. <persName xml:id="gdpBrice1684d1e17753">Charles VI</persName>, qui regnoit en ce temps-là, y courut risque de la vie.</p>
+                           </label> Ce qu’on doit remarquer dans ce grand bâtiment est premièrement la grande salle, que <persName xml:id="gdpBrice1684d1e17741">le cavalier Bernin</persName> admira comme une des plus belles choses de France. Elle est bâtie sur le plan d’une autre très ancienne, qui fut réduite en cendres au commencement de ce siècle &amp; dans laquelle <objectName xml:id="gdpBrice1684d1e17744">les statues de nos rois</objectName>, de grandeur naturelle, estoient placez tout autour. C’estoit dans cette salle où les rois recevoient les ambassadeurs, où ils donnoient des festins publics à certains jours de l’année &amp; où mesme se faisoient les noces des enfans de France. Au mariage d’<persName xml:id="gdpBrice1684d1e17747">Isabelle de France</persName> avec <persName xml:id="gdpBrice1684d1e17750">Richard second</persName>, roi d’Angleterre, il y eut un si grand concours de peuple que plusieurs personnes y furent étoufées. <persName xml:id="gdpBrice1684d1e17753">Charles VI</persName>, qui regnoit en ce temps-là, y courut risque de la vie.</p>
                      </div>
                      <pb/>
                      <fw type="pageNum">256</fw>
@@ -5370,7 +5371,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e17763">La chapelle &amp; l’horloge à un des bouts de la grande salle</placeName>
                               </supplied>
-                           </label>Cette salle est toute voûtée de pierres de taille, avec une suite d’arcades au milieu qui sont soutenues de gros piliers, autour desquels il y a des boutiques occupées par plusieurs marchands. L’ordre dorique règne tout autour en pilastres. À un des bouts, il y a une chapelle où l’on dit des messes tous les jours. Les procureurs à qui elle appartient ont fait depuis un an quarante mille francs de dépence pour l’embellir comme elle est.</p>
+                           </label> Cette salle est toute voûtée de pierres de taille, avec une suite d’arcades au milieu qui sont soutenues de gros piliers, autour desquels il y a des boutiques occupées par plusieurs marchands. L’ordre dorique règne tout autour en pilastres. À un des bouts, il y a une chapelle où l’on dit des messes tous les jours. Les procureurs à qui elle appartient ont fait depuis un an quarante mille francs de dépence pour l’embellir comme elle est.</p>
                         <p xml:id="gdpBrice1684T02BodyFr06.002.p002">Au dessus est l’horloge sur laquelle on règle les audiances. Au bas du quadran on a mis ce beau vers de <persName xml:id="gdpBrice1684d1e17768">M. de Montmort de l’Académie françoise</persName>.</p>
                         <quote xml:lang="lat">
                            <l>Sacra Themis mores ut Pendula dirigit horas.</l>
@@ -5385,7 +5386,7 @@
                               <supplied>
                                  <placeName xml:id="gdpBrice1684d1e17783">La Grande Chambre</placeName>
                               </supplied>
-                           </label>Il ne faut pas manquer d’aller voir les chambres particulières dans lesquelles on plaide. <placeName xml:id="gdpBrice1684d1e17786">La Grande Chambre</placeName> est à côté de la grande salle. Elle a esté bâtie sous <persName xml:id="gdpBrice1684d1e17789">saint Louis</persName>, qui y donnoit les audiances publiques ; où lui-mesme, avec la bonté d’un père &amp; la majesté d’un grand roi, travailloit à pacifier les désordres qui naissoient entre ses sujets, ou à recevoir les ambassadeurs que les princes ses voisins lui envoïoient. <persName xml:id="gdpBrice1684d1e17792">Louis XII</persName> l’a fait réparer comme elle est. Le plafon, composé de culs de lampe, qui y est a passé autrefois pour une très belle chose, mais le temps lui a ôté une fort grande partie de ce qui le faisoit estimer. C’est dans ce lieu où tout <orgName>le Parlement</orgName> s’assemble lorsque le roi y vient tenir son lit de justice, ou bien lorsqu’il y a quelque grande affaire sur laquelle on doit délibérer. C’est dans ce mesme lieu où les ducs &amp; pairs de France viennent demander l’enregistrement des lettres d’érection de leur dignité que le roi leur donne. Les<pb/>
+                           </label> Il ne faut pas manquer d’aller voir les chambres particulières dans lesquelles on plaide. <placeName xml:id="gdpBrice1684d1e17786">La Grande Chambre</placeName> est à côté de la grande salle. Elle a esté bâtie sous <persName xml:id="gdpBrice1684d1e17789">saint Louis</persName>, qui y donnoit les audiances publiques ; où lui-mesme, avec la bonté d’un père &amp; la majesté d’un grand roi, travailloit à pacifier les désordres qui naissoient entre ses sujets, ou à recevoir les ambassadeurs que les princes ses voisins lui envoïoient. <persName xml:id="gdpBrice1684d1e17792">Louis XII</persName> l’a fait réparer comme elle est. Le plafon, composé de culs de lampe, qui y est a passé autrefois pour une très belle chose, mais le temps lui a ôté une fort grande partie de ce qui le faisoit estimer. C’est dans ce lieu où tout <orgName>le Parlement</orgName> s’assemble lorsque le roi y vient tenir son lit de justice, ou bien lorsqu’il y a quelque grande affaire sur laquelle on doit délibérer. C’est dans ce mesme lieu où les ducs &amp; pairs de France viennent demander l’enregistrement des lettres d’érection de leur dignité que le roi leur donne. Les<pb/>
                            <fw type="pageNum">258</fw>autres chambres sont beaucoup plus belles, &amp; mesme dans quelques-unes il y a des plafons dorez &amp; peints avec beaucoup de dépence. La seconde &amp; la troisième des enquestes, &amp; les chambres des requestes sont les mieux ornées.</p>
                      </div>
                      <div xml:id="gdpBrice1684T02BodyFr06.004" type="section">
@@ -5521,7 +5522,7 @@
                            <p xml:id="gdpBrice1684T02BodyFr07.001.001.p001">
                               <label>
                                  <supplied>L’inscription de la pompe du Nostre-Dame</supplied>
-                              </label>Au milieu de ce pont on a élevé deux machines qui élèvent de l’eau de la rivière pour la commodité des quartiers de la ville qui en sont éloignez. La porte que l’on a bâtie pour y aller est d’ordre ionique, ornée de quelques ornemens qui ne font pas un méchant effet. Ces vers de <persName xml:id="gdpBrice1684d1e18300">monsieur de Santeuil</persName>, dont on a déjà parlé si souvent, sont gravez en lettres d’or sur un marbre noir :</p>
+                              </label> Au milieu de ce pont on a élevé deux machines qui élèvent de l’eau de la rivière pour la commodité des quartiers de la ville qui en sont éloignez. La porte que l’on a bâtie pour y aller est d’ordre ionique, ornée de quelques ornemens qui ne font pas un méchant effet. Ces vers de <persName xml:id="gdpBrice1684d1e18300">monsieur de Santeuil</persName>, dont on a déjà parlé si souvent, sont gravez en lettres d’or sur un marbre noir :</p>
                            <quote xml:lang="lat">
                               <lg>
                                  <l>Sequana cum primum Reginæ allabitur urbi,</l>
