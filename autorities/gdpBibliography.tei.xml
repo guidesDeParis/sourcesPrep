@@ -1303,6 +1303,15 @@
                                         unit="volumes" quantity="8">8</dim> </extent>
                                 </monogr>
                                 <idno type="catBnf">https://catalogue.bnf.fr/ark:/12148/cb36025177p</idno>
+                                <idno type="catBnf">https://catalogue.bnf.fr/ark:/12148/cb31110721s</idno>
+                                <idno type="gallica" n="vol1">https://gallica.bnf.fr/ark:/12148/bpt6k6569438p</idno>
+                                <idno type="gallica" n="vol2">https://gallica.bnf.fr/ark:/12148/bpt6k6569898b</idno>
+                                <idno type="gallica" n="vol3">https://gallica.bnf.fr/ark:/12148/bpt6k6565980r</idno>
+                                <idno type="gallica" n="vol4">https://gallica.bnf.fr/ark:/12148/bpt6k6565959b</idno>
+                                <idno type="gallica" n="vol5">https://gallica.bnf.fr/ark:/12148/bpt6k65706361</idno>
+                                <idno type="gallica" n="vol6">https://gallica.bnf.fr/ark:/12148/bpt6k6565307j</idno>
+                                <idno type="gallica" n="vol7">https://gallica.bnf.fr/ark:/12148/bpt6k65704385</idno>
+                                <idno type="gallica" n="vol8">https://gallica.bnf.fr/ark:/12148/bpt6k6583538q</idno>
                                 <listRelation>
                                     <relation type="work" corresp="#piganiolExpression"/>
                                 </listRelation>
