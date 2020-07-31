@@ -389,7 +389,8 @@
             </listPerson>
             <listPerson>
                 <head>Artistes</head>
-                <person xml:id="nomChampagnePhilippeDe">
+                <!-- @todo corr id -->
+                <person xml:id="nomChampaignePhilippeDe">
                     <persName full="yes">Champaigne, Philippe de (1602-1674)</persName>
                     <persName>
                         <forename>Philippe</forename>
