@@ -8,7 +8,7 @@
   <xsl:output indent="yes" method="xml" encoding="UTF-8" />
   
   <!-- choix du préfixe -->
-  <xsl:param name="prefix" select="'gdpBrice1784'" />
+  <xsl:param name="prefix" select="'gdpSauval1724'" />
   <xsl:param name="foliotation" select="'pageNum'" />
   <!--<xsl:param name="foliotation" select="'pageNum'" />-->
   
