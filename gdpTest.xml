@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            <person xml:id="p0001">
+               <persName full="yes">Poussin, Nicolas (1594-1665)</persName>
+               <persName>
+                  <forename>Nicolas</forename>
+                  <surname>Poussin</surname>
+               </persName>
+               <birth>
+                  <date when="1594-06-15">15 juin 1594</date>
+                  <placeName>Les Andelys (Eure)</placeName>
+               </birth>
+               <death>
+                  <date when="1665-11-19">19 novembre 1665</date>
+                  <placeName>Rome</placeName>
+               </death>
+               <nationality>français</nationality>
+               <occupation type="AAT" ref="http://vocab.getty.edu/page/aat/300411314">artiste peintre</occupation>
+               <!-- Dans le cas ci-dessous, est-ce pertinent d'utiliser le vocabulaire du Getty ? (pas assez précis par rapport au contexte français ?) -->
+               <occupation type="AAT" ref="http://vocab.getty.edu/page/aat/300435198" key="court-painter">premier peintre du roi (<date from="1641" to="1665">1641-1665</date>)</occupation>
+               <!--  -->
+               <residence>
+                  <date from="1621" to="1622">1621-1622</date>
+                  <settlement>Florence</settlement>
+                  <location>
+                     <!-- sur quel système de géo coordonnées s'appuyer ?  -->
+                     <geo>43.767872872994666, 11.260111106250001</geo>
+                  </location>
+               </residence>
+               <idno type="wikidata">https://www.wikidata.org/wiki/Q41554</idno>
+               <listEvent>
+                  <event type="CRM" key="E12-production" ref="http://www.cidoc-crm.org/entity/e12-production/version-7.1.1">  
+                     <!-- voir pour proposer une solution plus satisfaisante ? -->
+                     <object type="CRM" key="P108_has_produced" ref="http://www.cidoc-crm.org/Property/P108-has-produced/version-7.1.1">
+                        <!-- exemple d'id (à définir) -->
+                        <objectIdentifier xml:id="o0001">
+                           <objectName>Saint François-Xavier rappelant à la vie la fille d'un habitant de Cangoxima [Kagoshima], au Japon</objectName>
+                        </objectIdentifier>
+                     </object>
+                     <date when="1641">1641</date>
+                     <participant type="CRM" key="P14-carried-out-by" ref="http://www.cidoc-crm.org/Property/p14-carried-out-by/version-7.1.1">
+                        <role type="AAT" ref="http://vocab.getty.edu/page/aat/300025136">peintre</role>
+                     </participant>
+                  </event>
+               </listEvent>
+            </person>
+         </listPerson>
+         <listPlace>
+            <place xml:id="l0001">
+               <placeName>Noviciat des Jésuites</placeName>
+               <!-- peut-être autre abréviation pour le thésaurus de désignation des oeuvres architecturales ? -->
+               <trait>
+                  <label type="TDOAEA" ref="http://data.culture.fr/thesaurus/resource/ark:/67717/T96-325">noviciat (<date from="1610" to="1806">1610-vers1806</date>)</label>
+               </trait>
+               <country>France</country>
+               <settlement type="city">Paris</settlement>
+               <location>
+                  <!-- comment décrire une zone ? ajouter adresse ? -->
+                  <geo>48.85030304860027 2.3308519824580793, 48.850194544566605 2.3325695993413693, 48.84961512464695 2.3326657281763783, 48.84935139958699 2.330972319149459</geo>
+               </location>
+               <listRelation>
+                  <!-- ajouter relation avec les rues ? -->
+                  <relation type="CRM" active="#l0001" key="P89i_contains" ref="http://www.cidoc-crm.org/Property/p89-falls-within/version-7.1.1" passive="#l0002 #l0003 #l0004"/>
+               </listRelation>
+            </place>
+            <place xml:id="l0002">
+               <placeName>Chapelle dédiée à saint François-Xavier (Noviciat des Jésuites)</placeName>
+               <trait>
+                  <label type="TDOAEA" ref="http://data.culture.fr/thesaurus/page/ark:/67717/T96-93">chapelle</label>
+               </trait>
+               <country>France</country>
+               <settlement type="city">Paris</settlement>
+               <listRelation>
+                  <relation type="CRM" active="#l0002" key="P89_falls_within" ref="http://www.cidoc-crm.org/Property/p89-falls-within/version-7.1.1" passive="#l0001"/>
+               </listRelation>
+            </place>
+            <place xml:id="l0003">
+               <placeName>Maison du noviciat (Noviciat des Jésuites)</placeName>
+               <country>France</country>
+               <settlement type="city">Paris</settlement>
+               <listRelation>
+                  <relation type="CRM" active="#l0003" key="P89_falls_within" ref="http://www.cidoc-crm.org/Property/p89-falls-within/version-7.1.1" passive="#l0001"/>
+               </listRelation>
+            </place>
+            <place xml:id="l0004">
+               <placeName>Chapelle pour la Congrégation des Messieurs (Noviciat des Jésuites)</placeName>
+               <trait>
+                  <label type="TDOAEA" ref="http://data.culture.fr/thesaurus/page/ark:/67717/T96-93">chapelle</label>
+               </trait>
+               <country>France</country>
+               <settlement type="city">Paris</settlement>
+               <listRelation>
+                  <relation type="CRM" active="#l0004" key="P89_falls_within" ref="http://www.cidoc-crm.org/Property/p89-falls-within/version-7.1.1" passive="#l0001"/>
+                  <relation type="CRM" active="#l0004" key="P122_borders_with" ref="http://www.cidoc-crm.org/Property/p122-borders-with/version-7.1.1" passive="#l0005"/>
+               </listRelation>
+            </place>
+            <place xml:id="l0005">
+               <placeName>Maison des retraites</placeName>
+               <country>France</country>
+               <settlement type="city">Paris</settlement>
+               <listRelation>
+                  <relation type="CRM" active="#l0005" key="P122_borders_with" ref="http://www.cidoc-crm.org/Property/p122-borders-with/version-7.1.1" passive="#l0004"/>
+               </listRelation>
+            </place>
+         </listPlace>
+      </body>
+  </text>
+</TEI>
