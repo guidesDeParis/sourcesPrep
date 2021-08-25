@@ -12,7 +12,7 @@
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title xml:lang="fre" type="main">Germain Brice 1684</title>
+            <title xml:lang="fre" type="main">Germain Brice, 1684</title>
             <author>
                <persName full="yes">Brice, Germain (1653?-1727)</persName>
             </author>
@@ -336,7 +336,7 @@
                      xml:id="gdpBrice1684d1e505"
                      >la Cité</placeName>, avec quelques maisons sur le bord de la rivière du côté de <placeName
                      xml:id="gdpBrice1684d1e508">l’église de Saint-Germain-l’Auxer<pb
-                     xml:id="gdpBrice1784P13" /> <fw type="pageNum"
+                     xml:id="gdpBrice1784P13" /><fw type="pageNum"
                      >7</fw>rois</placeName>, où estoit pour lors un bois que l’on appeloit <placeName
                      xml:id="gdpBrice1684d1e516"
                      >la forest des Charbonniers</placeName>. Mais cependant, quoy qu’elle fût fort petite pour lors, elle ne laissoit pas d’estre considérée comme une place de très grande importance, puis que dans le partage que les enfants de Clovis firent du royaume, ils convinrent entr’eux que <placeName
@@ -5606,8 +5606,7 @@
                               <p xml:id="gdpBrice1684T02BodyFr01.007.001.001.p002"
                                  >Sous celle de la Reine.</p>
                               <quote xml:lang="lat"> <p> <persName xml:id="gdpBrice1684d1e10945"
-                                 >Joanna Franciæ et Navarræ Regina</persName>
-                                 <lb />Campaniæ Briæque Comes Palatina <lb />
+                                 >Joanna Franciæ et Navarræ Regina</persName><lb /> Campaniæ Briæque Comes Palatina <lb />
                                  <emph>Hac ædes fundavit <date when="1304">1304</date> </emph>.</p> </quote>
                               <p xml:id="gdpBrice1684T02BodyFr01.007.001.001.p003"
                                  >Au milieu sont encore des deux vers :</p>
