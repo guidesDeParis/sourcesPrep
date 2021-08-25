@@ -903,7 +903,7 @@
                   <rng:text />
                 </datatype>
                 <valList mode="replace" type="closed">
-                  <valItem ident="dedicace" />
+                  <valItem ident="dedicace"/>
                   <valItem ident="imprimatur" />
                   <valItem ident="toc" />
                   <valItem ident="foreword" />
