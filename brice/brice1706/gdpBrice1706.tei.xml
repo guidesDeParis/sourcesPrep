@@ -362,10 +362,8 @@
                   vu longtemps travailler avec application.</p>
                <p>Voicy l’epitaphe que l’on a gravée sur son tombeau attachée à un pilier entre deux
                   chapelles, assez proche de la Sacristie.</p>
-               <floatingText>
-                  <body>
-                     <div xml:lang="lat" rend="alignCenter">
-                        <head rend="capital">Siste viator</head>
+               <quote xml:lang="lat" rend="alignCenter">
+                        <l rend="capital">Siste viator</l>
                         <l>Et bene precare extncto heu ! ibique sepulto</l>
                         <l><hi>Clarissimo Viro</hi>
                            <lb/><hi rend="capital">Carolo du Fresne</hi> Domino <lb/><hi
@@ -395,9 +393,7 @@
                            <hi rend="capital">Caroli du Fresne</hi> carissima conjux consepulta
                            est.</l>
                         <l>19 Jul. Ann. 1694.</l>
-                     </div>
-                  </body>
-               </floatingText>
+               </quote>
                <p>Derriere le Chœur dans une chapelle à main droite, on remarquera le tombeau de
                         <persName><hi rend="italic">Michel</hi>
                      <hi rend="capital">le Tellier</hi></persName>, chancelier de France, où il est
@@ -411,10 +407,8 @@
                   doré qui sont une assez belle décoration.</p>
                <p>L’inscription qui suit est gravée sur le devant du tombeau.</p>
                <!-- RMQ pourquoi ne pas mettre les phrases d'introduction dans le front du floatingtext-->
-               <floatingText>
-                  <body>
-                     <div xml:lang="lat">
-                        <l rend="capital">A la gloire de dieu, </l>
+               <quote xml:lang="lat">
+                        <l rend="capital">À la gloire de dieu, </l>
                         <l>&amp; à la Memoire éternelle.</l>
                         <p><persName><hi rend="capital">De Michel Le Tellier</hi></persName>,
                            Chancellier de France, illustre par sa fidelité inviolable envers son
@@ -441,9 +435,7 @@
                               <pb/><fw>382</fw> bras de sa Famille, pleuré des Peuples &amp;
                            regretté de <persName><hi rend="capital">Louis le
                            Grand</hi></persName>.</p>
-                     </div>
-                  </body>
-               </floatingText>
+               </quote>
                <p>Le <persName>Chancelier <hi rend="italic">Louis</hi>
                      <hi rend="capital">Boucherat</hi></persName> a fait construire une chapelle du
                   côté de la Sacristie, dans laquelle il a choisi sa sepulture, mais comme elle
