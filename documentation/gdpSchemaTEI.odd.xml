@@ -854,7 +854,7 @@
             </attList>
           </classSpec>
           <moduleRef key="core"
-            except="binaryObject headItem headLabel measure measureGrp name postBox postCode relatedItem said sp speaker stage street textLang time" />
+            except="binaryObject headItem headLabel measureGrp name postBox postCode relatedItem said sp speaker stage street textLang time" />
           <moduleRef key="linking" except="ab alt altGrp anchor join joinGrp timeline when" />
         </specGrp>
       </div>
@@ -929,7 +929,7 @@
         <head>Transcription du texte</head>
         <specGrp xml:id="transcrib">
           <moduleRef key="transcr"
-            except="addSpan am damage damageSpan delSpan ex handNotes handShift line listTranspose mod redo restore retrace sourceDoc subst substJoin surface surfaceGrp transpose undo" />
+            except="addSpan am damage damageSpan delSpan ex handNotes handShift line listTranspose mod redo restore retrace sourceDoc subst substJoin surfaceGrp transpose undo" />
           <elementSpec ident="metamark" mode="change">
             <attList>
               <attDef ident="rend" mode="change">
