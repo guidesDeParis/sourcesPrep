@@ -1293,34 +1293,34 @@
           <p>Cette modification du modèle est destinée à permettre la notation de relations entre les entrées bibliographiques conforme aux FRBR.</p>
         </specGrp>
       </div>
-      <div>
+      <!--<div>
         <head>Ajout d’un élément object</head>
         <p>La description des objets culturels nécessite la création d’un élément qui n’existe pas pour le moment dans la TEI. Les discussions conduites au sein du SIG ontology, envisagent la création d’un nouvel élément object. Nous avons essayé ci-dessous de fournir une première définition pour cet élément.</p>
         <specGrp xml:id="object">
-          <!-- classe model.objectLike -->
+          <!-\- classe model.objectLike -\->
           <classSpec type="model" ident="model.objectLike">
             <desc versionDate="2015-04-21" xml:lang="en"
               >groups elements used to provide information about objects and their relationships.</desc>
             <desc versionDate="2015-04-21" xml:lang="fr"
               >regroupe des éléments qui donne des informations sur des objets et leurs relations.</desc>
           </classSpec>
-          <!-- classe model.objectNamePart -->
+          <!-\- classe model.objectNamePart -\->
           <classSpec xml:id="OBJEPART" type="model" ident="model.objectNamePart">
             <desc versionDate="2015-04-21" xml:lang="en"
               >groups elements which form part of an object name.</desc>
             <desc versionDate="2015-04-21" xml:lang="fr"
               >regroupe des éléments qui font partie d'un nom d’objet.</desc>
             <classes>
-              <!-- 
+              <!-\- 
                             <memberOf key="model.nameLike"/> 
-                            -->
+                            -\->
               <memberOf key="model.objectStateLike" />
             </classes>
             <listRef>
               <ptr target="#NDPLAC" />
             </listRef>
           </classSpec>
-          <!-- classe model.objectStateLike -->
+          <!-\- classe model.objectStateLike -\->
           <classSpec type="model" ident="model.objectStateLike">
             <desc versionDate="2015-04-21" xml:lang="en"
               >groups elements which describe changing states of an object.</desc>
@@ -1330,14 +1330,14 @@
               <memberOf key="model.nameLike" />
             </classes>
           </classSpec>
-          <!-- classe model.objectEventLike -->
+          <!-\- classe model.objectEventLike -\->
           <classSpec module="perso" type="model" ident="model.objectEventLike">
             <desc versionDate="2015-04-21" xml:lang="en"
               >groups elements which describe events at or affecting an object.</desc>
             <desc versionDate="2015-04-21" xml:lang="fr"
               >regroupe des éléments qui décrivent des événements survenus et relatifs à un objet.</desc>
           </classSpec>
-          <!-- élément object -->
+          <!-\- élément object -\->
           <elementSpec ident="object" module="perso">
             <gloss versionDate="2015-04-21" xml:lang="en">object</gloss>
             <desc versionDate="2015-04-21" xml:lang="en"
@@ -1383,9 +1383,9 @@
                 <rng:zeroOrMore>
                   <rng:choice>
                     <rng:ref name="model.objectLike" />
-                    <!-- TODO à créer
+                    <!-\- TODO à créer
                                         <rng:ref name="listObject"/>
-                                        -->
+                                        -\->
                   </rng:choice>
                 </rng:zeroOrMore>
               </rng:group>
@@ -1399,7 +1399,7 @@
               <ptr target="#NDGEOG" />
             </listRef>
           </elementSpec>
-          <!-- élément objectName -->
+          <!-\- élément objectName -\->
           <elementSpec ident="rs" mode="change">
             <attList>
               <attDef ident="type" mode="change">
@@ -1422,7 +1422,7 @@
           </elementSpec>
           <elementSpec ident="objectName">
             <gloss versionDate="2015-04-21" xml:lang="fr">nom d’objet</gloss>
-            <!--gloss>place name</gloss-->
+            <!-\-gloss>place name</gloss-\->
             <desc versionDate="2015-04-21" xml:lang="en"
               >contains an absolute or relative object name.</desc>
             <classes>
@@ -1453,7 +1453,7 @@
             </listRef>
           </elementSpec>
         </specGrp>
-      </div>
+      </div>-->
       <!-- TODO 
                 * rendre possible l’utilisation de titlePage au début d’un volume
                 * créer un modèle de contenu object
