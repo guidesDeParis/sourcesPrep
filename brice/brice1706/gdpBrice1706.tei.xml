@@ -130,13 +130,10 @@
                corpus numériques</title>
             <idno type="URI">http://www.guidesdeparis.net</idno>
          </seriesStmt>
-         <!--
          <notesStmt>
-            <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
-            <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
+            <note xml:lang="fre" type="abstract">Édition de la <title>Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris</title> par Germain Brice, 1706, établie dans le cadre du projet des Guides de Paris sous la direction de Marianne Cojannot-Leblanc (Labex Passés dans le présent).</note>
+            <note xml:lang="eng" type="abstract">Edition of the <title>Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris</title> par Germain Brice, 1706, established within the context of the Paris guidebooks project under the direction of Marianne Cojannot-Leblanc (Labex Pasts in present).</note>
          </notesStmt>
-         -->
-         <!-- description de la source -->
          <sourceDesc xml:id="gdpBrice1706">
             <bibl copyOf="#brice1706aManifestation"/>
          </sourceDesc>

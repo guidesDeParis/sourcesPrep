@@ -138,26 +138,20 @@
                 <title xml:lang="fre" type="main">Les Guides de Paris</title>
                 <title xml:lang="fre" type="sub">Les historiens des arts et les
                     corpus numériques</title>
-                <idno type="URI">http://www.guidesdeparis.net</idno>
+                <idno type="URI">http://www.guidesdeparis.fr</idno>
             </seriesStmt>
-            <!--
-         <notesStmt>
-            <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
-            <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
-         </notesStmt>
-         -->
-            <!-- description de la source -->
+            <notesStmt>
+                <note xml:lang="fre" type="abstract">Corpus de Le Maire produit dans le cadre du projet des Guides de Paris sous la direction de Marianne Cojannot-Leblanc (Labex Passés dans le présent).</note>
+                <note xml:lang="eng" type="abstract">Corpus of Le Maire produced within the context of the Paris guidebooks project under the direction of Marianne Cojannot-Leblanc (Labex Pasts in present).</note>
+            </notesStmt>
             <sourceDesc xml:id="gdpLeMaire">
                 <bibl copyOf="#leMaireExpression"/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <!-- description du projet éditorial -->
             <projectDesc>
-                <p>L’édition des Guides de Paris fait partie d’un programme de
-                    recherche sur les historiens de l’art et les corpus numériques.</p>
+                <p>L’édition des Guides de Paris fait partie d’un programme de recherche sur les historiens de l’art et les corpus numériques.</p>
             </projectDesc>
-            <!-- déclaration des principes éditoriaux -->
             <editorialDecl>
                 <correction>
                     <p>La syntaxe originale du manuscrit a été respectée en suivant les
@@ -168,8 +162,7 @@
                                 rend="superscript">e</hi> siècle)</ref>.</p>
                 </correction>
                 <hyphenation>
-                    <p>Pour les ouvrages imprimés, il n’a pas été tenu compte de
-                        l’hyphénation.</p>
+                    <p>Pour les ouvrages imprimés, il n’a pas été tenu compte de l’hyphénation.</p>
                 </hyphenation>
                 <interpretation>
                     <p>Les interprétations sont traitées au moyen d’un élément supplied

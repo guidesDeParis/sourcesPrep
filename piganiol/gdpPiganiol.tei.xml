@@ -123,7 +123,6 @@
                 <date from="2014" to="2018">2014-2018</date>
                 <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
                 <idno>ark</idno>
-                <!-- responsable de la publication -->
                 <publisher>
                     <orgName>Histoire des Arts &amp; Représentations</orgName>
                     <orgName type="acronym">HAR</orgName>
@@ -149,15 +148,12 @@
             <seriesStmt>
                 <title xml:lang="fre" type="main">Les Guides de Paris</title>
                 <title xml:lang="fre" type="sub">Les historiens des arts et les corpus numériques</title>
-                <idno type="URI">http://www.guidesdeparis.net</idno>
+                <idno type="URI">http://www.guidesdeparis.fr</idno>
             </seriesStmt>
-            <!--
-         <notesStmt>
-            <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
-            <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
-         </notesStmt>
-         -->
-            <!-- description de la source -->
+            <notesStmt>
+                <note xml:lang="fre" type="abstract">Corpus de Piganiol produit dans le cadre du projet des Guides de Paris sous la direction de Marianne Cojannot-Leblanc (Labex Passés dans le présent).</note>
+                <note xml:lang="eng" type="abstract">Corpus of Piganiol produced within the context of the Paris guidebooks project under the direction of Marianne Cojannot-Leblanc (Labex Pasts in present).</note>
+            </notesStmt>
             <sourceDesc xml:id="gdpPiganiol">
                 <bibl copyOf="#piganiolExpression"/>
             </sourceDesc>

@@ -43,7 +43,6 @@
         <date from="2014" to="2018">2014-2018</date>
         <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
         <idno>ark</idno>
-        <!-- responsable de la publication -->
         <publisher> <orgName>Histoire des Arts &amp; Représentations</orgName> <orgName
           type="acronym">HAR</orgName> <orgName type="alt">EA 4414</orgName> <address>
           <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
@@ -66,7 +65,10 @@
         <title xml:lang="fre" type="sub">Les historiens des arts et les corpus numériques</title>
         <idno type="URI">http://www.guidesdeparis.net</idno>
       </seriesStmt>
-      <!-- <notesStmt> <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note> <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note> </notesStmt> -->
+      <notesStmt>
+        <note xml:lang="fre" type="abstract">Introduction à l’édition de la Description de Paris, de Versailles, de Marly, de Meudon, de Saint-Cloud, de Fontainebleau, et de toutes les autres belles maisons &amp; châteaux des environs de Paris par Piganiol, 1742, établie dans le cadre du projet des Guides de Paris sous la direction de Marianne Cojannot-Leblanc (Labex Passés dans le présent).</note>
+        <note xml:lang="eng" type="abstract">Introduction of the edition of the Description de Paris, de Versailles, de Marly, de Meudon, de Saint-Cloud, de Fontainebleau, et de toutes les autres belles maisons &amp; châteaux des environs de Paris par Piganiol, 1742, established within the context of the Paris guidebooks project under the direction of Marianne Cojannot-Leblanc (Labex Pasts in present).</note>
+      </notesStmt>
       <!-- description de la source -->
       <sourceDesc xml:id="gdpPiganiolIntroduction" default="false">
         <p>Document nativement numérique</p>

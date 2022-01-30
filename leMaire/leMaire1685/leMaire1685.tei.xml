@@ -8,7 +8,7 @@
    @todo vérifier utilisation de seg dans les citation
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader type="text">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="fre" type="main">Le Maire 1685</title>
@@ -123,17 +123,18 @@
             <title xml:lang="fre" type="sub">Les historiens des arts et les corpus numériques</title>
             <idno type="URI">http://www.guidesdeparis.net</idno>
          </seriesStmt>
-         <!-- <notesStmt> <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note> <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note> </notesStmt> -->
-         <!-- description de la source -->
+         <notesStmt>
+            <note xml:lang="fre" type="abstract">Édition de <title>Paris ancien et nouveau</title> de Le Maire, 1685, établie dans le cadre du projet des Guides de Paris sous la direction de Marianne Cojannot-Leblanc (Labex Passés dans le présent).</note>
+            <note xml:lang="eng" type="abstract">Edition of the <title>Paris ancien et nouveau</title> de Le Maire, 1685, established within the context of the Paris guidebooks project under the direction of Marianne Cojannot-Leblanc (Labex Pasts in present).</note>
+         </notesStmt>
          <sourceDesc xml:id="gdpLeMaire1685" default="false">
             <bibl copyOf="#leMaire1685aManifestation" default="false" status="draft"/>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc><!-- description du projet éditorial -->
+      <encodingDesc>
          <projectDesc default="false">
             <p>L’édition des Guides de Paris fait partie d’un programme de recherche sur les historiens de l’art et les corpus numériques.</p>
          </projectDesc>
-         <!-- déclaration des principes éditoriaux -->
          <editorialDecl default="false">
             <correction default="false" status="unknown" method="silent">
                <p>La syntaxe originale du texte imprimé a été respectée en suivant les indications de Bernard Barbiche,<ref type="external"

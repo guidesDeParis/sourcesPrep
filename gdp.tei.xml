@@ -258,10 +258,9 @@
                     <addrLine>harparisouest@gmail.com</addrLine>
                 </address>
                 </authority>
-                <date when="2013">2013</date>
+                <date from="2013" to="2018">2013-2018</date>
                 <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
                 <idno>ark</idno>
-                <!-- responsable de la publication -->
                 <publisher>
                     <orgName>Histoire des Arts &amp; Représentations</orgName>
                     <orgName type="acronym">HAR</orgName>
@@ -290,25 +289,20 @@
             <seriesStmt>
                 <title xml:lang="fre" type="main">Les Guides de Paris</title>
                 <title xml:lang="fre" type="sub">Les historiens des arts et les corpus numériques</title>
-                <idno type="URI">http://www.guidesdeparis.net</idno>
+                <idno type="URI">http://www.guidesdeparis.fr</idno>
             </seriesStmt>
-            <!--
-         <notesStmt>
-            <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
-            <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
-         </notesStmt>
-         -->
-            <!-- description de la source -->
+            <notesStmt>
+                <note xml:lang="fre" type="abstract">Corpus des Guides de Paris établi dans le cadre du projet Les Guides de Paris, les historiens de l’art et les corpus numériques (Labex Passés dans le présent) sous la direction de Marianne Cojannot-Le Blanc.</note>
+                <note xml:lang="eng" type="abstract">Corpus of the Guides de Paris established within the context of the project Paris guidebooks, art historians and digital corpora (Labex Pasts in present) under the direction of Marianne Cojannot-Le Blanc.</note>
+            </notesStmt>
             <sourceDesc xml:id="gdp">
                 <p>Fichier nativement numérique.</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <!-- description du projet éditorial -->
             <projectDesc>
                 <p>L’édition des Guides de Paris fait partie d’un programme de recherche sur les historiens de l’art et les corpus numériques.</p>
             </projectDesc>
-            <!-- déclaration des principes éditoriaux -->
             <editorialDecl>
                 <correction>
                     <p>La syntaxe originale du manuscrit a été respectée en suivant les indications de Bernard Barbiche, <ref type="external" target="http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes">Conseils pour l’édition des textes de l’époque moderne (XVI<hi rend="superscript">e</hi>-XVIII<hi rend="superscript">e</hi> siècle)</ref>.</p>
@@ -329,7 +323,6 @@
                     <p>Les citations dans le texte sont encodées soit au moyen d‘un élément quote, soit au moyen d’un élément...</p>
                 </quotation>
             </editorialDecl>
-            <!-- déclaration concernant la méthode d’établissement du corpus (sélection) -->
             <refsDecl>
                 <p>Description du système de référence canonique.</p>
                 <!-- TODO à renseigner avec une expression régulière -->
@@ -340,7 +333,6 @@
             </samplingDecl>
             <variantEncoding method="location-referenced" location="external"/>
         </encodingDesc>
-        <!-- présentation du profil de fichier -->
         <profileDesc>
             <creation when="2013">2013</creation>
             <langUsage>

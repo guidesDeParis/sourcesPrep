@@ -32,7 +32,7 @@
                     <affiliation>
                         <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
                         <orgName type="alt">Paris 10</orgName>
-                        <roleName>professeur d'histoire de l'art</roleName>
+                        <roleName>professeur d’histoire de l’art</roleName>
                     </affiliation>
                 </principal>
                 <funder>
@@ -69,7 +69,7 @@
                 </respStmt>
                 <respStmt>
                     <resp key="trc">transcriptions réalisées par des étudiants du
-                        Master 1 d'histoire de l'art, de l'université Paris-Ouest
+                        Master 1 d’histoire de l’art, de l’université Paris-Ouest
                         Nanterre, <date from="2014-02" to="2014-04">février à avril
                             2014</date>, pp. </resp>
                     <persName ref="#renaudBastien">
@@ -141,26 +141,21 @@
                 <title xml:lang="fre" type="main">Les Guides de Paris</title>
                 <title xml:lang="fre" type="sub">Les historiens des arts et les
                     corpus numériques</title>
-                <idno type="URI">http://www.guidesdeparis.net</idno>
+                <idno type="URI">http://www.guidesdeparis.fr</idno>
             </seriesStmt>
-            <!--
-         <notesStmt>
-            <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
-            <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
-         </notesStmt>
-         -->
-            <!-- description de la source -->
+            <notesStmt>
+                <note xml:lang="fre" type="abstract">Corpus de Brice produit dans le cadre du projet des Guides de Paris sous la direction de Marianne Cojannot-Leblanc (Labex Passés dans le présent).</note>
+                <note xml:lang="eng" type="abstract">Corpus of Brice produced within the context of the Paris guidebooks project under the direction of Marianne Cojannot-Leblanc (Labex Pasts in present).</note>
+            </notesStmt>
             <sourceDesc xml:id="gdpBrice">
               <bibl copyOf="#briceExpression"/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <!-- description du projet éditorial -->
             <projectDesc>
-                <p>L'édition des Guides de Paris fait partie d'un programme de
-                    recherche sur les historiens de l'art et les corpus numériques.</p>
+                <p>L’édition des Guides de Paris fait partie d’un programme de
+                    recherche sur les historiens de l’art et les corpus numériques.</p>
             </projectDesc>
-            <!-- déclaration des principes éditoriaux -->
             <editorialDecl>
                 <correction>
                     <p>La syntaxe originale du manuscrit a été respectée en suivant les
@@ -171,13 +166,13 @@
                                 rend="superscript">e</hi> siècle)</ref>.</p>
                 </correction>
                 <hyphenation>
-                    <p>Pour les ouvrages imprimés, il n'a pas été tenu compte de
-                        l'hyphénation.</p>
+                    <p>Pour les ouvrages imprimés, il n’a pas été tenu compte de
+                        l’hyphénation.</p>
                 </hyphenation>
                 <interpretation>
-                    <p>Les interprétations sont traitées au moyen d'un élément supplied
+                    <p>Les interprétations sont traitées au moyen d’un élément supplied
                         ou bien sont renvoyées en notes. Une mention de responsabilité
-                        est fournie grâce à l'attribut resp sur le passage
+                        est fournie grâce à l’attribut resp sur le passage
                         concerné.</p>
                 </interpretation>
                 <normalization>
@@ -188,11 +183,10 @@
                     <p>On utilise...</p>
                 </stdVals>
                 <quotation>
-                    <p>Les citations dans le texte sont encodées soit au moyen d'un
-                        élément quote, soit au moyen d'un élément...</p>
+                    <p>Les citations dans le texte sont encodées soit au moyen d’un
+                        élément quote, soit au moyen d’un élément...</p>
                 </quotation>
             </editorialDecl>
-            <!-- déclaration concernant la méthode d'établissement du corpus (sélection) -->
             <refsDecl>
                 <p>Description du système de référence canonique.</p>
                 <!-- TODO à renseigner avec une expression régulière -->
@@ -203,7 +197,6 @@
             </samplingDecl>
             <variantEncoding method="location-referenced" location="external"/>
         </encodingDesc>
-        <!-- présentation du profil de fichier -->
         <profileDesc>
             <creation when="2014">2014</creation>
             <langUsage>
