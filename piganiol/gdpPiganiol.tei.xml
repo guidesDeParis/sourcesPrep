@@ -31,7 +31,7 @@
                     <affiliation>
                         <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
                         <orgName type="alt">Paris 10</orgName>
-                        <roleName>professeur d'histoire de l'art</roleName>
+                        <roleName>professeur d’histoire de l’art</roleName>
                     </affiliation>
                 </principal>
                 <funder>
@@ -46,42 +46,65 @@
                     </persName>
                 </respStmt>
                 <respStmt>
-                    <resp key="mrk">encodage</resp>
-                    <persName ref="#EC">
-                        <forename>Emmanuel</forename>
-                        <surname>Château</surname>
-                    </persName>
-                </respStmt>
-                <respStmt>
                     <resp key="edt">édition</resp>
-                    <persName ref="#EC">
-                        <forename>Emmanuel</forename>
-                        <surname>Château</surname>
+                    <persName ref="#JM">
+                        <forename>Josselin</forename>
+                        <surname>Morvan</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
-                    <resp key="trc">transcription et relecture</resp>
-                    <persName ref="#EC">
-                        <forename>Emmanuel</forename>
-                        <surname>Château</surname>
+                    <resp key="mrk">encodage</resp>
+                    <persName ref="#JM">
+                        <forename>Josselin</forename>
+                        <surname>Morvan</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
-                    <resp key="trc mrk">transcriptions et encodage réalisés par des étudiants du Master 1 d’histoire de l’art, de l’université Paris-Ouest Nanterre, <date from="2015-04" to="2015-05">année universitaire 2014-2015</date></resp>
-                    <persName ref="#MC">
-                        <forename>Mathilde</forename>
-                        <surname>Calvez</surname>
+                    <resp key="trc">transcription</resp>
+                    <persName ref="#JM">
+                        <forename>Josselin</forename>
+                        <surname>Morvan</surname>
                     </persName>
-                    <persName ref="#ACM">
-                        <forename>Audrey-Caroline</forename>
-                        <surname>Michielon</surname>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">transcription</resp>
+                    <persName ref="#KF">
+                        <forename>Kyoko</forename>
+                        <surname>Fukuda</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">transcription</resp>
+                    <persName ref="#GdR">
+                        <forename>Guillemette de</forename>
+                        <surname>Roquemaurel</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">transcription</resp>
+                    <persName>
+                        <forename>Justine</forename>
+                        <surname>Georges</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">transcription</resp>
+                    <persName>
+                        <forename>Chloé</forename>
+                        <surname>Thomas</surname>
                     </persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition n="1">première édition électronique, <date from="2013" to="2018">2013-2018</date></edition>
             </editionStmt>
-            <extent><!-- TODO : taille du fichier en octet --></extent>
+            <extent>
+                <measure unit="bytes" quantity="9 958 901">9  958  901 octets</measure>
+                <measure unit="words" quantity="823646">82 3646 mots</measure>
+                <measure unit="chars" quantity="4866094">4 866 094 caractères</measure>
+                <measure unit="pages" quantity="11546">11 546 pages</measure>
+                <!-- @todo valider les quantités -->
+            </extent>
             <publicationStmt>
                 <authority>
                     <orgName>Histoire des Arts &amp; Représentations</orgName>
@@ -140,20 +163,18 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <!-- description du projet éditorial -->
             <projectDesc>
-                <p>L'édition des Guides de Paris fait partie d'un programme de recherche sur les historiens de l'art et les corpus numériques.</p>
+                <p>L’édition des Guides de Paris fait partie d’un programme de recherche sur les historiens de l’art et les corpus numériques.</p>
             </projectDesc>
-            <!-- déclaration des principes éditoriaux -->
             <editorialDecl>
                 <correction>
                     <p>La syntaxe originale du manuscrit a été respectée en suivant les indications de Bernard Barbiche, <ref type="external" target="http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes">Conseils pour l’édition des textes de l’époque moderne (XVI<hi rend="superscript">e</hi>-XVIII<hi rend="superscript">e</hi> siècle)</ref>.</p>
                 </correction>
                 <hyphenation>
-                    <p>Pour les ouvrages imprimés, il n'a pas été tenu compte de l'hyphénation.</p>
+                    <p>Pour les ouvrages imprimés, il n’a pas été tenu compte de l’hyphénation.</p>
                 </hyphenation>
                 <interpretation>
-                    <p>Les interprétations sont traitées au moyen d'un élément supplied ou bien sont renvoyées en notes. Une mention de responsabilité est fournie grâce à l'attribut resp sur le passage concerné.</p>
+                    <p>Les interprétations sont traitées au moyen d’un élément supplied ou bien sont renvoyées en notes. Une mention de responsabilité est fournie grâce à l’attribut resp sur le passage concerné.</p>
                 </interpretation>
                 <normalization>
                     <p>La ponctuation ainsi que les majuscules ont été normalisées. Les abréviations ont été développées.</p>
@@ -162,21 +183,14 @@
                     <p>On utilise...</p>
                 </stdVals>
                 <quotation>
-                    <p>Les citations dans le texte sont encodées soit au moyen d'un élément quote, soit au moyen d'un élément...</p>
+                    <p>Les citations dans le texte sont encodées soit au moyen d’un élément quote, soit au moyen d’un élément...</p>
                 </quotation>
             </editorialDecl>
-            <!-- déclaration concernant la méthode d'établissement du corpus (sélection) -->
             <refsDecl>
                 <p>Description du système de référence canonique.</p>
                 <!-- TODO à renseigner avec une expression régulière -->
             </refsDecl>
-            <samplingDecl>
-                <p>Échantillonnage</p>
-                <!-- TODO modifier à la fin du projet -->
-            </samplingDecl>
-            <variantEncoding method="location-referenced" location="external"/>
         </encodingDesc>
-        <!-- présentation du profil de fichier -->
         <profileDesc>
             <creation when="2014">2014</creation>
             <langUsage>

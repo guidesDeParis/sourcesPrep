@@ -68,7 +68,13 @@
             <edition n="1">première édition électronique, <date from="2013" to="2018">2013-2018</date>
             </edition>
          </editionStmt>
-         <extent><!-- TODO : taille du fichier en octet --></extent>
+         <extent>
+            <measure unit="bytes" quantity="1 272 379">1  272  379 octets</measure>
+            <measure unit="words" quantity="108429">108 429 mots</measure>
+            <measure unit="chars" quantity="654820">654 820 caractères</measure>
+            <measure unit="pages" quantity="1543">1 543 pages</measure>
+            <!-- @todo valider les quantités -->
+         </extent>
          <publicationStmt>
             <authority>
                <orgName>Histoire des Arts &amp; Représentations</orgName>

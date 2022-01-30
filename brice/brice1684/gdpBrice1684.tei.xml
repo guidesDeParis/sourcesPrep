@@ -57,6 +57,13 @@
             </respStmt>
             <respStmt>
                <resp key="trc">transcription</resp>
+               <persName ref="#JM">
+                  <forename>Josselin</forename>
+                  <surname>Morvan</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp key="trc">transcription</resp>
                <persName ref="#LL">
                   <forename>Laura</forename>
                   <surname>Lebarbey</surname>
@@ -74,7 +81,13 @@
             <edition n="1">première édition électronique, <date from="2013" to="2018"
                >2013-2018</date> </edition>
          </editionStmt>
-         <extent><!-- TODO : taille du fichier en octet --></extent>
+         <extent>
+            <measure unit="bytes" quantity="1 127 309">1  127  309 octets</measure>
+            <measure unit="words" quantity="86968">86 968 mots</measure>
+            <measure unit="chars" quantity="505147">505 147 caractères</measure>
+            <measure unit="pages" quantity="855">855 pages</measure>
+            <!-- @todo valider les quantités -->
+         </extent>
          <publicationStmt>
             <authority> <orgName>Histoire des Arts &amp; Représentations</orgName> <orgName
                type="acronym">HAR</orgName> <orgName type="alt">EA 4414</orgName> <address>

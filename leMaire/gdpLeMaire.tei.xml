@@ -31,7 +31,7 @@
                     <affiliation>
                         <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
                         <orgName type="alt">Paris 10</orgName>
-                        <roleName>professeur d'histoire de l'art</roleName>
+                        <roleName>professeur d’histoire de l’art</roleName>
                     </affiliation>
                 </principal>
                 <funder>
@@ -84,7 +84,13 @@
                 <edition n="1">première édition électronique, <date from="2013"
                         to="2018">2013-2018</date></edition>
             </editionStmt>
-            <extent><!-- TODO : taille du fichier en octet --></extent>
+            <extent>
+                <measure unit="bytes" quantity="1 272 379">1  272  379 octets</measure>
+                <measure unit="words" quantity="108429">108 429 mots</measure>
+                <measure unit="chars" quantity="654820">654 820 caractères</measure>
+                <measure unit="pages" quantity="1543">1 543 pages</measure>
+                <!-- @todo valider les quantités -->
+            </extent>
             <publicationStmt>
                 <authority>
                     <orgName>Histoire des Arts &amp; Représentations</orgName>
@@ -103,7 +109,6 @@
                 <date from="2014" to="2018">2014-2018</date>
                 <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
                 <idno>ark</idno>
-                <!-- responsable de la publication -->
                 <publisher>
                     <orgName>Histoire des Arts &amp; Représentations</orgName>
                     <orgName type="acronym">HAR</orgName>
@@ -149,8 +154,8 @@
         <encodingDesc>
             <!-- description du projet éditorial -->
             <projectDesc>
-                <p>L'édition des Guides de Paris fait partie d'un programme de
-                    recherche sur les historiens de l'art et les corpus numériques.</p>
+                <p>L’édition des Guides de Paris fait partie d’un programme de
+                    recherche sur les historiens de l’art et les corpus numériques.</p>
             </projectDesc>
             <!-- déclaration des principes éditoriaux -->
             <editorialDecl>
@@ -163,13 +168,13 @@
                                 rend="superscript">e</hi> siècle)</ref>.</p>
                 </correction>
                 <hyphenation>
-                    <p>Pour les ouvrages imprimés, il n'a pas été tenu compte de
-                        l'hyphénation.</p>
+                    <p>Pour les ouvrages imprimés, il n’a pas été tenu compte de
+                        l’hyphénation.</p>
                 </hyphenation>
                 <interpretation>
-                    <p>Les interprétations sont traitées au moyen d'un élément supplied
+                    <p>Les interprétations sont traitées au moyen d’un élément supplied
                         ou bien sont renvoyées en notes. Une mention de responsabilité
-                        est fournie grâce à l'attribut resp sur le passage
+                        est fournie grâce à l’attribut resp sur le passage
                         concerné.</p>
                 </interpretation>
                 <normalization>
@@ -180,11 +185,10 @@
                     <p>On utilise...</p>
                 </stdVals>
                 <quotation>
-                    <p>Les citations dans le texte sont encodées soit au moyen d'un
-                        élément quote, soit au moyen d'un élément...</p>
+                    <p>Les citations dans le texte sont encodées soit au moyen d’un
+                        élément quote, soit au moyen d’un élément...</p>
                 </quotation>
             </editorialDecl>
-            <!-- déclaration concernant la méthode d'établissement du corpus (sélection) -->
             <refsDecl>
                 <p>Description du système de référence canonique.</p>
                 <!-- TODO à renseigner avec une expression régulière -->
@@ -195,7 +199,6 @@
             </samplingDecl>
             <variantEncoding method="location-referenced" location="external"/>
         </encodingDesc>
-        <!-- présentation du profil de fichier -->
         <profileDesc>
             <creation when="2014">2014</creation>
             <langUsage>
