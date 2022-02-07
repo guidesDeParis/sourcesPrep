@@ -199,7 +199,7 @@
    </teiHeader>
    <text>
       <group>
-         <text xml:id="gdpBrice1684T01">
+         <text xml:id="gdpBrice1684T01" type="volume" n="1">
             <front xml:id="gdpBrice1684T01Front">
                <titlePage xml:id="gdpBrice1684T01Front.01" xml:lang="fre" corresp="#brice1684a">
                   <docTitle>
@@ -5355,7 +5355,7 @@
                </div>
             </back>
          </text>
-         <text xml:id="gdpBrice1684T02">
+         <text xml:id="gdpBrice1684T02" type="volume" n="2">
             <front xml:id="gdpBrice1684T02Front">
                <titlePage xml:id="gdpBrice1684T02Front.01" xml:lang="fre" corresp="#brice1684a">
                   <docTitle>
