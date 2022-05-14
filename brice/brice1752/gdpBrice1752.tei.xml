@@ -117,10 +117,11 @@
                 </address>
             </publisher>
             <availability status="restricted" xml:id="gdpBrice1752Licence">
-               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
-                  <p>Texte de la licence</p>
-                  <!-- TODO renseigner le texte de la licence -->
-                  <graphic url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"/>
+               <licence
+                  target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>Ce texte est mis à disposition selon les termes de la licence Creative Commons Attribution version 4.0</p>
+                  <graphic
+                     url="https://licensebuttons.net/l/by/4.0/88x31.png"/>
                </licence>
             </availability>
          </publicationStmt>

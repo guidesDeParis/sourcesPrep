@@ -66,12 +66,13 @@
           <addrLine>http://har.u-paris10.fr</addrLine>
           <addrLine>harparisouest@gmail.com</addrLine>
           </address> </publisher>
-        <availability status="restricted" xml:id="gdpSauvalLicence">
-          <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
-            <p>Texte de la licence</p>
-            <!-- TODO renseigner le texte de la licence --> 
-            <!--<graphic
-            url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png" />--></licence>
+        <availability status="restricted" xml:id="gdpSchemaLicence">
+          <licence
+            target="https://creativecommons.org/licenses/by/4.0/">
+            <p>Ce contenu est mis à disposition selon les termes de la licence Creative Commons Attribution version 4.0</p>
+            <graphic
+              url="https://licensebuttons.net/l/by/4.0/88x31.png"/>
+          </licence>
         </availability>
       </publicationStmt>
       <seriesStmt>
@@ -232,7 +233,7 @@
             <!-- TODO élaborer -->
           </div>
         </div>
-        <div>
+        <!--<div>
           <head>Noms propres</head>
           <div>
             <cit>
@@ -256,8 +257,8 @@
                 >Claude</hi>. Il n’y a, entre les diverses personnes portant ce prénom, d’autre caractère commun que ce prénom. – Comparez aussi <hi
                 rend="italic">Boulanger</hi> nom de famille et <hi rend="italic"
                 >boulanger</hi> nom commun.</p>
-                <p>Le noms propres s’écrivent par une majuscule ; ils sont généralement invariables en nombre ; ils se passent souvent de déterminant.</p> <p>SOnt de véritables noms propres :<list>
-                <item>Les noms de lieux : villes, villages, rues, monumenst, régions, pays, îles, montagnes, cours d’eau, mers, étoiles et astres (excepté <hi
+                <p>Le noms propres s’écrivent par une majuscule ; ils sont généralement invariables en nombre ; ils se passent souvent de déterminant.</p> <p>Sont de véritables noms propres :<list>
+                <item>Les noms de lieux : villes, villages, rues, monuments, régions, pays, îles, montagnes, cours d’eau, mers, étoiles et astres (excepté <hi
                   rend="italic">la terre</hi>, <hi rend="italic">la lune</hi>, et <hi rend="italic"
                   >le soleil</hi> ;</item>
                 <item>Les noms de personnes : noms de familles, prénoms, pseudonymes (et aussi les sobriquets, mais, pour ceux-ci, la signification n’est pas toujours absente).</item>
@@ -319,7 +320,7 @@
               <bibl>Grévisse, n° 98</bibl>
             </cit>
           </div>
-        </div>
+        </div>-->
       </div>
       <div>
         <head>La TEI comme cadre de travail pour l’édition des sources historiques</head>
@@ -527,17 +528,17 @@
           <div>
             <head>Choix des éléments et des attributs</head>
             <p>Tous les éléments ou attributs définis par ces modules n’étant pas nécessairement pertinents pour le projet, nous avons spécifié ceux qui étaient employés. Pour ce faire, deux méthodes sont proposées par le langage ODD, soit l’on retire une liste d’élément au module, soit l’on définie une liste fermée d’éléments nécessaires. Cette opération est généralement sans risque sur la production d’un modèle conforme à la TEI, mais il convient de veillez à prendre en compte les dépendances éventuelles liées aux différents modèles de contenus (par exemple, si l’on peut se passer sans risque des éléments <gi>div1</gi>, <gi>div2</gi>, <gi>div3</gi>, etc., toutefois, il faut veillez à conserver un élément englobant <gi>div</gi> qui doit contenir les paragraphes <gi>p</gi>).</p>
-            <p>TODO donner des exemples</p>
+            <!-- TODO donner des exemples -->
           </div>
           <div>
             <head>Personnalisation des modèles de contenu</head>
             <p>Afin de faciliter la personnalisation, la TEI regroupe certaines spécifications communes sous forme de classes de modèles ou de classes d’attribut. Ces modèles de contenu son également accessibles pour être modifié dans le langage ODD.</p>
-            <p>TODO donner des exemples</p>
+            <!-- TODO donner des exemples -->
           </div>
           <div>
             <head>Définition de liste de valeurs d’attributs</head>
             <p>Afin d’améliorer la consistance de l’encodage, il est possible de spécifier une liste de valeur fermée ou ouverte pour les attributs, de même ces attributs peuvent être rendus obligatoires.</p>
-            <p>TODO donner des exemples</p>
+            <!-- TODO donner des exemples -->
           </div>
         </div>
       </div>

@@ -67,9 +67,16 @@
                     </persName>
                 </respStmt>
                 <respStmt>
+                    <resp key="trc">transcription (à partir du T. 1, pp. 267 et suiv.)</resp>
+                    <persName ref="#EF">
+                        <forename>Étienne</forename>
+                        <surname>Faisant</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
                     <resp key="trc mrk">transcriptions et encodage réalisés par des étudiants du Master 1
                         d’histoire de l’art, de l’université Paris-Ouest Nanterre, <date from="2015-04"
-                            to="2015-05">année universitaire 2014-2015</date></resp>
+                            to="2015-05">année universitaire 2014-2015</date> (T. 1, pp. 1 à 267)</resp>
                     <persName ref="#MC">
                         <forename>Mathilde</forename>
                         <surname>Calvez</surname>
@@ -125,12 +132,10 @@
                 </publisher>
                 <availability status="restricted" xml:id="gdpLeMaireLicence">
                     <licence
-                        target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
-                        <p>Texte de la licence</p>
-                        <!-- TODO renseigner le texte de la licence -->
+                        target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>Ce corpus est mis à disposition selon les termes de la licence Creative Commons Attribution version 4.0</p>
                         <graphic
-                            url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"
-                        />
+                            url="https://licensebuttons.net/l/by/4.0/88x31.png"/>
                     </licence>
                 </availability>
             </publicationStmt>

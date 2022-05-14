@@ -57,8 +57,13 @@
                <addrLine>http://har.u-paris10.fr</addrLine>
                <addrLine>harparisouest@gmail.com</addrLine>
                </address> </publisher>
-            <availability status="restricted" xml:id="indexOperumTextLicence">
-               <licence target="https://creativecommons.org/licenses/by/4.0/"> <p>@todo Texte de la licence et image</p> </licence>
+            <availability status="restricted" xml:id="gdpIndexOperumLicence">
+               <licence
+                  target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>Ce contenu est mis à disposition selon les termes de la licence Creative Commons Attribution version 4.0</p>
+                  <graphic
+                     url="https://licensebuttons.net/l/by/4.0/88x31.png"/>
+               </licence>
             </availability>
          </publicationStmt>
          <seriesStmt>

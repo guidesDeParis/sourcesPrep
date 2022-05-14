@@ -55,6 +55,13 @@
                     </persName>
                 </respStmt>
                 <respStmt>
+                    <resp key="mrk">encodage</resp>
+                    <persName ref="#JM">
+                        <forename>Josselin</forename>
+                        <surname>Morvan</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
                     <resp key="edt">édition</resp>
                     <persName xml:id="EC">
                         <forename>Emmanuel</forename>
@@ -66,6 +73,20 @@
                     <persName ref="#EC">
                         <forename>Emmanuel</forename>
                         <surname>Château</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">transcription</resp>
+                    <persName ref="#JM">
+                        <forename>Josselin</forename>
+                        <surname>Morvan</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">transcription</resp>
+                    <persName ref="#EF">
+                        <forename>Étienne</forename>
+                        <surname>Faisant</surname>
                     </persName>
                 </respStmt>
                 <respStmt>
@@ -277,12 +298,10 @@
                 </publisher>
                 <availability status="restricted" xml:id="gdpLicence">
                     <licence
-                        target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
-                        <p>Texte de la licence</p>
-                        <!-- TODO renseigner le texte de la licence -->
+                        target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>Ce corpus est mis à disposition selon les termes de la licence Creative Commons Attribution version 4.0</p>
                         <graphic
-                            url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"
-                        />
+                            url="https://licensebuttons.net/l/by/4.0/88x31.png"/>
                     </licence>
                 </availability>
             </publicationStmt>
@@ -408,4 +427,13 @@
     <!--<xi:include href="autorities/gdpNomenclature.tei.xml" parse="xml">
         <xi:fallback>Fichier tei d’autorités non trouvé</xi:fallback>
     </xi:include>-->
+    
+    <!-- Inclusion du fichier tei du modèle -->
+    <xi:include href="documentation/gdpSchemaTEI.odd.xml" parse="xml">
+        <xi:fallback>Fichier tei du modèle non trouvé</xi:fallback>
+    </xi:include>
+    <!-- Inclusion du fichier tei de l’à-propos -->
+    <xi:include href="documentation/gdpAbout.xml" parse="xml">
+        <xi:fallback>Fichier tei de l’à propos non trouvé</xi:fallback>
+    </xi:include>
 </teiCorpus>
