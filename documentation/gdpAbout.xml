@@ -101,7 +101,7 @@
          </notesStmt>
          -->
       <!-- description de la source -->
-      <sourceDesc xml:id="gdpSauval">
+      <sourceDesc xml:id="gdpAbout">
         <p>Fichier nativement numérique. Le document s’appuie sur le cadre de travail proposé par la <ref
           target="http://www.tei-c.org/index.xml">Text Encoding Initiative</ref>.</p>
       </sourceDesc>
@@ -218,6 +218,10 @@
               <item><ref target="https://www.crihn.org">Centre de recherche interuniversitaire sur les humanités numériques CRIHN</ref>, <ref target="https://gren.openum.ca">Groupe de recherche sur les éditions critiques en contexte numérique GREN</ref></item>
             </list>
           </div>
+          <div>
+            <head>Licences</head>
+            <p>Tous les contenus de ce site sont mis à disposition sous licence <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Common Attribution (CC-BY)</ref>.</p>
+            </div>
         </div>
       </div>
       
