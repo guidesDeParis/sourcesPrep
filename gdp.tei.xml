@@ -433,7 +433,7 @@
         <xi:fallback>Fichier tei du modèle non trouvé</xi:fallback>
     </xi:include>
     <!-- Inclusion du fichier tei de l’à-propos -->
-    <xi:include href="documentation/gdpAbout.tei.xml" parse="xml">
+    <xi:include href="documentation/gdpCredits.tei.xml" parse="xml">
         <xi:fallback>Fichier tei de l’à propos non trouvé</xi:fallback>
     </xi:include>
     <!-- Inclusion du fichier tei de guide -->
