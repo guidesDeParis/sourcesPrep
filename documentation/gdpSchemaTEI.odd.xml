@@ -87,7 +87,7 @@
          </notesStmt>
          -->
       <!-- description de la source -->
-      <sourceDesc xml:id="gdpSauval">
+      <sourceDesc xml:id="gdpSchema">
         <p>Fichier nativement numérique. Le document s’appuie sur le cadre de travail proposé par la <ref
           target="http://www.tei-c.org/index.xml">Text Encoding Initiative</ref>.</p>
       </sourceDesc>
