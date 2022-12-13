@@ -18115,7 +18115,7 @@ MultiLineString ((653081.74167092423886061 6862655.79245616588741541, 653084.094
                <settlement type="city">Paris</settlement>
                <listRelation>
                   <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e15631 #gdpBrice1684d1e15648"/>
-                  <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26935"></relation>
+                  <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26935"></relation>-->
                   <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e172632 #gdpPiganiol1742d1e172664 #gdpPiganiol1742d1e175307 #gdpPiganiol1742d1e175337 #gdpPiganiol1742d1e175345 #gdpPiganiol1742d1e173827 #gdpPiganiol1742d1e175572 #gdpPiganiol1742d1e175821 #gdpPiganiol1742d1e175832 #gdpPiganiol1742d1e180832 #gdpPiganiol1742d1e183085 #gdpPiganiol1742d1e184784 #gdpPiganiol1742d1e189408 #gdpPiganiol1742d1e193400 #gdpPiganiol1742d1e195358 #gdpPiganiol1742d1e196593"/>
                </listRelation>
                <place xml:id="ghd01290">
@@ -34969,7 +34969,7 @@ MultiLineString ((653081.74167092423886061 6862655.79245616588741541, 653084.094
             <place xml:id="locIleSaintLouis">
                <placeName>Île-Saint-Louis</placeName>
                <listPlace>
-                  <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26565"/>
+                  <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26565"/>-->
                   <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e184177"/>
                </listPlace>
             </place>

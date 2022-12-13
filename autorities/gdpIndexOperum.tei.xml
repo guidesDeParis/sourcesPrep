@@ -10241,7 +10241,7 @@
                   <idno type="rameau">https://catalogue.bnf.fr/ark:/12148/cb13321934j</idno>
                   <idno type="wikidata">https://www.wikidata.org/wiki/Q1643082</idno>
                   <listRelation>
-                     <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26573" />
+                     <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26573" />-->
                      <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8256" />
                      <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e175552 #gdpPiganiol1742d1e175555" />
                   </listRelation>
@@ -12011,7 +12011,7 @@
                   <relation ref="#locQuartierIleNotreDame" />
                   <num>237</num>
                   <listRelation>
-                     <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26554" />
+                     <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26554" />-->
                      <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8303" />
                      <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15770 #gdpPiganiol1742d1e85302" />
                   </listRelation>

@@ -233,7 +233,7 @@
                         <date when="1645">1645</date>
                     </death>
                     <listRelation>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26584"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26584"/>-->
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15731"/>
                     </listRelation>
                 </person>
@@ -282,7 +282,7 @@
                     <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb120154019</idno>
                     <idno type="agorah">https://agorha.inha.fr/inhaprod/ark:/54721/00246023</idno>
                     <listRelation>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e327 #gdpLeMaire1685d1e15582"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e327 #gdpLeMaire1685d1e15582"/>-->
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e22518 #gdpPiganiol1742d1e27693 #gdpPiganiol1742d1e28030 #gdpPiganiol1742d1e28314 #gdpPiganiol1742d1e28459 #gdpPiganiol1742d1e28526 #gdpPiganiol1742d1e28554 #gdpPiganiol1742d1e28855 #gdpPiganiol1742d1e28859"/>
                     </listRelation>
                 </person>
@@ -309,7 +309,7 @@
                     <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb11913462f</idno>
                     <listRelation>
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e747 #gdpBrice1684d1e1854 #gdpBrice1684d1e3990 #gdpBrice1684d1e5382 #gdpBrice1684d1e5611 #gdpBrice1684d1e5911 #gdpBrice1684d1e5928 #gdpBrice1684d1e5998 #gdpBrice1684d1e6556 #gdpBrice1684d1e6568 #gdpBrice1684d1e6722 #gdpBrice1684d1e6930 #gdpBrice1684d1e11976 #gdpBrice1684d1e12928 #gdpBrice1684d1e14748 #gdpBrice1684d1e15013 #gdpBrice1684d1e16369 #gdpBrice1684d1e16547 #gdpBrice1684d1e16549 #gdpBrice1684d1e18212 #gdpBrice1684d1e18362 #gdpBrice1684d1e18434 #gdpBrice1684d1e18600 #gdpBrice1684d1e18641 #gdpBrice1684d1e18670 #gdpBrice1684d1e18723 #gdpBrice1684d1e18999 #gdpBrice1684d1e19111"/>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e5128 #gdpLeMaire1685d1e4653 #gdpLeMaire1685d1e15584"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e5128 #gdpLeMaire1685d1e4653 #gdpLeMaire1685d1e15584"/>-->
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e29878 #gdpPiganiol1742d1e2714 #gdpPiganiol1742d1e2915 #gdpPiganiol1742d1e3508 #gdpPiganiol1742d1e3804 #gdpPiganiol1742d1e5592 #gdpPiganiol1742d1e6862 #gdpPiganiol1742d1e9491 #gdpPiganiol1742d1e12116 #gdpPiganiol1742d1e12609 #gdpPiganiol1742d1e14511 #gdpPiganiol1742d1e17281 #gdpPiganiol1742d1e18477 #gdpPiganiol1742d1e18597 #gdpPiganiol1742d1e18603 #gdpPiganiol1742d1e18864 #gdpPiganiol1742d1e19014 #gdpPiganiol1742d1e19539 #gdpPiganiol1742d1e19555 #gdpPiganiol1742d1e19589 #gdpPiganiol1742d1e20022 #gdpPiganiol1742d1e20388 #gdpPiganiol1742d1e21536 #gdpPiganiol1742d1e21629 #gdpPiganiol1742d1e25805 #gdpPiganiol1742d1e28320"/>
                     </listRelation>
                 </person>
@@ -418,7 +418,7 @@
                     <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb12263241w</idno>
                     <listRelation>
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6501 #gdpBrice1684d1e8383 #gdpBrice1684d1e12782 #gdpBrice1684d1e13135"/>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e18636"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e18636"/>-->
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15517 #gdpPiganiol1742d1e17275 #gdpPiganiol1742d1e21545 #gdpPiganiol1742d1e21545 #gdpPiganiol1742d1e34974 #gdpPiganiol1742d1e39419 #gdpPiganiol1742d1e40157 #gdpPiganiol1742d1e40902 #gdpPiganiol1742d1e40945 #gdpPiganiol1742d1e40968 gdpPiganiol1742d1e41154 #gdpPiganiol1742d1e41184 #gdpPiganiol1742d1e64857 #gdpPiganiol1742d1e84153 #gdpPiganiol1742d1e84385 #gdpPiganiol1742d1e133860 #gdpPiganiol1742d1e137220 #gdpPiganiol1742d1e137231 #gdpPiganiol1742d1e137231 #gdpPiganiol1742d1e137681 #gdpPiganiol1742d1e141224 #gdpPiganiol1742d1e145823 #gdpPiganiol1742d1e155349 #gdpPiganiol1742d1e159763 #gdpPiganiol1742d1e160518 #gdpPiganiol1742d1e161524 #gdpPiganiol1742d1e163480"></relation>
                     </listRelation>
                 </person>
@@ -441,7 +441,7 @@
                     <idno type="ulan">http://vocab.getty.edu/page/ulan/500106146</idno>
                     <listRelation>
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e4479 #gdpBrice1684d1e5822"/>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26364 #gdpLeMaire1685d1e26672"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26364 #gdpLeMaire1685d1e26672"/>-->
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e40928 #gdpPiganiol1742d1e97690 #gdpPiganiol1742d1e137227 #gdpPiganiol1742d1e13235"></relation>
                     </listRelation>
                 </person>
@@ -464,7 +464,7 @@
                     <idno type="ulan">http://vocab.getty.edu/page/ulan/500005036</idno>
                     <listRelation>
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6486 #gdpBrice1684d1e7645 #gdpBrice1684d1e8733 #gdpBrice1684d1e8881 #gdpBrice1684d1e15061 #gdpBrice1684d1e15850 #gdpBrice1684d1e15869 #gdpBrice1684d1e16642 #gdpBrice1684d1e16843 #gdpBrice1684d1e17020 #gdpBrice1684d1e1441 #gdpBrice1684d1e802"/>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e24958 #gdpLeMaire1685d1e24985 #gdpLeMaire1685d1e26842 #gdpLeMaire1685d1e26902"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e24958 #gdpLeMaire1685d1e24985 #gdpLeMaire1685d1e26842 #gdpLeMaire1685d1e26902"/>-->
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15748 #gdpPiganiol1742d1e31572 #gdpPiganiol1742d1e37964 #gdpPiganiol1742d1e37983 #gdpPiganiol1742d1e41703 #gdpPiganiol1742d1e65258 #gdpPiganiol1742d1e65275 #gdpPiganiol1742d1e162468 #gdpPiganiol1742d1e163371 #gdpPiganiol1742d1e163386 #gdpPiganiol1742d1e163395 #gdpPiganiol1742d1e163404 #gdpPiganiol1742d1e163417 #gdpPiganiol1742d1e163419 #gdpPiganiol1742d1e174751 #gdpPiganiol1742d1e202126"/>
                     </listRelation>
                 </person>
@@ -485,7 +485,7 @@
                     <idno type="ulan">http://vocab.getty.edu/page/ulan/500002273</idno>
                     <listRelation>
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e1554 #gdpBrice1684d1e6482 #gdpBrice1684d1e8266 #gdpBrice1684d1e11095 #gdpBrice1684d1e13328 #gdpBrice1684d1e17009"/>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26591 #gdpLeMaire1685d1e5083"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26591 #gdpLeMaire1685d1e5083"/>-->
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e17786 #gdpPiganiol1742d1e83487 #gdpPiganiol1742d1e84147 #gdpPiganiol1742d1e84252 #gdpPiganiol1742d1e84258 #gdpPiganiol1742d1e134575 #gdpPiganiol1742d1e134597 #gdpPiganiol1742d1e134600 #gdpPiganiol1742d1e134748 #gdpPiganiol1742d1e160222 #gdpPiganiol1742d1e160484 #gdpPiganiol1742d1e160525 #gdpPiganiol1742d1e203960 #gdpPiganiol1742d1e12839 #gdpPiganiol1742d1e12978 #gdpPiganiol1742d1e13295 #gdpPiganiol1742d1e15656 #gdpPiganiol1742d1e15666 #gdpPiganiol1742d1e15683 #gdpPiganiol1742d1e15688 #gdpPiganiol1742d1e15701 #gdpPiganiol1742d1e15710"/>
                     </listRelation>
                 </person>
@@ -503,7 +503,7 @@
                     <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb120282726</idno>
                     <idno type="isni">http://isni.org/isni/0000000121016536</idno>
                     <listRelation>
-                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26568"/>
+                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26568"/>-->
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8322"/>
                     </listRelation>
                 </person>
