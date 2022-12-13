@@ -216,14 +216,14 @@
       <group>
          <text xml:id="gdpLeMaire1685T01" type="volume" n="1">
             <front xml:id="gdpLeMaire1685T01Front">
-               <titlePage xml:id="gdpLeMaire1685T01Front.01">
+               <titlePage xml:id="gdpLeMaire1685T01Front.00">
                   <docTitle>
                      <titlePart rend="alignCenter capitals" type="main">Paris <lb/>ancien <lb/>et <lb/>nouveau.</titlePart>
                      <titlePart rend="alignCenter" type="main">
                         <emph>ouvrage tres-curieux</emph>, <lb/>ou l’on voit</titlePart>
-                     <titlePart type="main">
+                     <titlePart type="sub">
                         <hi rend="capital">La fondation</hi>, les Accroissemens, le nombre des Habitans, &amp; des Maisons de cette grande Ville.</titlePart>
-                     <titlePart type="main">
+                     <titlePart type="sub">
                         <hi rend="capital">Avec une description</hi> Nouvelle de ce qu’il y a de plus remarquable dans toutes les Eglises, Communautez, &amp; Colleges ; dans les Palais, Hôtels, &amp; Maisons Particulieres ; dans les Ruës &amp; dans les Places Publiques.</titlePart>
                   </docTitle>
                   <byline>Par <persName>M. Le Maire</persName>.</byline>
@@ -6452,7 +6452,7 @@
          </text>
          <text xml:id="gdpLeMaire1685T02" type="volume" n="2">
             <front xml:id="gdpLeMaire1685T02Front">
-               <titlePage xml:id="gdpLeMaire1685T02Front.01">
+               <titlePage xml:id="gdpLeMaire1685T02Front.00">
                   <docTitle>
                      <titlePart rend="alignCenter capitals" type="main">Paris <lb/>ancien <lb/>et <lb/>nouveau.</titlePart>
                      <titlePart rend="alignCenter" type="main">
@@ -11361,7 +11361,7 @@
          </text>
          <text xml:id="gdpLeMaire1685T03" type="volume" n="3">
             <front xml:id="gdpLeMaire1685T03Front">
-               <titlePage xml:id="gdpLeMaire1685T03Front.01">
+               <titlePage xml:id="gdpLeMaire1685T03Front.00">
                   <docTitle>
                      <titlePart rend="alignCenter capitals" type="main">Paris <lb/>ancien <lb/>et <lb/>nouveau.</titlePart>
                      <titlePart rend="alignCenter" type="main">
