@@ -143,20 +143,19 @@
           <head>L’instrumentation systématique du corpus</head>
           <p>Le projet des Guides de Paris consiste à mettre à disposition du chercheur un corpus de guides historiques. Ce corpus textuel doit non seulement faire l’objet d’une numérisation systématique mais d’une indexation sémantique. L’ambition du projet est de rendre possible, par l’utilisation des techniques de balisage des textes anciens en XML-TEI et en s’appuyant sur les principes web sémantique, des recherches plein-texte et systématiques sur l’ensemble des éditions pour :<list>
             <item>accompagner efficacement les requêtes traditionnelles, à savoir la recherche d’informations ponctuelles (sur l’attribution des œuvres d’art, les dates d’exécution, l’identité des commanditaires etc.).</item>
-            <item>permettre de nouveaux types de recherches et multiplier les accès en utilisant l’hypertextualité (ainsi pour les analyses syntaxiques et lexicales).</item>
+            <item>permettre de nouveaux types de recherches et multiplier les accès en utilisant l’hypertextualité (ainsi qu’à terme des analyses syntaxiques et lexicales).</item>
             <item>donner une existence tangible au corpus en tant que corpus, marqué par des phénomènes d’intertextualité, de copies, de larges réécritures, de stratégies commerciales, d’une édition à l’autre, visualisables et mesurables quantitativement.</item>
             </list>Pour la mise en place de son indexation, le projet Guides de Paris nécessitera l’élaboration d’un référentiel des objets culturels parisiens qui fera l’objet d’une publication en Linked Open Data.</p>
         </div>
         <div>
           <head>L’élaboration d’un espace de publication et d’un espace numérique de travail</head>
-          <p>La mise en ligne du corpus doit répondre à des fonctionnalités diverses, adaptées aussi bien au service d’un public de chercheurs que d’un public plus large. Si l’édition d’un corpus de textes anciens vise d’abord à le mettre à disposition sous forme textuelle, le projet des Guides de Paris souhaite offrir des points d’accès nouveaux sur les textes, dont le recours à des dispositifs de visualisation, transformant ceux-ci en une base de données.</p>
+          <p>La mise en ligne du corpus répond à des fonctionnalités diverses, adaptées aussi bien au service d’un public de chercheurs que d’un public plus large. Si l’édition d’un corpus de textes anciens vise d’abord à le mettre à disposition sous forme textuelle, le projet des Guides de Paris souhaite offrir des points d’accès nouveaux sur les textes, dont le recours à des dispositifs de visualisation, transformant ceux-ci en une base de données.</p>
           <p>Dès lors que les guides de Paris décrivent des œuvres qui peuvent être conservées ou pour lesquelles il peut subsister des témoignages visuels (dessins préparatoires, estampes, photographies anciennes), il devient nécessaire de pouvoir rapprocher les textes et les images, que ce soit pour identifier ou pour interpréter. Un des enjeux du projet consiste donc également à savoir tirer parti des importants gisements de ressources numériques en histoire de l’art. Comment afficher des images mises à disposition par ailleurs sur le web ? Comment visualiser de manière pertinente le texte et les images ? Comment fournir des possibilités d’investigation pertinente pour l’historien d’art (comparaison, visualisation, etc.) ?</p>
-          <p>Compte-tenu de la volumétrie et de la durée du projet, il n’a pas paru souhaitable d’attendre la finalisation de l’indexation avant de mettre à disposition le résultat du travail. Il a donc été choisi d’inverser le processus de production, en réunissant sur le présent site l’espace de travail numérique et l’espace de publication.</p>
         </div>
         <div>
           <head>Un projet en lien avec les problématiques patrimoniales et les réflexions épistémologiques du labex « Les Passés dans le Présent »</head>
           <p>Le corpus des guides de Paris constitue un cas d’étude pour des problématiques au cœur du labex : celles de la construction d’une conscience patrimoniale et de l’évaluation critique de l’efficacité d’une protection d’objets publiquement valorisés. Quels enseignements tirer des périodes anciennes pour les débats patrimoniaux contemporains : en quelle mesure le fait de parler, de publier sur des objets contribue effectivement (ou non) à leur protection dans les siècles à venir ? Quel est l’impact des sources imprimées en matière de protection patrimoniale ? Par l’étude des « entrées » et « sorties » (mentions ou disparitions de mentions de bâtiments, de décors, d’œuvres d’art) dans les diverses éditions sur presque deux siècles, ou celle des déplacements d’œuvres au sein d’un espace (église, hôtel) et donc des hiérarchisations mouvantes (relégation, promotion des œuvres dans des espaces-clefs etc.), nous avons la possibilité assez unique d’observer et comprendre comment s’élabore une conscience patrimoniale partagée et les effets éventuels de celle-ci lors de la Révolution française.</p>
-          <p>Il s’agira pour finir de développer une réflexion sur les apports de l’édition numérique dans la pratique de l’histoire de l’art et d’envisager, dans une perspective épistémologique, ses conséquences (bonnes et/ou mauvaises) sur les usages et le type de savoir élaboré.</p>
+          <p>Il s’agit pour finir de développer une réflexion sur les apports de l’édition numérique dans la pratique de l’histoire de l’art et d’envisager, dans une perspective épistémologique, ses conséquences (bonnes et/ou mauvaises) sur les usages et le type de savoir élaboré.</p>
         </div>
       </div>
       <div>
@@ -211,15 +210,15 @@
           </div>
           <div>
             <head>Lacunes et difficultés de lecture</head>
-            <p>Disposant de sources imprimées, nous n’avons généralement pas été confrontés à des lacunes ou des passages détruits nécessitant d’être restitués entre crochets.</p>
-            <p>Les mots illisibles ou douteux ont toutefois pu être encodés. L’usage du <ident>sic.</ident> étant réservé aux segments syntaxiquement incorrect d’après l’usage du temps.</p>
+            <p>Disposant de sources imprimées, nous n’avons généralement pas été confrontés à des lacunes ou des passages détruits nécessitant d’être restitués. Les mots illisibles ou douteux ont toutefois pu être encodés. L’usage du <ident>sic.</ident> étant réservé aux segments syntaxiquement incorrect d’après l’usage du temps.</p>
           </div>
           <!-- TODO reprendre http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes -->
           <div>
             <head>Variantes</head>
-            <p>Les textes faisant souvent l’objet de fortes variation entre les réédition et chacun de ces états du texte étant attesté par l’édition imprimée, elles ont fait l’objet de transcription intégrales. Compte tenu de l’importance de ces remaniements, le traitement de ces variantes avec des lemmes n’étant pas le plus souvent pertinent, un apparat critique de ce type n’a pas été produit. Au contraire, il a été choisi de confier à la comparaison des témoins à un traitement algorithmique qui propose à l’utilisateur une visualisation de l’ensemble des lieux variants et des différents textes.</p>
+            <p>Les textes faisant souvent l’objet de fortes variation entre les réédition et chacun de ces états du texte étant attesté par l’édition imprimée, celles-ci pourront faire l’objet de transcriptions intégrales. Compte tenu de l’importance de ces remaniements, lorsque ces versions seront produites, le traitement de ces variantes avec des lemmes n’étant pas le plus souvent pertinent, il sera plutôt choisi de confier la comparaison des témoins à un traitement algorithmique qui propose à l’utilisateur une visualisation de l’ensemble des lieux variants.</p>
           </div>
-          <div>
+        </div>
+        <!-- <div>
             <p>voir : l’<hi rend="italic"
               >Histoire de l’orthographe française </hi>de Charles Beaulieux</p>
             <p><hi rend="italic"
@@ -230,9 +229,8 @@
             <p>Dictionnaire historique de l’orthographe française, sous la direction de Nina Catach</p>
             <p>Catach, Histoire de l’orthographe française, </p>
             <p>Baroni, La lente naissance des accents français : https://www.academia.edu/702241</p>
-            <!-- TODO élaborer -->
-          </div>
-        </div>
+            <!-/- TODO élaborer -/->
+      </div> -->
         <!--<div>
           <head>Noms propres</head>
           <div>
@@ -325,7 +323,7 @@
       <div>
         <head>La TEI comme cadre de travail pour l’édition des sources historiques</head>
         <div>
-          <p>L’édition électronique du corpus des Guides de Paris exigeait la mobilisation de techniques spécifiques pour l’établissement des textes, l’enregistrement des annotations scientifiques et la publication. Deux considérations ont principalement guidé les choix en la matière : d’une part l’adaptation aux objectifs scientifiques du projet, d’autre part l’interopérabilité et la pérennisation. Sur ces derniers points, le <hi
+          <p>L’édition électronique du corpus des Guides de Paris exigeait la mobilisation de techniques spécifiques pour l’établissement des textes, l’enregistrement des annotations et la publication. Deux considérations ont principalement guidé les choix : d’une part l’adaptation aux objectifs scientifiques du projet, d’autre part l’interopérabilité et la pérennisation. Sur ces derniers points, le <hi
             rend="italic"
             >Référentiel général d’interopérabilité</hi> publié en 2009 par la <orgName>Direction générale de la modernisation de l’État</orgName> recommande l’utilisation des technologies XML (eXtensible Markup Language)<ref
             type="note" target="#nGdpSchemaTEI0004"

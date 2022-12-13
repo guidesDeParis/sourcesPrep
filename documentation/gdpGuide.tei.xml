@@ -137,26 +137,38 @@
     <body>
       <div>
         <head>Guide d’utilisation</head>
-        <p>L’application des Guides de Paris vous permet de consulter plusieurs textes à travers une interface de travail unifiée.</p>
+        <p>L’application des Guides de Paris vous permet de consulter plusieurs textes à travers une interface de travail unifiée. Les premières éditions de Sauval, LeMaire, Brice et Piganiol ont fait l’objet d’un encodage et d’une indexation partielle.</p>
         <div>
           <head>Consultation des textes</head>
           <div>
-            <head>Table des matières et pagination</head>
-            <p> Morbi id justo ut ex dignissim fermentum a vel dui. Vivamus eu quam non nunc ultricies convallis non ut quam. Integer consectetur cursus augue egestas scelerisque. In vestibulum tortor lacus, a sollicitudin justo varius ac. Curabitur semper neque eget ante varius efficitur. Suspendisse eleifend mauris eu tempus porttitor. Ut imperdiet consectetur libero, vel dignissim augue sodales sed.</p>
-            <p>Nam ut leo a felis pulvinar gravida. Mauris quis elementum diam. Quisque mattis aliquam nulla ut venenatis. Mauris a arcu neque. Nam dignissim, nibh a aliquam pharetra, tellus enim ornare purus, non maximus risus leo sit amet elit. Praesent feugiat feugiat lacus id ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec at risus consequat, euismod erat a, egestas ante. Cras fringilla posuere ipsum, sed aliquet nibh. Fusce molestie efficitur tellus ut molestie. </p>
+            <head>Consultation du corpus</head>
+            <p>La page <ref target="corpus"
+              >corpus</ref> donne accès à la liste des textes disponible accompagnée d’une brève présentation. La consultation d’un texte est accompagnée d’un rappel des métadonnées principales, d’une page d’une table des matières et de divers outils de navigation.</p>
             <figure>
-              <graphic url="/image1.png"/>
-              <figDesc>Texte alternatif</figDesc>
+              <graphic url="/image1.png" />
+              <figDesc>image des pages de corpus</figDesc>
+            </figure>
+          </div>
+          <div>
+            <head>Table des matières et pagination</head>
+            <p>La table des matières à droite du texte permet de naviguer dans les différentes sections de l’ouvrage. Par défaut le sommaire présente les divisions principales du texte. Il est possible d’ouvrir les sous-division au clic.</p>
+            <p>Il est possible de naviguer dans l’ouvrage à partir de sa pagination originale en utilisant le sélecteur en bas de la colonne de droite.</p>
+            <figure>
+              <graphic url="/image1.png" />
+              <figDesc>image de la page de consultation des textes</figDesc>
             </figure>
           </div>
           <div>
             <head>Historique de navigation</head>
-            <p> Nulla sed eros vitae diam laoreet aliquet. Sed congue augue diam, eu lacinia leo lobortis vitae. Duis ut augue nec lorem imperdiet tempus faucibus id metus. Quisque sagittis orci a volutpat venenatis. Mauris nisi lacus, pharetra id metus tristique, efficitur luctus nulla. Aliquam sed ornare augue. Maecenas mattis eleifend sem in dignissim. Sed molestie est at ornare tempor. In tempus scelerisque porta. Nam et lorem et neque tempor commodo. Etiam eget nisi felis. Nulla sapien mi, interdum ac maximus vel, rhoncus eget leo. Etiam efficitur dui at magna vestibulum malesuada. Morbi vel sagittis odio. Nam vitae fringilla massa.</p>
+            <p>L’application de consultation des Guides de Paris est destinée à une consultation transversale des textes présentés sur la plateforme. Afin de faciliter cette consultation, l’utilisateur dispose d’un historique de navigation qui facilite les comparaisons entre les différents passages consultés sur le site.</p>
+            <p>L’historique de navigation est accessible au bas de l’écran dans un tiroir doré qui est escamotable pour faciliter la lecture du texte.</p>
           </div>
         </div>
         <div>
-          <head>Recherche</head>
-          <p>Aliquam sed luctus nulla. Cras finibus luctus massa, ac ultrices nisl hendrerit vel. Suspendisse commodo odio quis facilisis tincidunt. Ut vel arcu et sem convallis rutrum. Sed hendrerit metus nec ipsum pulvinar, id sodales libero varius. Curabitur aliquam ex sed tellus volutpat egestas. Vestibulum libero odio, finibus sit amet porttitor sed, feugiat eget metus. </p>
+          <head>Recherche et filtres dynamiques</head>
+          <p>L’utilisateur dispose d’un outil de recherche plein-texte et de recherche avancée en bas de page. Il est possible de faire une recherche dans les textes (recherche plein-texte), et dans les différents index.</p>
+          <p>La liste de résultats est présentée avec une indication du nombre d’occurrences rapportées par la recherche. L’outil de recherche prend en charge la normalisation des capitale, et la lemmatisation des chaînes recherchées.</p>
+          <p>Lors de la consultation d’un ouvrage, l’application propose des filtres dynamiques qui permettent de circuler rapidement parmi les différentes entités indexées à l’intérieur du texte.</p>
           <figure>
             <graphic url="/image2.png"/>
             <figDesc>Texte alternatif</figDesc>
@@ -164,15 +176,59 @@
         </div>
         <div>
           <head>Consultation des index</head>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed mi sed nunc mollis tempor vitae et ligula. Cras sit amet sem risus. Vestibulum vel ultricies justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu mi ac sapien mattis ullamcorper sit amet non ante. Aliquam porttitor congue nunc, quis suscipit nisi aliquam vel. Sed ac finibus nisi. Phasellus fermentum pellentesque purus, id vulputate risus vulputate vitae. In ullamcorper, dolor porta tempus interdum, libero urna efficitur neque, at faucibus erat lectus sit amet metus. Fusce at rhoncus leo. Etiam vitae leo eget erat dignissim vestibulum. Donec eleifend, mauris eget suscipit pretium, leo nisi convallis diam, in pharetra tellus nunc ac magna. Vestibulum quis urna ut mauris vehicula laoreet id nec nisi. Proin at dui et eros efficitur eleifend. Suspendisse lobortis sapien eget leo pretium, at fringilla libero ultrices. Etiam ut facilisis mi, ac viverra mi. </p>
+          <p>L’indexation des Guides de Paris est en cours. Dans l’immédiat, la plateforme donne accès à une première indexation des églises et des hôtels particuliers.</p>
+          <p>Les index sont présentés en ordre alphabétique. Les vedettes sont normalisées en utilisant les formes normalisées internationales. Il est possible de circuler parmi les entrées à travers un syllabaire.</p>
+          <p>Les index prennent la forme de répertoires d’autorité. Chaque entrée d’index donne accès à des informations de bases sur l’entité décrite avec des liens vers plusieurs référentiels externes comme les autorités de la Bnf ou Wikidata. Ces entrées sont accompagnées de liste d’occurrences et d’une liste des formes attestées classée par ouvrage qui listent les titres des sections concernées.</p>
         </div>
         <div>
           <head>Consultation de la bibliographie</head>
-          <p> Morbi id justo ut ex dignissim fermentum a vel dui. Vivamus eu quam non nunc ultricies convallis non ut quam. Integer consectetur cursus augue egestas scelerisque. In vestibulum tortor lacus, a sollicitudin justo varius ac. Curabitur semper neque eget ante varius efficitur. Suspendisse eleifend mauris eu tempus porttitor. Ut imperdiet consectetur libero, vel dignissim augue sodales sed. </p>
+          <p>Une partie seulement des guides de Paris font pour le moment l’objet d’une transcription. Une bibliographie systématique permet de restituer les ouvrages dans leur contexte de production. Ce répertoire bibliographique est établi à partir du Catalogue général d’histoire de France de la bibliothèque nationale. Il liste les différentes éditions des ouvrages conservés dans les collections de l’établissement avec des liens vers leurs numérisations. La plupart des ouvrages concernés ayant bénéficié d’une numérisation par la Bibliothèque nationale notamment dans le cadre de ce projet.</p>
+          <p>Ce répertoire bibliographique est classé en utilisant le modèle FRBR. Avec des expressions et des manifestation. Les différentes éditions d’une même œuvres sont listées pour chaque auteur. </p>
+          <p>Il est également possible de naviguer parmi toutes les manifestations par ordre chronologique et de filtrer cette liste par auteur en cliquant dans la colonne de droite.</p>
           <figure>
             <graphic url="/image3.png"/>
             <figDesc>Texte alternatif</figDesc>
           </figure>
+        </div>
+        <div>
+          <head>Utilisation de l’API</head>
+          <p>L’ensemble des contenus mis à disposition sur le site est également disponible par l’intermédiaire d’une <ref
+            target="https://api.guidesdeparis.fr">interface programmable (API)</ref>.</p>
+          <p>Cet accès informatique permet de faire directement des requêtes dans la base de données sur les corpus et leur indexation. Il est par exemple possible de réutiliser les informations concernant un édifice dans une application touristique.</p>
+          <p>La documentation complète de cette interface est <ref
+            target="https://api.guidesdeparis.fr">disponible</ref>.</p>
+          <figure>
+            <graphic url="/image3.png"/>
+            <figDesc>Texte alternatif</figDesc>
+          </figure>
+        </div>
+        <div>
+          <head>Licences et droits d’utilisation</head>
+          <p>Le travail réalisé dans le cadre du projet des Guides de Paris engendre la production de divers contenus éditoriaux qui relèvent du droit d’auteur ou au droit sur les bases de données. Nous avons opté pour le choix de licences volontaires les plus ouvertes possible afin de favoriser une large réutilisation des données publiques.</p>
+          <p><hi rend="bold"
+            >Ainsi, l’ensemble des contenus des Guides de Paris est mis à disposition sous licence <ref
+            target="https://creativecommons.org/licenses/by/4.0/"
+            >Creative Commons CC-BY 4.0</ref>.</hi> En citant de manière approprié ce travail, vous êtes libres de partager, copier et redistribuer le matériel dans n’importe quel médium ou format. De même vous avez la possibilité de le remixer, ou le transformer dans n’importe quel but, y compris commercial. </p>
+          <p>Cette politique ambitieuse d’ouverture des données, s’inscrit dans les orientations du <ref
+            target="http://passes-present.eu"
+            >Labex les Passés dans le Présent</ref> mais aussi les politiques nationales en matières de liberté d’accès aux documents administratifs et à la réutilisation des informations publiques. Le choix de cette licence uniforme permet également d’inscrire pleinement les données de recherche produites dans l’écosystème des données liées et ouvertes (Linked Open Data) et des Open-GLAM.</p>
+          <figure>
+            <graphic url="/image4.png"/>
+            <figDesc>Logo Creative commons CC-BY</figDesc>
+          </figure>
+        </div>
+        <div>
+          <head>Sources du projet</head>
+          <list>
+            <label>Application XQuery</label>
+            <item><ref target="https://github.com/guidesDeParis/webapp/">https://github.com/guidesDeParis/webapp/</ref></item>
+            <label>Client Vue.js</label>
+            <item><ref target="https://figureslibres.io/gogs/bachir/gdp_vuewp/">https://figureslibres.io/gogs/bachir/gdp_vuewp/</ref></item>
+            <label>Corpus encodé enrichi</label>
+            <item><ref target="https://github.com/guidesDeParis/sourcesPrep/">https://github.com/guidesDeParis/sourcesPrep/</ref></item>
+            <label>Dépôt sur Nakala</label>
+            <item>Nakala ID : <ref target="10.34847/nkl.4322l0rj/9a786ed6ed6a527518dfc60ad9740f3a9dbdf279">10.34847/nkl.4322l0rj/9a786ed6ed6a527518dfc60ad9740f3a9dbdf279</ref>, Url d'intégration : <ref target="https://api.nakala.fr/embed/10.34847/nkl.4322l0rj/9a786ed6ed6a527518dfc60ad9740f3a9dbdf279">https://api.nakala.fr/embed/10.34847/nkl.4322l0rj/9a786ed6ed6a527518dfc60ad9740f3a9dbdf279</ref></item>
+       </list>
         </div>
       </div>
     </body>
