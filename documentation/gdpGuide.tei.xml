@@ -145,7 +145,7 @@
             <p>La page <ref target="corpus"
               >corpus</ref> donne accès à la liste des textes disponible accompagnée d’une brève présentation. La consultation d’un texte est accompagnée d’un rappel des métadonnées principales, d’une page d’une table des matières et de divers outils de navigation.</p>
             <figure>
-              <graphic url="/image1.png" />
+              <!--<graphic url="/image1.png" />-->
               <figDesc>image des pages de corpus</figDesc>
             </figure>
           </div>
@@ -154,7 +154,7 @@
             <p>La table des matières à droite du texte permet de naviguer dans les différentes sections de l’ouvrage. Par défaut le sommaire présente les divisions principales du texte. Il est possible d’ouvrir les sous-division au clic.</p>
             <p>Il est possible de naviguer dans l’ouvrage à partir de sa pagination originale en utilisant le sélecteur en bas de la colonne de droite.</p>
             <figure>
-              <graphic url="/image1.png" />
+              <!--<graphic url="/image1.png" />-->
               <figDesc>image de la page de consultation des textes</figDesc>
             </figure>
           </div>
@@ -170,7 +170,7 @@
           <p>La liste de résultats est présentée avec une indication du nombre d’occurrences rapportées par la recherche. L’outil de recherche prend en charge la normalisation des capitale, et la lemmatisation des chaînes recherchées.</p>
           <p>Lors de la consultation d’un ouvrage, l’application propose des filtres dynamiques qui permettent de circuler rapidement parmi les différentes entités indexées à l’intérieur du texte.</p>
           <figure>
-            <graphic url="/image2.png"/>
+            <!--<graphic url="/image2.png"/>-->
             <figDesc>Texte alternatif</figDesc>
           </figure>
         </div>
@@ -186,7 +186,7 @@
           <p>Ce répertoire bibliographique est classé en utilisant le modèle FRBR. Avec des expressions et des manifestation. Les différentes éditions d’une même œuvres sont listées pour chaque auteur. </p>
           <p>Il est également possible de naviguer parmi toutes les manifestations par ordre chronologique et de filtrer cette liste par auteur en cliquant dans la colonne de droite.</p>
           <figure>
-            <graphic url="/image3.png"/>
+            <!--<graphic url="/image3.png"/>-->
             <figDesc>Texte alternatif</figDesc>
           </figure>
         </div>
@@ -196,9 +196,10 @@
             target="https://api.guidesdeparis.fr">interface programmable (API)</ref>.</p>
           <p>Cet accès informatique permet de faire directement des requêtes dans la base de données sur les corpus et leur indexation. Il est par exemple possible de réutiliser les informations concernant un édifice dans une application touristique.</p>
           <p>La documentation complète de cette interface est <ref
-            target="https://api.guidesdeparis.fr">disponible</ref>.</p>
+            target="https://api.guidesdeparis.fr"
+            >disponible</ref>. N’hésitez pas à nous signaler vos utilisations des contenus.</p>
           <figure>
-            <graphic url="/image3.png"/>
+            <!--<graphic url="/image3.png"/>-->
             <figDesc>Texte alternatif</figDesc>
           </figure>
         </div>
@@ -208,12 +209,12 @@
           <p><hi rend="bold"
             >Ainsi, l’ensemble des contenus des Guides de Paris est mis à disposition sous licence <ref
             target="https://creativecommons.org/licenses/by/4.0/"
-            >Creative Commons CC-BY 4.0</ref>.</hi> En citant de manière approprié ce travail, vous êtes libres de partager, copier et redistribuer le matériel dans n’importe quel médium ou format. De même vous avez la possibilité de le remixer, ou le transformer dans n’importe quel but, y compris commercial. </p>
+            >Creative Commons CC-BY 4.0</ref>.</hi> En citant de manière appropriée ce travail, vous êtes libres de partager, copier et redistribuer le matériel dans n’importe quel médium ou format. De même vous avez la possibilité de le remixer, ou le transformer dans n’importe quel but, y compris commercial. </p>
           <p>Cette politique ambitieuse d’ouverture des données, s’inscrit dans les orientations du <ref
             target="http://passes-present.eu"
             >Labex les Passés dans le Présent</ref> mais aussi les politiques nationales en matières de liberté d’accès aux documents administratifs et à la réutilisation des informations publiques. Le choix de cette licence uniforme permet également d’inscrire pleinement les données de recherche produites dans l’écosystème des données liées et ouvertes (Linked Open Data) et des Open-GLAM.</p>
           <figure>
-            <graphic url="/image4.png"/>
+            <!--<graphic url="/image4.png"/>-->
             <figDesc>Logo Creative commons CC-BY</figDesc>
           </figure>
         </div>
