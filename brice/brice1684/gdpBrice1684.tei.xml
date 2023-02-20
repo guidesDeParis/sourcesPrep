@@ -82,7 +82,7 @@
                >2013-2018</date> </edition>
          </editionStmt>
          <extent>
-            <measure unit="bytes" quantity="1 127 309">1  127  309 octets</measure>
+            <measure unit="bytes" quantity="1127309">1  127  309 octets</measure>
             <measure unit="words" quantity="86968">86 968 mots</measure>
             <measure unit="chars" quantity="505147">505 147 caractères</measure>
             <measure unit="pages" quantity="855">855 pages</measure>
@@ -201,9 +201,10 @@
       <group>
          <text xml:id="gdpBrice1684T01" type="volume" n="1">
             <front xml:id="gdpBrice1684T01Front">
-               <titlePage xml:id="gdpBrice1684T01Front.01" xml:lang="fre" corresp="#brice1684a">
+               <titlePage xml:id="gdpBrice1684T01Front.01" xml:lang="fre">
                   <docTitle>
-                     <titlePart type="main"> <hi rend="initial">Description <lb />Nouvelle</hi>
+                     <titlePart type="main">
+                        <hi rend="initial">Description <lb />Nouvelle</hi>
                         <lb /> de ce qu’il y a de plus <lb />remarquable <lb />
                         <hi rend="initial">dans la ville <lb />de Paris</hi>.</titlePart>
                   </docTitle>
@@ -260,7 +261,7 @@
                   <fw type="pageNum">1</fw>
                   <metamark rend="headpiece" />
                   <head rend="alignCenter"
-                     >Description nouvelle<lb />de ce qu’il y a de plus remarquable<lb />Dans la ville de Paris</head>
+                     >Description nouvelle <lb />de ce qu’il y a de plus remarquable <lb />Dans la ville de Paris</head>
                   <p xml:id="gdpBrice1684T01BodyFr.p001">
                      <hi rend="initial">A</hi>vant que d’entrer en matière, il ne sera pas hors de propos de dire quelque chose de l’origine de <placeName
                      xml:id="gdpBrice1684d1e345"
@@ -5006,7 +5007,7 @@
             <back xml:id="gdpBrice1684T01Back">
                <div xml:id="gdpBrice1684T01Back.01" type="toc">
                   <metamark rend="headpiece" />
-                  <head rend="alignCenter">Table des choses contenues dans le premier volume.</head>
+                  <head rend="alignCenter">Table des choses contenues dans le premier volume</head>
                   <div xml:id="gdpBrice1684T01Back.01.001">
                      <metamark rend="simpleLine" />
                      <list>
