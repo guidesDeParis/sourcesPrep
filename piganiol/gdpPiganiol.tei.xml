@@ -215,7 +215,7 @@
     </teiHeader>
     <!-- Inclusion du fichier TEI de présentation du corpus de Piganiol -->
     <xi:include href="piganiolIntroduction/gdpPiganiolIntroduction.tei.xml" parse="xml">
-        <xi:fallback>Fichier de présentation du coprus de Piganiol non trouvé</xi:fallback>
+        <xi:fallback>Fichier de présentation du corpus de Piganiol non trouvé</xi:fallback>
     </xi:include>
     <!-- Inclusion du fichier TEI de Piganiol 1742 -->
     <xi:include href="piganiol1742/gdpPiganiol1742.tei.xml" parse="xml">

@@ -597,7 +597,7 @@
                </div>
             </front>
             <body xml:id="gdpLeMaire1685T01Body">
-               <div xml:id="gdpLeMaire1685T01BodyFr" xml:lang="fre">
+               <div xml:id="gdpLeMaire1685T01BodyFr" xml:lang="fre" type="book">
                   <div xml:id="gdpLeMaire1685T01BodyFr01" type="introduction">
                      <pb xml:id="gdpLeMaire1685P16"/>
                      <fw type="pageNum">1</fw>
@@ -3635,7 +3635,7 @@
                      <p xml:id="gdpLeMaire1685T01BodyFr10.p004">En l’année <date when="1676">1676</date>, <persName>Madame la Duchesse de Claveland</persName>, anglaise, fit faire en cette maison des reparations considerables ; &amp; en l’année <date when="1678">1678</date>, pour donner de plus grandes marques de sa pieté envers <persName>Dieu</persName>, &amp; de son affection envers les Religieuses, elle fit construire l’église que l’on voit à présent, où elle mit la premiere pierre, le <date when="1679-11-13">13ͤ jour du mois de novembre l’année 1679</date>. Cette nouvelle église fut pareillement dediée à <persName>Sainte Anne</persName>.</p>
                      <p xml:id="gdpLeMaire1685T01BodyFr10.p005">La premiere église sert de Chœur aux Religieuses.</p>
                   </div>
-                  <div xml:id="gdpLeMaire1685T01BodyFr11">
+                  <div xml:id="gdpLeMaire1685T01BodyFr11"  type="part" n="11">
                      <metamark rend="typographicalPiece"/>
                      <head rend="capitals alignCenter">L’abbaye Saint-Antoine</head>
                      <p xml:id="gdpLeMaire1685T01BodyFr11.p001">Cette abbaye fut fondée par <persName>Maurice de Sully</persName> évesque de Paris, environ l’an <date when="1190">1190</date>. Il y fit bastir d’abord une petite cha<pb xml:id="gdpLeMaire1685P312"/>
@@ -3643,14 +3643,14 @@
                         <fw type="pageNum">298</fw> par<persName> Guillaume de Sillenay</persName> évesque de Paris, assisté des Évesques de Cambray, &amp; de Meaux, &amp; en presence de plusieurs autres prélats, &amp; mesme de <persName>Saint Louis</persName>, des deux Reines, &amp; autres personnes de grande consideration.</p>
                   </div>
                   <!-- @ec insertion EF -->
-                  <div xml:id="gdpLeMaire1685T01BodyFr12">
+                  <div xml:id="gdpLeMaire1685T01BodyFr12"  type="part" n="12">
                      <head>Le Petit Saint-Antoine</head>
                      <p xml:id="gdpLeMaire1685T01BodyFr12.p001">Cette église est desservie et occupée par des religieux, et fut fondée par Saint Louis, et rebastie depuis, ainsi qu’il paroist par un écrit en lettres gothiques, qui y est :</p>
                      <p xml:id="gdpLeMaire1685T01BodyFr12.p002">L’an de grâce 1442, le premier dimanche après la Feste Dieu, Très Révérend Père en Dieu Monseigneur Denis, patriarche d’Antioche, évesque de Paris, dédia et consacra cette présente église de Saint-Antoine dans Paris.</p>
                      <p xml:id="gdpLeMaire1685T01BodyFr12.p003">Ces Religieux sont de l’ordre des Hospitaliers de Saint-Antoine-Viennois, institué <pb xml:id="gdpLeMaire1685P314"/>
                         <fw type="pageNum">299</fw> par Gaston, homme noble de la province de Vienne, lequel s’adonna au ministère des malades, et surtout de ceux qui estoient atteints d’une maladie nommé feu sacré, environ l’an 1095, portant à sa robbe la figure de la lettre T, qui marque la croix de Jésus-Christ. Cet ordre fut reformé en France, environ l’an 1625. Et avant tous les autres convents, celuy-cy en 1620, par les soins d’Antoine de Gramont, abbé de l’ordre, qui avoit obtenu un bref du pape à cette fin.</p>
                   </div>
-                  <div xml:id="gdpLeMaire1685T01BodyFr13">
+                  <div xml:id="gdpLeMaire1685T01BodyFr13" type="part" n="13">
                      <head>Les religieuses de l’Assomption</head>
                      <p xml:id="gdpLeMaire1685T01BodyFr13.p001">Estienne Haudry, ayant suivi Saint Louis au voyage de la Terre-Sainte, et l’ayant quitté à son retour pour aller à Saint-Jacques-en-Galice, ne fit sçavoir aucune de ses nouvelles en France. Jeanne La Dalonne, sa femme, crut qu’il estoit mort et que par conséquent elle pouvoit disposer de sa personne et de ses biens, comme elle fit en s’enfermant dans une maison qui luy appartenoit, size rue de la Mortellerie, avec d’autres femmes et filles vivant ensemble de <pb xml:id="gdpLeMaire1685P315"/>
                         <fw type="pageNum">300</fw> la mesme manière que si elles eussent esté dans un monastère ; quelque temps après Haudry revint et, trouvant de la difficulté à retirer sa femme, parce qu’elle avoit fait vœu de chasteté, il envoya au pape, qui releva le vœu que sa femme avoit fait, à condition néanmoins qu’en la retirant il donneroit à cette maison de quoy nourrir et entretenir douze femmes, qui furent ensuite appellées les Haudrietes du nom de leur fondateur. Ces femmes, avec plusieurs autres qui s’y retirèrent ensuite, firent une communauté assez nombreuse, qui a duré jusqu’en l’an 1622. Ce fut pour lors que toutes ces femmes qui estoient dans la maison des Haudriettes furent amenées dans le convent qui est présentement occupé par les religieuses de l’Assomption, par les soins du cardinal de La Rochefoucaut, qui, leur ayant donné une supérieure, les reforma, les mit sous la règle de saint Augustin et obtint du roy des lettres de confirmation pour leur établissement en ce lieu, ayant au préalable obtenu un bref du pape Grégoire XV pour le mesme sujet. Ces religieuses ont fait des réparations considérables depuis quelques années dans leur monastère ; ils ont rebasti de fond en comble leur église, dont la première pierre fut posée dans l’octave de l’Assomption de la Vierge de l’année 1670. Le mardy 14 aoust 1676, l’on y célébra <pb xml:id="gdpLeMaire1685P316"/>
@@ -3660,7 +3660,7 @@
                      <fw type="pageNum">302</fw>
                      <p xml:id="gdpLeMaire1685T01BodyFr13.p003">Ces religieuses gardent avec beaucoup de vénération le corps tout entier de sainte Theodore martyre ; c’est M. le cardinal Antoine, archevesque de Rheims, qui leur en a fait présent.</p>
                   </div>
-                  <div xml:id="gdpLeMaire1685T01BodyFr14">
+                  <div xml:id="gdpLeMaire1685T01BodyFr14" type="part" n="14">
                      <head>Le monastère des filles de l’Ave Maria</head>
                      <p xml:id="gdpLeMaire1685T01BodyFr14.p001">Les religieuses de Sainte-Claire (dites de l’Ave Maria, à cause qu’elles se servent de ces paroles pour saluer ceux qui désirent leur parler) professent une vie fort austère ; elles ont esté establies au lieu où elles sont, au quartier Saint Paul, l’an 1484, et succédèrent aux religieuses du Tiers Ordre de Saint-François, que Louis XI avoit unies l’an 1461 avec celles de cette maison, qu’on nommoit auparavant Béguines, pour la pluspart femmes yeuves, fondées par Saint Louis.</p>
                      <p xml:id="gdpLeMaire1685T01BodyFr14.p002">Leur église fut dédiée et consacrée le 18 jour de mars l’an 1447 en l’honneur de <pb xml:id="gdpLeMaire1685P318"/>
@@ -3750,7 +3750,7 @@
                   <!-- Ci dessous, reprise du travail à partir de la page 316. Bisous bisous Juju-->
                   <pb xml:id="gdpLeMaire1685P331"/>
                   <fw type="pageNum">316</fw>
-                  <div xml:id="gdpLeMaire1685T01BodyFr15">
+                  <div xml:id="gdpLeMaire1685T01BodyFr15" type="part" n="15">
                      <metamark rend="typographicalPiece"/>
                      <head rend="italic">
                         <hi rend="capital">Les Grands-Augustins <lb/> ou <lb/>Les Augustins</hi>-<lb/>du-pont-Neuf</head>
@@ -3880,7 +3880,7 @@
                      <p xml:id="gdpLeMaire1685T01BodyFr15.p034">Les <persName>Religieux Augustins</persName> sont presentements quelques reparations à leur monastère; ils<pb xml:id="gdpLeMaire1685P349"/>
                         <fw type="pageNum">335</fw>font rebastir leurs écoles, &amp; quelques lieux commodes pour mettre leur bibliotheque, ils font rehausser d’un étage le grand corps de logis, qui est du costé de <placeName>la ruë dauphine</placeName>, pour le louer ensuite à des particuliers: mais quelque dépense que fassent ces Religieux aussi bien que les autres <persName>Religieux mendians</persName>, ils ne peuvent point faire de bastiment, dont la dépense excede la somme de trois mille livres, sans avoir obtenu auparavant des Lettres de Chancellerie, ou un Arrest du Parlement, qui leur accorde la permission, comme l’on peut voir par la lecture de la Declaration du roy, rendue le <date when="1684-09-05">5 jour de septembre de la presente année 1684</date> en ces termes.</p>
                   </div>
-                  <div xml:id="gdpLeMaire1685T01BodyFr16">
+                  <div xml:id="gdpLeMaire1685T01BodyFr16" type="part" n="16">
                      <metamark rend="typographicalPiece"/>
                      <head>
                         <hi rend="capital">Déclaration <lb/>du</hi> roy, <lb/>Concernant les Bastiment que font faire les Religieux Mendians</head>
@@ -6774,7 +6774,7 @@
                </div>
             </front>
             <body xml:id="gdpLeMaire1685T02Body">
-               <div xml:id="gdpLeMaire1685T02BodyFr" xml:lang="fre">
+               <div xml:id="gdpLeMaire1685T02BodyFr" xml:lang="fre" type="book">
                   <pb xml:id="gdpLeMaire1685P622"/>
                   <fw type="pageNum">1</fw>
                   <div xml:id="gdpLeMaire1685T02BodyFr01">
@@ -11633,7 +11633,7 @@
             </front>
             <pb xml:id="gdpLeMaire1685P1243"/>
             <body xml:id="gdpLeMaire1685T03Body">
-               <div xml:id="gdpLeMaire1685T03BodyFr" xml:lang="fr">
+               <div xml:id="gdpLeMaire1685T03BodyFr" xml:lang="fr" type="book">
                   <fw type="pageNum">1</fw>
                   <metamark rend="headpiece"/>
                   <div xml:id="gdpLeMaire1685T03BodyFr01" type="part" n="1">

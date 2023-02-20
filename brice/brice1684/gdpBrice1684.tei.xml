@@ -257,7 +257,7 @@
                </div>
             </front>
             <body xml:id="gdpBrice1684T01Body">
-               <div xml:id="gdpBrice1684T01BodyFr" xml:lang="fre">
+               <div xml:id="gdpBrice1684T01BodyFr" xml:lang="fre" type="book">
                   <fw type="pageNum">1</fw>
                   <metamark rend="headpiece" />
                   <head rend="alignCenter"
@@ -5376,7 +5376,7 @@
                </titlePage>
             </front>
             <body xml:id="gdpBrice1684T02Body">
-               <div xml:id="gdpBrice1684T02BodyFr" xml:lang="fre">
+               <div xml:id="gdpBrice1684T02BodyFr" xml:lang="fre" type="book">
                   <fw type="pageNum">1</fw>
                   <metamark rend="headpiece" />
                   <head rend="alignCenter"
