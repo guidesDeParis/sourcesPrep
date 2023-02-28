@@ -212,7 +212,7 @@
          <change when="2013-11-29" status="draft">Premier échantillonnage</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:id="gdpLeMaire1685Text">
       <group>
          <text xml:id="gdpLeMaire1685T01" type="volume" n="1">
             <front xml:id="gdpLeMaire1685T01Front">

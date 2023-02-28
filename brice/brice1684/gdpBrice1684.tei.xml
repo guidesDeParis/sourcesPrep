@@ -197,7 +197,7 @@
          <change when="2013-11-30" status="draft">Premier échantillonnage</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:id="gdpBrice1684Text">
       <group>
          <text xml:id="gdpBrice1684T01" type="volume" n="1">
             <front xml:id="gdpBrice1684T01Front">

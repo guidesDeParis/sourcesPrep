@@ -27,8 +27,8 @@
   <xsl:variable name="allPlaces" select="//place"/>
   <xsl:variable name="allObjects" select="//object"/>
   
-  <xsl:template match="div">
-    <div>
+  <xsl:template match="div|front|body|back|text">
+    <xsl:element name="{local-name()}">
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
       <metadata n="{@xml:id}">
@@ -41,7 +41,7 @@
         <indexes><xsl:sequence select="f:getIndexEntries(.)"/></indexes>
         <size><xsl:sequence select="f:getWordsCount(.)"/></size>
       </metadata>
-    </div>
+    </xsl:element>
   </xsl:template>
   
   <xsl:template name="getTitle">
