@@ -13,6 +13,7 @@
   xmlns:f="perso/functions"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  exclude-result-prefixes="f fn xs"
   version="3.0" expand-text="true">
   
   <!-- @todo produire un résultat TEI valide -->
@@ -104,32 +105,46 @@
     <persons>
       <xsl:variable name="persons" select="for $f:personRef in $f:personsRefs 
         return $allPersons[listRelation/relation[fn:contains(@passive, '#' || $f:personRef)]]"/>
-      <xsl:for-each select="$persons">
+      <xsl:for-each-group select="$persons" group-by="@xml:id">
         <person>
-          <personId>{./@xml:id}</personId>
-          <persName>{./persName[1]}</persName>
+          <personId>{current-group()/@xml:id}</personId>
+          <persName>{current-group()/(persName[1]|orgName[1])}</persName>
+          <quantity>{count(current-group())}</quantity>
         </person>
-      </xsl:for-each>
+      </xsl:for-each-group>
     </persons>
     <places>
       <xsl:variable name="places" select="for $f:placeRef in $f:placesRefs
         return $allPlaces[listRelation/relation[fn:contains(@passive, '#' || $f:placeRef)]]"/>
-      <xsl:for-each select="$places">
+      <xsl:for-each-group select="$places" group-by="@xml:id">
         <places>
-          <placeId>{./@xml:id}</placeId>
-          <placeName>{./persName[1]}</placeName>
+          <placeId>{current-group()/@xml:id}</placeId>
+          <placeName>{current-group()/placeName[1]}</placeName>
+          <quantity>{count(current-group())}</quantity>
         </places>
-      </xsl:for-each>
+      </xsl:for-each-group>
     </places>
     <objects>
       <xsl:variable name="objects" select="for $f:objectRef in $f:objectsRefs
         return $allObjects[listRelation/relation[fn:contains(@passive, '#' || $f:objectRef)]]"/>
-      <xsl:for-each select="$objects">
+      <xsl:for-each-group select="$objects" group-by="@xml:id">
         <object>
-          <objectId>{./@xml:id}</objectId>
-          <objectName>{./objectName[1]}</objectName>
+          <objectId>{current-group()/@xml:id}</objectId>
+          <objectName>{current-group()/objectName[1]}</objectName>
+          <quantity>{count(current-group())}</quantity>
+          <!--<xsl:variable name="refs" select="for $i in ./listRelation/relation/@passive return tokenize(.)"/>
+          <xsl:variable name="currentRefs" select="for $i in $f:objectsRefs return concat('#', .)"/>
+          <xsl:variable name="duplicateRefs" select="($refs, $currentRefs)"/>
+          <xsl:variable name="deDuplicatedRefs" select="$duplicateRefs[index-of($duplicateRefs,.)[2]]"/>
+          <refs>
+            <head>test</head>
+            <deduplicatedRefs>{$deDuplicatedRefs}</deduplicatedRefs>
+            <!-\-<xsl:for-each select="$deDuplicatedRefs">
+              <ref>{.}</ref>
+            </xsl:for-each>-\->
+          </refs>-->
         </object>
-      </xsl:for-each>
+      </xsl:for-each-group>
     </objects>
   </xsl:function>
   
@@ -227,6 +242,7 @@
   <!-- @todo check cit et quote -->
   <xsl:template match="lb | cb | pb"/>
   <xsl:template match="fw" />
+  <xsl:template match="comment()" />
   <!-- @todo -->
   <xsl:template match="note"/>
   <xsl:template match="reg"/>
