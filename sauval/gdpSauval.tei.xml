@@ -15,7 +15,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fre" type="main">Corpus de Sauval</title>
-                <author><persName full="yes">Sauval, Henri (1620?-1676)</persName></author>
+                <author ref="#sauvalHenri"><persName full="yes">Sauval, Henri (1620?-1676)</persName></author>
                 <principal>
                     <persName full="yes">Cojannot-Le Blanc, Marianne</persName>
                     <persName ref="#MCL">
@@ -251,7 +251,7 @@
                         to="2018">2013-2018</date></edition>
             </editionStmt>
             <extent>
-                <measure unit="bytes" quantity="9 958 901">9  958  901 octets</measure>
+                <measure unit="bytes" quantity="9958901">9  958  901 octets</measure>
                 <measure unit="words" quantity="1221360">1 221 360 mots</measure>
                 <measure unit="chars" quantity="7050225">7 050 225 caractères</measure>
                 <measure unit="pages" quantity="19527">19 527 pages</measure>

@@ -92,7 +92,7 @@
                         to="2018">2013-2018</date></edition>
             </editionStmt>
             <extent>
-                <measure unit="bytes" quantity="1 272 379">1  272  379 octets</measure>
+                <measure unit="bytes" quantity="1272379">1  272  379 octets</measure>
                 <measure unit="words" quantity="108429">108 429 mots</measure>
                 <measure unit="chars" quantity="654820">654 820 caractères</measure>
                 <measure unit="pages" quantity="1543">1 543 pages</measure>

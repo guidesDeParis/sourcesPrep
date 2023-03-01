@@ -13,7 +13,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fre" type="main">Corpus de Piganiol</title>
-                <author>
+                <author ref="#piganiolDeLaForceJeanAymar">
                     <persName full="yes">Piganiol de La Force, Henri (1673-1753)</persName>
                 </author>
                 <principal>

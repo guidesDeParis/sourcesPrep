@@ -13,7 +13,7 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="fre" type="main">Germain Brice, 1684</title>
-            <author>
+            <author ref="#briceGermain">
                <persName full="yes">Brice, Germain (1653?-1727)</persName>
             </author>
             <principal> <persName ref="#MCL">
@@ -1607,7 +1607,7 @@
                         <div xml:id="gdpBrice1684T01BodyFr03.001.002" type="section">
                            <p xml:id="gdpBrice1684T01BodyFr03.001.002.p001"> <label> <supplied>
                               <placeName xml:id="gdpBrice1684d1e3047"
-                              >L’’Académie d’architecture</placeName> </supplied>
+                              >L’Académie d’architecture</placeName> </supplied>
                               </label> La seconde académie logée dans <placeName
                               xml:id="gdpBrice1684d1e3050"
                               >le palais Brion</placeName>, qui occupe les appartemens qui sont au fond de la cour, est celle d’architecture, que le roy a établie en <date

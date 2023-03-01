@@ -637,18 +637,24 @@
                     <idno type="dataBnf">http://data.bnf.fr/12238949/pierre_bonfons/</idno>
                 </person>
                 <person xml:id="briceGermain">
-                    <persName full="yes">Brice, Germain (1653?-1727)</persName>
+                    <persName full="yes">Brice, Germain (1653-1727)</persName>
                     <persName>
                         <forename>Germain</forename>
                         <surname>Brice</surname>
                     </persName>
                     <birth>
-                        <date when="1653">1653?</date>
+                        <date when="1653">1653</date>
                     </birth>
                     <death>
                         <date when="1727-11-18">18 novembre 1727</date>
                     </death>
                     <occupation>Historien, topographe</occupation>
+                    <note>
+                        <p>L’édition posthume de la <title>Description de la ville de Paris</title> par Germain Brice qui fut publiée en 1752 propose, dans un avertissement liminaire, une biographie de l’auteur, que corroborent quelques autres témoignages et documents. Issu d’une famille peu fortunée de la bourgeoisie parisienne, celui-ci prit l’habit ecclésiastique mais ne fut jamais tonsuré. D’abord semble-t-il par simple concours de circonstances, puis de façon réfléchie et déterminée, il se spécialisa dans les visites de Paris à destination des visiteurs étrangers. Afin de nourrir son propos, il dut accumuler des connaissances, qu’il se décida dans un second à temps à publier. L’ouvrage qu’il livra en 1685 ayant remporté un succès incontestable, il en proposa de son vivant sept autres éditions remaniées. Sa réussite dans sa double activité d’auteur et de guide est attestée par l’aisance que ces deux activités lui permirent d’acquérir et dont témoigne l’inventaire de ses biens dressé après sa mort, qui fait notamment état d’une petite collection d’estampes, de tableaux (par Bourdon, Desportes, Van der Meulen…) et de réductions d’antiques.</p>
+                        <bibl>Joachim Nemeitz, <title>Séjour de Paris</title>, Leide, Jean van Abcoude, 1727, p. 144.</bibl>
+                        <bibl>Alfred Bonnardot, <title>Gilles Corrozet et Germain Brice : études bibliographiques sur ces deux historiens de Paris</title>, Paris, Champion, 1880.</bibl>
+                        <bibl>Jules-Joseph Guiffrey, « Testament, scellé et inventaire après décès de Germain Brice », <title>Bulletin de la société de l’histoire de Paris et de l’Île-de-France</title>, 10<hi rend="superscript">e</hi> année, 1883, p. 98-117.</bibl>
+                    </note>
                     <idno type="isni">http://isni.org/isni/0000000080782671</idno>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12176653r</idno>
                     <idno type="dataBnf">http://data.bnf.fr/12176653/germain_brice/</idno>
@@ -728,7 +734,7 @@
                     <persName full="yes">Le Comte, Florent</persName>
                 </person>
                 <person xml:id="leMaireCharles">
-                    <persName full="yes">Le Maire, Charles (16..-16..)</persName>
+                    <persName full="yes">Le Maire, Charles (16..-1704)</persName>
                     <persName>
                         <forename>Charles</forename>
                         <surname>Le Maire</surname>
@@ -737,8 +743,14 @@
                         <date notBefore="1600">16..</date>
                     </birth>
                     <death>
-                        <date notAfter="1699">16..</date>
+                        <date when="1704">1704</date>
                     </death>
+                    <note>
+                        <p>De tous les auteurs des anciens guides de Paris, Charles Le Maire est le plus mystérieux. Les pages de titre et l’épître de son ouvrage ne livrent aucune information à son sujet, sinon son patronyme, et l’on ne connaîtrait même pas avec certitude son prénom, s’il ne l’avait indiqué dans le tome II, dans un projet d’épitaphe pour sa défunte épouse Marie Hugues, fille de Pierre Hugues du Houssay et de Marguerite Ondet, décédée en 1684 à l’âge de trente-neuf ans. Aucune autre mention de sa belle-famille n’a été retrouvée pour l’heure, et ses contemporains n’ont guère laissé d’informations : hormis Piganiol de La Force, qui signale que <q>Le Maire mourut peu de tems après la publication de son livre</q>, l’on ne peut citer qu’André Chevillier, qui a noté en 1694, dans son Origine de l’imprimerie de Paris, que <q>M. Le Maire, ayant pris le dessein d’écrire sur les antiquitez de Paris et d’enrichir son livre de quelques particularitez que ceux qui en avoient écrit avant lui n’avoient pas touchées, vint en Sorbonne pour en apprendre quelques-unes touchant cette maison</q>. Son nom, en outre, n’est pas assez rare pour permettre de le reconnaître à coup sûr. Parmi les différents Charles Le Maire repérés à Paris à la fin du XVII<hi rend="superscript">e</hi> siècle, un seul a toutefois vécu à une période correspondant exactement avec celle où travailla l’auteur du <title>Paris ancien et nouveau</title>. Chantre à la chapelle royale de 1669 à 1702, il mourut en 1704, six ans après la publication en 1698 de la dernière édition de ce livre. La profession de ce haute-contre pourrait également expliquer l’intérêt pour la musique qui apparaît à quelques endroits du guide, comme lorsqu’il est noté qu’Henry Du Mont en eut la conduite lors de l’entrée du couple royal à Paris en 1660 (t. III, p. 331), mais rien ne permet de dépasser le stade de l’hypothèse.</p>
+                        <bibl>André Chevillier, <title>L’origine de l’imprimerie de Paris. Dissertation historique et critique</title>, Paris, Jean de Laulne, 1694.</bibl>
+                        <bibl>Jean-Aymar Piganiol de La Force, <title>Description de Paris, de Versailles, de Marly, de Meudon, de Saint-Cloud, de Fontainebleau et de toutes les autres belles maisons et châteaux des environs de Paris</title>, Paris, Théodore Legras, 1742, t. I, p. VI.</bibl>
+                        <bibl>Norbert Dufourcq et Marcelle Benoit, « Douze années à la chapelle royale de musique d’après une correspondance inédite », <title>Revue de musicologie</title>, t. 37, 1955, p. 148-185, à la p. 182.</bibl>
+                    </note>
                     <idno type="isni">http://www.isni.org/isni/0000000061343913</idno>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb10244990k/</idno>
                     <idno type="dataBnf">http://data.bnf.fr/10244990/charles_le_maire/</idno>
@@ -780,7 +792,7 @@
                     <persName full="yes">Nemeitz, Joachim Christoph (1679-1753)</persName>
                 </person>
                 <person xml:id="piganiolDeLaForceJeanAymar">
-                    <persName full="yes">Piganiol de La Force, Jean-Aymar (1673-1753)</persName>
+                    <persName full="yes">Piganiol de La Force, Jean-Aymar (1669-1753)</persName>
                     <persName>
                         <forename>Jean-Aymar</forename>
                         <surname n="1">Piganiol</surname>
@@ -788,11 +800,15 @@
                         <surname n="3">La Force</surname>
                     </persName>
                     <birth>
-                        <date when="1673">1673</date>
+                        <date when="1669">1659</date>
                     </birth>
                     <death>
                         <date when="1753">1753</date>
                     </death>
+                    <note>
+                        <p>Né à Aurillac le 15 septembre 1669, Jean-Aymar Piganiol était le fils d’un riche marchand et de l’héritière d’une vieille famille d’officiers du roi qui détenait le fief de La Force. Après des études de droit, il s’installa à Paris, où il bénéficia de la protection de son compatriote Anne-Jules, duc de Noailles et maréchal de France, puis du futur gendre de celui-ci, le comte de Toulouse. Devenu en 1698 gouverneur des pages de ce fils légitimé de Louis XIV, il vécut dès lors auprès de ce prince à Versailles, puis à Rambouillet et à Paris, dans l’ancien hôtel de La Vrillière. Il publia à partir de 1701 plusieurs ouvrages, parmi lesquels une <title>Nouvelle description des châteaux et parcs de Versailles et de Marly</title> qui connut un vif succès et fut de nombreuses fois rééditée. Il multiplia par la suite les travaux d’érudition, proposant notamment en 1718 une <title>Nouvelle description de la France</title>, dont il consacra le deuxième volume à Paris, puis en 1724 un <title>Nouveau voyage en France</title>. Il reprit ensuite ses recherches sur la capitale pour livrer un ouvrage autonome offrant une Description de Paris. Devenu en 1734 contrôleur des guerres, il continua inlassablement à publier de nouvelles éditions de ses travaux, revus et complétés.</p>
+                        <bibl>André Muzac, « Jean-Aymard Piganiol de La Force. 1669-1753 », <title>Revue de la Haute-Auvergne</title>, t. 37, 1961, p. 281-309</bibl>
+                    </note>
                     <idno type="isni">http://isni.org/isni/0000000122809597</idno>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb13005391r</idno>
                     <idno type="idRef">http://www.idref.fr/067069282</idno>
@@ -820,18 +836,23 @@
                     </note>
                 </person>
                 <person xml:id="sauvalHenri">
-                    <persName full="yes">Sauval, Henri (1620?-1676)</persName>
+                    <persName full="yes">Sauval, Henri (1623-1676)</persName>
                     <persName>
                         <forename>Henri</forename>
                         <surname>Sauval</surname>
                     </persName>
                     <birth>
-                        <date when="1620">1620 ?</date>
+                        <date when="1623">1623</date>
                     </birth>
                     <death>
                         <date when="1676-03-21">21 mars 1676</date>
                     </death>
                     <occupation>Avocat. - Historien, archéologue</occupation>
+                    <note>
+                        <p>Fils d’un passementier parisien, Henri Sauval devint avocat au Parlement de Paris, mais ne consacra guère de temps à cette activité. Il visita en revanche l’Italie, l’Espagne, l’Angleterre et les Pays-Bas, se lia à la société précieuse et fréquenta entre autres le salon de la marquise de Rambouillet. Il est cité sous le nom de Sidroaste dans le <title>Dictionnaire des précieuses</title> publié en 1660, qui le présente comme <q>un savant qui compose les antiquités de la ville d’Athènes</q>. Il se passionna en effet très tôt pour l’histoire de Paris, Guy Patin ayant relevé le 16 novembre 1655 que : <q>il y a ici un jeune homme nommé M. Sauval, Parisien, qui travaille avec beaucoup de soin et de peine à nous faire une pleine histoire de la ville de Paris</q>. Comme plusieurs autres témoignages, la suite de cette lettre atteste que Sauval s’employa à rassembler une riche documentation en consultant de nombreux fonds d’archives, dont l’accès lui fut facilité par les relations qu’il avait nouées parmi les savants et la bonne société parisienne. Ces recherches l’occupèrent tout au long de sa vie puisqu’il mourut sans avoir livré à l’impression ses manuscrits et laissa au poète François Cassandre la charge de publier ses <q>mémoires, papiers, discours et livres concernant l’histoire de Paris</q>.
+                        </p>
+                        <bibl>Michel Fleury, « Notice sur la vie et l’œuvre de Sauval », dans <title>Henri Sauval, Histoire et recherches des antiquités de la ville de Paris</title>, édition en fac-simile, Paris, Éditions du Palais Royal et Genève, Minkoff, 1974, t. I, p. III-XXI (repris dans « Si le roi m’avait donné Paris sa grand’ville ». <title>Travaux et veilles de Michel Fleury</title>, Paris, Maisonneuve et Larose, 1994, p. 305-324).</bibl>
+                    </note>
                     <idno type="isni">http://isni.org/isni/0000000121024878</idno>
                     <idno type="autBnf">http://catalogue.bnf.fr/ark:/12148/cb12815319g/</idno>
                     <idno type="idRef">http://www.idref.fr/097551945</idno>

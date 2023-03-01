@@ -14,7 +14,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fre" type="main">Corpus de Brice</title>
-                <author>
+                <author ref="#briceGermain">
                     <persName full="yes">Brice, Germain (1653?-1727)</persName>
                 </author>
                 <principal>
@@ -87,7 +87,7 @@
                         to="2018">2013-2018</date></edition>
             </editionStmt>
             <extent>
-                <measure unit="bytes" quantity="1 127 309">1  127  309 octets</measure>
+                <measure unit="bytes" quantity="1127309">1  127  309 octets</measure>
                 <measure unit="words" quantity="86968">86 968 mots</measure>
                 <measure unit="chars" quantity="505147">505 147 caractères</measure>
                 <measure unit="pages" quantity="855">855 pages</measure>
@@ -223,7 +223,7 @@
             <change when="2014-04-23">Création du fichier corpus</change>
         </revisionDesc>
     </teiHeader>
-
+    
     <!-- Inclusion du fichier TEI de Brice 1684 (gdpBrice1684) -->
     <xi:include href="brice1684/gdpBrice1684.tei.xml" parse="xml">
         <xi:fallback>Fichier de Brice 1684 non trouvé</xi:fallback>
