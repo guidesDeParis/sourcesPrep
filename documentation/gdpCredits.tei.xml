@@ -140,6 +140,11 @@
         <p>Ce site web rassemble les résultats du projet <title>Guides de Paris, Les historiens d’art et les corpus numériques</title> conduit sous la direction de <emph>Marianne Cojannot-Le Blanc</emph> au sein du <ref target="http://passes-present.eu">Labex les Passés dans le présent</ref>.</p>
         <p>Ce travail a bénéficié d’une aide de l’État gérée par l’Agence nationale de la recherche au titre du programme Investissements d’avenir portant la référence <ref target="https://anr.fr/ProjetIA-11-LABX-0026">ANR-11-LABX-0026-01</ref>.</p>
         <div>
+          <head>Présentation</head>
+          <p>Le projet repose sur l’encodage en XML-TEI de quatre textes majeurs sur Paris ancien et ses monuments, publiés entre la fin du XVII<hi rend="superscript">e</hi> siècle et la première moitié du XVIII<hi rend="superscript">e</hi> siècle : Henri Sauval, <title>Histoire et recherches des antiquités de la ville de Paris</title>, 3 tomes, Paris, 1724 ; Germain Brice, <title>Description nouvelle de ce qu’il y a de plus remarquable dans la ville de Paris</title>, 2 tomes, Paris, 1684 ; Lemaire, Paris ancien et nouveau, 3 tomes, Paris, 1685 et Piganiol de La Force, <title>Description de Paris, de Versailles, de Marly, de Meudon</title>, 8 tomes, Paris, 1742. La publication de ces textes sur le web vise à faciliter la consultation de ces « guides de Paris », sources majeures pour l’histoire des arts de la période moderne en France. Depuis le début du projet, bon nombre de guides de Paris ont été numérisés par la BnF qui était partenaire. L’océrisation étant insuffisante pour ce type de documents et la nature des requêtes auxquels les chercheurs les soumettent, une édition en TEI, le plus souvent réservée aux textes complexes, a été choisie pour autoriser les requêtes traditionnelles (recherches plein-texte), mais aussi bâtir des index de référence sur Paris (index des lieux, monuments/œuvres, noms d’artiste, de commanditaire etc.). La mise à disposition de tous les contenus sous licence libre par l’intermédiaire d’une interface programmable qui sert à la publication du site permet leur réutilisation dans d’autres applications. L’application de consultation web est hébergée par la TGIR HumaNum www.guidesdeparis.fr
+          </p>
+        </div>
+        <div>
           <head>Crédits</head>
           <div>
             <head>Direction du projet</head>
@@ -208,6 +213,21 @@
                 <item>Guillemette de Roquemaurel, Justine Georges, Chloé Thomas</item>
               </list>
             </div>
+          </div>
+          <div>
+            <head>Indexation</head>
+            <list>
+              <label>Préparation des index de lieux et d’œuvres (églises et hôtels particuliers)</label>
+              <item>Étienne Faisant, Labex les Passés dans le présent (2021)</item>
+              <label>Modélisation CIDOC-CRM et représentations RDF</label>
+              <item>Caroline Corbières et Emmanuel Château-Dutier</item>
+              <label>Structuration de l’index</label>
+              <item>Emmanuel Château-Dutier</item>
+            </list>
+          </div>
+          <div>
+            <head>Bibliographie des guides de Paris</head>
+            <p>La bibliographie des guides de Paris a été réalisée à partir du dépouillement systématique du Catalogue d’histoire de France par Emmanuel Château-Dutier.</p>
           </div>
           <div>
             <head>Partenaires</head>
