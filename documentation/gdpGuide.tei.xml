@@ -144,24 +144,28 @@
             <head>Consultation du corpus</head>
             <p>La page <ref target="corpus"
               >corpus</ref> donne accès à la liste des textes disponible accompagnée d’une brève présentation. La consultation d’un texte est accompagnée d’un rappel des métadonnées principales, d’une page d’une table des matières et de divers outils de navigation.</p>
-            <figure>
-              <!--<graphic url="/image1.png" />-->
-              <figDesc>image des pages de corpus</figDesc>
+            <figure xml:id="fig02">
+              <graphic url="/gdp/static/images/corpus01.jpg" />
+              <figDesc>Image des pages de corpus</figDesc>
             </figure>
           </div>
           <div>
             <head>Table des matières et pagination</head>
             <p>La table des matières à droite du texte permet de naviguer dans les différentes sections de l’ouvrage. Par défaut le sommaire présente les divisions principales du texte. Il est possible d’ouvrir les sous-division au clic.</p>
             <p>Il est possible de naviguer dans l’ouvrage à partir de sa pagination originale en utilisant le sélecteur en bas de la colonne de droite.</p>
-            <figure>
-              <!--<graphic url="/image1.png" />-->
-              <figDesc>image de la page de consultation des textes</figDesc>
+            <figure xml:id="fig02">
+              <graphic url="/gdp/static/images/text02.jpg" />
+              <figDesc>Image de la page de consultation des textes</figDesc>
             </figure>
           </div>
           <div>
             <head>Historique de navigation</head>
             <p>L’application de consultation des Guides de Paris est destinée à une consultation transversale des textes présentés sur la plateforme. Afin de faciliter cette consultation, l’utilisateur dispose d’un historique de navigation qui facilite les comparaisons entre les différents passages consultés sur le site.</p>
             <p>L’historique de navigation est accessible au bas de l’écran dans un tiroir doré qui est escamotable pour faciliter la lecture du texte.</p>
+            <figure xml:id="fig03">
+              <graphic url="/gdp/static/images/text05.jpg" />
+              <figDesc>Affichage de l’historique de navigation</figDesc>
+            </figure>
           </div>
         </div>
         <div>
@@ -169,9 +173,9 @@
           <p>L’utilisateur dispose d’un outil de recherche plein-texte et de recherche avancée en bas de page. Il est possible de faire une recherche dans les textes (recherche plein-texte), et dans les différents index.</p>
           <p>La liste de résultats est présentée avec une indication du nombre d’occurrences rapportées par la recherche. L’outil de recherche prend en charge la normalisation des capitale, et la lemmatisation des chaînes recherchées.</p>
           <p>Lors de la consultation d’un ouvrage, l’application propose des filtres dynamiques qui permettent de circuler rapidement parmi les différentes entités indexées à l’intérieur du texte.</p>
-          <figure>
-            <!--<graphic url="/image2.png"/>-->
-            <figDesc>Texte alternatif</figDesc>
+          <figure xml:id="fig04">
+            <graphic url="/gdp/static/images/search01.jpg" />
+            <figDesc>Recherche et filtres dynamiques</figDesc>
           </figure>
         </div>
         <div>
@@ -185,8 +189,8 @@
           <p>Une partie seulement des guides de Paris font pour le moment l’objet d’une transcription. Une bibliographie systématique permet de restituer les ouvrages dans leur contexte de production. Ce répertoire bibliographique est établi à partir du Catalogue général d’histoire de France de la bibliothèque nationale. Il liste les différentes éditions des ouvrages conservés dans les collections de l’établissement avec des liens vers leurs numérisations. La plupart des ouvrages concernés ayant bénéficié d’une numérisation par la Bibliothèque nationale notamment dans le cadre de ce projet.</p>
           <p>Ce répertoire bibliographique est classé en utilisant le modèle FRBR. Avec des expressions et des manifestation. Les différentes éditions d’une même œuvres sont listées pour chaque auteur. </p>
           <p>Il est également possible de naviguer parmi toutes les manifestations par ordre chronologique et de filtrer cette liste par auteur en cliquant dans la colonne de droite.</p>
-          <figure>
-            <!--<graphic url="/image3.png"/>-->
+          <figure xml:id="fig04">
+            <graphic url="/gdp/static/images/biblio01.jpg" />
             <figDesc>Texte alternatif</figDesc>
           </figure>
         </div>
@@ -198,8 +202,8 @@
           <p>La documentation complète de cette interface est <ref
             target="https://api.guidesdeparis.fr"
             >disponible</ref>. N’hésitez pas à nous signaler vos utilisations des contenus.</p>
-          <figure>
-            <!--<graphic url="/image3.png"/>-->
+          <figure xml:id="fig05">
+            <graphic url="/gdp/static/images/api01.jpg" />
             <figDesc>Texte alternatif</figDesc>
           </figure>
         </div>
@@ -213,7 +217,7 @@
           <p>Cette politique ambitieuse d’ouverture des données, s’inscrit dans les orientations du <ref
             target="http://passes-present.eu"
             >Labex les Passés dans le Présent</ref> mais aussi les politiques nationales en matières de liberté d’accès aux documents administratifs et à la réutilisation des informations publiques. Le choix de cette licence uniforme permet également d’inscrire pleinement les données de recherche produites dans l’écosystème des données liées et ouvertes (Linked Open Data) et des Open-GLAM.</p>
-          <figure>
+          <figure xml:id="fig06">
             <!--<graphic url="/image4.png"/>-->
             <figDesc>Logo Creative commons CC-BY</figDesc>
           </figure>
