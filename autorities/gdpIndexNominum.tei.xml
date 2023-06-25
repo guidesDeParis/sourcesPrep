@@ -145,9 +145,8 @@
         <body>
             <head>Index Nominum</head>
             <listPerson>
-                <head>Exemple</head>
+                <head>Exemples</head>
                 <person xml:id="nom000ex">
-                    <!-- exemple -->
                     <persName full="yes"
                         >Münchhausen, Karl Hieronymus (1720-1797 ; baron von)</persName>
                     <persName>
@@ -465,7 +464,16 @@
                     <listRelation>
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6486 #gdpBrice1684d1e7645 #gdpBrice1684d1e8733 #gdpBrice1684d1e8881 #gdpBrice1684d1e15061 #gdpBrice1684d1e15850 #gdpBrice1684d1e15869 #gdpBrice1684d1e16642 #gdpBrice1684d1e16843 #gdpBrice1684d1e17020 #gdpBrice1684d1e1441 #gdpBrice1684d1e802"/>
                         <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e24958 #gdpLeMaire1685d1e24985 #gdpLeMaire1685d1e26842 #gdpLeMaire1685d1e26902"/>-->
-                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15748 #gdpPiganiol1742d1e31572 #gdpPiganiol1742d1e37964 #gdpPiganiol1742d1e37983 #gdpPiganiol1742d1e41703 #gdpPiganiol1742d1e65258 #gdpPiganiol1742d1e65275 #gdpPiganiol1742d1e162468 #gdpPiganiol1742d1e163371 #gdpPiganiol1742d1e163386 #gdpPiganiol1742d1e163395 #gdpPiganiol1742d1e163404 #gdpPiganiol1742d1e163417 #gdpPiganiol1742d1e163419 #gdpPiganiol1742d1e174751 #gdpPiganiol1742d1e202126"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15748 #gdpPiganiol1742d1e31572 #gdpPiganiol1742d1e37964 #gdpPiganiol1742d1e37983 #gdpPiganiol1742d1e41703 #gdpPiganiol1742d1e65258 #gdpPiganiol1742d1e65275 #gdpPiganiol1742d1e162468 #gdpPiganiol1742d1e163371 #gdpPiganiol1742d1e163386 #gdpPiganiol1742d1e163395 #gdpPiganiol1742d1e163404 #gdpPiganiol1742d1e163417 #gdpPiganiol1742d1e163419 #gdpPiganiol1742d1e202126"/>
+                    </listRelation>
+                </person>
+                <person>
+                    <persName>Poussin, Artus (abbé)</persName>
+                    <death>
+                        <date when="1735-09-23">23 septembre 1735</date>
+                    </death>
+                    <listRelation>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e174751"/>
                     </listRelation>
                 </person>
                 <person xml:id="nomLeSueurEustache">
@@ -505,6 +513,30 @@
                     <listRelation>
                         <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26568"/>-->
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8322"/>
+                    </listRelation>
+                </person>
+                <person>
+                    <persName>Vouet, Simon (1590-1649)</persName>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Vouet</surname>
+                    </persName>
+                    <birth>
+                        <date when="1590">1590</date>
+                        <placeName>Paris</placeName>
+                    </birth>
+                    <death>
+                        <date when="1649">1649</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <occupation>peintre</occupation>
+                    <idno type="isni">https://isni.org/isni/0000000083438200</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb119677550</idno>
+                    <idno type="dataBnf"></idno>
+                    <idno type="agorah">https://agorha.inha.fr/ark:/54721/df48f238-66ef-472d-a4d6-30b26a1df975</idno>
+                    <idno type="ulan">http://vocab.getty.edu/page/ulan/500029258</idno>
+                    <listRelation>
+                        <relation type="gdpSauval1724" name="identity" passive="#gdpSauval1724d1e56217 #gdpSauval1724d1e78367 #gdpSauval1724d1e92103 #gdpSauval1724d1e82893 #gdpSauval1724d1e83579 #gdpSauval1724d1e84790 #gdpSauval1724d1e84812 #gdpSauval1724d1e84950 #gdpSauval1724d1e85021 #gdpSauval1724d1e130572 #gdpSauval1724d1e136364 #gdpSauval1724d1e137608 #gdpSauval1724d1e137682 #gdpSauval1724d1e137689 #gdpSauval1724d1e137699 #gdpSauval1724d1e137835 #gdpSauval1724d1e137878 #gdpSauval1724d1e137887 #gdpSauval1724d1e137898 #gdpSauval1724d1e137915 #gdpSauval1724d1e137926 #gdpSauval1724d1e137932 #gdpSauval1724d1e137978 #gdpSauval1724d1e138019 #gdpSauval1724d1e138028 #gdpSauval1724d1e138093 #gdpSauval1724d1e138108 #gdpSauval1724d1e138144 #gdpSauval1724d1e142453 #gdpSauval1724d1e142472 #gdpSauval1724d1e142484 #gdpSauval1724d1e142497 #gdpSauval1724d1e142520 #gdpSauval1724d1e142547 #gdpSauval1724d1e142553 #gdpSauval1724d1e142610 #gdpSauval1724d1e142661 #gdpSauval1724d1e143153 #gdpSauval1724d1e143316 #gdpSauval1724d1e143324 #gdpSauval1724d1e143325 #gdpSauval1724d1e143327 #gdpSauval1724d1e226733 #gdpSauval1724d1e227185"/>
                     </listRelation>
                 </person>
                 <person xml:id="nomAndrouetDuCerceauJean">
