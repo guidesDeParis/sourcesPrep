@@ -132,32 +132,570 @@
   <text>
     <front>
       <divGen type="toc" />
-      <div>
-        <head>L’édition des Guides de Paris (Marianne Cojannot-Le Blanc)</head>
-        <div>
-          <p>Les « guides de Paris » font partie des sources incontournables pour l’histoire de l’art à Paris aux XVII et XVIII<hi
-            rend="superscript"
-            >e</hi> siècles, période qui voit le genre du « guide » croître de manière exponentielle, en même temps qu’évoluer dans ses ambitions, formats et publics visés – de la somme d’érudition d’Henri Sauval au petit guide à destination des voyageurs étrangers. Leur consultation s’impose, autant pour connaître ce qui, du Paris ancien a disparu (palais royaux, hôtels particuliers, églises, couvents, places, etc.) que pour critiquer l’état de ce qui est conservé. Mais ils sont aujourd’hui mal ou sous-exploités, en raison du nombre important de volumes et d’éditions, matériellement peu maniables. Il n’est guère envisageable pour un chercheur isolé de faire, sur un objet donné (un bâtiment, un tableau, une sculpture, un décor etc.), une consultation systématique de toutes les éditions (que Gilles Chabaud évalue à 300 environ pour la période concernée), alors même que celles-ci peuvent différer dans les informations publiées.</p>
-        </div>
-        <div>
-          <head>L’instrumentation systématique du corpus</head>
-          <p>Le projet des Guides de Paris consiste à mettre à disposition du chercheur un corpus de guides historiques. Ce corpus textuel doit non seulement faire l’objet d’une numérisation systématique mais d’une indexation sémantique. L’ambition du projet est de rendre possible, par l’utilisation des techniques de balisage des textes anciens en XML-TEI et en s’appuyant sur les principes web sémantique, des recherches plein-texte et systématiques sur l’ensemble des éditions pour :<list>
-            <item>accompagner efficacement les requêtes traditionnelles, à savoir la recherche d’informations ponctuelles (sur l’attribution des œuvres d’art, les dates d’exécution, l’identité des commanditaires etc.).</item>
-            <item>permettre de nouveaux types de recherches et multiplier les accès en utilisant l’hypertextualité (ainsi qu’à terme des analyses syntaxiques et lexicales).</item>
-            <item>donner une existence tangible au corpus en tant que corpus, marqué par des phénomènes d’intertextualité, de copies, de larges réécritures, de stratégies commerciales, d’une édition à l’autre, visualisables et mesurables quantitativement.</item>
-            </list>Pour la mise en place de son indexation, le projet Guides de Paris nécessitera l’élaboration d’un référentiel des objets culturels parisiens qui fera l’objet d’une publication en Linked Open Data.</p>
-        </div>
-        <div>
-          <head>L’élaboration d’un espace de publication et d’un espace numérique de travail</head>
-          <p>La mise en ligne du corpus répond à des fonctionnalités diverses, adaptées aussi bien au service d’un public de chercheurs que d’un public plus large. Si l’édition d’un corpus de textes anciens vise d’abord à le mettre à disposition sous forme textuelle, le projet des Guides de Paris souhaite offrir des points d’accès nouveaux sur les textes, dont le recours à des dispositifs de visualisation, transformant ceux-ci en une base de données.</p>
-          <p>Dès lors que les guides de Paris décrivent des œuvres qui peuvent être conservées ou pour lesquelles il peut subsister des témoignages visuels (dessins préparatoires, estampes, photographies anciennes), il devient nécessaire de pouvoir rapprocher les textes et les images, que ce soit pour identifier ou pour interpréter. Un des enjeux du projet consiste donc également à savoir tirer parti des importants gisements de ressources numériques en histoire de l’art. Comment afficher des images mises à disposition par ailleurs sur le web ? Comment visualiser de manière pertinente le texte et les images ? Comment fournir des possibilités d’investigation pertinente pour l’historien d’art (comparaison, visualisation, etc.) ?</p>
-        </div>
-        <div>
-          <head>Un projet en lien avec les problématiques patrimoniales et les réflexions épistémologiques du labex « Les Passés dans le Présent »</head>
-          <p>Le corpus des guides de Paris constitue un cas d’étude pour des problématiques au cœur du labex : celles de la construction d’une conscience patrimoniale et de l’évaluation critique de l’efficacité d’une protection d’objets publiquement valorisés. Quels enseignements tirer des périodes anciennes pour les débats patrimoniaux contemporains : en quelle mesure le fait de parler, de publier sur des objets contribue effectivement (ou non) à leur protection dans les siècles à venir ? Quel est l’impact des sources imprimées en matière de protection patrimoniale ? Par l’étude des « entrées » et « sorties » (mentions ou disparitions de mentions de bâtiments, de décors, d’œuvres d’art) dans les diverses éditions sur presque deux siècles, ou celle des déplacements d’œuvres au sein d’un espace (église, hôtel) et donc des hiérarchisations mouvantes (relégation, promotion des œuvres dans des espaces-clefs etc.), nous avons la possibilité assez unique d’observer et comprendre comment s’élabore une conscience patrimoniale partagée et les effets éventuels de celle-ci lors de la Révolution française.</p>
-          <p>Il s’agit pour finir de développer une réflexion sur les apports de l’édition numérique dans la pratique de l’histoire de l’art et d’envisager, dans une perspective épistémologique, ses conséquences (bonnes et/ou mauvaises) sur les usages et le type de savoir élaboré.</p>
-        </div>
-      </div>
+        <head>L’édition numérique des Guides de Paris</head>
+        <p>Les guides de Paris font partie des sources incontournables pour l’histoire des
+                bâtiments et productions artistiques à Paris aux XVII<hi rend="superscript">e</hi>
+                et XVIII<hi rend="superscript">e</hi> siècles, période qui voit les publications sur
+                la capitale et ses environs croître de manière exponentielle, et évoluer dans leurs
+                ambitions, formats et publics visés, de la somme d’érudition d’Henri Sauval au petit
+                guide à destination des voyageurs étrangers. Leur consultation s’impose, autant pour
+                connaître ce qui, du Paris ancien a disparu (palais, hôtels particuliers, églises,
+                couvents etc.) que pour critiquer l’état de ce qui est conservé. Ces guides
+                demeurent toutefois mal ou sous-exploités, en raison du nombre important de volumes
+                et d’éditions, matériellement peu maniables. Il n’est guère envisageable, pour un
+                chercheur isolé, de faire, sur un objet donné (un bâtiment, un tableau, une
+                sculpture, un décor etc.), une consultation systématique de toutes les éditions (que
+                Gilles Chabaud évalue à 300 environ pour la période concernée), alors même que ces
+                dernières peuvent différer dans les informations publiées.</p>
+            <div>
+                <head>L’instrumentation systématique du corpus</head>
+                <p>Le projet des Guides de Paris consiste à mettre à disposition un corpus de guides
+                    historiques. Ce corpus textuel a non seulement fait l’objet d’une numérisation
+                    systématique mais d’une indexation sémantique. L’ambition est de rendre
+                    possible, par l’utilisation des techniques de balisage des textes anciens en
+                    XML-TEI et en s’appuyant sur les principes web sémantique, des recherches
+                    plein-texte systématiques sur l’ensemble des éditions pour :</p>
+                <list rend="bulleted">
+                    <item>accompagner efficacement les requêtes traditionnelles, à savoir la recherche d’informations ponctuelles (sur une œuvre d’art précise, un commanditaire etc.).</item>
+                    <item>permettre de
+                            nouveaux types de recherches et multiplier les accès en utilisant
+                            l’hypertextualité, ainsi qu’à terme des analyses syntaxiques et
+                            lexicales.</item>
+                    <item>donner une
+                            existence tangible au corpus en tant que corpus, marqué par des
+                            phénomènes d’intertextualité, de copies, de larges réécritures, de
+                            stratégies commerciales, d’une édition à l’autre, visualisables et
+                            mesurables quantitativement.</item>
+                </list>
+                <p>Quatre textes majeurs sur Paris ancien et ses monuments, publiés entre la fin du
+                        XVII<hi rend="superscript">e</hi> siècle et la première moitié du XVIII<hi
+                        rend="superscript">e</hi> siècle sont à ce jour disponibles en XML-TEI :
+                    Henri Sauval, <title>Histoire et recherches des antiquités de la
+                        ville de Paris</title>, 3 tomes, Paris, 1724 ; Germain Brice, <title>Description nouvelle de ce qu’il y a de plus remarquable dans la ville de
+                        Paris</title>, 2 tomes, Paris, 1684 ; Lemaire, <title>Paris ancien
+                        et nouveau</title>, 3 tomes, Paris, 1685 et Piganiol de La Force, <title>Description de Paris, de Versailles, de Marly, de Meudon</title>,
+                    8 tomes, Paris, 1742.</p>
+                <p>L’océrisation étant insuffisante pour ce type de documents et la nature des
+                    requêtes auxquels les chercheurs les soumettent, une édition en TEI, le plus
+                    souvent réservée aux textes complexes, a été choisie pour autorisée les requêtes
+                    traditionnelles (recherches plein-texte), mais aussi bâtir des index de
+                    références sur Paris (index des lieux, monuments/œuvres, noms d’artiste, de
+                    commanditaire, etc.). La mise à disposition de tous les contenus sous licence
+                    libre par l’intermédiaire d’une interface programmable qui sert à la publication
+                    du site permet leur réutilisation dans d’autres applications. L’application de
+                    consultation web est hébergée par la TGIR Huma-Num.</p>
+                <p>La mise en ligne du corpus répond à des fonctionnalités diverses, adaptées aussi
+                    bien au service d’un public de chercheurs que d’un public plus large. Si
+                    l’édition d’un corpus de textes anciens vise d’abord à le mettre à disposition
+                    sous forme textuelle, le projet des Guides de Paris souhaite offrir des points
+                    d’accès nouveaux sur les textes en transformant ceux-ci en une base de
+                    données.</p>
+                <div>
+                    <head>Une mise à disposition de textes fondamentaux pour l’histoire et le patrimoine parisien</head>
+                <p>L’application met à disposition des chercheurs des textes fondamentaux concernant
+                    l’histoire et le patrimoine de Paris, avec la possibilité de mener des requêtes
+                    beaucoup plus approfondies que celles qu’autorise la consultation des ouvrages
+                    matériels et/ou le recours aux numérisations proposées sur Gallica avec
+                    océrisation. Ces quatre sources constituent un socle très solide et cohérent sur
+                    l’histoire du patrimoine parisien, en raison de leur volumétrie (Sauval,
+                    Piganiol de La Force), de la chronologie assez resserrée de leurs premières
+                    éditions et de leurs ambitions (Sauval notamment, qui est une véritable
+                    somme).</p></div>
+                <div>
+                    <head>L’application de la TEI à un corpus d’histoire de l’art</head>
+                <p>Le projet se distingue par la mise en valeur d’un corpus textuel par la <ref
+                        target="https://tei-c.org">Text Encoding Initiative (TEI)</ref>, assez peu sollicitée en histoire de l’art, même par les grands projets numériques (comme l’<ref target="https://www.projet-lexart.fr">ERC LEXART</ref>, par exemple consacré à la naissance du vocabulaire artistique en Europe dans les écrits sur l’art XVII<hi rend="superscript"
+                        >e</hi>-XVIII<hi rend="superscript">e</hi> siècles). <lb/>Le projet et ses
+                    index ont au demeurant revêtu une dimension expérimentale, en permettant de
+                    produire un modèle de contenu pour le nouvel élément &lt;object&gt; de la TEI,
+                    adapté à la description d’œuvres d’art.</p></div>
+                <div>
+                    <head>Une politique de libre accès</head>
+                <p>Conformément aux orientations du Labex <ref target="http://passes-present.eu">Les Passés dans le Présent</ref>, le
+                    projet a adopté une politique de libre accès avec le choix d’une licence unique
+                    très libérale. En effet, l’ensemble des sources textuelles du projet et les
+                    données structurées sont publiées sous licence creative-commons CC-BY, ce qui
+                    permet la reprise et l’exploitation des contenus dans de nombreux contextes.</p>
+                </div>
+                <div>
+                <head>La valorisation auprès d’un large public du corpus</head>
+                <p>En raison de l’importance considérable du travail à effectuer sur les textes, le
+                    projet n’avait pas d’objectifs spécifiques concernant la diffusion des
+                    connaissances hors du cadre scientifique. Toutefois, l’application et ses
+                    nombreux points d’accès par rue, par artistes et par édifices, ne devrait pas
+                    manquer d’intéresser les amateurs et a été conçue en ce sens. Surtout, le choix
+                    stratégique de distribuer les textes et l’ensemble des informations historiques
+                    sous la forme d’une interface programmable était destiné à permettre à des tiers
+                    (développeurs ou autres projets) de consommer les données pour construire des
+                    contenus de médiation.</p>
+                <p>La mise en valeur d’un patrimoine de la ville de Paris est susceptible
+                    d’intéresser un public au-delà du monde de la recherche (curieux de l’histoire
+                    de Paris, touristes). Les données produites pourront faire l’objet de nouvelles
+                    valorisations (remploi dans des applications : application publique de visite
+                    géolocalisée par exemple).</p></div>
+                <div>
+                    <head>L’enrichissement et l’exposition des données grâce au LOD</head>
+                <p>La stratégie d’enrichissement des données grâce aux ressources disponibles dans
+                    le web de données ouvertes et liées (LOD) a été efficace pour l’indexation et
+                    l’enrichissement des données pour la géolocalisation.<lb/>Les contenus du site
+                    ont été modélisés en utilisant le modèle conceptuel de référence du Comité
+                    international pour la documentation de l’Organisation internationale des musées (<ref target="https://www.cidoc-crm.org">CIDOC-CRM</ref>) avec succès. Des mappings ont été produits vers RDF en utilisant XQuery.</p></div>
+                <div>
+                    <head>Une distribution du corpus par l’intermédiaire d’une interface programmable</head>
+                <p>La publication du corpus repose sur la création d’une interface programmable
+                    (API) qui utilise un logiciel libre développé de manière collaborative avec
+                    d’autres projets de recherche (<ref target="https://synopsx.github.io">SynopsX</ref>). Ce choix reste
+                    innovant pour la publication de corpus TEI et a permis la réduction des coûts de
+                    création d’un client web proposant une riche interface de lecture.<lb/>La
+                    politique de libre accès adoptée par le projet et le caractère public et
+                    documenté de cette API permet aujourd’hui toutes sortes de réemplois des données
+                    par d’autres acteurs du secteur patrimonial. </p></div>
+                <div>
+                    <head>La création d’une infrastructure pérenne</head>
+                <p>L’édition électronique du corpus des Guides de Paris a mobilisé des techniques
+                    spécifiques pour l’établissement des textes, l’enregistrement des annotations et
+                    la publication en visant des objectifs d’interopérabilité et de pérennisation.
+                    Sur ces aspects, le Référentiel général d’interopérabilité publié en 2009 par la
+                    Direction générale de la modernisation de l’État recommandait l’utilisation des
+                    technologies XML (eXtensible Markup Language). En outre, le dialecte XML de la
+                    TEI s’est imposé ces dernières années comme standard dans le domaine de
+                    l’édition numérique à caractère scientifique. Afin de maximiser la conservation
+                    à long terme des documents produits en TEI, une documentation formelle du modèle
+                    a été réalisée en suivant les recommandations de la TEI.</p>
+                <p>Les sources du projet sont produites avec la TEI qui est une bonne candidate pour
+                    la conservation à long terme des éditions électroniques et présente un excellent
+                    profil du point de vue des métadonnées. Celles-ci sont accompagnées d’un schéma
+                    ODD, d’un guide d’encodage et d’une infrastructure de publication qui permettra
+                    la poursuite éventuelle du projet avec l’agrégation de nouveaux textes.</p>
+                <p>Toutes les sources du projet sont par ailleurs versionnées en utilisant le
+                    protocole Git sur la plateforme propriétaire GitHub. Comme GitHub ne constitue
+                    pas un entrepôt de confiance, elles ont en outre fait l’objet d’un dépôt et d’un
+                    signalement dans Nakala ce qui permet de disposer d’identifiants pérennes (DOI)
+                    et d’assurer leur pérennisation à long terme.</p>
+                <p>L’application de publication des sources est hébergée sur les serveurs de
+                    l’infrastructure numérique de recherche Huma-Num. Les développements numériques
+                    réalisés dans le cadre du projet reposent au maximum sur l’emploi de standards
+                    du W3C et l’utilisation de logiciels libres et ouverts. La publication des
+                    sources du projet utilise notamment les standards XML, <ref
+                        target="https://www.w3.org/TR/xquery-31/">XQuery</ref>, version 3. Le client JavaScript utilise quant à lui
+                    un cadre de travail <ref target="https://vuejs.org">Vue.js</ref> qui fait l’objet d’une
+                    « long-term release ».</p>
+                <p>Cependant, une maintenance de l’application en ligne sera nécessaire. L’instance
+                    hébergée sur les serveurs de l’infrastructure de recherche pour les sciences
+                    humaines et sociales Huma-Num sera maintenue au cours des prochaines années par
+                    Emmanuel Chateau-Dutier dans le cadre de la poursuite de la collaboration
+                    engagée avec l’Université de Montréal et du <ref target="https://gren.openum.ca"
+                            >Groupe de recherche sur les éditions
+                            en contexte numérique (GREN)</ref>.</p></div>
+            </div>
+            <div>
+                <head>Sources et développements
+                    numériques</head>
+                <p>La publication numérique du corpus est effectuée sur les serveurs techniques
+                    d’Huma-Num. L’application web se compose d’une interface programmable développée
+                    en XQuery et d’un client web réalisé en JavaScript avec Vue.js.</p>
+                <list rend="bulleted">
+                    <item>Adresse du client : <ref target="https://guidesdeparis.fr">https://guidesdeparis.fr</ref></item>
+                    <item>API de l’application : <ref
+                            target="https://api.guidesdeparis.fr">https://api.guidesdeparis.fr</ref></item>
+                </list>
+                <div>
+                    <head>Volumétrie du projet</head>
+                    <div>
+                        <head>Sources textuelles</head>
+                        <p>Le corpus textuel traité représente un total de 2 240 403 mots et
+                            13 076 286 de caractères, espace non compris. Il contient plus de 60 000
+                            annotations d’entités nommées.</p>
+                        <table rend="rules">
+                            <row>
+                                <cell style="text-align: left;">Texte</cell>
+                                <cell style="text-align: left;"> %</cell>
+                                <cell style="text-align: left;">Mots</cell>
+                                <cell style="text-align: left;">Cars.</cell>
+                                <cell style="text-align: left;">p</cell>
+                                <cell style="text-align: left;">objectName</cell>
+                                <cell style="text-align: left;">placeName</cell>
+                                <cell style="text-align: left;">persName</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">Sauval1724</cell>
+                                <cell style="text-align: left;">54,5%</cell>
+                                <cell style="text-align: left;">1 221 360</cell>
+                                <cell style="text-align: left;">7 050 225</cell>
+                                <cell style="text-align: left;">19 527</cell>
+                                <cell style="text-align: left;">6 130</cell>
+                                <cell style="text-align: left;">9 161</cell>
+                                <cell style="text-align: left;">10 837</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">Lemaire1685</cell>
+                                <cell style="text-align: left;">4,8%</cell>
+                                <cell style="text-align: left;">108 429</cell>
+                                <cell style="text-align: left;">654 820</cell>
+                                <cell style="text-align: left;">1 543</cell>
+                                <cell style="text-align: left;">496</cell>
+                                <cell style="text-align: left;">1 026</cell>
+                                <cell style="text-align: left;">2 136</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">Brice1684</cell>
+                                <cell style="text-align: left;">3,8%</cell>
+                                <cell style="text-align: left;">86 968</cell>
+                                <cell style="text-align: left;">505 147</cell>
+                                <cell style="text-align: left;">855</cell>
+                                <cell style="text-align: left;">483</cell>
+                                <cell style="text-align: left;">1 163</cell>
+                                <cell style="text-align: left;">1 445</cell>
+                            </row>
+                            <row>
+                                <cell style="text-align: left;">Piganiol1742</cell>
+                                <cell style="text-align: left;">36,8%</cell>
+                                <cell style="text-align: left;">82 3646</cell>
+                                <cell style="text-align: left;">4 866 094</cell>
+                                <cell style="text-align: left;">11 546</cell>
+                                <cell style="text-align: left;">2 619</cell>
+                                <cell style="text-align: left;">14 693</cell>
+                                <cell style="text-align: left;">17 175</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head>Production des index</head>
+                        <p>Nombre d’entrées d’index œuvre créées : 1 754</p>
+                        <!-- @todo vérifier les chiffres -->
+                    </div>
+                    <div>
+                        <head>Bibliographie des guides de Paris</head>
+                        <p>La bibliographie des guides de Paris a été établie à partir du <hi
+                                rend="italic">Catalogue général des livres imprimés</hi> de la
+                            Bibliothèque nationale de France publié entre 1855 et 1895 en douze
+                            volumes. La bibliothèque avait alors décidé de publier le répertoire de
+                            ses imprimés sous forme méthodique, c’est-à-dire selon un cadre de
+                            classement systématique. Le catalogue de la série cotée L et affectée à
+                            l’histoire de France eut l’honneur d’inaugurer la série. Son utilisation
+                            est particulièrement utile pour les ouvrages antérieurs à 1882 qui ne
+                            figurent dans aucun catalogue par matières.</p>
+                        <p>Les ouvrages répertoriés dans cette bibliographie regroupent des
+                            publications de nature diverse : recueils d’antiquités, indicateurs de
+                            rues, ou guides proprement dit. Gilles Chabaud a proposé d’identifier un
+                            genre des guides de Paris auquel il a consacré plusieurs études. Il
+                            indique avoir recensé environ 300 titres avec des phénomènes éditoriaux
+                            complexes de rééditions et de réemplois. (cf. notamment Chabaud, Gilles.
+                            1998. « Images de la ville et pratiques du livre: le genre des guides de
+                            Paris (XVII<hi rend="superscript">e</hi>-XVIII<hi rend="superscript"
+                                >e</hi> siècles) ». <title>Revue d’histoire moderne et contemporaine</title>, n°
+                            45-2 (2) : 323‑45. <ref
+                                target="http://www.cairn.info/article.php?ID_ARTICLE=RHMC_G1998_45N2_0323"
+                                    >http://www.cairn.info/article.php?ID_ARTICLE=RHMC_G1998_45N2_0323</ref>.)</p>
+                        <p>Après avoir identifié les titres susceptibles d’entrer dans le corpus,
+                            les notices ont été structurées en utilisant le modèle FRBR pour traiter
+                            les phénomènes éditoriaux. Leur encodage utilise le module de
+                            description bibliographique de la TEI et notamment l’élément
+                            &lt;biblStruct&gt; qui permet de fournir une fine description
+                            structurée. Les notices de la base des guides de Paris renvoient aux
+                            notices originales de la BnF par
+                            l’intermédiaire d’un identifiant ark ainsi qu’aux fichiers
+                                numérisés.</p>
+                        <!-- @todo add nb -->
+                    </div>
+                </div>
+                <div>
+                    <head>La création de l’API</head>
+                    <p>Côté serveur, l’application des Guides de Paris repose sur l’utilisation
+                        d’une base de données XML native (<ref target="http://basex.org">BaseX</ref>). Celle-ci a été
+                        créée en utilisant le cadre de publication léger de sources XML <ref
+                            target="https://synopsx.github.io">SynopsX</ref> qui a été développé en collaboration avec
+                        l’Atelier des Humanités-numériques de l’ENS Lyon et l’ANR Ampère.</p>
+                    <div>
+                        <head>Le choix de la base d’une base de données XML</head>
+                        <p><ref target="http://basex.org">BaseX</ref> est un logiciel de base de données XML natif
+                            développé depuis 2006 par l’<ref target="http://www.uni-konstanz.de"><hi
+                                    rend="underline color(1155cc)">Université de
+                                Constance</hi></ref>. C’est un logiciel libre qui dispose d’une
+                            importante communauté d’utilisateurs tant dans le domaine académique que
+                            commercial. Avec le logiciel <ref target="http://www.exist-db.org">eXist</ref>, BaseX est l’un
+                            des deux principaux systèmes de base de données XML natif libre et open
+                            source du marché. Il existe également des bases de données XML natives
+                            commerciales, le leader dans ce domaine étant <ref
+                                target="http://www.marklogic.com">MarkLogic</ref>.</p>
+                        <p>Les bases de données XML natives permettent de stocker et d’indexer des
+                            documents XML afin de les manipuler, les mettre à jour ou réaliser
+                            diverses transformations. Ces systèmes sont généralement conçus pour
+                            travailler avec des fichiers XML sans transformation préalable, ceux-ci
+                            s’insèrent donc bien dans un cadre de travail où l’on produit des
+                            sources dans un format XML. Ils implémentent généralement le langage de
+                            manipulation de données et de requête <ref
+                                target="http://www.w3.org/TR/xquery-30/">XQuery</ref> développé par
+                            le W3C qui est un langage de programmation fonctionnel Turing
+                            complet.</p>
+                        <p>BaseX et eXist présentent des fonctionnalités similaires aux logiciels
+                            concurrents. Outre des performances plus importantes, par rapport à
+                            eXist, BaseX présentait, au moment des développements du projet,
+                            l’avantage d’avoir implémenté plus complètement le standard du W3C <ref
+                                target="http://www.w3.org/TR/xquery-30/">XQuery</ref> et en
+                            particulier son extension <ref
+                                target="http://www.w3.org/TR/xpath-full-text-10/">XQuery full-text</ref> qui
+                            permet la construction de moteur de recherche plein-texte. Le logiciel
+                            BaseX offre également une très bonne implémentation de <ref
+                                target="http://exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html"
+                                    >RESTXQ</ref>, une
+                            extension XQuery qui permet la création d’applications REST
+                            (REpresentational State Transfer).</p>
+                    </div>
+                    <div>
+                        <head>Construction d’applications avec des bases de données XML native</head>
+                        <p>L’aptitude des systèmes de bases de données XML natifs à manipuler des
+                            documents XML permet d’envisager leur utilisation pour remplacer les
+                            systèmes de base de données relationnelles dans le cadre de la
+                            production d’applications web dynamiques. Dans un environnement LAMP
+                            (Linux, Apache, MySql, PHP), ils peuvent par exemple judicieusement
+                            remplacer MySql. Cependant ces systèmes étant généralement développés en
+                            Java, ils impliquent de disposer d’un environnement adapté pour les
+                            déployer.</p>
+                        <p>La plupart des systèmes de bases de données XML natifs proposent des
+                            fonctionnalités de type serveur qui permettent la construction
+                            d’applications web entièrement rédigées en XQuery. De ce point de vue,
+                            ils constituent souvent des solutions simples et adaptées pour la
+                            publications de sources XML lorsque l’on maîtrise les langages de la
+                            famille XML (<ref target="http://xquery">XQuery</ref>, <ref
+                                target="https://www.w3.org/TR/xpath-31/">XPath</ref>, <ref
+                                target="https://www.w3.org/TR/xslt-30/">XSLT</ref>). Une solution de
+                            ce type permettant ainsi de se passer complètement de tout autre langage
+                            de programmation. C’est ce qui explique en grande partie la faveur
+                            actuelle de ces systèmes pour la publication de données XML-TEI.</p>
+                    </div>
+                    <div>
+                        <head>La spécification RestXQ</head>
+                        <p>En 2012, Adam Retter a proposé une normalisation concernant l’écriture
+                            d’applications web de type REST (c’est-à-dire fondées sur les
+                            contraintes de l’environnement web au sens de la thèse de Roy Fielding)
+                            en utilisant des annotations XQuery. Bien qu’elle soit récente, cette
+                            proposition de spécification a rapidement été implémentée par les
+                            principaux acteurs du marché. Elle permet de proposer une manière
+                            standardisée de décrire des applications web en les rendant portable
+                            d’une application à l’autre. <ref
+                                target="http://exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html">RESTXQ</ref> fournit
+                            donc une solution simple et élégante de publication web qui présente
+                            l’avantage d’être entièrement basée sur des standardisations. </p>
+                    </div>
+                    <div>
+                        <head>SynopsX, un cadre léger pour
+                            la publication de sources XML</head>
+                        <p>Synopsx est un système de publication léger, entièrement fondé sur des
+                            technologies XML à partir de la base de données XML native BaseX. Initié
+                            par l’Atelier des Humanités Numériques de Lyon (AHN), le projet est
+                            développé comme logiciel libre par une équipe de plusieurs contributeurs
+                            issus du monde académique. Le logiciel libre et open source est basé sur
+                            les fonctionnalités RESTXQ implémentées par BaseX. </p>
+                        <p>Dans son état actuel, le logiciel permet :</p>
+                        <list rend="bulleted">
+                            <item>une publication personnalisée de sources textuelles
+                                XML-TEI,</item>
+                            <item>une publication d’entrepôt OAI-PMH,</item>
+                            <item>une articulation entre des sources EAD et XML-TEI</item>
+                            <item>de disposer d’un moteur de recherche sommaire</item>
+                        </list>
+                        <p>Le code du logiciel se caractérise par sa grande concision et son
+                            caractère modulaire. Il est donc très aisé de se l’approprier et de
+                            l’adapter à ses propres besoins. Ce logiciel, a été présenté aux
+                            journées Cahiers au début du mois de juillet 2016 puis à la conférence
+                            TEI de 2017, est en production pour différentes applications web de
+                            l’ENS Lyon. Plusieurs partenaires membres du consortium Cahier lyonnais
+                            et parisiens (ANR Ampère, et Projet des Guides de Paris notamment) ont
+                            participé au projet.</p>
+                    </div>
+                    <div>
+                        <head>Les mutualisations autour de SynopsX</head>
+                        <p>Compte-tenu des coûts liés à la réalisation d’une application de
+                            publication web de sources XML-TEI, le fait de pouvoir réaliser en
+                            interne dans le cadre du projet de la partie architecture de données de
+                            l’application présentait un fort intérêt en terme financier pour réduire
+                            le coût des développements web en séparant les types de traitement. La
+                            base de données XML native BaseX a en outre permis de disposer d’une
+                            implémentation du standard XQuery Full-text pour la construction de
+                            moteurs de recherche plein texte sans avoir recours à des systèmes
+                            dédiés comme Solr ou Lucenne ce qui réduit considérablement la
+                            complexité de l’application et sa maintenance. </p>
+                        <p>RESTXQ est une standardisation prometteuse qui, outre son élégance,
+                            permet de rédiger des applications web de façon entièrement déclarative
+                            avec une extrême concision. Cette simplicité garantit des modifications
+                            aisées et a offert beaucoup d’autonomie dans la réalisation du projet
+                            notamment pour expérimenter divers dispositifs de publication ou faire
+                            des modifications.</p>
+                        <p>L’adoption de Synopx a permis de mutualiser sur les aspects communs à
+                            toute édition de sources XML-TEI afin d’éviter d’avoir à refaire le
+                            travail pour nos propres besoins. L’économie de temps de développement a
+                            été consacrée aux aspects spécifiques de notre édition. <ref
+                                target="https://teipublisher.com">TEI Publisher</ref> propose aujourd’hui une solution
+                            comparable très efficace, mais ce logiciel n’existait pas encore au
+                            moment du début de nos développements. Par ailleurs, il repose sur des
+                            choix technologiques relativement différents qui nous semblaient moins
+                            orientés vers la construction d’API et le web sémantique.</p>
+                        <p>Compte-tenu de la légèreté du code de SynopsX, et du fait que les
+                            spécifications techniques en matière de publication de sources XML-TEI
+                            sont très généralement comparables, il est très facile de se
+                            l’approprier pour construire une application. Un tel choix présenterait
+                            plusieurs avantages :</p>
+                        <list rend="numbered">
+                            <item>il permet de bénéficier de développements déjà réalisés </item>
+                            <item>il permet d’inscrire le projet dans un cadre collectif très souple
+                                qui permet d’améliorer la qualité du code produit et la pertinence
+                                des choix de développements</item>
+                            <item>il permet de bénéficier d’un logiciel qui sera également utilisé
+                                par d’autres ce qui lui garantie une meilleure maintenabilité dans
+                                le temps</item>
+                        </list>
+                    </div>
+                </div>
+                <div>
+                    <head>Sources du projet</head>
+                    <p>L’ensemble des sources du projet sont versionnées sur la plateforme GitHub
+                        pour garantir la traçabilité des modifications et assurer la conservation
+                        des différentes versions du code informatique. Huma-Num a récemment mis à
+                        disposition un service de versionning avec GitLab mais ne garantit pas la
+                        conservation à long terme des fichiers. Pour la commodité du travail
+                        quotidien sur les sources, il a été choisi de rester sur la plateforme
+                        GitHub. Mais le projet réalise des dépôts réguliers sur la plateforme <ref
+                            target="https://www.nakala.fr">Nakala</ref> et on utilise l’identifiant d’objet numérique
+                            (<ref target="https://www.doi.org">DOI</ref>) fourni par le service pour la citation.</p>
+                    <div>
+                        <head>Corpus encodé enrichi</head>
+                        <p>L’ensemble des sources du corpus est publié au format XML-TEI avec une
+                            documentation formelle exprimée dans le langage de la TEI, ODD qui
+                            permet de générer des fichiers de présentation en HTML.</p>
+                        <p>Le projet a retenu une licence libre très libérale et unique pour les
+                            sources annotées et les données structurées. La licence Creative Commons
+                            CC-BY permet une réutilisation maximale du corpus, y compris
+                            commerciale, à condition de citer le projet.</p>
+                        <list rend="bulleted">
+                            <item>Dépôt GitHub : <ref
+                                    target="https://github.com/guidesDeParis/sourcesPrep">https://github.com/guidesDeParis/sourcesPrep</ref></item>
+                            <item>Release : <ref
+                                    target="https://github.com/guidesDeParis/sourcesPrep/releases/tag/0.2"
+                                        >https://github.com/guidesDeParis/sourcesPrep/releases/tag/0.2</ref></item>
+                            <item>Nakala ID :
+                                10.34847/nkl.4322l0rj/9a786ed6ed6a527518dfc60ad9740f3a9dbdf279</item>
+                            <item>Url d'intégration : <ref
+                                    target="https://api.nakala.fr/embed/10.34847/nkl.4322l0rj/9a786ed6ed6a527518dfc60ad9740f3a9dbdf279"
+                                        >https://api.nakala.fr/embed/10.34847/nkl.4322l0rj/9a786ed6ed6a527518dfc60ad9740f3a9dbdf279</ref></item>
+                        </list>
+                    </div>
+                    <div>
+                        <head>Sources de l’application XQuery</head>
+                        <p>Sous-module SynopX pour l’édition XML-TEI des Guides de Paris.</p>
+                        <p><ref target="https://github.com/guidesDeParis/webapp">https://github.com/guidesDeParis/webapp</ref>
+                            <lb/>(documentation dans le README et avec XqDoc)</p>
+                        <p>Licence GNU General Public Licence, version 3.0, ou supérieure</p>
+                    </div>
+                    <div>
+                        <head>SynopsX</head>
+                        <p>Cadre léger de publication de sources XML</p>
+                        <p><ref target="https://github.com/synopsx/synopsx">https://github.com/synopsx/synopsx</ref></p>
+                        <p><ref target="http://www.synopsx.github.io">www.synopsx.github.io</ref>
+                            <lb/>(documentation dans le README et avec XqDoc)</p>
+                        <p>Licence GNU General Public Licence, version 3.0, ou supérieure</p>
+                    </div>
+                    <div>
+                        <head>Images docker de l’application</head>
+                        <p><ref target="https://figureslibres.io/gogs/bachir/docker-gdp">https://figureslibres.io/gogs/bachir/docker-gdp</ref>
+                            <lb/>(documentation dans le README et avec XqDoc)</p>
+                        <p>GNU Affero General Public Licence, version 3.</p>
+                    </div>
+                    <div>
+                        <head>Sources du client Vue.js</head>
+                        <p><ref target="https://figureslibres.io/gogs/bachir/gdp_vuewp">https://figureslibres.io/gogs/bachir/gdp_vuewp</ref></p>
+                        <p>GNU Affero General Public Licence, version 3.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <head>La poursuite du projet</head>
+                <p>De nouveaux financements pourraient permettre l'enrichissement du site par
+                    d’autres textes ou éditions (en premier lieu Dezallier d’Argenville), des
+                    dispositifs de visualisations et des liens avec les ressources numériques des
+                    institutions patrimoniales qui conservent des documents ayant trait aux œuvres
+                    décrites dans les guides (dessins, estampes, photographies anciennes etc.).
+                    L’important travail d’indexation déjà réalisé et la richesse des sources
+                    encodées laissent aussi entrevoir des possibilités de collaboration autour de la
+                    constitution d’un géo-référentiel patrimonial sur Paris.</p>
+                <p>Idéalement, la recherche d’un nouveau financement pourrait permettre de</p>
+                <list rend="bulleted">
+                    <item>développer le géo-référentiel historique en enrichissant l’indexation et
+                        la géolocalisation</item>
+                    <item>créer une application pour terminal mobile à visée touristique et
+                        patrimoniale en exploitant les données géoréférencées</item>
+                    <item>compléter le corpus (avec en priorité le traitement de Dézallier
+                        d’Argenville ou d’autres versions des textes déjà publiés en exploitant les
+                        possibilités aujourd’hui offertes par les développements de l’apprentissage
+                        profond)</item>
+                    <item>réaliser les développements nécessaires pour la réalisation d’une
+                        indexation collaborative</item>
+                </list>
+                <div>
+                    <head>Le nombre de sources traitées</head>
+                    <p>Contraint par les ressources humaines engagées dans le projet, le nombre de
+                        sources traitées est limité. Nous sommes satisfaits d’avoir assuré l’édition
+                        numérique de ces quatre textes essentiels, auxquels il faudrait ajouter dans
+                        un avenir proche le guide de Dézallier d’Argenville. De même, nous espérons
+                        pouvoir bientôt enrichir le corpus par des textes plus courts et de moindre
+                        importance, afin de mettre en évidence les possibilités développées par le
+                        site (par exemple, les écarts d’une édition à l’autre d’un texte, puisque
+                        certains guides ont connu un nombre important d’éditions avec variantes tout
+                        au long du XVIII<hi rend="superscript">e</hi> siècle). La distribution non
+                        linéaire des textes par l’intermédiaire d’une interface programmable
+                        présentait des défis qui ont été relevés pour la création d’une interface de
+                        lecture, celle-ci permettra à l’avenir la mise en valeur des différentes
+                        éditions d’un texte.</p>
+                </div>
+                <div>
+                    <head>L’évolution des technologies de reconnaissance optique de caractères</head>
+                    <p>Ces dernières années, l’évolution radicale du rendement du traitement des
+                        sources anciennes par la reconnaissance optique de caractères (OCR) avec
+                        l’apport des réseaux neuronaux convolutifs a considérablement modifié les
+                        conditions d’acquisition des textes. Le postulat initial du projet qui
+                        reposait sur l’insuffisance de l’OCR pour l’édition numérique de textes
+                        anciens se trouve fragilisé, mais en partie seulement. En effet, le choix
+                        d’une transcription manuelle a permis d’établir des textes non seulement
+                        lisibles, mais structurés et annotés. Le delta entre le choix d’une
+                        transcription manuelle et de son encodage au fil de la lecture d’un côté et,
+                        d’un autre côté, la correction et l’édition normalisée et structurée d’un
+                        texte automatiquement reste encore réduit. En revanche, l’évolution de
+                        l’intelligence artificielle dans les cinq dernières années ouvre des
+                        perspectives extrêmement favorables pour l’enrichissement du corpus et du
+                        site notamment son indexation, en particulier pour traiter les éditions
+                        successives des textes dont une première édition est déjà transcrite.</p>
+                </div>
+                <div>
+                    <head>L’exploitation des annotations produites</head>
+                    <p>Le corpus a bénéficié d’une très riche annotation qui n’est pas actuellement
+                        exploitée (noms de lieux, de personnes, d’œuvres). Seuls les édifices
+                        religieux et les hôtels particuliers ont été traités et alignés avec des
+                        référentiels externes. Ce travail considérable correspond à 1 751 entités
+                        pour 5 000 formes attestées. Il s’agit malgré tout d’un pourcentage
+                        pourcentage réduit de ces annotations.<lb/>À titre expérimental, nous
+                        envisageons d’utiliser des techniques d’alignement d’entités nommées pour
+                        l’indexation automatique du corpus. À cet égard, les indexations déjà
+                        réalisées, en constituant un répertoire de formes attestées, pourraient être
+                        mobilisées pour la réindexation de nouveaux textes.</p>
+                </div>
+                <div>
+                    <head>L’utilisation de la visualisation de données</head>
+                    <p>La réflexion menée par le projet sur les enjeux de visualisation d’un corpus
+                        textuel (pertinence des liens vers des ressources iconographiques ; enjeux
+                        de la géolocalisation et du web sémantique, etc.), n’a pas pu être valorisée
+                        dans l’application web finalement publiée, avec l’annulation du deuxième
+                        volet de développements, même si l’infrastructure de publication est
+                        techniquement adaptée pour ce type d’exploitations.</p>
+                </div>
+                <div>
+                    <head>L’annotation collaborative</head>
+                    <p>Des difficultés rencontrées dans l’exécution du projet n’ont pas permis la
+                        réalisation des développements pour l’annotation collaborative du corpus.
+                        C’est d’autant plus regrettable que ceux-ci auraient permis la valorisation
+                        des annotations réalisées pendant l’encodage et la mobilisation d’une
+                        communauté de recherche autour du projet.</p>
+                </div>
+            </div>
       <div>
         <head>Les partis éditoriaux</head>
         <div type="introduction">
@@ -976,6 +1514,7 @@
       </div>
       <div>
         <head>Entités-nommées</head>
+        <p>Les noms de personnes, d’organisation, les noms de lieux et les noms d’œuvres sont balisés.</p>
         <p>Attention au surbalisage</p>
         <!--
           Baliser les noms de lieux qui doivent apparaître dans l’index. Il n’est pas certain que l’on renseigne la biographie dans l’index.
@@ -1024,7 +1563,8 @@
         </specGrp>
       </div>
       <div>
-        <head>à trier</head>
+        <head>Autres éléments de balisage</head>
+        <!-- @todo à trier -->
         <specGrp xml:id="others">
           <!-- classes -->
           <classSpec ident="att.breaking" module="tei" mode="change" type="atts">
