@@ -10170,6 +10170,17 @@
                      <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e201475" />
                   </listRelation>
                </object>
+               <object>
+                  <objectName>Paris, hôtel de Jars (rue de Richelieu)</objectName>
+                  <note><p>Hôtel situé autrefois rue de Richelieu et détruit en 1792.</p></note>
+                  <listRelation>
+                     <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e57646"/>
+                     <relation type="gdpBrice1684" passive="#gdpBrice1684d1e3138"/>
+                     <relation type="gdpSauval1724" passive="#gdpSauval1724d1e144392"/>
+                  </listRelation>
+                  <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb15579552z</idno>
+                  <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb15579552z</idno>
+               </object>
                <!--<object xml:id="opeid654020">
                   <objectName />
                   <listRelation>
