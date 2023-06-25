@@ -10167,7 +10167,7 @@
                      <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e201475" />
                   </listRelation>
                </object>
-               <object xml:id="opeid654020">
+               <!--<object xml:id="opeid654020">
                   <objectName />
                   <listRelation>
                      <relation type="gdpPiganiol1742"
@@ -10178,8 +10178,8 @@
                         passive="#gdpBrice1684d1e1299 #gdpBrice1684d1e2202 #gdpBrice1684d1e3857 #gdpBrice1684d1e17303 #gdpBrice1684d1e1208 #gdpBrice1684d1e14697 #gdpBrice1684d1e14821 #gdpBrice1684d1e13236 #gdpBrice1684d1e14788 #gdpBrice1684d1e3785 #gdpBrice1684d1e4085 #gdpBrice1684d1e15969 #gdpBrice1684d1e6607 #gdpBrice1684d1e16783 #gdpBrice1684d1e3825 #gdpBrice1684d1e15590 #gdpBrice1684d1e7061 #gdpBrice1684d1e6118 #gdpBrice1684d1e13631 #gdpBrice1684d1e16556 #gdpBrice1684d1e1570 #gdpBrice1684d1e16772 #gdpBrice1684d1e8090 #gdpBrice1684d1e4207 #gdpBrice1684d1e3225 #gdpBrice1684d1e3244 #gdpBrice1684d1e5492 #gdpBrice1684d1e5827 #gdpBrice1684d1e3138 #gdpBrice1684d1e3925 #gdpBrice1684d1e1579 #gdpBrice1684d1e3154 #gdpBrice1684d1e15489 #gdpBrice1684d1e2107 #gdpBrice1684d1e10764 #gdpBrice1684d1e16869 #gdpBrice1684d1e13832 #gdpBrice1684d1e5284 #gdpBrice1684d1e15373 #gdpBrice1684d1e4020 #gdpBrice1684d1e6096 #gdpBrice1684d1e6658 #gdpBrice1684d1e15596 #gdpBrice1684d1e8185 #gdpBrice1684d1e1821 #gdpBrice1684d1e4037 #gdpBrice1684d1e7127 #gdpBrice1684d1e13819 #gdpBrice1684d1e2149 #gdpBrice1684d1e4987 #gdpBrice1684d1e6309 #gdpBrice1684d1e16111 #gdpBrice1684d1e8111 #gdpBrice1684d1e3732 #gdpBrice1684d1e7727 #gdpBrice1684d1e18185 #gdpBrice1684d1e5816 #gdpBrice1684d1e7073 #gdpBrice1684d1e15328 #gdpBrice1684d1e5293 #gdpBrice1684d1e5715 #gdpBrice1684d1e5680 #gdpBrice1684d1e3761 #gdpBrice1684d1e5605 #gdpBrice1684d1e15442 #gdpBrice1684d1e15393 #gdpBrice1684d1e653 #gdpBrice1684d1e16096 #gdpBrice1684d1e17996 #gdpBrice1684d1e18217 #gdpBrice1684d1e18223 #gdpBrice1684d1e18354 #gdpBrice1684d1e1818 #gdpBrice1684d1e2211 #gdpBrice1684d1e16149 #gdpBrice1684d1e11552 #gdpBrice1684d1e1838 #gdpBrice1684d1e2091 #gdpBrice1684d1e16884 #gdpBrice1684d1e792 #gdpBrice1684d1e818 #gdpBrice1684d1e1197 #gdpBrice1684d1e1326 #gdpBrice1684d1e8680 #gdpBrice1684d1e8791 #gdpBrice1684d1e8805 #gdpBrice1684d1e11419 #gdpBrice1684d1e13125 #gdpBrice1684d1e15362 #gdpBrice1684d1e20238 #gdpBrice1684d1e1103 #gdpBrice1684d1e7509 #gdpBrice1684d1e7987 #gdpBrice1684d1e8055 #gdpBrice1684d1e12414 #gdpBrice1684d1e6328 #gdpBrice1684d1e13904 #gdpBrice1684d1e11800 #gdpBrice1684d1e16305 #gdpBrice1684d1e13591 #gdpBrice1684d1e11844 #gdpBrice1684d1e8052 #gdpBrice1684d1e8048 #gdpBrice1684d1e8045 #gdpBrice1684d1e7030 #gdpBrice1684d1e7024 #gdpBrice1684d1e8006 #gdpBrice1684d1e5504 #gdpBrice1684d1e4387 #gdpBrice1684d1e638 #gdpBrice1684d1e12114 #gdpBrice1684d1e17817 #gdpBrice1684d1e6539 #gdpBrice1684d1e17829 #gdpBrice1684d1e1601 #gdpBrice1684d1e7642 #gdpBrice1684d1e16803 #gdpBrice1684d1e4334 #gdpBrice1684d1e4467 #gdpBrice1684d1e5395 #gdpBrice1684d1e1945 #gdpBrice1684d1e7091 #gdpBrice1684d1e5260 #gdpBrice1684d1e7667 #gdpBrice1684d1e721 #gdpBrice1684d1e1513 #gdpBrice1684d1e366 #gdpBrice1684d1e656 #gdpBrice1684d1e4895 #gdpBrice1684d1e11570 #gdpBrice1684d1e8684 #gdpBrice1684d1e16749 #gdpBrice1684d1e18559 #gdpBrice1684d1e19074 #gdpBrice1684d1e12609 #gdpBrice1684d1e16931 #gdpBrice1684d1e17585 #gdpBrice1684d1e17610 #gdpBrice1684d1e17848 #gdpBrice1684d1e18417 #gdpBrice1684d1e17577 #gdpBrice1684d1e18446 #gdpBrice1684d1e14830 #gdpBrice1684d1e2168 #gdpBrice1684d1e5125 #gdpBrice1684d1e442 #gdpBrice1684d1e18220 #gdpBrice1684d1e7612 #gdpBrice1684d1e1303 #gdpBrice1684d1e7395 #gdpBrice1684d1e3050 #gdpBrice1684d1e14703 #gdpBrice1684d1e14815 #gdpBrice1684d1e13634 #gdpBrice1684d1e6664 #gdpBrice1684d1e5718 #gdpBrice1684d1e13271 #gdpBrice1684d1e15445 #gdpBrice1684d1e16872 #gdpBrice1684d1e13132 #gdpBrice1684d1e12948 #gdpBrice1684d1e3828 #gdpBrice1684d1e15996 #gdpBrice1684d1e15331 #gdpBrice1684d1e4088 #gdpBrice1684d1e4409 #gdpBrice1684d1e16156 #gdpBrice1684d1e15492 #gdpBrice1684d1e13652 #gdpBrice1684d1e375 #gdpBrice1684d1e18566 #gdpBrice1684d1e16114 #gdpBrice1684d1e15252 #gdpBrice1684d1e1612 #gdpBrice1684d1e7140 #gdpBrice1684d1e16568 #gdpBrice1684d1e6592 #gdpBrice1684d1e1615 #gdpBrice1684d1e4672 #gdpBrice1684d1e13974 #gdpBrice1684d1e5819 #gdpBrice1684d1e4721 #gdpBrice1684d1e4026 #gdpBrice1684d1e8188 #gdpBrice1684d1e1735 #gdpBrice1684d1e16014 #gdpBrice1684d1e1137 #gdpBrice1684d1e14827 #gdpBrice1684d1e6923 #gdpBrice1684d1e1582 #gdpBrice1684d1e4193 #gdpBrice1684d1e15515 #gdpBrice1684d1e5875 #gdpBrice1684d1e15672 #gdpBrice1684d1e8127 #gdpBrice1684d1e1214 #gdpBrice1684d1e6526 #gdpBrice1684d1e7783 #gdpBrice1684d1e14983 #gdpBrice1684d1e11732 #gdpBrice1684d1e3168"
                       />
                   </listRelation>
-               </object>
-               <object xml:id="opeid688064">
+               </object>-->
+               <!--<object xml:id="opeid688064">
                   <objectName>Louis le Grand ayant jugé plus convenable qu’on fondit l’artillerie sur les frontières des pays où il portoit la guerre.</objectName>
                   <listRelation>
                      <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e92375 #gdpPiganiol1742d1e92372" />
@@ -10202,10 +10202,10 @@
                   <listRelation>
                      <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e87552" />
                   </listRelation>
-               </object>
+               </object>-->
             </listObject>
 
-            <listObject>
+            <!--<listObject>
                <head>Maisons et hôtels particuliers</head>
                <object>
                   <objectName>Communauté Sainte-Aure</objectName>
@@ -11104,7 +11104,7 @@
                   <idno type="rameau">https://catalogue.bnf.fr/ark:/12148/cb13321934j</idno>
                   <idno type="wikidata">https://www.wikidata.org/wiki/Q1643082</idno>
                   <listRelation>
-                     <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26573" />-->
+                     <!-\-<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26573" />-\->
                      <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8256" />
                      <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e175552 #gdpPiganiol1742d1e175555" />
                   </listRelation>
@@ -11127,7 +11127,7 @@
                </object>
                <object>
                   <objectName>Hôtel de Launay</objectName>
-                  <!--<objectName>Hôtel Amelot</objectName>-->
+                  <!-\-<objectName>Hôtel Amelot</objectName>-\->
                   <location>
                      <address>
                         <addrLine>12, rue des Lions-Saint-Paul</addrLine>
@@ -11785,7 +11785,7 @@
                <relation name="owned" active="#nomMonsieurBerthelot" passive="#opMaisonDeMonsieurBerthelot" />
             </listRelation>
             <listObject type="toc">
-               <!-- Brice, table du premier volume -->
+               <!-\- Brice, table du premier volume -\->
                <object xml:id="d1e228">
                   <objectName full="yes">Origine de Paris</objectName>
                   <num>page 1</num>
@@ -11844,13 +11844,13 @@
                </object>
                <object xml:id="d1e293">
                   <objectName full="yes">Chapelle [du Palais du Louvre]</objectName>
-                  <!-- @todo Tuilleries ? -->
+                  <!-\- @todo Tuilleries ? -\->
                   <num>30</num>
                   <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.001" />
                </object>
                <object xml:id="d1e298">
                   <objectName full="yes">Théâtre [du Palais du Louvre]</objectName>
-                  <!-- @todo Tuilleries ? -->
+                  <!-\- @todo Tuilleries ? -\->
                   <relation type="locus" rel="#gdpBrice1684T01BodyFr01.003.001" />
                   <num>30</num>
                </object>
@@ -12877,7 +12877,7 @@
                   <relation ref="#locQuartierIleNotreDame" />
                   <num>237</num>
                   <listRelation>
-                     <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26554" />-->
+                     <!-\-<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e26554" />-\->
                      <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8303" />
                      <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15770 #gdpPiganiol1742d1e85302" />
                   </listRelation>
@@ -12971,7 +12971,7 @@
                   <relation ref="#locQuartierIleNotreDame" />
                   <num>269</num>
                </object>
-               <!-- Brice, table du second volume -->
+               <!-\- Brice, table du second volume -\->
                <place xml:id="locQuartierUniversité">
                   <placeName full="yes">Quartier de l’Université</placeName>
                </place>
@@ -12981,7 +12981,7 @@
                   <relation ref="#locQuartierUniversité" />
                   <desc>p. 1</desc>
                </org>
-               <!-- @todo -->
+               <!-\- @todo -\->
                <org>
                   <orgName xml:id="orgColleges" full="yes">Collèges</orgName>
                   <relation ref="#locQuartierUniversité" />
@@ -13344,7 +13344,7 @@
                   <objectName full="yes">Église de Saint-Sulpice</objectName>
                   <relation ref="#locFaubourgSaintGermain" />
                   <num>173</num>
-                  <!--RMQ la pagination est bonne mais les deux lignes ont été inversée (le noviciat précède Saint-Sulpice)-->
+                  <!-\-RMQ la pagination est bonne mais les deux lignes ont été inversée (le noviciat précède Saint-Sulpice)-\->
                </object>
                <object xml:id="d1e1981">
                   <objectName full="yes">Noviciat des Jésuites</objectName>
@@ -13489,11 +13489,11 @@
                   <relation ref="#locQuartierRueDeLUniversité" />
                   <num>page 190</num>
                </object>
-               <!--<object>
+               <!-\-<object>
       <objectName>Le nom de ceux qui composent l’Académie des architectes</objectName>
       <relation ref="#locQuartierRueDeLUniversité" />
       <num>192</num>
-    </object>-->
+    </object>-\->
                <object xml:id="d1e2158">
                   <objectName full="yes">Hôtel de Tambonneau</objectName>
                   <relation ref="#locQuartierRueDeLUniversité" />
@@ -13716,7 +13716,7 @@
                   <objectName full="yes">Saint-Marcial</objectName>
                   <relation ref="#locIleDuPalais" />
                   <num>251</num>
-                  <!-- @todo pb dans le fichier brice -->
+                  <!-\- @todo pb dans le fichier brice -\->
                   <relation type="locus" rel="#gdpBrice1684T02BodyFr05.001.021" />
                </object>
                <object xml:id="d1e2429">
@@ -13809,7 +13809,7 @@
                   <num>272</num>
                   <relation type="locus" rel="#gdpBrice1684T02BodyFr06.007" />
                </object>
-               <!-- Ponts de Paris -->
+               <!-\- Ponts de Paris -\->
                <object xml:id="d1e2518">
                   <objectName full="yes">Pont de Notre-Dame</objectName>
                   <num>page 274</num>
@@ -13870,7 +13870,7 @@
                   <num>295</num>
                   <relation type="locus" rel="#gdpBrice1684T02BodyFr07.005.001" />
                </object>
-            </listObject>
+            </listObject>-->
          </div>
       </body>
    </text>
