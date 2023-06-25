@@ -229,16 +229,6 @@
         <xi:fallback>Fichier de Brice 1684 non trouvé</xi:fallback>
     </xi:include>
 
-    <!-- Inclusion du fichier TEI de Brice 1706 (gdpBrice1706) -->
-    <xi:include href="brice1706/gdpBrice1706.tei.xml" parse="xml">
-        <xi:fallback>Fichier de Brice 1706 non trouvé</xi:fallback>
-    </xi:include>
-
-    <!-- Inclusion du fichier TEI de Brice 1752 (gdpBrice1752) -->
-    <xi:include href="brice1752/gdpBrice1752.tei.xml" parse="xml">
-        <xi:fallback>Fichier de Brice 1752 non trouvé</xi:fallback>
-    </xi:include>
-
-    <!-- TODO : ajouter les autres éditions -->
+    <!-- inclure les autres éditions ici -->
 
 </teiCorpus>
