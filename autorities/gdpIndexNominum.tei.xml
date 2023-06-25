@@ -541,6 +541,26 @@
                         <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e163430 #gdpLeMaire1685d1e163426 #gdpLeMaire1685d1e163427 #gdpLeMaire1685d1e163428 #gdpLeMaire1685d1e163429 #gdpLeMaire1685d1e163430    #gdpLeMaire1685d1e163425"/>
                     </listRelation>
                 </person>
+                <person xml:id="nomLeSueurEustache">
+                    <persName>Le Sueur, Eustache (1616-1655)</persName>
+                    <birth>
+                        <date when="1616-11-19">19 novembre 1616</date>
+                        <placeName>Paris</placeName>
+                    </birth>
+                    <death>
+                        <date when="1655-04-30">30 avril 1655</date>
+                        <placeName>Paris</placeName>
+                    </death>
+                    <listRelation>
+                        <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6498 #gdpBrice1684d1e8266 #gdpBrice1684d1e8283 #gdpBrice1684d1e11095 #gdpBrice1684d1e13328 #gdpBrice1684d1e17009    #gdpBrice1684d1e6482 #gdpBrice1684d1e1554"/>
+                        <relation type="gdpSauval1724" name="identity" passive="#gdpSauval1724d1e82457 #gdpSauval1724d1e93104 #gdpSauval1724d1e83908 #gdpSauval1724d1e101756 #gdpSauval1724d1e147701 #gdpSauval1724d1e147743 #gdpSauval1724d1e147789 #gdpSauval1724d1e147807    #gdpSauval1724d1e69981 #gdpSauval1724d1e147809"/>
+                        <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e12839 #gdpPiganiol1742d1e12978 #gdpPiganiol1742d1e13295 #gdpPiganiol1742d1e15656 #gdpPiganiol1742d1e15666 #gdpPiganiol1742d1e15683 #gdpPiganiol1742d1e15688 #gdpPiganiol1742d1e15701 #gdpPiganiol1742d1e15710 #gdpPiganiol1742d1e17786 #gdpPiganiol1742d1e83487 #gdpPiganiol1742d1e84252 #gdpPiganiol1742d1e134575 #gdpPiganiol1742d1e134597 #gdpPiganiol1742d1e134600 #gdpPiganiol1742d1e134748 #gdpPiganiol1742d1e160222 #gdpPiganiol1742d1e160484 #gdpPiganiol1742d1e203960   #gdpPiganiol1742d1e84147 #gdpPiganiol1742d1e84258 #gdpPiganiol1742d1e160525"/>
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e203960 #gdpLeMaire1685d1e203961 #gdpLeMaire1685d1e203962 #gdpLeMaire1685d1e203963"/>
+                    </listRelation>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb13965157t</idno>
+                    <idno type="isni">https://isni.org/isni/0000000083388549</idno>
+                    <idno type="wikidata">https://www.wikidata.org/wiki/Q1378723</idno>
+                </person>
                 <person xml:id="nomAndrouetDuCerceauJean">
                     <persName>Androuet du Cerceau, Jean (1585-1649)</persName>
                     <persName>
