@@ -497,7 +497,7 @@
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e17786 #gdpPiganiol1742d1e83487 #gdpPiganiol1742d1e84147 #gdpPiganiol1742d1e84252 #gdpPiganiol1742d1e84258 #gdpPiganiol1742d1e134575 #gdpPiganiol1742d1e134597 #gdpPiganiol1742d1e134600 #gdpPiganiol1742d1e134748 #gdpPiganiol1742d1e160222 #gdpPiganiol1742d1e160484 #gdpPiganiol1742d1e160525 #gdpPiganiol1742d1e203960 #gdpPiganiol1742d1e12839 #gdpPiganiol1742d1e12978 #gdpPiganiol1742d1e13295 #gdpPiganiol1742d1e15656 #gdpPiganiol1742d1e15666 #gdpPiganiol1742d1e15683 #gdpPiganiol1742d1e15688 #gdpPiganiol1742d1e15701 #gdpPiganiol1742d1e15710"/>
                     </listRelation>
                 </person>
-                <person>
+                <person xml:id="nomLeBrunCharles">
                     <persName>Le Brun, Charles (1619-1690)</persName>
                     <birth>
                         <date when=" 1619-02-24">24 février 1619</date>
@@ -515,7 +515,7 @@
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e8322"/>
                     </listRelation>
                 </person>
-                <person>
+                <person xml:id="nomVouetSimon">
                     <persName>Vouet, Simon (1590-1649)</persName>
                     <persName>
                         <forename>Simon</forename>
