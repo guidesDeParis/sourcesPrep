@@ -13908,7 +13908,7 @@
                      <div xml:id="gdpLeMaire1685T03BodyFr03.047">
                         <metamark rend="typographicalPiece"/>
                         <head rend="capitals italic alignCenter">
-                           <objectName>L’hostel de la Vrilliere</objectName>
+                           <objectName xml:id="gdpLemaire1685Op00000">L’hostel de la Vrilliere</objectName>
                         </head>
                         <p xml:id="gdpLeMaire1685T03BodyFr03.047.p001">
                            <seg>

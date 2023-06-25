@@ -6,7 +6,7 @@
   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <teiHeader type="text">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="fre" type="main">Index operum</title>
@@ -6132,7 +6132,10 @@
                <object xml:id="opeid7222728">
                   <objectName>Paris, hôtel de La Vrillière, de Conti puis de Brienne (rue Saint-Dominique)</objectName>
                   <listRelation>
-                     <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e175269" />
+                     <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e175269 #gdpPiganiol1742d1e64471 #gdpPiganiol1742d1e64513 #gdpPiganiol1742d1e64330 #gdpPiganiol1742d1e64289 #gdpPiganiol1742d1e65685 #gdpPiganiol1742d1e64284 #gdpPiganiol1742d1e64359" />
+                     <relation type="gdpSauval1724" passive="#gdpSauval1724d1e148056 #gdpSauval1724d1e148058 #gdpSauval1724d1e87463" />
+                     <relation type="gdpBrice1684" passive="#gdpBrice1684d1e3732" />
+                     <relation type="gdpLemaire1685" passive="#gdpLemaire1685Op00000" />
                   </listRelation>
                   <idno type="wikidata">https://www.wikidata.org/wiki/Q3145768</idno>
                   <idno type="catBnf">https://catalogue.bnf.fr/ark:/12148/cb14482965m</idno>
