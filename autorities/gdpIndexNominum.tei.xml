@@ -462,8 +462,9 @@
                     <idno type="dataBnf">https://data.bnf.fr/ark:/12148/cb119204967</idno>
                     <idno type="ulan">http://vocab.getty.edu/page/ulan/500005036</idno>
                     <listRelation>
+                        <relation type="gdpSauval1724" name="identity" passive="#gdpSauval1724d1e84761 #gdpSauval1724d1e84780 #gdpSauval1724d1e84754 #gdpSauval1724d1e84781 #gdpSauval1724d1e85276 #gdpSauval1724d1e114562 #gdpSauval1724d1e114608 #gdpSauval1724d1e114630 #gdpSauval1724d1e116669 #gdpSauval1724d1e138058 #gdpSauval1724d1e138238 #gdpSauval1724d1e148619 #gdpSauval1724d1e148654 #gdpSauval1724d1e148676 #gdpSauval1724d1e148696 #gdpSauval1724d1e148697 #gdpSauval1724d1e148700 #gdpSauval1724d1e148701 #gdpSauval1724d1e148702 #gdpSauval1724d1e148703 #gdpSauval1724d1e148704   #gdpSauval1724d1e84779 #gdpSauval1724d1e84779 #gdpSauval1724d1e148699 #gdpSauval1724d1e148705"/>
                         <relation type="gdpBrice1684" name="identity" passive="#gdpBrice1684d1e6486 #gdpBrice1684d1e7645 #gdpBrice1684d1e8733 #gdpBrice1684d1e8881 #gdpBrice1684d1e15061 #gdpBrice1684d1e15850 #gdpBrice1684d1e15869 #gdpBrice1684d1e16642 #gdpBrice1684d1e16843 #gdpBrice1684d1e17020 #gdpBrice1684d1e1441 #gdpBrice1684d1e802"/>
-                        <!--<relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1685d1e24958 #gdpLeMaire1685d1e24985 #gdpLeMaire1685d1e26842 #gdpLeMaire1685d1e26902"/>-->
+                        <relation type="gdpLeMaire1685" name="identity" passive="#gdpLeMaire1686P663 #gdpLeMaire1686P664 #gdpLeMaire1686P665 #gdpLeMaire1686P666 #gdpLeMaire1686P667 #gdpLeMaire1686P668"/>
                         <relation type="gdpPiganiol1742" name="identity" passive="#gdpPiganiol1742d1e15748 #gdpPiganiol1742d1e31572 #gdpPiganiol1742d1e37964 #gdpPiganiol1742d1e37983 #gdpPiganiol1742d1e41703 #gdpPiganiol1742d1e65258 #gdpPiganiol1742d1e65275 #gdpPiganiol1742d1e162468 #gdpPiganiol1742d1e163371 #gdpPiganiol1742d1e163386 #gdpPiganiol1742d1e163395 #gdpPiganiol1742d1e163404 #gdpPiganiol1742d1e163417 #gdpPiganiol1742d1e163419 #gdpPiganiol1742d1e202126"/>
                     </listRelation>
                 </person>
