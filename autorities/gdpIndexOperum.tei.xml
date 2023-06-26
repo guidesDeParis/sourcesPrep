@@ -6132,7 +6132,7 @@
                <object xml:id="opeid648604">
                   <objectName>Paris, hôtel de La Vrillière puis de Toulouse (rue de La Vrillière)</objectName>
                   <listRelation>
-                     <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e64471 #gdpPiganiol1742d1e64513 #gdpPiganiol1742d1e64330 #gdpPiganiol1742d1e64289 gdpPiganiol1742d1e65685 #gdpPiganiol1742d1e64284 ##gdpPiganiol1742d1e64359" />
+                     <relation type="gdpPiganiol1742" passive="#gdpPiganiol1742d1e64471 #gdpPiganiol1742d1e64513 #gdpPiganiol1742d1e64330 #gdpPiganiol1742d1e64289 #gdpPiganiol1742d1e65685 #gdpPiganiol1742d1e64284 #gdpPiganiol1742d1e64359" />
                      <relation type="gdpSauval1724" passive="#gdpSauval1724d1e148056 #gdpSauval1724d1e148058 #gdpSauval1724d1e87463" />
                      <relation type="gdpBrice1684" passive="#gdpBrice1684d1e3732" />
                      <relation type="gdpLemaire1685" passive="#gdpLemaire1685Op00000" />
