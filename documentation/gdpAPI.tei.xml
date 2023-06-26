@@ -80,7 +80,7 @@
             <addrLine>harparisouest@gmail.com</addrLine>
           </address>
         </publisher>
-        <availability status="restricted" xml:id="gdpAPI">
+        <availability status="restricted" xml:id="gdpAPILicence">
           <licence
             target="https://creativecommons.org/licenses/by/4.0/">
             <p>Ce contenu est mis à disposition selon les termes de la licence Creative Commons Attribution version 4.0</p>
@@ -136,26 +136,81 @@
   <text>
     <body>
       <div>
-        <head>Documentation de l’interface programmable</head>
-        <p> Morbi id justo ut ex dignissim fermentum a vel dui. Vivamus eu quam non nunc ultricies convallis non ut quam. Integer consectetur cursus augue egestas scelerisque. In vestibulum tortor lacus, a sollicitudin justo varius ac. Curabitur semper neque eget ante varius efficitur. Suspendisse eleifend mauris eu tempus porttitor. Ut imperdiet consectetur libero, vel dignissim augue sodales sed.</p>
-            <p>Nam ut leo a felis pulvinar gravida. Mauris quis elementum diam. Quisque mattis aliquam nulla ut venenatis. Mauris a arcu neque. Nam dignissim, nibh a aliquam pharetra, tellus enim ornare purus, non maximus risus leo sit amet elit. Praesent feugiat feugiat lacus id ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec at risus consequat, euismod erat a, egestas ante. Cras fringilla posuere ipsum, sed aliquet nibh. Fusce molestie efficitur tellus ut molestie. </p>
+        <head>API Documentation</head>
+        <p>The Paris Guides API lets you query all the resources in the corpus and reuse them in other contexts. All content is available under the terms of the Creative Commons license <ref target="https://creativecommons.org/licenses/by/4.0/">CC-BY</ref>. This API is powered by the native XML Database <ref target="http://basex.org">BaseX</ref> and uses open source software developed collaboratively with other research projects (<ref target="https://synopsx.github.io">SynopsX</ref>).</p>
+        <p>General url : <ref target="https://api.guidesdeparis.fr"
+          >https://api.guidesdeparis.fr</ref></p>
         <div>
-          <head>Consulter les contenus</head>
+          <head>Edition</head>
           <div>
-            <head>resource function for corpus list</head>
+            <head>Resource function for corpus list</head>
+            <label type="url">/corpus</label>
             <label type="method">GET</label>
-            <label type="url">/advancedSearch</label>
+            <label type="format">application/json</label>
             <p>a json representation of the corpus resource</p>
+          </div>
+          <div>
+            <head>Resource function for a corpus ID</head>
+            <label type="url">/corpus/{$corpusId}</label>
+            <label type="method">GET</label>
+            <label type="param">$corpusId the corpus ID</label>
+            <label type="format">application/json</label>
+            <p>a json representation of the corpus resource</p>
+          </div>
+          <div>
+            <head>Resource function for a text by ID</head>
+            <label type="url">/texts/{$textId}</label>
+            <label type="method">GET</label>
+            <label type="param">$textId the text ID</label>
+            <label type="format">application/json</label>
+            <p>a json representation of the text resource</p>
+          </div>
+          <div>
+            <head>Resource function for text toc by ID</head>
+            <label type="url">/texts/{$textId}/toc</label>
+            <label type="method">GET</label>
+            <label type="param">$textId the text ID</label>
+            <label type="format">application/json</label>
+            <p>a json toc of the text</p>
+          </div>
+          <div>
+            <head>Resource function for text pagination</head>
+            <label type="url">/texts/{$textId}/pagination</label>
+            <label type="method">GET</label>
+            <label type="param">$textId the text ID</label>
+            <label type="format">application/json</label>
+            <p>a json toc of the text</p>
+          </div>
+          <div>
+            <head>Resource function for a text item by I</head>
+            <label type="url">/items/{$itemId}</label>
+            <label type="method">GET</label>
+            <label type="param">$corpusId the text item ID</label>
+            <label type="param">$depth render the content in depth true of false</label>
+            <label type="format">application/json</label>
+            <p>a json representation of the text item</p>
           </div>
         </div>
         <div>
-          <head>Recherches</head>
+          <head>Search</head>
           <div>
-            <head>resource function for corpus list</head>
-            <label type="method">GET</label>
+            <head>Resource function for a simple search</head>
             <label type="url">/search</label>
-            <label type="param">start</label>
-            <p>This function is a simple search</p>
+            <label type="method">GET</label>
+            <label type="param">$referer a referer</label>
+            <label type="param">$search the search string</label>
+            <label type="param">$combining the combining method ('all', 'all words', 'any', 'phrase')</label>
+            <label type="param">$exact exact search as boolean</label>
+            <label type="param">$start start for pagination</label>
+            <label type="param">$count count for pagination</label>
+            <label type="param">$type searched entities</label>
+            <label type="param">$exact exact search as boolean</label>
+            <label type="param">$text id of the searched text (corpus or item)</label>
+            <label type="param">$sort sort to apply ('date', 'score', 'size'), default = score</label>
+            <label type="param">$filterPersons filter with persons id</label>
+            <label type="param">$filterPlaces filter with places id</label>
+            <label type="param">$filterObjects filter with objects id</label>
+            <p>a json representation of results</p>
           </div>
         </div>
       </div>
