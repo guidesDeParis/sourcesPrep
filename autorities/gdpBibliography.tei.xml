@@ -121,6 +121,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-10-11" who="#EC">Enrichissements</change>
             <change when="2014-02-04" who="#EC">Création du fichier</change>
         </revisionDesc>
     </teiHeader>
@@ -794,6 +795,35 @@
                             <listRelation>
                                 <relation type="expression" corresp="#briceExpression"/>
                             </listRelation>
+                        </biblStruct>
+                    </listBibl>
+                    <listBibl xml:id="dezallierDArgenvilleBiblio">
+                        <head>Dezallier d’Argenville</head>
+                        <bibl>
+                            <author>
+                                <persName ref="#dezallierDArgenvilleAntoineNicolas">
+                                    <forename>Antoine-Nicolas</forename>
+                                    <surname>Dezallier d’Argenville</surname>
+                                </persName>
+                            </author>
+                            <title>Voyage pictoresque de Paris ; ou Indication de tout ce qu'il y a de plus beau dans cette grande ville en peinture, sculpture &amp; architecture</title>
+                        </bibl>
+                        <biblStruct>
+                            <monogr>
+                                <author>
+                                    <persName ref="#dezallierDArgenvilleAntoineNicolas">
+                                        <forename>Antoine-Nicolas</forename>
+                                        <surname>Dezallier d’Argenville</surname>
+                                    </persName>
+                                </author>
+                                <title>Voyage pictoresque de Paris ; ou Indication de tout ce qu'il y a de plus beau dans cette grande ville en peinture, sculpture &amp; architecture par M. D.***</title>
+                                <imprint>
+                                    <pubPlace>À Paris</pubPlace>
+                                    <publisher>Chez De Bure, l’aîné, libraire, quai des Augustins, à l’Image Saint Paul</publisher>
+                                    <date when="1749">1749</date>
+                                </imprint>
+                                <idno type="catBnf">https://catalogue.bnf.fr/ark:/12148/cb30339346t</idno>
+                            </monogr>
                         </biblStruct>
                     </listBibl>
                     <listBibl xml:id="duBreulBiblio">

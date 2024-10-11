@@ -735,10 +735,22 @@
                     <idno type="wikidata">https://www.wikidata.org/wiki/Q3106164</idno>
                 </person>
                 <person xml:id="dezallierDArgenvilleAntoineNicolas">
-                    <persName full="yes"
-                        >Dezallier d’Argenville, Antoine-Nicolas (1723-1796)</persName>
-                    <idno type="isni" />
-                    <!-- @todo vérifier -->
+                    <persName full="yes">Dezallier d’Argenville, Antoine-Nicolas (1723-1796)</persName>
+                    <persName>
+                        <forename>Antoine-Nicolas</forename>
+                        <surname>Dezallier d’Argenville</surname>
+                    </persName>
+                    <birth>
+                        <placeName>Paris</placeName>
+                        <date when="1723-08-27">27 août 1723</date>
+                    </birth>
+                    <death>
+                        <placeName></placeName>
+                        <date when="1796-09-26">26 septembre 1796</date>
+                    </death>
+                    <idno type="isni">http://isni.org/isni/0000000116782025</idno>
+                    <idno type="autBnf">https://catalogue.bnf.fr/ark:/12148/cb128153184</idno>
+                    <idno type="dataBnf">https://data.bnf.fr/fr/12815318/antoine-nicolas_dezallier_d_argenville/</idno>
                 </person>
                 <person xml:id="duBreulJacques">
                     <persName full="yes">Du Breul, Jacques (1528-1614)</persName>
